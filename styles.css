@@ -1097,29 +1097,17 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 .language-toggle{display:inline-flex;align-items:center;gap:2px;padding:3px;border:1px solid #d5dfeb;border-radius:999px;background:#f1f5f9;margin-right:10px}
 .lang-choice{border:0!important;background:transparent!important;color:#38516d!important;padding:6px 10px!important;border-radius:999px!important;font-size:11px!important;font-weight:800!important;min-width:34px}
 .lang-choice.active{background:#15385e!important;color:#fff!important;box-shadow:0 1px 4px rgba(12,36,62,.18)}
-.candidate-with-portrait{display:grid;grid-template-columns:150px minmax(0,1fr);gap:0;overflow:hidden;padding:0!important;align-items:stretch}
-.candidate-portrait{position:relative;min-height:190px;background:linear-gradient(145deg,#dce6f0,#f1e7e8);overflow:hidden}
-.candidate-portrait img{width:100%;height:100%;min-height:190px;object-fit:cover;object-position:center 22%;display:block}
-.portrait-source{position:absolute;bottom:7px;left:7px;background:rgba(9,27,48,.82);color:#fff!important;padding:4px 7px;border-radius:4px;font-size:9px;text-decoration:none!important}
-.portrait-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:190px;font:700 32px Georgia,serif;color:#244d76;background:linear-gradient(145deg,#e2eaf1,#f4e8ea)}
-.candidate-card-body{padding:16px;min-width:0}
+/* Candidate directory: consistent landscape portrait panels, not narrow vertical strips */
+.candidate-with-portrait{display:flex!important;flex-direction:column!important;gap:0!important;overflow:hidden;padding:0!important;align-items:stretch!important;min-width:0}
+.candidate-portrait{position:relative;width:100%;height:clamp(150px,17vw,220px);min-height:0!important;aspect-ratio:16/9;background:linear-gradient(145deg,#dce6f0,#f1e7e8);overflow:hidden;flex:0 0 auto}
+.candidate-portrait img{display:block;width:100%;height:100%;min-height:0!important;object-fit:cover;object-position:center 24%;}
+.portrait-source{position:absolute;bottom:9px;left:9px;background:rgba(9,27,48,.84);color:#fff!important;padding:5px 8px;border-radius:4px;font-size:9px;text-decoration:none!important;z-index:2}
+.portrait-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:0!important;font:700 38px Georgia,serif;color:#244d76;background:linear-gradient(145deg,#e2eaf1,#f4e8ea)}
+.candidate-card-body{padding:18px 20px 20px;min-width:0}
 .candidate-card-body h3{margin-top:0}
 .candidate-portrait img.portrait-load-failed{display:none}
-@media(max-width:680px){.candidate-with-portrait{grid-template-columns:100px minmax(0,1fr)}.candidate-portrait,.candidate-portrait img,.portrait-fallback{min-height:145px}.candidate-card-body{padding:12px}}
+@media(max-width:680px){.candidate-portrait{height:auto;aspect-ratio:16/9;min-height:0!important}.candidate-portrait img,.portrait-fallback{min-height:0!important}.candidate-card-body{padding:14px}}
+
 /* Bottom overview callout: restore contrast and readable text */
 .overview-cta{background:linear-gradient(110deg,#14395f 0%,#20577e 56%,#77394f 100%)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 14px 32px rgba(14,39,66,.16)}
 .overview-cta h2{color:#fff!important}.overview-cta p{color:#edf4fb!important}.overview-cta .eyebrow{color:#ffccd1!important}.overview-cta-actions .secondary{color:#fff!important;background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.55)!important}
-
-/* Final hero typography and Paris panorama framing */
-#overview .concept-hero .hero-copy>h1 em{
-  display:inline-block!important;
-  margin-left:.13em!important;
-}
-@media (min-width:901px){
-  #overview .concept-hero{
-    background:
-      linear-gradient(90deg,#092748 0%,#103b65 43%,rgba(16,59,101,.92) 54%,rgba(16,59,101,.20) 73%,rgba(16,59,101,.08) 100%),
-      url('assets/paris-banner-zoomed.jpg') right center / auto 100% no-repeat,
-      linear-gradient(110deg,#0d2c50 0%,#164b78 62%,#77394f 100%)!important;
-  }
-}
