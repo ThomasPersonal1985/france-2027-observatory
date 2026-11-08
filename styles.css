@@ -1111,3 +1111,33 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 /* Bottom overview callout: restore contrast and readable text */
 .overview-cta{background:linear-gradient(110deg,#14395f 0%,#20577e 56%,#77394f 100%)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 14px 32px rgba(14,39,66,.16)}
 .overview-cta h2{color:#fff!important}.overview-cta p{color:#edf4fb!important}.overview-cta .eyebrow{color:#ffccd1!important}.overview-cta-actions .secondary{color:#fff!important;background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.55)!important}
+
+/* Final refinement: readable Paris hero, remove redundant KPI strip, and portrait-safe candidate images */
+#overview .overview-kpis{display:none!important}
+@media (min-width:901px){
+  #overview .concept-hero{
+    height:204px!important;min-height:204px!important;
+    padding:24px 38px!important;
+    background:
+      linear-gradient(90deg,rgba(7,34,63,.99) 0%,rgba(8,38,69,.97) 42%,rgba(8,38,69,.78) 58%,rgba(8,38,69,.18) 100%),
+      linear-gradient(0deg,rgba(7,27,51,.24),rgba(7,27,51,.24)),
+      url('assets/paris-banner.jpg') center 48%/cover no-repeat!important;
+  }
+  #overview .concept-hero .hero-copy{column-gap:42px!important;grid-template-columns:minmax(0,1.08fr) minmax(300px,.82fr)!important}
+  #overview .concept-hero .hero-copy>p{
+    color:#fff!important;text-shadow:0 1px 5px rgba(0,0,0,.75)!important;
+    background:rgba(7,29,53,.48)!important;border:1px solid rgba(255,255,255,.14)!important;
+    border-radius:9px!important;padding:13px 16px!important;
+    box-shadow:0 5px 18px rgba(0,0,0,.16)!important;
+  }
+  #overview .concept-hero .hero-copy>h1{ text-shadow:0 2px 8px rgba(0,0,0,.2)!important }
+}
+@media(max-width:900px){
+  #overview .concept-hero{min-height:220px!important;padding:26px!important;background-image:linear-gradient(90deg,rgba(7,34,63,.97),rgba(7,34,63,.76) 62%,rgba(7,34,63,.38)),url('assets/paris-banner.jpg')!important;background-size:cover!important;background-position:center 48%!important}
+  #overview .concept-hero .hero-copy>p{color:#fff!important;text-shadow:0 1px 4px rgba(0,0,0,.7)!important;background:rgba(7,29,53,.42)!important;border-radius:8px!important;padding:10px 12px!important}
+}
+/* 4:3 portrait window: enough vertical room for head and shoulders, without poster-like strips or eye-only crops */
+.candidate-portrait{height:clamp(220px,22vw,285px)!important;aspect-ratio:4/3!important;background:#e8edf2!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.candidate-portrait img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#e8edf2!important}
+.candidate-portrait .portrait-fallback{min-height:100%!important}
+@media(max-width:680px){.candidate-portrait{height:250px!important;aspect-ratio:4/3!important}.candidate-portrait img{object-fit:contain!important}}
