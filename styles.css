@@ -852,3 +852,53 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 .event time,.timeline-item time,.dossier-block h4{color:#245d91!important}
 .notice{background:#edf3f9!important;border-color:#d3dfeb!important;color:#38516a!important}
 @media(max-width:850px){#policies .filters{grid-template-columns:1fr}#compass .compass-actions{position:static;flex-wrap:wrap}#candidates .candidate{padding:19px}}
+
+/* Compact panoramic masthead: give the actual election content the page, not the hero */
+#overview .concept-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);
+  align-items:center;
+  gap:clamp(16px,2.2vw,30px);
+  min-height:0;
+  height:clamp(190px,17vw,238px);
+  padding:20px clamp(22px,3vw,42px);
+  margin:0 0 16px;
+  border-radius:4px 16px 4px 16px;
+}
+#overview .concept-hero:after{font-size:clamp(110px,13vw,190px);right:34%;bottom:-.36em}
+#overview .hero-copy{justify-content:center;min-width:0}
+#overview .hero .eyebrow{font-size:9px;margin-bottom:3px}
+#overview .hero h1{
+  max-width:none;
+  margin:7px 0 8px;
+  font-size:clamp(34px,3.5vw,52px);
+  line-height:1;
+  letter-spacing:-.045em;
+  white-space:normal;
+}
+#overview .hero h1 br{display:none}
+#overview .hero h1 em{text-decoration-thickness:2px;text-underline-offset:5px}
+#overview .hero-copy>p{max-width:680px;font-size:clamp(12px,1vw,14px);line-height:1.4}
+#overview .hero-meta{margin-top:10px;gap:6px}
+#overview .hero-meta span{padding:5px 8px;font-size:8px}
+#overview .hero-actions{gap:7px;margin-top:10px}
+#overview .hero-actions button{min-height:32px;padding:7px 11px;font-size:10px}
+#overview .hero-signoff{display:none}
+#overview .hero-visual{min-height:0;height:100%;max-height:194px;border-radius:6px}
+#overview .hero-visual-caption,#overview .hero-visual-bottom{left:13px;right:13px;font-size:8px}
+#overview .hero-visual-caption{top:11px}
+#overview .hero-visual-bottom{bottom:11px}
+#overview .hero-visual-mark{font-size:clamp(72px,9vw,120px)}
+@media(max-width:850px){
+  #overview .concept-hero{height:auto;min-height:0;grid-template-columns:minmax(0,1fr) minmax(220px,.8fr);padding:18px;gap:14px}
+  #overview .hero-visual{height:150px;min-height:150px}
+  #overview .hero h1{font-size:clamp(30px,4.5vw,42px)}
+  #overview .hero-copy>p{font-size:12px}
+}
+@media(max-width:600px){
+  #overview .concept-hero{grid-template-columns:1fr;height:auto;padding:20px;margin-bottom:14px}
+  #overview .hero h1{font-size:38px}
+  #overview .hero-visual{height:118px;min-height:118px}
+  #overview .hero-meta{margin-top:9px}
+  #overview .hero-actions{margin-top:10px}
+}
