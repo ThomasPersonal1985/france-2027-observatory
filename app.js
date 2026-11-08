@@ -32,10 +32,9 @@ function renderSources(){const primary=DB.sources.filter(s=>!String(s.type).incl
 document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id===b.dataset.tab));window.scrollTo({top:0,behavior:'smooth'})}));
 $('#candidate-search').addEventListener('input',renderCandidates);$('#policy-search').addEventListener('input',renderPolicies);$('#policy-topic').addEventListener('change',renderPolicies);$('#news-search').addEventListener('input',renderNews);$('#news-language').addEventListener('change',renderNews);
 // Voting compass: scores only candidates with coded, attributable positions.
-const compassQuestions=DB?.compass_questions||[];
 let compassExtended=false;
 const compassAnswers={};
-function activeCompassQuestions(){return compassQuestions.filter(q=>compassExtended||q.stage!=='extended');}
+function activeCompassQuestions(){const questions=DB?.compass_questions||[];return questions.filter(q=>compassExtended||q.stage!=='extended');}
 // Only the first five questions currently have enough comparable, attributable candidate evidence.
 // Other questions are collected to establish voter priorities, but are not scored until candidate positions are researched and coded.
 const compassPositions={
