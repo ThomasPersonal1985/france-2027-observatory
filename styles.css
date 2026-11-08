@@ -973,3 +973,45 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 @media(max-width:900px){#overview .overview-lead-grid{grid-template-columns:1fr}#overview .overview-lead-grid>.overview-panel{height:auto}#overview .overview-latest{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}#overview .overview-story:nth-child(2){border-top:0;padding-top:2px}#overview .overview-story:nth-child(odd){padding-right:12px}#overview .overview-story:nth-child(even){padding-left:12px;border-left:1px solid #e3e9f0}}
 @media(max-width:650px){#policies .policy-filter-toolbar{grid-template-columns:1fr;padding:12px}#policies .search-control kbd{display:none}#overview .overview-candidates{grid-template-columns:repeat(2,minmax(0,1fr))}#overview .overview-latest{grid-template-columns:1fr}#overview .overview-story:nth-child(n){border-left:0;padding:13px 0;border-top:1px solid #e3e9f0}#overview .overview-story:first-child{border-top:0}#overview .overview-person{min-height:112px}#overview .overview-person-photo img,#overview .overview-person-photo .overview-avatar{min-height:112px}#overview .overview-person-copy b{font-size:13px}}
 @media(max-width:420px){#overview .overview-candidates{grid-template-columns:1fr}#overview .overview-person-photo{flex-basis:35%}}
+
+/* Polling chart interaction and compact editorial layout refinement */
+#overview .overview-lead-grid{align-items:start!important}
+#overview .overview-lead-grid>.overview-panel{height:auto!important;min-height:0!important;align-self:start}
+#overview .overview-poll-chart-panel{display:flex;flex-direction:column;gap:8px}
+#overview .overview-poll-chart{position:relative;min-height:0!important;height:auto;flex:0 0 auto}
+#overview .overview-poll-chart svg{display:block;width:100%;height:auto;max-height:340px;overflow:visible}
+#overview .poll-hover-tip{display:none;position:absolute;z-index:20;max-width:260px;padding:9px 11px;border:1px solid #cbd8e6;border-radius:7px;background:#102d4d;color:#fff;font-size:11px;line-height:1.4;box-shadow:0 8px 24px rgba(13,35,59,.22);pointer-events:none}
+#overview .poll-hover-tip.is-visible{display:block}
+#overview .poll-point-hit{cursor:crosshair;outline:none}
+#overview .poll-point-hit:focus+.poll-point-visible{r:7;stroke:#102d4d;stroke-width:2.5}
+#overview .poll-point-visible{transition:r .12s ease}
+#overview .overview-poll-legend{display:grid;grid-template-columns:1fr;gap:9px;margin:2px 0 0}
+#overview .poll-legend-heading{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:5px;color:#234c72;font-size:10px;font-weight:900;letter-spacing:.04em}
+#overview .poll-legend-heading span{color:#74859a;font-size:9px;font-weight:550;letter-spacing:0}
+#overview .poll-legend-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 8px}
+#overview .poll-legend-item{display:flex;align-items:center;gap:7px;min-width:0;padding:5px 7px;border:1px solid #dbe4ee;border-radius:6px;background:#fff;color:#334e6a;text-align:left;font-size:10px;cursor:pointer;transition:background .12s,border-color .12s,opacity .12s}
+#overview .poll-legend-item:hover,#overview .poll-legend-item.is-selected{border-color:#7fa2c4;background:#edf4fa}
+#overview .poll-legend-item.is-muted{opacity:.38}
+#overview .poll-legend-item i,#overview .poll-legend-no-data i{flex:0 0 8px;width:8px;height:8px;border-radius:50%;background:var(--poll-color,#9aa7b5)}
+#overview .poll-legend-item span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+#overview .poll-legend-item b{font-size:10px;color:#1e5485;font-variant-numeric:tabular-nums}
+#overview .poll-legend-unavailable{padding-top:7px;border-top:1px solid #e3eaf1}
+#overview .poll-legend-grid-muted{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 7px}
+#overview .poll-legend-no-data{display:flex;align-items:center;gap:5px;min-width:0;color:#8290a0;font-size:9px;line-height:1.25}
+#overview .poll-legend-no-data i{flex-basis:7px;width:7px;height:7px;background:#aeb9c5}
+#overview .overview-latest-poll{margin-top:3px!important;padding:9px 11px!important;border-radius:7px!important}
+#overview .latest-poll-heading{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+#overview .latest-poll-heading h3{margin:3px 0;font-size:12px}
+#overview .latest-poll-heading>strong{font-size:9px;white-space:nowrap}
+#overview .latest-poll-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:9px;margin:4px 0}
+#overview .latest-poll-leaders{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px}
+#overview .latest-poll-leaders>div{padding:5px 6px;border:1px solid #dbe4ed;border-radius:5px;background:#fff;min-width:0}
+#overview .latest-poll-leaders span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:8px}
+#overview .latest-poll-leaders b{font-size:12px}
+#overview .poll-chart-method{margin:2px 0 0!important;font-size:9px;line-height:1.35}
+#overview .hero-visual{border:0!important;box-shadow:none!important;border-radius:0!important;background:linear-gradient(90deg,rgba(22,75,120,.92) 0%,rgba(22,75,120,.44) 18%,rgba(10,35,64,.10) 56%,rgba(10,35,64,.22) 100%),linear-gradient(0deg,rgba(10,35,64,.22),transparent 55%),url("https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=85") center 48%/cover!important}
+#overview .hero-visual:before{background:linear-gradient(110deg,transparent 40%,rgba(20,79,131,.16) 40% 58%,rgba(255,255,255,.13) 58% 68%,rgba(198,63,80,.2) 68% 80%,transparent 80%);pointer-events:none}
+#overview .hero-visual-caption,#overview .hero-visual-bottom{z-index:2}
+#overview .hero-visual-mark{z-index:1;right:0;opacity:.45}
+@media(max-width:900px){#overview .overview-lead-grid{align-items:stretch!important}#overview .overview-lead-grid>.overview-panel{height:auto!important}#overview .poll-legend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){#overview .poll-legend-grid-muted{grid-template-columns:repeat(2,minmax(0,1fr))}#overview .latest-poll-leaders{grid-template-columns:repeat(2,minmax(0,1fr))}#overview .overview-poll-chart svg{max-height:none}}
