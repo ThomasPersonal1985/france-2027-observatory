@@ -46,7 +46,7 @@ function renderOverview(){
  $('#overview-kpis').innerHTML=kpis.map(k=>`<article class="overview-kpi"><span>${safe(k[0])}</span><strong>${safe(k[1])}</strong><small>${safe(k[2])}</small></article>`).join('');
  $('#overview-latest').innerHTML=news.slice(0,4).map((n,i)=>`<article class="overview-story ${i===0?'featured':''}"><div class="eyebrow">${safe(n.publisher)} · ${safe(n.publication_date)} · ${safe(n.language)}</div><h3>${safe(n.title)}</h3><p>${safe(n.summary)}</p>${link(n.source)}</article>`).join('')||'<p class="muted">No news reports have been added yet.</p>';
  const top=trends.slice(0,6);
- $('#overview-poll-list').innerHTML=top.length?top.map(t=>`<div class="overview-poll-row"><div class="overview-poll-label"><b>${safe(t.candidate)}</b><strong>${Number(t.average).toFixed(1)}%</strong></div><div class="overview-poll-track"><span style="width:${Math.max(0,Math.min(100,Number(t.average)/40*100))}%"></span></div><small>${safe(t.polls_count)} institutes · observed range ${safe(t.observed_min)}–${safe(t.observed_max)}%</small></div>`).join(''):'<p class="muted">No polling snapshot is available.</p>';
+ renderOverviewPollChart();
  $('#overview-candidate-summary').innerHTML=`<span><b>${declared}</b> publicly declared / stated contenders</span><span><b>${potential}</b> potential or other tracked figures</span><span><b>${candidates.length}</b> tracked in total</span>`;
  const focus=top.slice(0,5).map(t=>candidates.find(c=>c.name===t.candidate)).filter(Boolean);
  $('#overview-candidates').innerHTML=focus.map(c=>`<article class="overview-person"><div class="overview-avatar">${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}</div><div><b>${safe(c.name)}</b><small>${safe(c.party)}</small><span>${safe((c.campaign_status||'Status not established').split(';')[0])}</span></div></article>`).join('')||'<p class="muted">Candidate profiles are being compiled.</p>';
@@ -55,6 +55,51 @@ function renderOverview(){
  $('#overview-events').innerHTML=upcoming.map(e=>`<article class="overview-event"><time>${safe(e.date_label||e.date)}</time><div><b>${safe(e.title)}</b><small>${safe(e.status||'')}</small></div></article>`).join('')||'<p class="muted">No upcoming milestones currently listed.</p>';
 }
 function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.date)}</time><b>${safe(e.title)}</b><small>${safe(e.detail)}</small></div>`}
+
+const pollChartPalette=['#2864b4','#e16b38','#279b83','#b8495d','#8a63b8','#c28b27','#3c9fbd','#7b8794'];
+let pollChartRange='all';
+const pollChartHidden=new Set();
+function renderOverviewPollChart(){
+ const host=$('#overview-poll-chart'); if(!host)return;
+ const polls=[...(DB.polls||[])].filter(p=>p.results&&p.publication_date).sort((a,b)=>a.publication_date.localeCompare(b.publication_date));
+ const latest=polls[polls.length-1];
+ const rangeDays=pollChartRange==='all'?null:Number(pollChartRange);
+ const newest=latest?new Date(latest.publication_date+'T12:00:00'):new Date();
+ const cutoff=rangeDays?new Date(newest.getTime()-rangeDays*86400000):null;
+ const shown=polls.filter(p=>!cutoff||new Date(p.publication_date+'T12:00:00')>=cutoff);
+ const names=['Marine Le Pen','Jean-Luc Mélenchon','Édouard Philippe','Raphaël Glucksmann','Bruno Retailleau','Éric Zemmour','Marine Tondelier'];
+ const W=1000,H=430,L=58,R=28,T=22,B=58,plotW=W-L-R,plotH=H-T-B;
+ const dates=shown.map(p=>new Date(p.publication_date+'T12:00:00').getTime());
+ const minX=dates.length?Math.min(...dates):newest.getTime(),maxX=dates.length?Math.max(...dates):newest.getTime();
+ const x=t=>L+(maxX===minX?plotW/2:(t-minX)/(maxX-minX)*plotW);
+ const y=v=>T+plotH-(Number(v)/40)*plotH;
+ const dateLabel=t=>new Date(t).toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+ let svg=`<svg class="poll-trend-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="First-round voting intentions across ${shown.length} published polls">`;
+ [0,10,20,30,40].forEach(v=>{svg+=`<line x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}" class="poll-gridline"/><text x="${L-12}" y="${y(v)+5}" text-anchor="end" class="poll-axis-label">${v}%</text>`});
+ const ticks=5;
+ for(let i=0;i<ticks;i++){const t=minX+(maxX-minX)*(i/(ticks-1));svg+=`<text x="${x(t)}" y="${H-20}" text-anchor="middle" class="poll-axis-label">${dateLabel(t)}</text>`}
+ names.forEach((name,idx)=>{
+  if(pollChartHidden.has(name))return;
+  const pts=shown.filter(p=>Object.prototype.hasOwnProperty.call(p.results,name)).map(p=>({p,t:new Date(p.publication_date+'T12:00:00').getTime(),v:Number(p.results[name])})).filter(o=>Number.isFinite(o.v));
+  if(!pts.length)return;
+  const d=pts.map((o,i)=>(i?'L':'M')+x(o.t).toFixed(1)+','+y(o.v).toFixed(1)).join(' ');
+  const color=pollChartPalette[idx%pollChartPalette.length];
+  svg+=`<path d="${d}" fill="none" stroke="${color}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="poll-series"/>`;
+  pts.forEach(o=>{svg+=`<circle cx="${x(o.t)}" cy="${y(o.v)}" r="4.8" fill="${color}" stroke="#fff" stroke-width="2"><title>${safe(name)}: ${o.v}% · ${safe(o.p.pollster)} · ${safe(o.p.publication_date)}</title></circle>`});
+ });
+ svg+='</svg>';
+ host.innerHTML=shown.length?svg:'<p class="muted">No dated polling observations in this period.</p>';
+ $('#poll-chart-count').textContent=`${shown.length} polls · ${shown.length?dateLabel(minX)+' to '+dateLabel(maxX):'no observations'}`;
+ const legend=$('#overview-poll-legend');
+ if(legend)legend.innerHTML=names.map((name,i)=>`<button class="poll-legend-item ${pollChartHidden.has(name)?'is-hidden':''}" data-poll-name="${safe(name)}"><i style="--poll-color:${pollChartPalette[i%pollChartPalette.length]}"></i>${safe(name)}</button>`).join('');
+ if(latest){
+  const namesInPoll=Object.entries(latest.results).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  $('#overview-latest-poll').innerHTML=`<div class="latest-poll-heading"><div><span class="eyebrow">LATEST POLL IN THE ARCHIVE</span><h3>${safe(latest.pollster)} · ${safe(latest.sponsor||'Sponsor not specified')}</h3></div><strong>${safe(latest.fieldwork_label||latest.publication_date)}</strong></div><div class="latest-poll-meta"><span>Sample: ${safe(latest.sample_size||'Not stated')}</span><span>Published: ${safe(latest.publication_date)}</span></div><div class="latest-poll-leaders">${namesInPoll.map((o,i)=>`<div><span>${i+1}. ${safe(o[0])}</span><b>${safe(o[1])}%</b></div>`).join('')}</div><div class="latest-poll-source">${link(latest.source)}</div>`;
+ }
+ document.querySelectorAll('[data-poll-range]').forEach(b=>b.classList.toggle('active',b.dataset.pollRange===pollChartRange));
+ document.querySelectorAll('[data-poll-range]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{pollChartRange=b.dataset.pollRange;renderOverviewPollChart()})}});
+ document.querySelectorAll('[data-poll-name]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{const n=b.dataset.pollName;pollChartHidden.has(n)?pollChartHidden.delete(n):pollChartHidden.add(n);renderOverviewPollChart()})}});
+}
 function renderCandidates(){
  const q=$('#candidate-search').value.toLowerCase();
  const list=DB.candidates.filter(c=>(c.name+' '+c.party+' '+c.orientation+' '+c.campaign_status).toLowerCase().includes(q));

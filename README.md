@@ -43,3 +43,9 @@ The voting compass opens with a 24-question standard version covering all 12 pol
 ## Overview page redesign
 
 The overview is now an editorial front page with a live research snapshot, latest linked coverage, a clearly labelled secondary polling snapshot, candidate-status summary, upcoming milestones, policy issue entry points, and routes into the candidate directory, policy matrix, voting compass and election explainer. Overview modules are populated from `data/election-data.json`; the monitored candidate count is explicitly not presented as the official ballot.
+
+## Polling chart and visual refresh
+
+The overview now features an interactive first-round polling trend chart based on dated poll observations in `data/election-data.json`. Visitors can select all available data, the last 60 days, or the last 30 days, and toggle candidate series. Each point is an observed poll result; candidates absent from a survey are omitted rather than assigned zero. The latest poll card includes pollster, fieldwork dates, sample size, results and source link. Candidate configurations vary between surveys, so the chart is descriptive rather than a like-for-like panel or forecast.
+
+The visual palette has been brightened with a cleaner blue-white base, warmer accent colours, and more colourful polling series.
