@@ -44,12 +44,19 @@ function renderOverview(){
   ['Election rounds','2','First and second rounds scheduled for April and May 2027']
  ];
  $('#overview-kpis').innerHTML=kpis.map(k=>`<article class="overview-kpi"><span>${safe(k[0])}</span><strong>${safe(k[1])}</strong><small>${safe(k[2])}</small></article>`).join('');
- $('#overview-latest').innerHTML=news.slice(0,4).map((n,i)=>`<article class="overview-story ${i===0?'featured':''}"><div class="eyebrow">${safe(n.publisher)} · ${safe(n.publication_date)} · ${safe(n.language)}</div><h3>${safe(n.title)}</h3><p>${safe(n.summary)}</p>${link(n.source)}</article>`).join('')||'<p class="muted">No news reports have been added yet.</p>';
+ $('#overview-latest').innerHTML=news.slice(0,3).map((n,i)=>`<article class="overview-story ${i===0?'featured':''}"><div class="eyebrow">${safe(n.publisher)} · ${safe(n.publication_date)} · ${safe(n.language)}</div><h3>${safe(n.title)}</h3><p>${safe(n.summary)}</p>${link(n.source)}</article>`).join('')||'<p class="muted">No news reports have been added yet.</p>';
  const top=trends.slice(0,6);
  renderOverviewPollChart();
  $('#overview-candidate-summary').innerHTML=`<span><b>${declared}</b> publicly declared / stated contenders</span><span><b>${potential}</b> potential or other tracked figures</span><span><b>${candidates.length}</b> tracked in total</span>`;
  const focus=top.slice(0,5).map(t=>candidates.find(c=>c.name===t.candidate)).filter(Boolean);
- $('#overview-candidates').innerHTML=focus.map(c=>`<article class="overview-person"><div class="overview-avatar">${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}</div><div><b>${safe(c.name)}</b><small>${safe(c.party)}</small><span>${safe((c.campaign_status||'Status not established').split(';')[0])}</span></div></article>`).join('')||'<p class="muted">Candidate profiles are being compiled.</p>';
+ const portraits={
+  'Marine Le Pen':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Marine_Le_Pen_-_.jpg?width=520',credit:'Elekes Andor · Wikimedia Commons · CC BY 4.0',source:'https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_-.jpg'},
+  'Jean-Luc Mélenchon':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_officiel_JLM_20-01-2026.jpg?width=520',credit:'jlm2017.fr · Wikimedia Commons · CC BY 4.0',source:'https://commons.wikimedia.org/wiki/File:Portrait_officiel_JLM_20-01-2026.jpg'},
+  'Édouard Philippe':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Philippe%280%29.jpg?width=520',credit:'Wasasaq8 · Wikimedia Commons · CC0',source:'https://commons.wikimedia.org/wiki/File:Edouard_Philippe(0).jpg'},
+  'Raphaël Glucksmann':{url:'https://allary-editions.fr/cdn/shop/collections/portrait_raphael_glucksmann_400x.jpg?v=1626701051',credit:'Julien Mignot · via Allary Éditions',source:'https://allary-editions.fr/collections/raphael-glucksmann'},
+  'David Lisnard':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/David_Lisnard_en_2026.jpg?width=520',credit:'Grégor Sauvagère · Wikimedia Commons',source:'https://commons.wikimedia.org/wiki/File:David_Lisnard_en_2026.jpg'}
+ };
+ $('#overview-candidates').innerHTML=focus.map(c=>{const portrait=portraits[c.name];return `<article class="overview-person"><div class="overview-person-photo">${portrait?`<img src="${portrait.url}" alt="Portrait of ${safe(c.name)}" loading="lazy" onerror="this.parentElement.classList.add('portrait-missing');this.remove()"><a class="portrait-credit" href="${portrait.source}" target="_blank" rel="noopener noreferrer" title="${safe(portrait.credit)}">Photo credit ↗</a>`:`<span class="overview-avatar">${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}</span>`}</div><div class="overview-person-copy"><b>${safe(c.name)}</b><small>${safe(c.party)}</small><span>${safe((c.campaign_status||'Status not established').split(';')[0])}</span><a class="person-open" href="#" data-open-candidate="${safe(c.id)}">View dossier →</a></div></article>`}).join('')||'<p class="muted">Candidate profiles are being compiled.</p>';
  const today=new Date().toISOString().slice(0,10);
  const upcoming=(DB.events||[]).filter(e=>(e.date||'').slice(0,10)>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
  $('#overview-events').innerHTML=upcoming.map(e=>`<article class="overview-event"><time>${safe(e.date_label||e.date)}</time><div><b>${safe(e.title)}</b><small>${safe(e.status||'')}</small></div></article>`).join('')||'<p class="muted">No upcoming milestones currently listed.</p>';
@@ -100,6 +107,8 @@ function renderOverviewPollChart(){
  document.querySelectorAll('[data-poll-range]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{pollChartRange=b.dataset.pollRange;renderOverviewPollChart()})}});
  document.querySelectorAll('[data-poll-name]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{const n=b.dataset.pollName;pollChartHidden.has(n)?pollChartHidden.delete(n):pollChartHidden.add(n);renderOverviewPollChart()})}});
 }
+document.addEventListener('click',e=>{const a=e.target.closest('[data-open-candidate]');if(!a)return;e.preventDefault();const id=a.dataset.openCandidate;document.querySelector('[data-tab=\"candidates\"]').click();const input=document.querySelector('#candidate-search');if(input){input.value=(DB.candidates.find(c=>c.id===id)||{}).name||'';renderCandidates();}});
+
 function renderCandidates(){
  const q=$('#candidate-search').value.toLowerCase();
  const list=DB.candidates.filter(c=>(c.name+' '+c.party+' '+c.orientation+' '+c.campaign_status).toLowerCase().includes(q));

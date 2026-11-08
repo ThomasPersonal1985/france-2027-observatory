@@ -53,3 +53,14 @@ The visual palette has been brightened with a cleaner blue-white base, warmer ac
 
 ## Colour refinement
 The interface uses a restrained French tricolour palette: deep and soft blues, white, muted reds, and cool neutral greys. Gold, amber and orange accents have been removed from interface badges, notices, labels, hero typography, and polling series.
+
+
+## UX refinement release
+
+- Policy Matrix filters redesigned as a labelled, cool-grey research toolbar with consistent control heights, icons, clearer placeholder copy and keyboard focus treatment. No gold/amber accents.
+- Overview polling trends and latest coverage now sit side by side on desktop and stack cleanly on smaller screens.
+- Candidate landscape now uses portrait-led tiles for the five leading figures in the current polling snapshot, with photo-credit links and graceful initials fallback if a remote portrait is unavailable.
+- Candidate tiles link directly to the corresponding dossier in the Candidates directory.
+- The compact panoramic hero is retained.
+
+Portrait assets are loaded from their cited source hosts at runtime. The site requires an internet connection for these portraits. Review the linked image credits and source licensing before republishing or commercial use.
