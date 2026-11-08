@@ -53,3 +53,12 @@ body{background:#f4f2ed;color:#202a35}
 .compass-question{background:#fff!important}.compass-options label{background:#f8f8f6;color:#344252}.compass-options label:hover{border-color:#9aadb7}.compass-options label:has(input:checked){background:#eaf0f3;border-color:#356f8d}
 footer b{color:#294b5c}
 @media(max-width:700px){.brand-mark{width:40px;height:40px}.top{gap:10px}.top-right .updated{display:none}.nav{gap:4px}.nav button{padding:8px 10px}}
+/* Voting compass required priority controls and programme links */
+.importance{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:18px;padding-top:14px;border-top:1px solid #e4e8eb;color:#253342;font-weight:700}
+.importance select{min-width:245px;max-width:100%;padding:10px 12px;border:1px solid #aab8c2;border-radius:8px;background:#fff;color:#243342;font:inherit}
+.importance select:invalid{border-color:#b87836;color:#66717b}
+.importance-required{display:block;flex-basis:100%;font-size:.78rem;font-weight:500;color:#66717b}
+.programme-link{margin:8px 0 14px;padding:10px 12px;background:#f4f6f7;border-left:3px solid #356f8d;border-radius:4px}
+.programme-link a{color:#245c78;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.programme-link small{display:block;margin-top:4px;color:#596775;line-height:1.4}
+.coming-soon{display:inline-block;color:#596775;font-weight:700}

@@ -1,113 +1,21 @@
-# France 2027 | Election Intelligence Observatory
+# France 2027 Election Intelligence Observatory
 
-A zero-monthly-cost, static research website for the 2027 French presidential election.
+Static website for Cloudflare Pages. Replace the repository contents with this package, preserving the `data/` and `profiles/` folders.
 
-## Visual identity: Election Intelligence Centre
-- Deep navy / charcoal analytical interface
-- Electric cyan for data and navigation
-- Amber for deadlines and evidence flags
-- Compact dashboard cards, polling bars, structured tables and expandable candidate dossiers
-- Responsive desktop and mobile layout
+## Latest update
+- Voting compass importance selectors start blank and are mandatory for all 15 questions before results can be shown. Policy answers themselves remain optional; only answered, evidence-supported questions are scored.
+- Tax question wording is neutral and refers to the structure of the tax system, not the "tax burden".
+- Pension questions clarify the difference between the legal minimum retirement age and full-rate pension eligibility. Funding terminology is explained in plain English, including pay-as-you-go (répartition), funded/capitalisation schemes and collective workplace pension funds.
+- Candidate directory includes direct programme/manifesto links where a published text is currently indexed: Jean-Luc Mélenchon's official 2027 programme page and Bruno Le Maire's published manifesto archive. The latter is explicitly labelled a manifesto, not a formal campaign programme. Other candidates are marked "Coming soon" until a programme can be linked and verified.
 
-## Project structure
+## Files
+- `index.html`: site shell and content sections
+- `app.js`: rendering, candidate dossier display, compass questionnaire and matching
+- `styles.css`: responsive styling
+- `data/election-data.json`: research data
+- `profiles/`: individual candidate dossiers
 
-```text
-france-2027-observatory/
-├── index.html
-├── app.js
-├── styles.css
-├── README.md
-├── data/
-│   └── election-data.json
-└── profiles/
-    ├── marine-le-pen/profile.md
-    ├── jean-luc-melenchon/profile.md
-    └── ... (16 individual dossiers)
-```
+## Deployment
+Upload the contents of this folder to the root of the GitHub repository connected to Cloudflare Pages. Keep the folder structure intact. Cloudflare Pages should deploy automatically after the commit.
 
-## Candidate research
-
-All 16 tracked figures have expanded dossiers with:
-- Biography and political career
-- Political record and party context
-- Main policy themes
-- Dated, attributable policy positions
-- Programme publication status
-- Feasibility questions and open research gaps
-- Candidate-specific source trails
-
-The dossiers deliberately distinguish:
-1. Declared candidacy
-2. Public campaign activity
-3. Party or primary status
-4. Written programme publication
-5. Sponsorship collection and validation
-6. Official ballot qualification
-
-A candidate taking part in a debate is not proof of official ballot qualification. The seven-way MEDEF debate covered in this edition took place on **27 August 2026**. It is not described as a June debate.
-
-## Polling and news
-
-- Individual polls are stored separately from polling averages.
-- The archive includes the workbook's historical poll records plus the latest indexed Harris Interactive poll (fieldwork 3–5 November 2026; n=2,101).
-- The rolling-average series remains a separately labelled Vote Public snapshot. It is not recalculated from mixed poll archives.
-- Candidate configurations vary between polls. A missing candidate means not tested or not reported, never zero.
-- News entries have a publisher, language, publication date, summary and source link. The archive is a dated research snapshot, not a live news feed.
-
-## Official election calendar baseline
-
-The French government's published calendar lists:
-- Ordinary voter-registration deadline: 12 March 2027 (exceptions may apply)
-- Sponsorship closure: 12 March 2027 at 18:00
-- At least 500 valid sponsorships, from at least 30 departments or overseas territories; no more than 50 from any one territory
-- Official candidate list: by 26 March 2027
-- Official first-round campaign: 5 April 2027
-- First round: 18 April 2027 (17 April in specified overseas territories)
-- Second round: 2 May 2027 (1 May in specified overseas territories)
-
-The decree convening voters and some procedural details remain provisional until formally published. Always re-check the government page.
-
-## Sources and editorial method
-
-Priority order:
-1. Official institutions, Constitutional Council, government and candidate/party documents
-2. Original polling institute releases and Commission des sondages notices
-3. Parliamentary records, speeches and full debate transcripts
-4. Established French and English reporting
-5. Secondary trackers for discovery and cross-checking, clearly labelled as secondary
-
-Do not turn historical party positions into new 2027 promises. Do not describe analyst interpretation as a candidate quotation. Programme presence is not independent validation of feasibility.
-
-Key research sources:
-- Government calendar: https://www.info.gouv.fr/actualite/election-presidentielle-2027
-- Candidate tracker: https://www.observatoire2027.fr/candidats/
-- Programme tracker: https://www.observatoire2027.fr/programmes/
-- Poll archive: https://www.pollingforecast.com/fr/polls?lang=en&layout=table
-- MEDEF debate summary: https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670
-- MEDEF proposals by candidate: https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne
-- Open candidate-status dataset: https://www.data.gouv.fr/datasets/candidats-a-lelection-presidentielle-2027-liste-partis-et-sources
-
-## Deploy for free with Cloudflare Pages
-
-1. Upload the contents of this project to the root of your GitHub repository, preserving the `data/` and `profiles/` folders.
-2. In Cloudflare, connect the repository under **Workers & Pages → Create → Pages → Connect to Git**.
-3. Choose **None** as framework preset.
-4. Leave the build command blank.
-5. Set the build output directory to `/` or `.` if Cloudflare requires a value.
-6. Deploy. Future commits to `main` will trigger deployment.
-
-No API keys, paid database or build step are required.
-
-## Updating research
-
-Edit `data/election-data.json` and commit it to GitHub. The website reads this JSON file. Candidate dossiers are also maintained as individual Markdown files in `profiles/` for easier editorial review; the interactive candidate directory uses the dossier data embedded in `election-data.json`.
-
-**Snapshot:** 8 November 2026. This site is a research aid, not an official government source and not voting advice.
-
-## Voting compass update (8 November 2026)
-
-The voting compass now contains 15 detailed questions across pensions, the economy and taxation, immigration and asylum, security and justice, climate and energy, Europe, foreign policy and defence, education, and healthcare. The retirement-age question names concrete ages (60 or younger, 62, 63, 64, 65, and 67 or older).
-
-Important methodology limitation: the current dataset contains comparable, attributable candidate evidence only for a subset of pension and public-finance questions. The other questions are part of the questionnaire but do not affect candidate ranking until the observatory has researched and coded comparable candidate positions. The results explain this limitation. No missing position is treated as agreement or disagreement.
-
-The visual system has been revised to a light editorial palette with dark readable text, consistent white cards, and a French tricolour mark in the header. The public maintenance/import panel is not present. Footer credit: Website created by Thomas Igou.
+This is a static snapshot. Candidate programmes, campaign status, polling and policy positions require periodic source verification and updates.
