@@ -2,9 +2,9 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-08",
-    "data_version": 3,
-    "editorial_note": "Editorial standards v1.0 adopted 8 November 2026. Legacy claims are not automatically certified; each material claim requires its own dated verification record. Candidate campaign status remains distinct from official ballot qualification.",
-    "design_direction": "Election Intelligence Centre: dark analytical interface, navy/charcoal, electric cyan, amber signal accents.",
+    "data_version": 4,
+    "editorial_note": "Candidate campaign status is distinct from official ballot qualification. All tracked prospective candidates are subject to the same statutory sponsorship and Constitutional Council validation process.",
+    "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "Very-deep dossiers added for all 16 tracked figures. Evidence gaps are explicitly labelled; not all profiles represent confirmed candidacies or complete programmes.",
     "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive.",
     "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive.",
@@ -17,7 +17,7 @@
       "name": "Marine Le Pen",
       "party": "Rassemblement National",
       "campaign_status": "Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate.",
-      "ballot_status": "Declared; eligibility remains subject to the legal process and final sponsorship validation.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "National-conservative",
       "profile": "Marine Le Pen announced her candidacy on 7 July 2026. Her appeal judgment and cassation process remain material to eligibility; do not describe her as ballot-qualified.",
       "sources": [
@@ -106,14 +106,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "party": "La France insoumise",
       "campaign_status": "Declared candidate; announced 3 May 2026; participated in the 27 August MEDEF debate; presented LFI programme at Le Bourget on 7 November.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Left-wing",
       "profile": "LFI presented its programme on 7 November 2026. Programme proposals are summarised in the linked Reuters report; distinguish party commitments from independent costing.",
       "sources": [
@@ -204,14 +206,16 @@
         "checked_date": "2026-11-08",
         "url": "https://www.lavenirencommun.org/",
         "note": "Official 2027 programme site checked. The website states that the online synthesis contains 795 measures and the full book contains 1,069 measures."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "edouard-philippe",
       "name": "Édouard Philippe",
       "party": "Horizons",
       "campaign_status": "Declared candidate; announced 3 September 2024; participated in the 27 August MEDEF debate.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre-right",
       "profile": "Former prime minister and Horizons leader. Rejects a proposed right-centre primary for now; see Le Monde coverage of 3 November 2026.",
       "sources": [
@@ -296,14 +300,16 @@
         "checked_date": "2026-11-08",
         "url": "https://www.edouardphilippe.fr/",
         "note": "Official 2027 campaign website checked. It publishes initial priorities and campaign activity; this should not be described as a complete detailed programme."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "raphael-glucksmann",
       "name": "Raphaël Glucksmann",
       "party": "Place publique",
       "campaign_status": "Declared candidate; won the social-democratic primary in October 2026; participated in the 27 August MEDEF debate.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Social democrat / pro-European",
       "profile": "Won the social-democratic primary on 11 October with 66% in the first round, according to Le Monde. This does not imply unity across the entire left.",
       "sources": [
@@ -387,14 +393,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "party": "Renaissance",
       "campaign_status": "Declared candidate; Renaissance leader; participated in the 27 August MEDEF debate; called for a broad primary of the democrats in late October.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre",
       "profile": "Former prime minister. Advocates a primary to select a broader centre/right candidate; distinguish this from agreement by other contenders.",
       "sources": [
@@ -479,14 +487,16 @@
         "checked_date": "2026-11-08",
         "url": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme",
         "note": "The located programme page refers to the 2024 legislative election and must not be presented as a 2027 presidential programme."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "bruno-retailleau",
       "name": "Bruno Retailleau",
       "party": "Les Républicains",
       "campaign_status": "Declared candidate; Les Républicains leader; participated in the 27 August MEDEF debate.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Conservative right",
       "profile": "Conservative right contender. Debate statements on pensions and the economy are recorded separately from a full 2027 programme.",
       "sources": [
@@ -570,14 +580,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "marine-tondelier",
       "name": "Marine Tondelier",
       "party": "Les Écologistes",
       "campaign_status": "Declared candidate; Les Écologistes leader; participated in the 27 August MEDEF debate.",
-      "ballot_status": "Declared; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Green / left",
       "profile": "Green party leader. The 27 August MEDEF debate establishes active campaign participation; the 2027 programme should be sourced separately.",
       "sources": [
@@ -661,14 +673,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "david-lisnard",
       "name": "David Lisnard",
       "party": "Nouvelle Énergie",
       "campaign_status": "Declared contender; Nouvelle Énergie leader; campaigning and involved in the centre-right primary debate.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Liberal right",
       "profile": "Mayor of Cannes and Nouvelle Énergie leader. Do not infer validated sponsorships from announced pledges.",
       "sources": [
@@ -731,14 +745,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "eric-zemmour",
       "name": "Éric Zemmour",
       "party": "Reconquête",
       "campaign_status": "Declared contender; Reconquête! leader; previously ran in 2022.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Nationalist right",
       "profile": "Political commentator and Reconquête! leader. Current campaign proposals require candidate-specific 2027 sourcing.",
       "sources": [
@@ -801,14 +817,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "francois-ruffin",
       "name": "François Ruffin",
       "party": "Debout!",
       "campaign_status": "Declared contender; has said he is a candidate for the presidency; released 40 proposals in a book on 6 November, while saying it is not a formal programme.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Left",
       "profile": "Debout! deputy. Le Parisien reported on 6 November that he published 40 proposals but described the book as not being a programme; reported readiness to withdraw in the sponsorship context should be tracked separately.",
       "sources": [
@@ -871,14 +889,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "fabien-roussel",
       "name": "Fabien Roussel",
       "party": "Parti communiste français",
       "campaign_status": "Declared contender; PCF national secretary; announced candidacy in September 2026.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Communist / left",
       "profile": "PCF leader. Formal status and any party ratification should be checked against primary party sources.",
       "sources": [
@@ -941,14 +961,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "party": "Debout la France",
       "campaign_status": "Declared contender; Debout la France leader.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Sovereigntist right",
       "profile": "Former presidential candidate and leader of Debout la France. Current programme needs direct sourcing.",
       "sources": [
@@ -1011,14 +1033,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "natacha-polony",
       "name": "Natacha Polony",
       "party": "Nous sommes la France",
       "campaign_status": "Declared contender; founded Nous sommes la France movement.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Sovereigntist republican",
       "profile": "Journalist and essayist. Her self-description and external ideological classifications should be kept distinct.",
       "sources": [
@@ -1081,14 +1105,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "xavier-bertrand",
       "name": "Xavier Bertrand",
       "party": "Nous France",
       "campaign_status": "Potential contender; not confirmed as a formal candidate in the current baseline.",
-      "ballot_status": "Not officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre-right",
       "profile": "Centre-right political figure; keep as potential rather than declared until a clear announcement is sourced.",
       "sources": [
@@ -1151,14 +1177,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Potential candidate",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "nathalie-arthaud",
       "name": "Nathalie Arthaud",
       "party": "Lutte ouvrière",
       "campaign_status": "Declared contender; Lutte ouvrière spokesperson and repeat presidential candidate.",
-      "ballot_status": "Declared contender; not yet officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Far left",
       "profile": "Lutte ouvrière spokesperson. Confirm 2027 campaign details with party sources.",
       "sources": [
@@ -1221,14 +1249,16 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Publicly stated candidacy / contender",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     },
     {
       "id": "bruno-le-maire",
       "name": "Bruno Le Maire",
       "party": "Independent / former Renaissance",
       "campaign_status": "Probable / potential contender; programme material indexed by Observatoire 2027, but formal status requires verification.",
-      "ballot_status": "Not officially qualified.",
+      "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre-right",
       "profile": "Former finance minister. Observatoire 2027 lists him as probable; do not present him as formally declared without a direct announcement.",
       "sources": [
@@ -1291,7 +1321,9 @@
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
-      }
+      },
+      "campaign_stage": "Potential candidate",
+      "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials."
     }
   ],
   "debates": [
