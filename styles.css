@@ -128,3 +128,92 @@ footer b{color:#294b5c}
 @media(max-width:520px){.overview-panel{padding:16px}.overview-latest{grid-template-columns:1fr}.overview-story.featured{grid-column:auto}.overview-candidates{grid-template-columns:1fr}.overview-issues{grid-template-columns:1fr}.overview-event{gap:8px}.overview-event time{flex-basis:100px}.overview-kpi{padding:13px}.overview-kpi strong{font-size:26px}.overview-cta{padding:19px}.overview-intro-actions button,.overview-cta-actions button{width:100%}}
 
 .hero{margin-bottom:18px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.hero-actions button{padding:11px 16px;border-radius:9px;font-weight:750}.hero-actions .secondary{background:#fff}
+
+
+/* =========================================================
+   VISUAL REDESIGN: French editorial palette
+   Warm paper, ink, tricolour accents. No cyan-on-black UI.
+   ========================================================= */
+:root{
+ --bg:#f3f0e9;--panel:#fffdf9;--panel2:#f5f1e9;--panel3:#ece6dc;
+ --line:#ded7cc;--ink:#202b38;--muted:#657180;
+ --cyan:#244f73;--cyan2:#173d5c;--amber:#c68a35;
+ --red:#c83d45;--green:#2c8065;--shadow:0 14px 36px rgba(35,42,50,.075);
+ --radius:16px;
+}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 95% 0%,rgba(200,61,69,.055),transparent 28%),radial-gradient(ellipse at 0% 30%,rgba(36,79,115,.055),transparent 30%),var(--bg);color:var(--ink)}
+a{color:#245b83}a:hover{color:#a52f39}
+.top{background:rgba(255,253,249,.94);border-bottom:1px solid var(--line);box-shadow:0 4px 18px rgba(31,40,49,.035)}
+.brand{color:var(--ink)}
+.brand-mark{display:flex;overflow:hidden;place-items:unset;width:42px;height:42px;border:0;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,.12);gap:0}
+.brand-mark i{display:block;flex:1;height:100%}
+.brand-mark i:nth-child(1){background:#244f8f}
+.brand-mark i:nth-child(2){background:#fff}
+.brand-mark i:nth-child(3){background:#e33e49}
+.brand-copy b{color:#245b83}
+.brand-copy small{color:#657180}
+.updated,.top-tag{color:#5d6875}
+.top-tag{border-color:#d9d2c8;background:#fffdf9}
+.live-dot,.signal{background:var(--green);box-shadow:0 0 0 4px rgba(44,128,101,.12)}
+.nav{background:rgba(255,253,249,.96);border-bottom:1px solid var(--line);box-shadow:0 5px 16px rgba(31,40,49,.035)}
+.nav button{color:#596575}
+.nav button:hover{background:#f0ece4;color:#202b38}
+.nav button.active{background:#e8eef3;border-color:#c7d4df;color:#183f5f;box-shadow:inset 0 -2px #244f73}
+main{padding-top:26px}
+.hero{border:1px solid #d7c7b2;background:linear-gradient(112deg,#fffaf1 0%,#f1e6d6 54%,#e9edf0 100%);box-shadow:0 18px 42px rgba(42,43,42,.09);color:#202b38}
+.hero:after{color:rgba(36,79,115,.055)}
+.hero .eyebrow{color:#a23a40}
+.hero .signal{background:#c83d45;box-shadow:0 0 0 4px rgba(200,61,69,.12)}
+.hero h1{color:#202b38}
+.hero h1 em{color:#a66c20}
+.hero p{color:#596575}
+.hero-meta span{border-color:#d6c9b8;background:rgba(255,255,255,.58);color:#536171}
+button{cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease,border-color .18s ease}
+button:hover{transform:translateY(-1px)}
+button:active{transform:translateY(0)}
+button.primary,.primary{background:#244f73!important;border:1px solid #244f73!important;color:white!important;box-shadow:0 5px 12px rgba(36,79,115,.16)}
+button.primary:hover,.primary:hover{background:#173d5c!important}
+button.secondary,.secondary{background:#fffdf9!important;border:1px solid #cfc7bc!important;color:#29465e!important}
+button.secondary:hover,.secondary:hover{background:#f2eee7!important;border-color:#9baebc!important}
+.page.active{animation:pageEnter .36s cubic-bezier(.2,.75,.25,1)}
+@keyframes pageEnter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.stats article,.card,.candidate,.source,.event,.timeline-item,.overview-panel,.overview-kpi{
+ background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);color:var(--ink)
+}
+.stats article{transition:transform .22s ease,box-shadow .22s ease}
+.stats article:hover,.candidate:hover,.source:hover{transform:translateY(-3px);box-shadow:0 17px 34px rgba(35,42,50,.11)}
+.stats strong{color:#245b83}
+.stats small,.stats span{color:var(--muted)}
+.card h2,.section-head h2,.card h3{color:var(--ink)}
+.card p,.card li{color:#566372}
+.eyebrow{color:#a23a40}
+.pill,.status{border-color:#e4d2b7;background:#f7efe2;color:#895b21}
+.notice{border-color:#e3c995;background:#fff7e8;color:#76551f}
+.event{background:#fffdf9}
+.event time,.timeline-item time{color:#9a6829}
+input,select,textarea{background:#fffdf9!important;color:#202b38!important;border:1px solid #cfc8bd!important;border-radius:8px}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(36,79,115,.15);border-color:#557b99!important}
+footer{background:#202b38;color:#dce2e7;border-top:4px solid #c83d45}
+footer span{color:#dce2e7}
+.overview-kpi strong{color:#245b83}
+.overview-poll-track span{background:linear-gradient(90deg,#244f73,#c68a35)}
+.overview-cta{background:linear-gradient(115deg,#f7eadb,#e8edf0);border-color:#d9cabb}
+.overview-cta h2{color:#202b38}
+.text-button{color:#245b83}
+.overview-issues button{background:#faf8f3;border-color:#e2dbd0;color:#253342}
+.overview-issues button:hover{border-color:#b5c3cc;background:#eef2f3}
+.overview-status-strip span{background:#f0ece4;color:#4d5d69}
+.overview-avatar{background:#e8eef3;color:#244f73}
+.overview-event time{color:#9a6829}
+.compass-options label,.question-option{background:#faf8f3;border-color:#e1d9ce}
+.compass-options label:hover,.question-option:hover{background:#f0f3f5;border-color:#aebfcb}
+.compass-question{background:#fffdf9}
+.match-track{background:#ece8e0}
+.match-track span{background:linear-gradient(90deg,#244f73,#c68a35)}
+/* Gentle motion for key editorial elements */
+.hero{animation:heroReveal .55s ease both}
+@keyframes heroReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.hero-meta span{transition:background .2s ease,transform .2s ease}
+.hero-meta span:hover{background:#fff;transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
