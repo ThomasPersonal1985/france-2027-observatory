@@ -39,3 +39,7 @@ See `VOTING-COMPASS-METHODOLOGY.md`. The data now contains 36 questions across 1
 ## Voting compass length
 
 The voting compass opens with a 24-question standard version covering all 12 policy areas (two questions per area). Visitors can optionally continue to the 36-question extended version, adding one question per area. Both versions retain equal baseline weighting across policy areas. See `VOTING-COMPASS-METHODOLOGY.md` for the design and current evidence limitations.
+
+## Overview page redesign
+
+The overview is now an editorial front page with a live research snapshot, latest linked coverage, a clearly labelled secondary polling snapshot, candidate-status summary, upcoming milestones, policy issue entry points, and routes into the candidate directory, policy matrix, voting compass and election explainer. Overview modules are populated from `data/election-data.json`; the monitored candidate count is explicitly not presented as the official ballot.

@@ -62,3 +62,69 @@ footer b{color:#294b5c}
 .programme-link a{color:#245c78;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .programme-link small{display:block;margin-top:4px;color:#596775;line-height:1.4}
 .coming-soon{display:inline-block;color:#596775;font-weight:700}
+
+
+/* Overview editorial front page */
+.overview-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;margin:8px 0 22px}
+.overview-intro h2{font-size:clamp(27px,3vw,38px);letter-spacing:-.04em;margin:7px 0 8px;color:#202a35}
+.overview-intro p{max-width:760px;margin:0;color:#536171;font-size:16px;line-height:1.6}
+.overview-intro-actions,.overview-cta-actions{display:flex;gap:9px;flex-wrap:wrap}
+.overview-intro-actions button,.overview-cta-actions button{white-space:nowrap}
+.overview-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:18px}
+.overview-kpi{padding:17px 18px;background:#fff;border:1px solid #d8d3ca;border-radius:14px;box-shadow:0 8px 22px rgba(32,42,53,.045)}
+.overview-kpi span{display:block;color:#536171;font-size:12px;font-weight:750;text-transform:uppercase;letter-spacing:.07em}
+.overview-kpi strong{display:block;font-size:31px;line-height:1.2;letter-spacing:-.04em;margin:7px 0;color:#245b78}
+.overview-kpi small{display:block;color:#687481;line-height:1.4;font-size:11px}
+.overview-lead-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.8fr);gap:16px;margin-bottom:16px}
+.overview-panel{background:#fff;border:1px solid #d8d3ca;border-radius:17px;padding:22px;margin-bottom:16px;box-shadow:0 9px 25px rgba(32,42,53,.045);min-width:0}
+.overview-panel .section-head{align-items:center;margin-bottom:16px}
+.overview-panel .section-head h2{margin:5px 0 0;font-size:22px;letter-spacing:-.025em}
+.text-button{border:0;background:transparent;color:#245b78;padding:7px 0;font-weight:800}
+.text-button:hover{background:transparent;text-decoration:underline}
+.overview-latest{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+.overview-story{padding:14px 0;border-top:1px solid #e8e5df;min-width:0}
+.overview-story.featured{grid-column:1/-1;padding-top:0;border-top:0;padding-bottom:17px}
+.overview-story .eyebrow{font-size:10px;letter-spacing:.08em}
+.overview-story h3{font-size:16px;line-height:1.35;margin:7px 0;color:#202a35}
+.overview-story.featured h3{font-size:21px;max-width:850px}
+.overview-story p{font-size:12px;line-height:1.55;color:#536171;margin:7px 0}
+.overview-story a{font-size:12px;font-weight:800;color:#245b78}
+.overview-poll-row{padding:10px 0;border-bottom:1px solid #ece9e3}
+.overview-poll-label{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}
+.overview-poll-label strong{font-size:17px;color:#245b78}
+.overview-poll-track{height:8px;background:#edf0f0;border-radius:99px;overflow:hidden;margin:7px 0 4px}
+.overview-poll-track span{display:block;height:100%;background:linear-gradient(90deg,#245b78,#5d879b);border-radius:99px}
+.overview-poll-row small{font-size:10px;color:#687481}
+.overview-polls>p{line-height:1.5;margin:13px 0 0}
+.overview-status-strip{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 16px}
+.overview-status-strip span{padding:9px 12px;border-radius:9px;background:#f0f3f3;color:#4d5d69;font-size:12px}
+.overview-status-strip b{color:#245b78;font-size:15px;margin-right:4px}
+.overview-candidates{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.overview-person{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid #e1e3e1;border-radius:12px;min-width:0;background:#fcfcfb}
+.overview-avatar{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:50%;background:#e8eef1;color:#245b78;font-weight:850;font-size:12px}
+.overview-person>div:last-child{min-width:0}
+.overview-person b,.overview-person small,.overview-person span{display:block}
+.overview-person b{font-size:12px;line-height:1.3;color:#202a35}
+.overview-person small{font-size:10px;color:#596775;margin:3px 0}
+.overview-person span{font-size:10px;line-height:1.35;color:#82521d}
+.overview-lower-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.overview-issues{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.overview-issues button{display:block;text-align:left;padding:13px;border:1px solid #e2e5e4;border-radius:10px;background:#fafbfa;color:#253342}
+.overview-issues button:hover{border-color:#9db1bc;background:#f1f5f6}
+.overview-issues b,.overview-issues span{display:block}
+.overview-issues b{font-size:12px;margin-bottom:5px}
+.overview-issues span{font-size:11px;line-height:1.45;color:#66727d}
+.overview-event{display:flex;gap:13px;padding:13px 0;border-bottom:1px solid #e8e5df}
+.overview-event time{flex:0 0 116px;color:#895016;font-size:11px;font-weight:800}
+.overview-event b,.overview-event small{display:block}
+.overview-event b{font-size:12px;color:#202a35;line-height:1.4}
+.overview-event small{font-size:10px;color:#687481;margin-top:4px}
+.overview-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 26px;border-radius:17px;background:linear-gradient(115deg,#eaf0f2,#f7f7f4);border:1px solid #d5dfe2;margin:4px 0 12px}
+.overview-cta h2{font-size:23px;margin:5px 0;color:#202a35;letter-spacing:-.03em}
+.overview-cta p{max-width:620px;margin:0;color:#536171;font-size:13px;line-height:1.5}
+.overview-cta-actions{justify-content:flex-end;max-width:430px}
+@media(max-width:1050px){.overview-candidates{grid-template-columns:repeat(3,minmax(0,1fr))}.overview-intro{align-items:flex-start;flex-direction:column}.overview-cta{align-items:flex-start;flex-direction:column}.overview-cta-actions{justify-content:flex-start;max-width:none}}
+@media(max-width:800px){.overview-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.overview-lead-grid,.overview-lower-grid{grid-template-columns:1fr}.overview-candidates{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.overview-panel{padding:16px}.overview-latest{grid-template-columns:1fr}.overview-story.featured{grid-column:auto}.overview-candidates{grid-template-columns:1fr}.overview-issues{grid-template-columns:1fr}.overview-event{gap:8px}.overview-event time{flex-basis:100px}.overview-kpi{padding:13px}.overview-kpi strong{font-size:26px}.overview-cta{padding:19px}.overview-intro-actions button,.overview-cta-actions button{width:100%}}
+
+.hero{margin-bottom:18px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.hero-actions button{padding:11px 16px;border-radius:9px;font-weight:750}.hero-actions .secondary{background:#fff}
