@@ -1,28 +1,56 @@
 # France 2027 Election Observatory
 
-A portable, zero-monthly-cost static website for non-partisan tracking of the 2027 French presidential election.
+A static, mobile-friendly, non-partisan research website about the 2027 French presidential election.
 
-## Included in this update
-- 16 candidate records with campaign status distinguished from official ballot qualification, plus 16 candidate dossier folders under `profiles/`.
-- Candidate directory and a sourced policy comparison, including the 2026 pensions debate positions.
-- Restored archive of 19 individual first-round poll records plus a separate rolling-average snapshot. Different candidate line-ups are labelled and not blended.
-- 20 linked French- and English-language news reports.
-- Official election timeline and sources/methodology.
-- New “Elections for dummies” guide written in plain English for first-time voters.
-- The website now loads `data/election-data.json` as its source of truth instead of hard-coding the data into `app.js`.
+## Repository contents
 
-## Deploying updates
-The site is already deployed as a Cloudflare Worker connected to the GitHub repository `france-2027-observatory`. To publish this update, replace the repository files with the matching files in this package, preserving the `data/` folder. Commit the changes to the `main` branch. Cloudflare should build and deploy automatically through the existing GitHub connection. Do not create a second Worker or a new project.
+- `index.html` — website structure and navigation.
+- `styles.css` — responsive visual styling.
+- `app.js` — rendering, filtering, navigation and research-data loading.
+- `data/election-data.json` — structured research dataset used by the website.
+- `profiles/` — 16 individual candidate dossier folders, each containing `profile.md`.
 
-Files to replace: `index.html`, `app.js`, `styles.css`, `README.md`, and `data/election-data.json`.
+The site expects these paths exactly. In particular, the JSON file must be at `data/election-data.json`, not at the repository root and not inside an extra nested project folder.
 
-## Custom domain cost
-The existing `*.workers.dev` address is free. Cloudflare does not provide free registration of a custom domain name. You can connect a domain you already own at no extra Cloudflare charge on the Free plan, but you still pay the domain registrar's annual renewal fee. Cloudflare Registrar sells domains at cost where supported. HTTPS is handled automatically after DNS/domain verification.
+## Deploy to the existing Cloudflare Worker
 
-## Research and caveats
-- Poll rows were transcribed from the project research workbook's Vote Public series. They include the candidate configuration used in that record; check the original poll notice before comparing across surveys. Missing candidates are not zero. The rolling-average snapshot is a separate measure and is not a poll.
-- The news archive contains 20 linked articles. A link to a rolling live coverage page is labelled as such and is not represented as a single article.
-- Candidate status can change. “Declared” is not the same as having 500 validated sponsorships or being on the final ballot.
-- Official election dates shown here follow the government calendar as of 8 November 2026. The decree convening voters and any later official updates take precedence.
+1. Download and extract the complete ZIP on your computer.
+2. Open the existing GitHub repository `france-2027-observatory` on GitHub.
+3. Upload the **contents** of the extracted `france-2027-observatory-complete` folder to the repository root. Do not upload the ZIP itself and do not create an extra enclosing folder.
+4. Replace the existing `index.html`, `app.js`, `styles.css`, `README.md`, and `data/election-data.json`. Upload/replace the complete `profiles/` folder as well.
+5. Commit the changes to the `main` branch. The existing Cloudflare GitHub integration should deploy automatically.
 
-Official calendar: https://www.info.gouv.fr/actualite/election-presidentielle-2027
+After upload, the repository root should look like this:
+
+```text
+france-2027-observatory/
+├── index.html
+├── app.js
+├── styles.css
+├── README.md
+├── data/
+│   └── election-data.json
+└── profiles/
+    ├── bruno-le-maire/profile.md
+    ├── bruno-retailleau/profile.md
+    ├── ...
+    └── xavier-bertrand/profile.md
+```
+
+Do not leave the whole project nested one level down. `index.html` and `data/` must be directly in the repository root.
+
+## Included research sections
+
+- Overview and campaign milestones.
+- Elections for Dummies, written in plain English for younger readers and first-time voters.
+- 16 candidate profiles and dossier files.
+- Policy comparison matrix.
+- 19 individual poll records and 12 separately labelled rolling-average observations.
+- 20 linked news records.
+- Timeline, sources and methodology.
+
+## Research cautions
+
+Candidate campaign activity is not the same as official ballot qualification. Polls are snapshots, not predictions; different candidate line-ups should not be blended, and a candidate missing from a poll is not automatically at zero. News records link to their sources. Check original poll notices and official sources before treating any entry as definitive.
+
+The research data snapshot is dated 8 November 2026.
