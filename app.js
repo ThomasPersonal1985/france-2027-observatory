@@ -2,11 +2,38 @@ let DB;
 const $=s=>document.querySelector(s);
 const safe=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const link=s=>{if(!s||!s.url)return '';try{const u=new URL(s.url);if(!['https:','http:'].includes(u.protocol))return '';return `<a href="${safe(u.href)}" target="_blank" rel="noopener noreferrer">${safe(s.title||'Read source')} ↗</a>`}catch{return ''}};
-async function init(){try{const response=await fetch('data/election-data.json',{cache:'no-store'});if(!response.ok)throw new Error('Could not load data/election-data.json (HTTP '+response.status+')');DB=await response.json();render()}catch(e){document.querySelector('main').innerHTML=`<div class="notice">Research data could not be loaded. Check that data/election-data.json is in the repository root folder. ${safe(e.message)}</div>`}}
-function render(){$('#updated').textContent='RESEARCH UPDATED · '+DB.meta.last_updated;$('#stat-candidates').textContent=DB.candidates.length;$('#stat-polls').textContent=DB.polls.length;$('#stat-news').textContent=DB.news.length;$('#stat-events').textContent=DB.events.length;$('#count-candidates').textContent=DB.candidates.length+' candidates tracked';$('#next-events').innerHTML=DB.events.slice(0,4).map(eventCard).join('');$('#debate-participants').innerHTML=(DB.debates[0]?.participants||[]).map(n=>`<span class="chip">${safe(n)}</span>`).join('');renderOverview();renderCandidates();renderPolicies();renderPolls();renderNews();renderTimeline();renderSources();renderCompass()}
+async function init(){
+ try{
+  const response=await fetch('data/election-data.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('Could not load data/election-data.json (HTTP '+response.status+')');
+  DB=await response.json();
+ }catch(e){
+  const main=document.querySelector('main');
+  if(main)main.innerHTML=`<div class="notice">Research data could not be loaded. Check that data/election-data.json is in the repository root folder. ${safe(e.message)}</div>`;
+  return;
+ }
+ try{render()}catch(e){
+  console.error('Page rendering failed:',e);
+  const main=document.querySelector('main');
+  if(main)main.innerHTML=`<div class="notice">The research data loaded, but the page could not be rendered. ${safe(e.message)}</div>`;
+ }
+}
+function setText(selector,value){const el=$(selector);if(el)el.textContent=value}
+function setHTML(selector,value){const el=$(selector);if(el)el.innerHTML=value}
+function render(){
+ setText('#updated','RESEARCH UPDATED · '+DB.meta.last_updated);
+ setText('#stat-candidates',DB.candidates.length);
+ setText('#stat-polls',DB.polls.length);
+ setText('#stat-news',DB.news.length);
+ setText('#stat-events',DB.events.length);
+ setText('#count-candidates',DB.candidates.length+' candidates tracked');
+ setHTML('#next-events',DB.events.slice(0,4).map(eventCard).join(''));
+ setHTML('#debate-participants',(DB.debates[0]?.participants||[]).map(n=>`<span class="chip">${safe(n)}</span>`).join(''));
+ renderOverview();renderCandidates();renderPolicies();renderPolls();renderNews();renderTimeline();renderSources();renderCompass();
+}
 function renderOverview(){
  const candidates=DB.candidates||[], polls=DB.polls||[], news=[...(DB.news||[])].sort((a,b)=>b.publication_date.localeCompare(a.publication_date));
- $('#overview-snapshot').textContent='RESEARCH SNAPSHOT · '+String(DB.meta.last_updated||'').replaceAll('-','/');
+ setText('#overview-snapshot','RESEARCH SNAPSHOT · '+String(DB.meta.last_updated||'').replaceAll('-','/'));
  const trends=[...(DB.poll_trends||[])].sort((a,b)=>Number(b.average)-Number(a.average));
  const declared=candidates.filter(c=>/^Declared/.test(c.campaign_status||'')).length;
  const potential=candidates.length-declared;
