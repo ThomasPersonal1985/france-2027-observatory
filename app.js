@@ -61,6 +61,26 @@ function renderOverview(){
  const upcoming=(DB.events||[]).filter(e=>(e.date||'').slice(0,10)>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
  $('#overview-events').innerHTML=upcoming.map(e=>`<article class="overview-event"><time>${safe(e.date_label||e.date)}</time><div><b>${safe(e.title)}</b><small>${safe(e.status||'')}</small></div></article>`).join('')||'<p class="muted">No upcoming milestones currently listed.</p>';
 }
+function renderCandidates(){
+ const q=$('#candidate-search').value.toLowerCase();
+ const list=DB.candidates.filter(c=>(c.name+' '+c.party+' '+c.orientation+' '+c.campaign_status).toLowerCase().includes(q));
+ $('#candidate-list').innerHTML=list.map(c=>{
+  const d=c.dossier||{};
+  const themes=(d.themes||[]).map(x=>`<li>${safe(x)}</li>`).join('');
+  const positions=(d.positions||[]).map(p=>`<div class="dossier-position"><strong>${safe(p.area)} · ${safe(p.date)}</strong><p>${safe(p.detail)}</p><span class="small muted">${safe(p.evidence)}</span></div>`).join('');
+  const sources=(c.sources||[]).map(link).join(' · ');
+  return `<article class="candidate"><h3>${safe(c.name)}</h3><div class="party">${safe(c.party)} · ${safe(c.orientation)}</div><span class="status">${safe(c.campaign_stage||'Status under review')}</span><div class="ballot"><b>Official ballot status:</b> ${safe(c.ballot_status||'Not yet established')}<small>${safe(c.ballot_status_note||'The Constitutional Council determines the official list after checking statutory requirements.')} <a href="https://qpc360.conseil-constitutionnel.fr/2019-05-17/decision-2019-783-qpc-17-mai-2019" target="_blank" rel="noopener noreferrer">Official legal framework ↗</a></small></div><p><b>At a glance:</b> ${safe(c.policy_summary||c.profile)}</p><p class="small muted"><b>Programme:</b> ${safe(c.programme_status||'Not established')}</p><p class="programme-link">${c.programme_link?`<a href="${safe(c.programme_link)}" target="_blank" rel="noopener noreferrer">${safe(c.programme_link_label||'Read programme')} ↗</a>`:`<span class="coming-soon">${safe(c.programme_link_label||'Coming soon')}</span>`}<small>${safe(c.programme_link_note||'')}</small></p>
+  <details><summary>OPEN FULL RESEARCH DOSSIER ↗</summary><div class="dossier-grid">
+   <section class="dossier-block"><h4>Political biography</h4><p>${safe(d.bio||c.profile)}</p></section>
+   <section class="dossier-block"><h4>Political record</h4><p>${safe(d.record||'Further record research pending.')}</p></section>
+   <section class="dossier-block"><h4>Policy priorities</h4><ul>${themes}</ul></section>
+   <section class="dossier-block"><h4>Programme status</h4><p>${safe(d.programme||c.programme_status||'Not established')}</p></section>
+  </div><section class="dossier-block" style="margin-top:12px"><h4>Current attributable positions</h4>${positions||'<p>No specific dated positions coded yet.</p>'}</section>
+  <div class="dossier-grid"><section class="dossier-block"><h4>Feasibility questions</h4><p>${safe(d.feasibility||'Independent costing pending.')}</p></section><section class="dossier-block"><h4>Open questions</h4><p>${safe(d.open||'Further verification pending.')}</p></section></div>
+  <section class="dossier-block" style="margin-top:12px"><h4>Official website audit</h4><p><b>${safe(c.official_site_audit?.status||'Not yet systematically verified')}</b> · checked ${safe(c.official_site_audit?.checked_date||'Not recorded')}</p><p>${safe(c.official_site_audit?.note||'Direct official-site review pending.')}</p>${c.official_site_audit?.url?`<p><a href="${safe(c.official_site_audit.url)}" target="_blank" rel="noopener">Open official source ↗</a></p>`:''}</section><section class="dossier-block" style="margin-top:12px"><h4>Source trail</h4><p>${sources}</p></section></details></article>`;
+ }).join('')||'<p>No matching candidate.</p>';
+}
+function renderPolicies(){const q=$('#policy-search').value.toLowerCase(),topic=$('#policy-topic').value;const rows=DB.policy_positions.filter(p=>(!topic||p.topic===topic)&&JSON.stringify(p).toLowerCase().includes(q));$('#policy-list').innerHTML=rows.length?`<table><thead><tr><th>Candidate</th><th>Policy area</th><th>Position / proposal</th><th>Evidence</th><th>Source</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.candidate_name)}</td><td>${safe(p.topic)}</td><td>${safe(p.position)}</td><td>${safe(p.evidence_type||'Not specified')}<br>${safe(p.statement_date||'')}</td><td>${link(p.source)||'Source pending'}</td></tr>`).join('')}</tbody></table>`:'<div class="notice">No sourced policy entries match this filter. Empty does not mean the candidate has no position.</div>'}
 function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.date)}</time><b>${safe(e.title)}</b><small>${safe(e.detail)}</small></div>`}
 
 const pollChartPalette=['#174f83','#d33f50','#3e83c5','#9a4b9c','#5c963f','#b276c9','#68a9d6','#a9b8c8'];
