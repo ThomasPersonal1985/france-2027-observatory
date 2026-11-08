@@ -103,3 +103,11 @@ No API keys, paid database or build step are required.
 Edit `data/election-data.json` and commit it to GitHub. The website reads this JSON file. Candidate dossiers are also maintained as individual Markdown files in `profiles/` for easier editorial review; the interactive candidate directory uses the dossier data embedded in `election-data.json`.
 
 **Snapshot:** 8 November 2026. This site is a research aid, not an official government source and not voting advice.
+
+## Voting compass update (8 November 2026)
+
+The voting compass now contains 15 detailed questions across pensions, the economy and taxation, immigration and asylum, security and justice, climate and energy, Europe, foreign policy and defence, education, and healthcare. The retirement-age question names concrete ages (60 or younger, 62, 63, 64, 65, and 67 or older).
+
+Important methodology limitation: the current dataset contains comparable, attributable candidate evidence only for a subset of pension and public-finance questions. The other questions are part of the questionnaire but do not affect candidate ranking until the observatory has researched and coded comparable candidate positions. The results explain this limitation. No missing position is treated as agreement or disagreement.
+
+The visual system has been revised to a light editorial palette with dark readable text, consistent white cards, and a French tricolour mark in the header. The public maintenance/import panel is not present. Footer credit: Website created by Thomas Igou.
