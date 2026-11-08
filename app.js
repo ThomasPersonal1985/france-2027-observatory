@@ -56,7 +56,7 @@ function renderOverview(){
 }
 function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.date)}</time><b>${safe(e.title)}</b><small>${safe(e.detail)}</small></div>`}
 
-const pollChartPalette=['#2864b4','#e16b38','#279b83','#b8495d','#8a63b8','#c28b27','#3c9fbd','#7b8794'];
+const pollChartPalette=['#245c91','#c84b59','#477eae','#d47780','#173f68','#9b5367','#6d9fc4','#a9b8c8'];
 let pollChartRange='all';
 const pollChartHidden=new Set();
 function renderOverviewPollChart(){

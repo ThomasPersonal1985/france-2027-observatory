@@ -440,3 +440,29 @@ body{
 .overview-kpi:nth-child(2n){
  background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(250,242,243,.92));
 }
+
+
+/* No-gold rule: the entire interface uses French blue, white, red and cool neutrals */
+:root{--amber:#245c91!important}
+.hero h1 em{color:#245c91!important}
+.hero{border-color:rgba(177,193,211,.78)!important}
+.hero-meta span,.top-tag{border-color:rgba(120,145,171,.30)!important}
+.nav button:hover{background:#eef3f8!important;color:#20364d!important}
+.pill,.status{
+ background:rgba(36,92,145,.08)!important;
+ border-color:rgba(36,92,145,.22)!important;
+ color:#245c91!important;
+}
+.notice{
+ background:rgba(36,92,145,.055)!important;
+ border-color:rgba(36,92,145,.20)!important;
+ color:#38536d!important;
+}
+.event time,.timeline-item time{color:#245c91!important}
+.importance select:invalid{border-color:#9aafc2!important}
+.overview-cta{background:linear-gradient(110deg,rgba(36,92,145,.09),rgba(255,255,255,.88) 52%,rgba(190,67,79,.075))!important;border-color:#d7e0e9!important}
+.overview-issues button:hover{background:#eef3f8!important;border-color:#b9cbdc!important}
+.compass-options label:has(input:checked),.question-option:has(input:checked){background:rgba(36,92,145,.09)!important;border-color:#8daecb!important}
+.match-track span,.overview-poll-track span{background:linear-gradient(90deg,#245c91,#c84b59)!important}
+.hero .eyebrow,.eyebrow{color:#315f87!important}
+.hero .signal{background:#c64d59!important}
