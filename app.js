@@ -186,5 +186,6 @@ function calculateCompass(){
 $('#compass-results').addEventListener('click',calculateCompass);
 $('#compass-continue').addEventListener('click',()=>{compassExtended=true;renderCompass();$('#compass-output').innerHTML='';});
 $('#compass-reset').addEventListener('click',()=>{compassExtended=false;Object.keys(compassAnswers).forEach(k=>delete compassAnswers[k]);renderCompass();$('#compass-output').innerHTML='';});
-renderCompass();
-init();
+// Boot only after the document is ready. The compass is first rendered by render() after research data loads.
+function bootObservatory(){ if(window.__france2027Booted) return; window.__france2027Booted=true; init(); }
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',bootObservatory,{once:true}); else bootObservatory();
