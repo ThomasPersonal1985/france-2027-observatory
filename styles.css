@@ -1109,3 +1109,17 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 /* Bottom overview callout: restore contrast and readable text */
 .overview-cta{background:linear-gradient(110deg,#14395f 0%,#20577e 56%,#77394f 100%)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 14px 32px rgba(14,39,66,.16)}
 .overview-cta h2{color:#fff!important}.overview-cta p{color:#edf4fb!important}.overview-cta .eyebrow{color:#ffccd1!important}.overview-cta-actions .secondary{color:#fff!important;background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.55)!important}
+
+/* Final hero typography and Paris panorama framing */
+#overview .concept-hero .hero-copy>h1 em{
+  display:inline-block!important;
+  margin-left:.13em!important;
+}
+@media (min-width:901px){
+  #overview .concept-hero{
+    background:
+      linear-gradient(90deg,#092748 0%,#103b65 43%,rgba(16,59,101,.92) 54%,rgba(16,59,101,.20) 73%,rgba(16,59,101,.08) 100%),
+      url('assets/paris-banner-zoomed.jpg') right center / auto 100% no-repeat,
+      linear-gradient(110deg,#0d2c50 0%,#164b78 62%,#77394f 100%)!important;
+  }
+}
