@@ -3,7 +3,10 @@
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-08",
     "data_version": 2,
-    "editorial_note": "Non-partisan research. Separate declared candidacy, campaign activity, sponsorship pledges, validated sponsorships and official ballot qualification. Poll averages are not individual polls. Missing poll candidates are not zero."
+    "editorial_note": "Non-partisan research. Separate declared candidacy, campaign activity, sponsorship pledges, validated sponsorships and official ballot qualification. Poll averages are not individual polls. Missing poll candidates are not zero. Debate evidence in this update refers to the MEDEF debate of 27 August 2026 (not June); participation does not equal formal ballot qualification. Candidate dossiers separate official programmes, public statements, political record and analytical questions.",
+    "design_direction": "Election Intelligence Centre: dark analytical interface, navy/charcoal, electric cyan, amber signal accents.",
+    "candidate_dossiers": "Very-deep dossiers added for all 16 tracked figures. Evidence gaps are explicitly labelled; not all profiles represent confirmed candidacies or complete programmes.",
+    "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive."
   },
   "candidates": [
     {
@@ -29,10 +32,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/marine-le-pen/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Recurring RN priorities include tighter immigration and border controls, national-preference measures, public order and purchasing power, alongside criticism of aspects of EU integration. These are recurring positions, not a substitute for a complete 2027 manifesto.",
-      "programme_status": "No full 2027 programme established in this snapshot. Her 2026 MEDEF pensions proposal was a return to 62, with 60 for qualifying long-career workers and 42 contribution years. Legal eligibility remains a separate issue."
+      "policy_summary": "Recurring RN priorities include tighter immigration and border controls, national-preference measures, public order and purchasing power, alongside criticism of aspects of EU integration. These are recurring positions, not a substitute for a complete 2027 manifesto. Immigration and border controls; national preference and changes to access to public benefits Purchasing power, household taxation and energy costs Public order, policing and justice",
+      "programme_status": "No full 2027 programme established in this snapshot. Her 2026 MEDEF pensions proposal was a return to 62, with 60 for qualifying long-career workers and 42 contribution years. Legal eligibility remains a separate issue.",
+      "dossier": {
+        "bio": "Long-time leader of the National Rally (RN), Marine Le Pen has been the party’s central presidential figure in 2012, 2017 and 2022. Her political project has combined a national-sovereignty message with a sustained effort to broaden the party’s appeal beyond its historic base. She announced a 2027 candidacy on 7 July 2026. The legal status of her candidacy must be tracked separately from electoral support and sponsorships; the current source record says her appeal judgment reduced the ineligibility penalty, while further legal steps remain relevant.",
+        "record": "Her record includes leading the RN parliamentary group and serving as an MP; she has repeatedly contested presidential elections. The party has moved from the older Front National brand to the RN and pursued a strategy commonly described as normalisation or dédiabolisation. Her programme should not be inferred wholesale from the 2022 manifesto.",
+        "themes": [
+          "Immigration and border controls; national preference and changes to access to public benefits",
+          "Purchasing power, household taxation and energy costs",
+          "Public order, policing and justice",
+          "National sovereignty and a more restrictive approach to aspects of EU integration",
+          "Industrial protection and economic nationalism"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "At the 27 August 2026 MEDEF debate, she defended a return to a legal retirement age of 62, with 60 for qualifying long-career workers and 42 contribution years. The research workbook records a stated full-year cost estimate of €9bn; this is an attributed claim, not an independently validated costing.",
+            "date": "27 August 2026",
+            "evidence": "Public statement / debate"
+          },
+          {
+            "area": "Public finances",
+            "detail": "At the MEDEF debate she said the RN would present a €125bn savings plan before the autumn budget debate and argued for a rule limiting current-spending deficits. The headline amount needs a line-by-line costing before being treated as a verified saving.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "Economy",
+            "detail": "RN themes include reducing production costs and regulations while combining protectionist measures with purchasing-power pledges. Exact 2027 measures and funding should be taken from a published programme, not inferred from party history.",
+            "date": "2026",
+            "evidence": "Recurring public positions; programme pending"
+          }
+        ],
+        "feasibility": "Key tests: whether proposed savings are specified by budget line; compatibility of national-preference measures with French constitutional and EU law; and the interaction between tax cuts, public services and deficit targets.",
+        "open": "The final legal status and formal ballot qualification; detailed 2027 programme; complete financing plan; precise legal design of national-preference proposals.",
+        "programme": "No complete official 2027 programme was indexed by Observatoire 2027 in its 7 November 2026 programme snapshot. A candidate announcement is not itself a manifesto."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "jean-luc-melenchon",
@@ -57,10 +120,71 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/jean-luc-melenchon/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "LFI’s 7 November 2026 programme proposes a higher net minimum wage, price controls on essentials, wage indexation, higher taxes on wealthy households, reversing the pension reform and a foreign/energy-policy shift including leaving NATO’s integrated command and replacing nuclear power with renewables.",
-      "programme_status": "A written 2027 programme was presented at Le Bourget on 7 November 2026. Figures and policy details should be attributed to the LFI programme and independently assessed for cost and feasibility."
+      "policy_summary": "LFI’s 7 November 2026 programme proposes a higher net minimum wage, price controls on essentials, wage indexation, higher taxes on wealthy households, reversing the pension reform and a foreign/energy-policy shift including leaving NATO’s integrated command and replacing nuclear power with renewables. Redistribution, higher wages and stronger public services Price controls or regulated prices for essential goods Progressive taxation and greater contributions from high incomes and wealth",
+      "programme_status": "A written 2027 programme was presented at Le Bourget on 7 November 2026. Figures and policy details should be attributed to the LFI programme and independently assessed for cost and feasibility.",
+      "dossier": {
+        "bio": "Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026. On 7 November 2026, LFI presented a written programme at Le Bourget, making this one of the most developed published platforms in the current field.",
+        "record": "His political career spans the Socialist Party, the Left Party and LFI. The 2022 presidential campaign and the NUPES alliance shaped his recent national profile. The 2027 programme should be read as the current party platform; earlier LFI plans and parliamentary positions are useful context but are not substitutes for it.",
+        "themes": [
+          "Redistribution, higher wages and stronger public services",
+          "Price controls or regulated prices for essential goods",
+          "Progressive taxation and greater contributions from high incomes and wealth",
+          "Reversing the 2023 pension reform, with a medium-term goal of retirement at 60",
+          "Ecological planning and a shift in energy policy away from nuclear",
+          "A more non-aligned foreign policy and changes to France’s NATO relationship"
+        ],
+        "positions": [
+          {
+            "area": "Minimum wage and wages",
+            "detail": "The 7 November programme launch was reported by Reuters as pledging a higher minimum wage; the exact implementation and financing should be checked against the full programme text.",
+            "date": "7 November 2026",
+            "evidence": "Published programme / news report"
+          },
+          {
+            "area": "Pensions",
+            "detail": "At the 27 August MEDEF debate, Mélenchon called for repeal of the 2023 reform, an initial return to 62 and a medium-term objective of 60, with 40 contribution years. The research workbook also records a proposal to raise the minimum old-age benefit and gradually increase pension contributions.",
+            "date": "27 August 2026",
+            "evidence": "Debate statement"
+          },
+          {
+            "area": "Public finances",
+            "detail": "At the MEDEF debate he argued for restructuring public debt, including debt held by the European Central Bank. This is a political proposal whose legal, monetary and market consequences require separate analysis.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          }
+        ],
+        "feasibility": "Key tests: the fiscal cost and revenue assumptions behind the programme; the legal and institutional route for price controls and debt restructuring; labour-market effects of wage changes; and the practical timetable for energy transition.",
+        "open": "Full independent costing; exact timetable and legislative route for the pension rollback; treatment of EU and NATO commitments; detailed sequencing of energy policy.",
+        "programme": "A written 2027 programme was presented on 7 November 2026. Observatoire 2027 indexed 142 written commitments across 24 topics and seven documents in its 7 November snapshot. These are party commitments, not independent costings."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "edouard-philippe",
@@ -80,10 +204,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/edouard-philippe/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Centre-right, liberal-conservative themes include fiscal discipline, economic competitiveness, public-sector reform and pension-system changes. In September 2026 he argued for moving the legal retirement age to 65 within less than ten years, with a funded pillar.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Treat earlier government policy and public statements as distinct from a new campaign platform."
+      "policy_summary": "Centre-right, liberal-conservative themes include fiscal discipline, economic competitiveness, public-sector reform and pension-system changes. In September 2026 he argued for moving the legal retirement age to 65 within less than ten years, with a funded pillar. Fiscal consolidation and debt reduction Work incentives, competitiveness and labour-market reform Pension-system sustainability, including a higher retirement age",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Treat earlier government policy and public statements as distinct from a new campaign platform.",
+      "dossier": {
+        "bio": "Former prime minister (2017–2020), former mayor of Le Havre and founder of Horizons. Philippe announced his presidential candidacy on 3 September 2024, making him an early declared contender. His political positioning is centre-right and pro-European, with an emphasis on governing competence, economic reform and institutional stability.",
+        "record": "As prime minister he oversaw the early Macron presidency, including labour-market reforms, the Yellow Vest crisis, the start of the COVID-19 pandemic and the initial pension-reform attempt. Those government decisions form part of his record but should not be presented as new 2027 pledges unless he renews them.",
+        "themes": [
+          "Fiscal consolidation and debt reduction",
+          "Work incentives, competitiveness and labour-market reform",
+          "Pension-system sustainability, including a higher retirement age",
+          "Public-service and state reform",
+          "European cooperation, defence and strategic autonomy"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "On 29 September 2026 he argued for raising the legal retirement age to 65 in less than ten years, a 45-year contribution period and a funded pillar. The research workbook records a proposed €500 initial retirement-savings contribution and an estimated €30bn annual yield; these are attributed claims requiring independent scrutiny.",
+            "date": "29 September 2026",
+            "evidence": "Public statement"
+          },
+          {
+            "area": "Unemployment insurance",
+            "detail": "At the time of the MEDEF debate he proposed limiting the maximum unemployment-benefit period to 12 months for people under 50, continuing a direction associated with reforms during his premiership.",
+            "date": "27 August 2026",
+            "evidence": "Debate / campaign statement"
+          },
+          {
+            "area": "Public finances",
+            "detail": "At the MEDEF debate he rejected debt cancellation and emphasised restoring balanced public accounts.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          }
+        ],
+        "feasibility": "Key tests: distributional effects of later retirement; whether projected savings are realistic; how a funded pension pillar would be capitalised; and whether spending cuts can be delivered without reducing service quality.",
+        "open": "A complete 2027 manifesto and costings; how he would assemble a parliamentary majority; details of funded pensions and transition protections.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026. Earlier prime-ministerial policies are not a current manifesto."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "raphael-glucksmann",
@@ -103,10 +287,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/raphael-glucksmann/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Pro-European social democracy, European sovereignty and defence, support for Ukraine, social investment, industrial policy and ecological transition. He supports reversing the 2023 pension reform and returning to 62, with detailed contribution rules still unclear.",
-      "programme_status": "Won the social-democratic primary in October 2026. No complete 2027 programme indexed in the 7 November snapshot."
+      "policy_summary": "Pro-European social democracy, European sovereignty and defence, support for Ukraine, social investment, industrial policy and ecological transition. He supports reversing the 2023 pension reform and returning to 62, with detailed contribution rules still unclear. Pro-European social democracy and European strategic capacity Support for Ukraine and a stronger European defence posture Industrial policy and economic sovereignty at European scale",
+      "programme_status": "Won the social-democratic primary in October 2026. No complete 2027 programme indexed in the 7 November snapshot.",
+      "dossier": {
+        "bio": "Essayist, former MEP and founder of Place publique, Raphaël Glucksmann has built a profile around social democracy, European integration, support for Ukraine and opposition to authoritarianism. He won the social-democratic primary in October 2026 according to the project’s candidate record, but this should not be mistaken for agreement across the entire French left.",
+        "record": "His public career includes work as an MEP and leadership of Place publique. His European Parliament activity, public statements on Russia and Ukraine, and alliance-building with parts of the Socialist Party are relevant to his political identity. The 2027 campaign platform remains distinct from his European election platform.",
+        "themes": [
+          "Pro-European social democracy and European strategic capacity",
+          "Support for Ukraine and a stronger European defence posture",
+          "Industrial policy and economic sovereignty at European scale",
+          "Social investment and progressive taxation",
+          "Ecological transition compatible with industrial renewal"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "At the MEDEF debate he supported repealing the 2023 reform and returning the legal retirement age to 62. The workbook notes that a detailed contribution schedule had not been published in the cited statement.",
+            "date": "4 October 2026 / 27 August debate context",
+            "evidence": "Public statements"
+          },
+          {
+            "area": "Wages and taxation",
+            "detail": "At the MEDEF debate he proposed reducing CSG on wages and financing this through higher inheritance taxation on the largest estates. The distributional and revenue effects need independent costing.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "European policy",
+            "detail": "His central political proposition is greater European capacity and cooperation, especially on defence, Ukraine and industrial strategy. Individual commitments should be linked to specific campaign documents as they appear.",
+            "date": "2026",
+            "evidence": "Recurring public positioning"
+          }
+        ],
+        "feasibility": "Key tests: the fiscal yield of inheritance-tax changes; the financing of social investment; the degree of EU-level agreement needed for defence and industrial proposals; and how the primary result translates into a broader left coalition.",
+        "open": "Full 2027 manifesto; coalition strategy beyond the primary; detailed funding for pension repeal and social measures.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "gabriel-attal",
@@ -126,10 +370,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/gabriel-attal/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Centrist / liberal-reformist themes include work, education, economic competitiveness, public order and state reform. In September 2026 he argued for a duration-based pension system with points and a funded component, without specifying a new legal retirement age.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Distinguish his record as prime minister from campaign commitments."
+      "policy_summary": "Centrist / liberal-reformist themes include work, education, economic competitiveness, public order and state reform. In September 2026 he argued for a duration-based pension system with points and a funded component, without specifying a new legal retirement age. Economic competitiveness, work and employment Education and school standards Public order and state authority",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Distinguish his record as prime minister from campaign commitments.",
+      "dossier": {
+        "bio": "Former prime minister, former education minister and leader of Renaissance. Gabriel Attal represents the liberal-centrist political family associated with Emmanuel Macron’s governing coalition. In the 2026 campaign period he has advocated a broad primary of democratic and pro-European forces, a proposal that is not equivalent to securing the endorsement of other potential contenders.",
+        "record": "His record includes serving as government spokesperson, budget minister, education minister and prime minister. The short premiership in 2024 and the government’s education, labour and fiscal choices are part of his governing record. Distinguish those decisions from proposals he is making for 2027.",
+        "themes": [
+          "Economic competitiveness, work and employment",
+          "Education and school standards",
+          "Public order and state authority",
+          "European integration and pro-European foreign policy",
+          "Reform of pensions and public finances"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "At the 30 September 2026 discussion he advocated moving away from a single legal-age steering model toward a duration-based system with points and a funded component. The cited research says no new legal retirement age or full technical details were specified.",
+            "date": "30 September 2026",
+            "evidence": "Public statement"
+          },
+          {
+            "area": "Business costs",
+            "detail": "At the MEDEF debate he proposed cancelling increases in labour costs introduced since 2024. The precise measures and fiscal consequences require a detailed proposal.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "Political strategy",
+            "detail": "He called for a broad primary of democratic forces in late October 2026. This is a coalition proposal, not evidence that the other parties have agreed to participate.",
+            "date": "Late October 2026",
+            "evidence": "Campaign statement in project baseline"
+          }
+        ],
+        "feasibility": "Key tests: how a broad primary would be organised and who could participate; the fiscal effect of lower labour costs; and whether pension points and funded components can be reconciled with the existing pay-as-you-go system.",
+        "open": "Full manifesto; the scope and rules of the proposed primary; pension-system details; his positioning relative to other centre-right contenders.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026. His record in government should be analysed separately."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "bruno-retailleau",
@@ -149,10 +453,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/bruno-retailleau/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Conservative-right priorities include immigration control, public order, authority and fiscal restraint. In 2026 he proposed a minimum retirement age of 63, a full-rate age of 65 and a funded component for new entrants.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. The pension figures are attributed public statements, not a full manifesto."
+      "policy_summary": "Conservative-right priorities include immigration control, public order, authority and fiscal restraint. In 2026 he proposed a minimum retirement age of 63, a full-rate age of 65 and a funded component for new entrants. Tighter immigration and asylum rules Security, policing, criminal justice and state authority Fiscal restraint and public-sector reform",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. The pension figures are attributed public statements, not a full manifesto.",
+      "dossier": {
+        "bio": "A senior figure in Les Républicains, Bruno Retailleau has served as senator, president of the LR group in the Senate and interior minister. His politics are located on the conservative right, with strong emphasis on authority, immigration control, national identity and public order. He took part in the 27 August 2026 MEDEF debate.",
+        "record": "His record includes long-standing parliamentary work, leadership of the Senate LR group and a period as interior minister. Statements made while holding office, party positions and new presidential proposals should be separated in the dossier.",
+        "themes": [
+          "Tighter immigration and asylum rules",
+          "Security, policing, criminal justice and state authority",
+          "Fiscal restraint and public-sector reform",
+          "Work, competitiveness and a more business-friendly regulatory environment",
+          "Conservative positions on national identity and republican institutions"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "In September 2026 he argued for a minimum retirement age of 63, a full-rate age of 65 and a funded component of around 25–30% for new entrants. These are attributed statements, not a fully costed pension bill.",
+            "date": "September 2026",
+            "evidence": "Public statement"
+          },
+          {
+            "area": "Public sector",
+            "detail": "At the MEDEF debate he proposed reducing the number of public servants by 250,000–300,000. The services, timetable, attrition assumptions and implementation mechanism need to be specified before the figure can be assessed.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "Environment / constitution",
+            "detail": "Le Monde’s debate report says he reiterated support for constitutional reform to remove the precautionary principle from the Environmental Charter. The legal scope and implications require close reading of the proposed text.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          }
+        ],
+        "feasibility": "Key tests: which public functions would lose staff; how a funded pension pillar would be regulated; constitutional and EU-law constraints on immigration proposals; and the consequences of changing environmental constitutional protections.",
+        "open": "Full 2027 programme; quantified savings plan; detailed immigration legislation; financing and design of funded pensions.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "marine-tondelier",
@@ -172,10 +536,70 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/marine-tondelier/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
+        },
+        {
+          "title": "LCP: first MEDEF debate, 27 August 2026",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+          "type": "Debate coverage"
+        },
+        {
+          "title": "Le Monde: candidates' economic divide, 28 August 2026",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+          "type": "Debate analysis"
+        },
+        {
+          "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+          "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+          "type": "Debate summary"
         }
       ],
-      "policy_summary": "Green politics centred on climate action, biodiversity, ecological planning, public transport, energy transition, renovation, food systems and social protection. In 2026 she supported reversing the pension reform, initially returning to 62 with an eventual 60 for early starters or arduous work.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Financing details on pensions remain incomplete; sponsorship viability and left-wing alliances remain open questions."
+      "policy_summary": "Green politics centred on climate action, biodiversity, ecological planning, public transport, energy transition, renovation, food systems and social protection. In 2026 she supported reversing the pension reform, initially returning to 62 with an eventual 60 for early starters or arduous work. Climate action and ecological planning Public transport, energy renovation and lower-carbon infrastructure Purchasing power and social protection during the transition",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Financing details on pensions remain incomplete; sponsorship viability and left-wing alliances remain open questions.",
+      "dossier": {
+        "bio": "National secretary of Les Écologistes, Marine Tondelier has become a prominent national voice for the French Green movement. Her political identity combines ecological transition, social protection and democratic mobilisation. She participated in the 27 August 2026 MEDEF debate, where she argued that ecological policy must be connected to household purchasing power and economic transformation.",
+        "record": "Her political career includes local government in Hénin-Beaumont and leadership of the Green party. She has been involved in left-wing alliances and debates over whether the ecological movement should run independently or as part of a broader coalition.",
+        "themes": [
+          "Climate action and ecological planning",
+          "Public transport, energy renovation and lower-carbon infrastructure",
+          "Purchasing power and social protection during the transition",
+          "Public services and local resilience",
+          "A more regulated approach to business activity where environmental costs are externalised"
+        ],
+        "positions": [
+          {
+            "area": "Minimum wage",
+            "detail": "At the MEDEF debate she proposed raising the gross monthly SMIC to €2,000, with support for small businesses. The funding mechanism and transition timetable require further detail.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "Pensions",
+            "detail": "At the MEDEF debate she joined the left-wing calls to repeal the 2023 reform. The workbook notes that the detailed financing and contribution schedule were not fully specified in the cited record.",
+            "date": "27 August 2026",
+            "evidence": "Debate reporting"
+          },
+          {
+            "area": "Climate / economy",
+            "detail": "Her public profile centres on ecological transition and climate policy. A full 2027 programme is needed to establish the exact mix of regulation, investment, taxes and household compensation.",
+            "date": "2026",
+            "evidence": "Public positioning"
+          }
+        ],
+        "feasibility": "Key tests: how the €2,000 SMIC would be phased in and supported for small employers; the financing of pension reform; the distributional effects of ecological taxes and regulation; and the pace of infrastructure investment.",
+        "open": "Complete 2027 programme; coalition strategy; precise financing of wage and pension commitments; energy mix and transition timetable.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "david-lisnard",
@@ -195,10 +619,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/david-lisnard/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Liberal-right themes include lower taxes and spending, economic freedom, local government and public order. His earlier pension positions include keeping the 2023 reform and adding a collective funded pillar.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Some policy evidence predates the current campaign; do not treat older positions as newly costed 2027 promises."
+      "policy_summary": "Liberal-right themes include lower taxes and spending, economic freedom, local government and public order. His earlier pension positions include keeping the 2023 reform and adding a collective funded pillar. Lower taxes and reduced public spending Administrative simplification and decentralisation Security and stronger enforcement",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Some policy evidence predates the current campaign; do not treat older positions as newly costed 2027 promises.",
+      "dossier": {
+        "bio": "Mayor of Cannes and founder of Nouvelle Énergie, David Lisnard is a liberal-conservative figure who has criticised the scale and complexity of the French state. He is an active centre-right contender and has taken part in debates about how the right should select its presidential candidate.",
+        "record": "His political record is most directly visible through his local executive role in Cannes and leadership of the Association of Mayors of France. He has advocated decentralisation, lower taxes, administrative simplification and a more limited state. These themes need to be translated into specific national measures before being treated as a 2027 platform.",
+        "themes": [
+          "Lower taxes and reduced public spending",
+          "Administrative simplification and decentralisation",
+          "Security and stronger enforcement",
+          "Economic liberalism and business competitiveness",
+          "Pension reform and a larger funded component"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "The workbook records that Lisnard opposed repeal of the 2023 reform and supported a mandatory collective funded pillar. The underlying positions include statements from March 2026 and July 2024, so they should be labelled older rather than presented as new 2027 pledges.",
+            "date": "31 March 2026; 11 July 2024",
+            "evidence": "Older public positions"
+          },
+          {
+            "area": "Public finance",
+            "detail": "His profile focuses on fiscal restraint, lower taxation and reducing state complexity. Specific quantified national savings must be tied to a current proposal.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          }
+        ],
+        "feasibility": "Key tests: which state functions would be reduced or decentralised; how local government finance would change; and whether funded pensions improve sustainability without increasing inequality or transition costs.",
+        "open": "Full 2027 manifesto; exact candidacy/primary route; current costing; national decentralisation and public-service proposals.",
+        "programme": "No complete 2027 programme indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "eric-zemmour",
@@ -218,10 +681,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/eric-zemmour/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "National-conservative / far-right politics focused on sharply restricting immigration, assimilation, national identity and revising France’s relationship with the EU. In September 2026 he discussed raising the legal retirement age to 64 or 65 by 2030.",
-      "programme_status": "No detailed 2027 programme established in this snapshot. The 2022 platform is not automatically the 2027 platform."
+      "policy_summary": "National-conservative / far-right politics focused on sharply restricting immigration, assimilation, national identity and revising France’s relationship with the EU. In September 2026 he discussed raising the legal retirement age to 64 or 65 by 2030. Sharp restrictions on immigration and asylum Assimilationist national identity and citizenship policy Security, policing and justice",
+      "programme_status": "No detailed 2027 programme established in this snapshot. The 2022 platform is not automatically the 2027 platform.",
+      "dossier": {
+        "bio": "Founder of Reconquête! and a presidential candidate in 2022, Éric Zemmour is a nationalist and far-right political figure whose political identity centres on immigration restriction, national identity, assimilation and opposition to what he describes as the decline of French civilisation. The 2022 programme is historical context, not automatically his 2027 platform.",
+        "record": "Before entering electoral politics, Zemmour was a journalist, author and television commentator. He founded Reconquête! for the 2022 presidential election and has remained a prominent figure in debates on immigration, Islam, identity and national sovereignty.",
+        "themes": [
+          "Sharp restrictions on immigration and asylum",
+          "Assimilationist national identity and citizenship policy",
+          "Security, policing and justice",
+          "Criticism of multiculturalism and political Islam",
+          "National sovereignty and scepticism toward aspects of European integration"
+        ],
+        "positions": [
+          {
+            "area": "Immigration and identity",
+            "detail": "Immigration, laïcité and identity are among the most frequently tracked themes in his public statements. Individual current proposals should be sourced to a 2026 statement or new programme, not copied uncritically from 2022.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          },
+          {
+            "area": "2027 programme",
+            "detail": "No detailed 2027 programme was established in the project snapshot. The 2022 platform must be labelled historical if referenced.",
+            "date": "8 November 2026",
+            "evidence": "Research status"
+          }
+        ],
+        "feasibility": "Key tests: compatibility of proposed citizenship and immigration changes with constitutional and international law; administrative capacity; and the electoral viability of a separate Reconquête! candidacy.",
+        "open": "Formal 2027 programme; updated policy commitments; campaign and alliance strategy; exact formal candidacy status.",
+        "programme": "No complete 2027 programme indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "francois-ruffin",
@@ -241,10 +743,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/francois-ruffin/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Left-wing, labour-focused and economically interventionist themes include industrial rebuilding, domestic production, worker protections and climate transition. His November 2026 book set out 40 proposals on industrial, demographic and climate challenges, but he said it was not a formal programme.",
-      "programme_status": "The book “Au boulot !” is explicitly not presented by Ruffin as a manifesto. He has said he could withdraw if a viable route to defeating Marine Le Pen emerged, but not in favour of Mélenchon."
+      "policy_summary": "Left-wing, labour-focused and economically interventionist themes include industrial rebuilding, domestic production, worker protections and climate transition. His November 2026 book set out 40 proposals on industrial, demographic and climate challenges, but he said it was not a formal programme. Reindustrialisation and domestic production Wages, worker protections and purchasing power Reducing social and territorial inequality",
+      "programme_status": "The book “Au boulot !” is explicitly not presented by Ruffin as a manifesto. He has said he could withdraw if a viable route to defeating Marine Le Pen emerged, but not in favour of Mélenchon.",
+      "dossier": {
+        "bio": "Journalist, filmmaker and MP, François Ruffin has built a political profile around working-class living standards, industrial decline, labour conditions and social solidarity. He founded the Debout! movement and has positioned himself as a critic of both the political right and parts of the established left. His November 2026 book sets out proposals but he explicitly says it is not a formal presidential programme.",
+        "record": "His parliamentary and media work has focused on deindustrialisation, employment, household purchasing power and social inequality. His political relationship with LFI and Mélenchon has been tense, and his strategy for a united left remains a central question.",
+        "themes": [
+          "Reindustrialisation and domestic production",
+          "Wages, worker protections and purchasing power",
+          "Reducing social and territorial inequality",
+          "Ecological transition linked to employment and industrial policy",
+          "A left-wing strategy distinct from Mélenchon’s leadership"
+        ],
+        "positions": [
+          {
+            "area": "40 proposals",
+            "detail": "His book Au boulot !, released 6 November 2026, contains 40 proposals on industrial, demographic and climate challenges. Ruffin has said it is not a formal programme, so the ideas should be cited as proposals in a book rather than manifesto commitments.",
+            "date": "6 November 2026",
+            "evidence": "Book / public explanation"
+          },
+          {
+            "area": "Alliance strategy",
+            "detail": "The project baseline records that Ruffin has said he could withdraw if a viable route to defeating Marine Le Pen emerged, but not in favour of Mélenchon. This should be tracked as a conditional strategic statement, not a withdrawal.",
+            "date": "2026",
+            "evidence": "Reported public statement"
+          }
+        ],
+        "feasibility": "Key tests: which proposals are costed and legislatively actionable; whether industrial policy can create durable jobs; and how a candidacy would relate to a broader left-wing electoral strategy.",
+        "open": "Whether he will publish a formal manifesto; whether he remains a candidate if a left-wing unity process develops; and how the 40 proposals are prioritised and funded.",
+        "programme": "No formal presidential manifesto established in the 7 November snapshot. His book is explicitly not described by him as a programme."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "fabien-roussel",
@@ -264,10 +805,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/fabien-roussel/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Communist / left politics traditionally prioritises wages, purchasing power, industrial sovereignty, public services and workers’ interests. No sufficiently recent quantified 2026 pension position was found in the research workbook.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Older positions should not be presented as current without new evidence."
+      "policy_summary": "Communist / left politics traditionally prioritises wages, purchasing power, industrial sovereignty, public services and workers’ interests. No sufficiently recent quantified 2026 pension position was found in the research workbook. Higher wages and purchasing power Industrial sovereignty, manufacturing and energy security Public services and public investment",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Older positions should not be presented as current without new evidence.",
+      "dossier": {
+        "bio": "National secretary of the French Communist Party (PCF), Fabien Roussel has been a national political figure since his election as an MP and his 2022 presidential campaign. He announced a 2027 candidacy in September 2026. His political tradition places industrial employment, wages, public ownership and public services at the centre of economic policy.",
+        "record": "Roussel led the PCF through the 2022 presidential election and the NUPES period, while maintaining a distinct communist political identity. His relationship with LFI and the wider left is important to understanding his electoral strategy.",
+        "themes": [
+          "Higher wages and purchasing power",
+          "Industrial sovereignty, manufacturing and energy security",
+          "Public services and public investment",
+          "Workers’ rights and collective bargaining",
+          "A strong role for the state in strategic sectors"
+        ],
+        "positions": [
+          {
+            "area": "Industrial policy",
+            "detail": "Industrial sovereignty and manufacturing are recurring PCF themes and among the most frequently indexed topics in the public-position tracker. Specific 2027 commitments need direct quotation from current party documents.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          },
+          {
+            "area": "Wages and purchasing power",
+            "detail": "The tracker identifies purchasing power and inflation among his most prominent themes. Do not convert this thematic prominence into a quantified wage pledge without a specific source.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          }
+        ],
+        "feasibility": "Key tests: the public cost of industrial and service-sector investment; the relationship between public ownership and competition rules; and the practical route to building a national left coalition.",
+        "open": "Full 2027 programme; quantified tax and spending proposals; electoral alliance strategy; current pension and energy commitments.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -287,10 +867,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Sovereigntist right themes include national independence, criticism of EU integration, purchasing power and public services. In October 2026 he proposed maintaining the retirement age at 62 years and nine months and creating a funded account for each newborn.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. The pension proposal is a specific public statement, not a full programme."
+      "policy_summary": "Sovereigntist right themes include national independence, criticism of EU integration, purchasing power and public services. In October 2026 he proposed maintaining the retirement age at 62 years and nine months and creating a funded account for each newborn. National sovereignty and a more limited EU role Industrial protection and strategic autonomy Purchasing power and public services",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. The pension proposal is a specific public statement, not a full programme.",
+      "dossier": {
+        "bio": "Founder and leader of Debout la France, Nicolas Dupont-Aignan has repeatedly run for president and built a sovereigntist political project critical of deeper EU integration. He combines a national-independence message with proposals on purchasing power, public services and state authority.",
+        "record": "A former mayor and long-serving MP, he has run in the 2012, 2017 and 2022 presidential elections. His political trajectory includes a 2017 alliance with Marine Le Pen between the two rounds, a decision that remains important context for his political positioning.",
+        "themes": [
+          "National sovereignty and a more limited EU role",
+          "Industrial protection and strategic autonomy",
+          "Purchasing power and public services",
+          "Immigration and national identity",
+          "Institutional and constitutional reform"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "The project research records an October 2026 proposal to maintain a retirement age of 62 years and nine months and create a funded account for each newborn. This is a specific proposal, not a complete pension plan.",
+            "date": "October 2026",
+            "evidence": "Public statement in research workbook"
+          },
+          {
+            "area": "European policy",
+            "detail": "His party’s central identity is sovereigntist and critical of EU integration. The precise 2027 institutional and treaty proposals should be taken from current party documents.",
+            "date": "2026",
+            "evidence": "Recurring party position"
+          }
+        ],
+        "feasibility": "Key tests: how proposed EU changes would be negotiated or implemented; the funding of pension and savings proposals; and the electoral viability of a distinct sovereigntist candidacy.",
+        "open": "Full 2027 programme; current legal and institutional proposals on EU membership; detailed fiscal costing.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "natacha-polony",
@@ -310,10 +929,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/natacha-polony/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Sovereigntist and republican themes include national sovereignty, education, industrial policy, secular republicanism and social cohesion. Her self-description as a left sovereigntist should be distinguished from outside ideological classifications.",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Public interviews and speeches should be attributed individually."
+      "policy_summary": "Sovereigntist and republican themes include national sovereignty, education, industrial policy, secular republicanism and social cohesion. Her self-description as a left sovereigntist should be distinguished from outside ideological classifications. Education, school authority and transmission of shared knowledge National sovereignty and strategic autonomy Industrial policy and economic independence",
+      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Public interviews and speeches should be attributed individually.",
+      "dossier": {
+        "bio": "Journalist, essayist and founder of the Nous sommes la France movement, Natacha Polony presents a republican and sovereigntist critique of both market liberalism and cultural fragmentation. Her work places education, national cohesion, industrial sovereignty and the role of the state at the centre of political debate.",
+        "record": "Her public career has primarily been in journalism, commentary and civic/political advocacy rather than elected national office. That makes direct examination of speeches, interviews and movement documents especially important; do not infer a full governing programme from media commentary.",
+        "themes": [
+          "Education, school authority and transmission of shared knowledge",
+          "National sovereignty and strategic autonomy",
+          "Industrial policy and economic independence",
+          "Republican secularism and social cohesion",
+          "Criticism of excessive marketisation and institutional fragmentation"
+        ],
+        "positions": [
+          {
+            "area": "Education",
+            "detail": "Education and the school’s role in transmitting knowledge and republican culture are among the most prominent themes in the public-position tracker. A specific 2027 reform package needs direct sourcing.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          },
+          {
+            "area": "Sovereignty",
+            "detail": "Her movement’s positioning is described as republican and sovereigntist. The exact proposals on EU institutions, trade and constitutional law remain to be extracted from primary documents.",
+            "date": "2026",
+            "evidence": "Movement positioning"
+          }
+        ],
+        "feasibility": "Key tests: the distinction between cultural diagnosis and implementable education policy; the institutional route for sovereignty proposals; and the fiscal implications of expanded state capacity.",
+        "open": "Formal candidacy status; full movement platform; concrete education, EU and economic proposals; evidence of electoral organisation.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "xavier-bertrand",
@@ -333,10 +991,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/xavier-bertrand/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Centre-right / social-Gaullist themes include industrial employment, regional development, public services and security.",
-      "programme_status": "Potential contender in this research snapshot, not confirmed as a formal candidate. No complete 2027 programme indexed."
+      "policy_summary": "Centre-right / social-Gaullist themes include industrial employment, regional development, public services and security. Industrial jobs and regional economic development Security and public order Public services and territorial equality",
+      "programme_status": "Potential contender in this research snapshot, not confirmed as a formal candidate. No complete 2027 programme indexed.",
+      "dossier": {
+        "bio": "President of the Hauts-de-France regional council and founder of the Nous France movement, Xavier Bertrand is a centre-right figure with a profile rooted in regional government and social-Gaullist themes. The project’s baseline treats him as a potential contender rather than a confirmed formal candidate.",
+        "record": "His career includes service as a minister, MP and president of the Hauts-de-France region. He has focused on industrial employment, regional economic development, security and public services. His regional executive record provides evidence of governing priorities but is not a presidential manifesto.",
+        "themes": [
+          "Industrial jobs and regional economic development",
+          "Security and public order",
+          "Public services and territorial equality",
+          "Work, training and vocational education",
+          "Centre-right institutional and state reform"
+        ],
+        "positions": [
+          {
+            "area": "Security and institutions",
+            "detail": "The public-position tracker identifies policing, justice and institutional reform among the topics associated with Bertrand’s public statements. Individual measures need to be quoted and dated before being presented as commitments.",
+            "date": "2026 tracker snapshot",
+            "evidence": "Public-position tracker"
+          },
+          {
+            "area": "Industrial policy",
+            "detail": "Regional industrial employment and manufacturing are recurring elements of his public positioning. A national 2027 industrial plan has not been established in the current source snapshot.",
+            "date": "2026",
+            "evidence": "Public record / regional executive context"
+          }
+        ],
+        "feasibility": "Key tests: whether he formally enters the race; how regional policies would scale nationally; and how his candidacy would relate to the LR and centre-right selection process.",
+        "open": "Formal candidacy announcement; party/primary route; full programme; costed national proposals.",
+        "programme": "Potential contender in the 8 November baseline. No complete 2027 programme indexed by Observatoire 2027 on 7 November."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "nathalie-arthaud",
@@ -356,10 +1053,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/nathalie-arthaud/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Far-left / Trotskyist politics centred on workers’ interests, class struggle, redistribution and opposition to capitalism. Her September 2026 speech criticised Le Pen’s pension proposal but did not set out a quantified alternative retirement age.",
-      "programme_status": "No quantified 2027 pension proposal identified in the research workbook. Check Lutte ouvrière’s official campaign material for current programme details."
+      "policy_summary": "Far-left / Trotskyist politics centred on workers’ interests, class struggle, redistribution and opposition to capitalism. Her September 2026 speech criticised Le Pen’s pension proposal but did not set out a quantified alternative retirement age. Workers’ wages and purchasing power Workers’ control and opposition to capitalist ownership Public transparency over corporate accounts and profits",
+      "programme_status": "No quantified 2027 pension proposal identified in the research workbook. Check Lutte ouvrière’s official campaign material for current programme details.",
+      "dossier": {
+        "bio": "Spokesperson and presidential candidate for Lutte ouvrière, Nathalie Arthaud represents a revolutionary communist and Trotskyist tradition. Her campaigns focus on the interests of wage-earners, class conflict, workers’ control and opposition to capitalism. She has been a recurring candidate in presidential elections.",
+        "record": "Arthaud has run in the 2012, 2017 and 2022 presidential elections and is a long-standing spokesperson for Lutte ouvrière. Her platform is built around a consistent political tradition; however, the 2027 campaign’s exact proposals should still be drawn from its current election material.",
+        "themes": [
+          "Workers’ wages and purchasing power",
+          "Workers’ control and opposition to capitalist ownership",
+          "Public transparency over corporate accounts and profits",
+          "Internationalism and opposition to nationalism",
+          "Collective action and labour mobilisation"
+        ],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "The research workbook did not identify a quantified 2027 retirement-age proposal in the current source set. Her criticism of Le Pen’s proposal should not be mistaken for an alternative retirement schedule.",
+            "date": "September 2026 source review",
+            "evidence": "Research gap / public speech"
+          },
+          {
+            "area": "Economic system",
+            "detail": "Lutte ouvrière’s programme tradition centres on workers’ interests and opposition to capitalist control. Current 2027 campaign wording and concrete demands should be linked to the party’s published material.",
+            "date": "2026",
+            "evidence": "Party tradition; current wording to verify"
+          }
+        ],
+        "feasibility": "Key tests: the relationship between transitional demands and the party’s systemic critique; electoral strategy; and how proposals would be implemented within France’s current constitutional and EU framework.",
+        "open": "Current 2027 programme text; exact candidate declaration and party confirmation; specific quantified proposals across pensions, wages and taxation.",
+        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+      },
+      "dossier_updated": "2026-11-08"
     },
     {
       "id": "bruno-le-maire",
@@ -379,10 +1115,49 @@
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
           "type": "Secondary candidate tracker"
+        },
+        {
+          "title": "Observatoire 2027: individual candidate analysis",
+          "url": "https://www.observatoire2027.fr/candidat/bruno-le-maire/",
+          "type": "Secondary tracker; public statements indexed"
+        },
+        {
+          "title": "Observatoire 2027: written programme comparison",
+          "url": "https://www.observatoire2027.fr/programmes/",
+          "type": "Programme tracker"
         }
       ],
-      "policy_summary": "Centre-right economic policy themes include fiscal policy, debt, competitiveness and institutional reform, based on positions indexed by Observatoire 2027.",
-      "programme_status": "Listed as probable by Observatoire 2027 in the 7 November snapshot. A formal candidacy and complete 2027 programme have not been verified here."
+      "policy_summary": "Centre-right economic policy themes include fiscal policy, debt, competitiveness and institutional reform, based on positions indexed by Observatoire 2027. Debt and deficit reduction Taxation and competitiveness Industrial sovereignty and productive investment",
+      "programme_status": "Listed as probable by Observatoire 2027 in the 7 November snapshot. A formal candidacy and complete 2027 programme have not been verified here.",
+      "dossier": {
+        "bio": "Former economy and finance minister (2017–2024), Bruno Le Maire has extensive experience of the Macron government’s economic policy. He leads or is associated with the Une autre France project and is listed as a probable contender in the 7 November 2026 Observatoire 2027 snapshot. Programme publication does not, by itself, prove a formal presidential candidacy.",
+        "record": "As finance minister he was responsible for economic policy through the COVID-19 crisis, energy-price shock and the deterioration of public finances. His ministerial record is central to assessing his credibility on debt, taxation and competitiveness, but it must be distinguished from proposals made after leaving government.",
+        "themes": [
+          "Debt and deficit reduction",
+          "Taxation and competitiveness",
+          "Industrial sovereignty and productive investment",
+          "Labour-market flexibility and employment",
+          "Institutional reform and state efficiency"
+        ],
+        "positions": [
+          {
+            "area": "Written programme",
+            "detail": "Observatoire 2027 listed an Une autre France written programme with 81 engagements across 30 topics in its 7 November 2026 snapshot. Its positions should be quoted from the programme itself and not automatically treated as an official presidential platform until candidacy status is confirmed.",
+            "date": "7 November 2026",
+            "evidence": "Written programme indexed by secondary tracker"
+          },
+          {
+            "area": "Fiscal policy",
+            "detail": "His public-position profile is strongly focused on debt, deficit, taxation and institutional reform. Exact measures and their costing should be taken from the 81 written commitments rather than generalised from his ministerial record.",
+            "date": "2026",
+            "evidence": "Programme / public-position tracker"
+          }
+        ],
+        "feasibility": "Key tests: how the programme reconciles fiscal consolidation with investment; the credibility of assumptions given his period as finance minister; and the political route from a probable candidacy to formal selection.",
+        "open": "Whether he formally declares; how the programme is positioned relative to Macronism; independent costing; and the relationship with other centre-right candidates.",
+        "programme": "A written Une autre France programme was indexed by Observatoire 2027: 81 commitments across 30 topics in its 7 November snapshot. Formal candidacy remains a separate question."
+      },
+      "dossier_updated": "2026-11-08"
     }
   ],
   "debates": [
@@ -549,6 +1324,90 @@
         "title": "Pensions evidence indexed by Vote Public (LO campaign material via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
+      }
+    },
+    {
+      "candidate_name": "Marine Le Pen",
+      "topic": "Economy & taxation",
+      "position": "At the MEDEF debate, proposed presenting a €125bn public-savings plan before the autumn budget debate and argued for a rule limiting deficits in current spending. Headline savings require itemised costing.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Jean-Luc Mélenchon",
+      "topic": "Economy & taxation",
+      "position": "At the MEDEF debate, proposed restructuring public debt, including the portion held by the European Central Bank. Legal and market implications were not resolved in the debate.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Édouard Philippe",
+      "topic": "Economy & taxation",
+      "position": "At the MEDEF debate, rejected debt cancellation and argued for restoring balanced public accounts.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Raphaël Glucksmann",
+      "topic": "Economy & taxation",
+      "position": "Proposed reducing CSG on wages and financing the measure through higher inheritance taxation on the largest estates; independent revenue costing remains necessary.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Gabriel Attal",
+      "topic": "Employment & pensions",
+      "position": "Proposed cancelling increases in labour costs introduced since 2024; detailed scope and fiscal impact require clarification.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Bruno Retailleau",
+      "topic": "Employment & pensions",
+      "position": "Proposed reducing the number of public servants by 250,000–300,000; services affected, timetable and attrition assumptions were not specified in the debate summary.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
+      }
+    },
+    {
+      "candidate_name": "Marine Tondelier",
+      "topic": "Employment & pensions",
+      "position": "Proposed raising the gross monthly SMIC to €2,000, with support for small businesses; implementation and financing require further detail.",
+      "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
+      "statement_date": "27 August 2026",
+      "source": {
+        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate reporting"
       }
     }
   ],
@@ -1024,6 +1883,31 @@
         "type": "Poll archive / secondary source"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+    },
+    {
+      "publication_date": "2026-11-05",
+      "fieldwork_start": "2026-11-03",
+      "fieldwork_end": "2026-11-05",
+      "fieldwork_label": "3–5 November 2026",
+      "pollster": "Harris Interactive",
+      "sponsor": "Not specified in indexed archive excerpt",
+      "sample_size": 2101,
+      "scenario": "First-round main line-up as displayed by Polling Forecast. Candidate configuration should be checked against the original poll notice.",
+      "results": {
+        "Marine Le Pen": 36,
+        "Jean-Luc Mélenchon": 19,
+        "Édouard Philippe": 14,
+        "Raphaël Glucksmann": 12,
+        "Bruno Retailleau": 8,
+        "Éric Zemmour": 4,
+        "Marine Tondelier": 2
+      },
+      "source": {
+        "title": "Polling Forecast: France 2027 poll archive",
+        "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
+        "type": "Secondary poll archive; original poll notice should be checked"
+      },
+      "data_note": "Latest indexed observation in the source checked on 8 November 2026. Results are a poll snapshot, not a forecast. Keep separate from the Vote Public rolling-average series."
     }
   ],
   "news": [
@@ -1286,6 +2170,32 @@
         "url": "https://www.leparisien.fr/elections/presidentielle/souverainete-populaire-permanente-republique-federative-la-strategie-de-jean-luc-melenchon-pour-reformer-letat-04-08-2026-S5DTNYYY5RDN7GJMJQG3XS2FFY.php",
         "type": "News article"
       }
+    },
+    {
+      "publication_date": "2026-08-28",
+      "publisher": "Le Monde",
+      "language": "English",
+      "topic": "Debate / economy",
+      "title": "French presidential candidates gather for first debate as left-right divide emerges on economic issues",
+      "summary": "Analysis of the candidates' competing positions on debt, pensions, public spending, environmental policy and the Macron-era record after the MEDEF debate.",
+      "source": {
+        "title": "Read Le Monde report",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+        "type": "News analysis"
+      }
+    },
+    {
+      "publication_date": "2026-08-28",
+      "publisher": "Selectra",
+      "language": "French",
+      "topic": "Debt / economy",
+      "title": "Dette : ce que les 7 candidats ont proposé devant le Medef",
+      "summary": "A candidate-by-candidate summary of the economic proposals made at the MEDEF debate, including savings, debt restructuring, wage costs and public-sector employment.",
+      "source": {
+        "title": "Read Selectra report",
+        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+        "type": "Debate summary"
+      }
     }
   ],
   "events": [
@@ -1437,6 +2347,20 @@
       "url": "https://vote-public.org/presidentielle-2027/",
       "language": "French",
       "type": "Secondary polling and campaign tracker; verify each original poll notice"
+    },
+    {
+      "title": "Observatoire 2027: written programme tracker",
+      "url": "https://www.observatoire2027.fr/programmes/",
+      "publisher": "Observatoire 2027",
+      "language": "French",
+      "type": "Secondary programme index"
+    },
+    {
+      "title": "data.gouv.fr: 2027 candidate status dataset",
+      "url": "https://www.data.gouv.fr/datasets/candidats-a-lelection-presidentielle-2027-liste-partis-et-sources",
+      "publisher": "data.gouv.fr / Hémicycle",
+      "language": "French",
+      "type": "Open candidate-status dataset"
     }
   ],
   "updates": [
@@ -1477,7 +2401,9 @@
       "observed_min": 31.5,
       "observed_max": 37,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Jean-Luc Mélenchon",
@@ -1486,7 +2412,9 @@
       "observed_min": 13,
       "observed_max": 18.5,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Édouard Philippe",
@@ -1495,7 +2423,9 @@
       "observed_min": 8,
       "observed_max": 17,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Raphaël Glucksmann",
@@ -1504,7 +2434,9 @@
       "observed_min": 9.5,
       "observed_max": 15,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "David Lisnard",
@@ -1513,7 +2445,9 @@
       "observed_min": 4,
       "observed_max": 7,
       "polls_count": 5,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Bruno Retailleau",
@@ -1522,7 +2456,9 @@
       "observed_min": 4,
       "observed_max": 8,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Gabriel Attal",
@@ -1531,7 +2467,9 @@
       "observed_min": 4,
       "observed_max": 6,
       "polls_count": 4,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Éric Zemmour",
@@ -1540,7 +2478,9 @@
       "observed_min": 3,
       "observed_max": 5,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Marine Tondelier",
@@ -1549,7 +2489,9 @@
       "observed_min": 1,
       "observed_max": 5,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Nicolas Dupont-Aignan",
@@ -1558,7 +2500,9 @@
       "observed_min": 1,
       "observed_max": 3,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Fabien Roussel",
@@ -1567,7 +2511,9 @@
       "observed_min": 1,
       "observed_max": 2,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     },
     {
       "candidate": "Nathalie Arthaud",
@@ -1576,7 +2522,9 @@
       "observed_min": 0,
       "observed_max": 1,
       "polls_count": 8,
-      "method": "Vote Public rolling average, latest poll per institute in 35 days"
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "snapshot_date": "2026-11-08",
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     }
   ]
 }
