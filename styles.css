@@ -1092,3 +1092,20 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
   #overview .overview-lead-grid>.overview-panel{height:auto!important}
   #overview .overview-lead{display:flex!important;flex-direction:column!important}
 }
+
+/* Candidate portraits and bilingual controls */
+.language-toggle{display:inline-flex;align-items:center;gap:2px;padding:3px;border:1px solid #d5dfeb;border-radius:999px;background:#f1f5f9;margin-right:10px}
+.lang-choice{border:0!important;background:transparent!important;color:#38516d!important;padding:6px 10px!important;border-radius:999px!important;font-size:11px!important;font-weight:800!important;min-width:34px}
+.lang-choice.active{background:#15385e!important;color:#fff!important;box-shadow:0 1px 4px rgba(12,36,62,.18)}
+.candidate-with-portrait{display:grid;grid-template-columns:150px minmax(0,1fr);gap:0;overflow:hidden;padding:0!important;align-items:stretch}
+.candidate-portrait{position:relative;min-height:190px;background:linear-gradient(145deg,#dce6f0,#f1e7e8);overflow:hidden}
+.candidate-portrait img{width:100%;height:100%;min-height:190px;object-fit:cover;object-position:center 22%;display:block}
+.portrait-source{position:absolute;bottom:7px;left:7px;background:rgba(9,27,48,.82);color:#fff!important;padding:4px 7px;border-radius:4px;font-size:9px;text-decoration:none!important}
+.portrait-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:190px;font:700 32px Georgia,serif;color:#244d76;background:linear-gradient(145deg,#e2eaf1,#f4e8ea)}
+.candidate-card-body{padding:16px;min-width:0}
+.candidate-card-body h3{margin-top:0}
+.candidate-portrait img.portrait-load-failed{display:none}
+@media(max-width:680px){.candidate-with-portrait{grid-template-columns:100px minmax(0,1fr)}.candidate-portrait,.candidate-portrait img,.portrait-fallback{min-height:145px}.candidate-card-body{padding:12px}}
+/* Bottom overview callout: restore contrast and readable text */
+.overview-cta{background:linear-gradient(110deg,#14395f 0%,#20577e 56%,#77394f 100%)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 14px 32px rgba(14,39,66,.16)}
+.overview-cta h2{color:#fff!important}.overview-cta p{color:#edf4fb!important}.overview-cta .eyebrow{color:#ffccd1!important}.overview-cta-actions .secondary{color:#fff!important;background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.55)!important}

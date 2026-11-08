@@ -64,3 +64,7 @@ The interface uses a restrained French tricolour palette: deep and soft blues, w
 - The compact panoramic hero is retained.
 
 Portrait assets are loaded from their cited source hosts at runtime. The site requires an internet connection for these portraits. Review the linked image credits and source licensing before republishing or commercial use.
+
+
+## Language and candidate portraits
+The interface includes an English/French toggle in the header. Candidate directory cards include portrait sources with a fallback if a remote image is unavailable. Source article headlines remain in their original publication language.
