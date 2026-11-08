@@ -29,3 +29,13 @@ This is a static snapshot. Candidate programmes, campaign status, polling and po
 
 ## Editorial limitations
 This is a static research snapshot, not an automated live fact-checker. Links can change, campaign pages can be updated, and reputable sources can still make mistakes. The site therefore records dates, provenance and uncertainty, and should be refreshed through manual review before material claims are relied upon.
+
+
+## Voting Compass methodology
+
+See `VOTING-COMPASS-METHODOLOGY.md`. The data now contains 36 questions across 12 policy areas. Candidate evidence coding is still incomplete; legacy prototype positions must not be treated as verified.
+
+
+## Voting compass length
+
+The voting compass opens with a 24-question standard version covering all 12 policy areas (two questions per area). Visitors can optionally continue to the 36-question extended version, adding one question per area. Both versions retain equal baseline weighting across policy areas. See `VOTING-COMPASS-METHODOLOGY.md` for the design and current evidence limitations.

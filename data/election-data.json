@@ -7,7 +7,9 @@
     "design_direction": "Election Intelligence Centre: dark analytical interface, navy/charcoal, electric cyan, amber signal accents.",
     "candidate_dossiers": "Very-deep dossiers added for all 16 tracked figures. Evidence gaps are explicitly labelled; not all profiles represent confirmed candidacies or complete programmes.",
     "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive.",
-    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive."
+    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive.",
+    "compass_question_count": 36,
+    "compass_policy_areas": 12
   },
   "candidates": [
     {
@@ -3452,5 +3454,1117 @@
     "corrections_policy": "Corrections are made transparently. Each correction records the date, affected page or claim, what changed, why it changed, and the sources supporting the revision. Material corrections should be visible to readers.",
     "compass_policy": "The compass measures directional alignment only where a dated, attributable candidate position can be coded against a question. It does not infer positions from ideology. Missing positions are excluded from the score and displayed as evidence gaps. Match scores are not probabilities or voting recommendations.",
     "current_audit_limit": "This is the launch of a formal editorial process, not a claim that every historical entry has already passed it. Legacy claims remain under audit until their individual verification records are completed."
+  },
+  "compass_questions": [
+    {
+      "id": "employment_model",
+      "topic": "Economy & employment",
+      "title": "What should be the main direction of labour-market policy?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Strengthen collective bargaining, worker protections and job security",
+          1
+        ],
+        [
+          "Prioritise job quality, training and targeted protections",
+          2
+        ],
+        [
+          "Balance flexibility for employers with protections for workers",
+          3
+        ],
+        [
+          "Make hiring and dismissal more flexible to encourage recruitment",
+          4
+        ],
+        [
+          "Substantially deregulate employment rules",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "minimum_wage",
+      "topic": "Economy & employment",
+      "title": "What should happen to the statutory minimum wage (SMIC)?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Raise it substantially and regularly above inflation",
+          1
+        ],
+        [
+          "Raise it in line with inflation, with additional targeted increases",
+          2
+        ],
+        [
+          "Maintain purchasing power through a mix of wage and tax measures",
+          3
+        ],
+        [
+          "Limit automatic increases to protect employment costs",
+          4
+        ],
+        [
+          "Reduce employer costs rather than increase the statutory minimum",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "working_time",
+      "topic": "Economy & employment",
+      "title": "What should happen to the 35-hour working week?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Move towards shorter working weeks",
+          1
+        ],
+        [
+          "Keep 35 hours and improve enforcement and flexibility",
+          2
+        ],
+        [
+          "Keep the framework but allow negotiated sectoral variation",
+          3
+        ],
+        [
+          "Allow more opt-outs and overtime",
+          4
+        ],
+        [
+          "End the 35-hour legal framework",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "public_finance",
+      "topic": "Tax system & public finances",
+      "title": "How should France distribute taxation between income, wealth, consumption and businesses?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Increase progressivity on high incomes and large fortunes; reduce taxes on essentials",
+          1
+        ],
+        [
+          "Increase taxes on wealth and inheritance while easing some taxes on work",
+          2
+        ],
+        [
+          "Keep the broad mix and adjust specific taxes",
+          3
+        ],
+        [
+          "Shift some taxation away from income towards consumption and business activity",
+          4
+        ],
+        [
+          "Simplify and lower rates across most tax bases",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "debt",
+      "topic": "Tax system & public finances",
+      "title": "How quickly should France reduce its public deficit?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Prioritise public investment and services even if adjustment is slower",
+          1
+        ],
+        [
+          "Use tax increases on higher incomes and wealth alongside gradual adjustment",
+          2
+        ],
+        [
+          "Combine selective spending restraint with revenue measures",
+          3
+        ],
+        [
+          "Prioritise spending cuts and structural reforms",
+          4
+        ],
+        [
+          "Make rapid deficit reduction the overriding objective",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "public_services",
+      "topic": "Tax system & public finances",
+      "title": "What should be the priority when setting public spending?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand public services and public investment",
+          1
+        ],
+        [
+          "Protect core services and increase targeted investment",
+          2
+        ],
+        [
+          "Maintain service levels while improving efficiency",
+          3
+        ],
+        [
+          "Restrain spending growth and target support more narrowly",
+          4
+        ],
+        [
+          "Reduce the role and overall cost of the state",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "retirement_age",
+      "topic": "Pensions",
+      "title": "At what standard legal age should people be able to claim a state pension?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "60 or younger",
+          1
+        ],
+        [
+          "61",
+          2
+        ],
+        [
+          "62",
+          3
+        ],
+        [
+          "63",
+          4
+        ],
+        [
+          "64",
+          5
+        ],
+        [
+          "65",
+          6
+        ],
+        [
+          "66",
+          7
+        ],
+        [
+          "67 or older",
+          8
+        ]
+      ],
+      "max": 8,
+      "stage": "standard"
+    },
+    {
+      "id": "reform",
+      "topic": "Pensions",
+      "title": "How should the system determine when someone qualifies for a full-rate pension?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "A lower age and shorter contribution period",
+          1
+        ],
+        [
+          "A lower age, with contribution years adjusted for arduous work and career breaks",
+          2
+        ],
+        [
+          "Keep age and contribution requirements broadly balanced",
+          3
+        ],
+        [
+          "Require longer contribution periods, with flexibility for long careers",
+          4
+        ],
+        [
+          "Increase both the required age and contribution period",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "funding",
+      "topic": "Pensions",
+      "title": "What balance should there be between pay-as-you-go pensions and funded pensions?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Almost entirely pay-as-you-go, financed by current contributions",
+          1
+        ],
+        [
+          "Pay-as-you-go as the core, with a small supplementary funded pillar",
+          2
+        ],
+        [
+          "A mixed system with a substantial collective funded workplace pillar",
+          3
+        ],
+        [
+          "A larger funded component alongside the public system",
+          4
+        ],
+        [
+          "Shift substantially towards individual investment accounts",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "immigration_levels",
+      "topic": "Immigration & asylum",
+      "title": "What overall approach should France take to levels of legal immigration?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand legal pathways for work, study and family migration",
+          1
+        ],
+        [
+          "Maintain broad pathways and improve administration and integration",
+          2
+        ],
+        [
+          "Keep levels broadly stable with targeted adjustments",
+          3
+        ],
+        [
+          "Reduce admissions and tighten eligibility",
+          4
+        ],
+        [
+          "Make a substantial reduction across most categories",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "asylum",
+      "topic": "Immigration & asylum",
+      "title": "How should France manage asylum and protection claims?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand reception capacity and access to protection",
+          1
+        ],
+        [
+          "Speed up decisions while maintaining broad protection rights",
+          2
+        ],
+        [
+          "Maintain current principles and improve case processing",
+          3
+        ],
+        [
+          "Tighten eligibility and speed up removals after rejected claims",
+          4
+        ],
+        [
+          "Substantially narrow access to protection",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "integration",
+      "topic": "Immigration & asylum",
+      "title": "What should be the main approach to integration and access to citizenship?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand language, housing and employment support; retain broad access to citizenship",
+          1
+        ],
+        [
+          "Strengthen integration support and maintain current citizenship principles",
+          2
+        ],
+        [
+          "Combine stronger integration requirements with equal legal treatment",
+          3
+        ],
+        [
+          "Tighten conditions for long-term residence and citizenship",
+          4
+        ],
+        [
+          "Make access to citizenship substantially more restrictive",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "policing",
+      "topic": "Security & justice",
+      "title": "What should be the priority for policing?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Prioritise prevention, local services and community policing",
+          1
+        ],
+        [
+          "Combine prevention with targeted recruitment and training",
+          2
+        ],
+        [
+          "Balance enforcement with oversight and civil-liberty safeguards",
+          3
+        ],
+        [
+          "Expand police powers, resources and enforcement",
+          4
+        ],
+        [
+          "Adopt a substantially tougher law-and-order approach",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "sentencing",
+      "topic": "Security & justice",
+      "title": "How should sentencing policy respond to repeat offending?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Prioritise rehabilitation and alternatives to custody",
+          1
+        ],
+        [
+          "Use custody selectively alongside rehabilitation",
+          2
+        ],
+        [
+          "Balance proportionate sentences with stronger support for victims",
+          3
+        ],
+        [
+          "Expand minimum sentences and prison capacity",
+          4
+        ],
+        [
+          "Use substantially longer mandatory sentences",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "justice_system",
+      "topic": "Security & justice",
+      "title": "Where should additional justice-system resources go?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Legal aid, prevention, rehabilitation and faster civil justice",
+          1
+        ],
+        [
+          "More judges, prosecutors and court staff",
+          2
+        ],
+        [
+          "A balanced increase across courts, prisons and victim support",
+          3
+        ],
+        [
+          "More prison places and faster criminal proceedings",
+          4
+        ],
+        [
+          "Prioritise enforcement capacity and custodial infrastructure",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "hospital",
+      "topic": "Healthcare",
+      "title": "What should be the priority for healthcare funding?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Major expansion of public hospital and community-care funding",
+          1
+        ],
+        [
+          "Increase funding for understaffed services and primary care",
+          2
+        ],
+        [
+          "Protect universal coverage while improving organisation",
+          3
+        ],
+        [
+          "Use more public-private partnerships and performance incentives",
+          4
+        ],
+        [
+          "Limit public spending growth and expand private provision",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "medical_deserts",
+      "topic": "Healthcare",
+      "title": "How should France address shortages of doctors in underserved areas?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Require new doctors to practise in underserved areas for a period",
+          1
+        ],
+        [
+          "Use stronger incentives and targeted public provision",
+          2
+        ],
+        [
+          "Combine incentives with limited regulation where shortages persist",
+          3
+        ],
+        [
+          "Rely mainly on training places and voluntary relocation",
+          4
+        ],
+        [
+          "Avoid compulsory placement rules and rely on market incentives",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "health_insurance",
+      "topic": "Healthcare",
+      "title": "What should happen to the balance between public health insurance and private complementary insurance?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand public coverage and reduce reliance on private top-ups",
+          1
+        ],
+        [
+          "Strengthen public coverage while retaining complementary insurance",
+          2
+        ],
+        [
+          "Maintain the current mixed model with targeted adjustments",
+          3
+        ],
+        [
+          "Increase the role of complementary insurance",
+          4
+        ],
+        [
+          "Shift a larger share of costs to private insurance and individuals",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "school_funding",
+      "topic": "Education & research",
+      "title": "What should be the priority for schools?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Reduce class sizes and increase staffing and support services",
+          1
+        ],
+        [
+          "Raise teacher pay and target resources to disadvantaged schools",
+          2
+        ],
+        [
+          "Combine targeted investment with curriculum and accountability reforms",
+          3
+        ],
+        [
+          "Increase school autonomy and performance measurement",
+          4
+        ],
+        [
+          "Reduce central direction and expand parental choice",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "curriculum",
+      "topic": "Education & research",
+      "title": "What should schools prioritise in curriculum and teaching?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "More arts, civic education and critical thinking alongside core subjects",
+          1
+        ],
+        [
+          "Strengthen core skills while protecting broad learning",
+          2
+        ],
+        [
+          "Balance academic standards, vocational routes and civic education",
+          3
+        ],
+        [
+          "Emphasise core academic subjects, discipline and national history",
+          4
+        ],
+        [
+          "Give schools greater freedom to set curriculum priorities",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "higher_education",
+      "topic": "Education & research",
+      "title": "How should higher education be funded and accessed?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Keep tuition free and expand public funding",
+          1
+        ],
+        [
+          "Maintain low fees with more student support",
+          2
+        ],
+        [
+          "Combine public funding with targeted contributions and aid",
+          3
+        ],
+        [
+          "Increase institutional autonomy and allow higher fees with grants",
+          4
+        ],
+        [
+          "Expand private provision and student financing options",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "climate_pace",
+      "topic": "Climate, energy & agriculture",
+      "title": "How quickly should France reduce greenhouse-gas emissions?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Accelerate reductions rapidly with major public investment",
+          1
+        ],
+        [
+          "Move faster while protecting lower-income households",
+          2
+        ],
+        [
+          "Follow a steady transition with predictable rules",
+          3
+        ],
+        [
+          "Prioritise affordability and industrial competitiveness over faster targets",
+          4
+        ],
+        [
+          "Roll back climate requirements that significantly raise costs",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "energy_mix",
+      "topic": "Climate, energy & agriculture",
+      "title": "What role should nuclear power play in France's energy mix?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Plan a gradual phase-down and prioritise renewables",
+          1
+        ],
+        [
+          "Limit new nuclear and accelerate renewables",
+          2
+        ],
+        [
+          "Maintain a balanced mix of nuclear and renewables",
+          3
+        ],
+        [
+          "Build new nuclear capacity alongside renewables",
+          4
+        ],
+        [
+          "Make nuclear the central pillar of energy strategy",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "agriculture",
+      "topic": "Climate, energy & agriculture",
+      "title": "How should agricultural policy balance farm incomes and environmental standards?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Rapidly tighten environmental standards with strong income support for farmers",
+          1
+        ],
+        [
+          "Support transition to lower-input farming and fairer producer prices",
+          2
+        ],
+        [
+          "Combine gradual environmental change with targeted farm support",
+          3
+        ],
+        [
+          "Reduce regulatory requirements and prioritise competitiveness",
+          4
+        ],
+        [
+          "Prioritise production and food sovereignty over additional environmental constraints",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "housing_supply",
+      "topic": "Housing & cost of living",
+      "title": "How should France address housing shortages?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Large public and social-housing construction programme",
+          1
+        ],
+        [
+          "Increase construction with public land and targeted subsidies",
+          2
+        ],
+        [
+          "Simplify planning and support both public and private construction",
+          3
+        ],
+        [
+          "Prioritise private-sector supply and reduce planning constraints",
+          4
+        ],
+        [
+          "Reduce public intervention and rely primarily on market supply",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "rent_policy",
+      "topic": "Housing & cost of living",
+      "title": "What should be the approach to rent regulation?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand rent controls and tenant protections",
+          1
+        ],
+        [
+          "Retain and strengthen targeted rent regulation in tight markets",
+          2
+        ],
+        [
+          "Keep current rules with local flexibility",
+          3
+        ],
+        [
+          "Ease rent regulation to encourage supply",
+          4
+        ],
+        [
+          "Remove most rent controls",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "cost_of_living",
+      "topic": "Housing & cost of living",
+      "title": "What should government do about the cost of essential goods and energy?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Use price controls and targeted public provision",
+          1
+        ],
+        [
+          "Use targeted subsidies and temporary price interventions",
+          2
+        ],
+        [
+          "Prefer targeted income support and competition measures",
+          3
+        ],
+        [
+          "Reduce taxes and levies on consumption",
+          4
+        ],
+        [
+          "Avoid price controls and minimise state intervention",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "eu_integration",
+      "topic": "Europe & institutions",
+      "title": "How should France approach further European integration?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Deepen shared EU decision-making and common policies",
+          1
+        ],
+        [
+          "Strengthen cooperation while improving democratic accountability",
+          2
+        ],
+        [
+          "Remain engaged while defending national flexibility",
+          3
+        ],
+        [
+          "Return more powers to national governments",
+          4
+        ],
+        [
+          "Prioritise national sovereignty over further integration",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "eu_law",
+      "topic": "Europe & institutions",
+      "title": "When French law conflicts with EU law, what should take precedence?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "EU law within agreed treaty competences",
+          1
+        ],
+        [
+          "EU law, while seeking treaty reform through EU institutions",
+          2
+        ],
+        [
+          "Case-by-case cooperation and legal negotiation",
+          3
+        ],
+        [
+          "French law should prevail in more policy areas",
+          4
+        ],
+        [
+          "National law should generally take precedence",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "institutions",
+      "topic": "Europe & institutions",
+      "title": "What institutional reform should France prioritise?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Move towards a Sixth Republic with stronger parliamentary and citizen power",
+          1
+        ],
+        [
+          "Introduce more proportional representation and citizen-initiated referendums",
+          2
+        ],
+        [
+          "Rebalance executive and parliamentary powers incrementally",
+          3
+        ],
+        [
+          "Retain the Fifth Republic with targeted changes",
+          4
+        ],
+        [
+          "Strengthen executive authority and institutional stability",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "ukraine",
+      "topic": "Foreign policy & defence",
+      "title": "What should France's level of support for Ukraine be?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Prioritise diplomacy and humanitarian support, limiting military involvement",
+          1
+        ],
+        [
+          "Continue military and financial support while pursuing diplomacy",
+          2
+        ],
+        [
+          "Maintain current support and adapt it to developments",
+          3
+        ],
+        [
+          "Increase military support and defence coordination",
+          4
+        ],
+        [
+          "Provide substantially greater military support, including advanced capabilities",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "nato",
+      "topic": "Foreign policy & defence",
+      "title": "What should France's relationship with NATO be?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Reduce reliance on NATO and pursue non-aligned strategic autonomy",
+          1
+        ],
+        [
+          "Remain in NATO while strengthening independent European capacity",
+          2
+        ],
+        [
+          "Maintain current membership and cooperation",
+          3
+        ],
+        [
+          "Strengthen NATO integration and transatlantic defence ties",
+          4
+        ],
+        [
+          "Make NATO the central framework for French defence",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "defence_spending",
+      "topic": "Foreign policy & defence",
+      "title": "What should happen to French defence spending?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Reduce spending and redirect resources to diplomacy and public services",
+          1
+        ],
+        [
+          "Maintain spending while prioritising diplomacy and European cooperation",
+          2
+        ],
+        [
+          "Meet commitments with selective capability investment",
+          3
+        ],
+        [
+          "Increase spending to strengthen national and European defence",
+          4
+        ],
+        [
+          "Make a major sustained increase in military spending",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    },
+    {
+      "id": "secularism",
+      "topic": "Society, rights & digital policy",
+      "title": "How should France apply secularism (laïcité) in public life?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Protect freedom of conscience and restrict religious rules mainly in state institutions",
+          1
+        ],
+        [
+          "Apply secularism firmly in public institutions while protecting individual freedoms",
+          2
+        ],
+        [
+          "Clarify rules case by case with emphasis on equal treatment",
+          3
+        ],
+        [
+          "Extend restrictions on visible religious expression in more public settings",
+          4
+        ],
+        [
+          "Adopt substantially broader restrictions on religious symbols and practices",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "end_of_life",
+      "topic": "Society, rights & digital policy",
+      "title": "What should be the approach to end-of-life legislation?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Expand access to assisted dying with strong safeguards",
+          1
+        ],
+        [
+          "Allow assisted dying under carefully defined conditions",
+          2
+        ],
+        [
+          "Prioritise palliative care while retaining limited assisted-dying provisions",
+          3
+        ],
+        [
+          "Restrict assisted dying and expand palliative care",
+          4
+        ],
+        [
+          "Oppose legal assisted dying",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "standard"
+    },
+    {
+      "id": "digital_rights",
+      "topic": "Society, rights & digital policy",
+      "title": "How should government regulate large digital platforms and artificial intelligence?",
+      "help": "Choose the position closest to your own. The options describe broad policy directions, not complete programmes. Candidate matching will only use a position when a dated, attributable source supports it.",
+      "options": [
+        [
+          "Strong public regulation, data rights and limits on platform power",
+          1
+        ],
+        [
+          "Enforce transparency, privacy and competition rules",
+          2
+        ],
+        [
+          "Balance innovation with targeted safeguards",
+          3
+        ],
+        [
+          "Reduce regulation to encourage innovation and investment",
+          4
+        ],
+        [
+          "Minimise state intervention in digital markets",
+          5
+        ]
+      ],
+      "max": 5,
+      "stage": "extended"
+    }
+  ],
+  "compass_methodology": {
+    "version": "2.0",
+    "policy_areas": 12,
+    "question_count": 36,
+    "selection_rationale": "The 12 areas cover core responsibilities of the French state and recurring subjects in the 2027 campaign: economy, taxation, pensions, immigration, security, healthcare, education, climate and energy, housing, Europe and institutions, foreign policy and defence, and rights and digital policy. This is an editorial framework, not a statistically representative ranking of voter priorities.",
+    "question_rationale": "Three questions per area provide breadth without allowing one policy area to dominate merely because it has more questions. Questions distinguish concrete policy choices and explain technical terms where needed.",
+    "weighting": "Each question receives a respondent-selected importance weight of 1, 2 or 3. Within each policy area, comparable question scores are first averaged using those weights. The area scores are then averaged equally, so each of the 12 areas has equal baseline influence. A user can leave a policy answer blank, but must rate the importance of every question.",
+    "matching": "Candidate positions are only scored when supported by dated, attributable evidence. Unknown positions are not inferred from party ideology or historical platforms. Missing evidence reduces coverage and is displayed. A match percentage is directional policy alignment, not a probability or voting recommendation.",
+    "distance": "For an ordinal question with N ordered answer positions, question alignment is 1 - absolute distance between respondent and candidate positions divided by N-1. Multi-dimensional or non-ordinal questions must not be forced into this scale; they require a separate explicit coding rubric.",
+    "minimum_coverage": "Do not publish a ranked percentage for a candidate unless evidence covers at least 6 of 12 policy areas and at least 12 questions. Otherwise show 'Insufficient comparable evidence' and list covered areas.",
+    "status": "Question framework complete. Candidate coding and primary-source verification remain incomplete. Existing hard-coded candidate positions must not be treated as verified evidence.",
+    "review_note": "The issue selection is informed by the scope of major public policy debates and comparison frameworks found in current French 2027 election coverage. It is not derived from polling about voter salience. Reassess topic balance as campaign programmes are published.",
+    "default_length": 24,
+    "extended_length": 36,
+    "default_design": "Two questions from each of the twelve policy areas appear in the standard compass. One additional question per area is available in the optional extended stage.",
+    "extended_design": "The visitor may continue from the 24-question standard compass to answer the remaining twelve questions, bringing the total to 36.",
+    "weighting_note": "Policy areas retain equal baseline weight. Adding the third question in each area improves within-area detail; it does not increase that area’s overall baseline weight."
   }
 }
