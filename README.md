@@ -19,3 +19,13 @@ Static website for Cloudflare Pages. Replace the repository contents with this p
 Upload the contents of this folder to the root of the GitHub repository connected to Cloudflare Pages. Keep the folder structure intact. Cloudflare Pages should deploy automatically after the commit.
 
 This is a static snapshot. Candidate programmes, campaign status, polling and policy positions require periodic source verification and updates.
+
+## Editorial standards and source coverage (8 November 2026)
+- Added a public Editorial Standards & Verification Policy section, including a source hierarchy, claim-level checks, evidence labels, corrections policy and voting-compass rules.
+- Added a 30-outlet monitoring directory spanning French national media, public broadcasters, wire services and international outlets. Directory membership is not an endorsement and does not imply a current article is in the archive.
+- Expanded the article archive from 22 to 30 linked items, including RTL, Public Sénat, LCP, Associated Press and The Guardian alongside existing reporting. Each newly added item has an editorial check note.
+- Candidate official-site review is explicitly tracked per profile. Direct 2027 programme/site checks have been completed for Jean-Luc Mélenchon and Édouard Philippe; Gabriel Attal's located programme is a 2024 legislative document and is not presented as a 2027 programme. The remaining candidate-site audits are still pending.
+- Existing policy entries and legacy news summaries are not automatically certified by this release; they are labelled for claim-level review. Do not describe the entire historic dataset as fully fact-checked.
+
+## Editorial limitations
+This is a static research snapshot, not an automated live fact-checker. Links can change, campaign pages can be updated, and reputable sources can still make mistakes. The site therefore records dates, provenance and uncertainty, and should be refreshed through manual review before material claims are relied upon.

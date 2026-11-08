@@ -2,11 +2,12 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-08",
-    "data_version": 2,
-    "editorial_note": "Non-partisan research. Separate declared candidacy, campaign activity, sponsorship pledges, validated sponsorships and official ballot qualification. Poll averages are not individual polls. Missing poll candidates are not zero. Debate evidence in this update refers to the MEDEF debate of 27 August 2026 (not June); participation does not equal formal ballot qualification. Candidate dossiers separate official programmes, public statements, political record and analytical questions.",
+    "data_version": 3,
+    "editorial_note": "Editorial standards v1.0 adopted 8 November 2026. Legacy claims are not automatically certified; each material claim requires its own dated verification record. Candidate campaign status remains distinct from official ballot qualification.",
     "design_direction": "Election Intelligence Centre: dark analytical interface, navy/charcoal, electric cyan, amber signal accents.",
     "candidate_dossiers": "Very-deep dossiers added for all 16 tracked figures. Evidence gaps are explicitly labelled; not all profiles represent confirmed candidacies or complete programmes.",
-    "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive."
+    "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive.",
+    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive."
   },
   "candidates": [
     {
@@ -98,7 +99,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "jean-luc-melenchon",
@@ -188,9 +194,15 @@
         "programme": "A written 2027 programme was presented on 7 November 2026. Observatoire 2027 indexed 142 written commitments across 24 topics and seven documents in its 7 November snapshot. These are party commitments, not independent costings."
       },
       "dossier_updated": "2026-11-08",
-      "programme_link": "https://melenchon2027.fr/programme/decouvrir/",
-      "programme_link_label": "Read the 2027 programme · L’Avenir en commun",
-      "programme_link_note": "Official campaign programme page."
+      "programme_link": "https://www.lavenirencommun.org/",
+      "programme_link_label": "Official 2027 programme",
+      "programme_link_note": "Official programme site; online synthesis and full published programme have different measure counts.",
+      "official_site_audit": {
+        "status": "Primary source checked",
+        "checked_date": "2026-11-08",
+        "url": "https://www.lavenirencommun.org/",
+        "note": "Official 2027 programme site checked. The website states that the online synthesis contains 795 measures and the full book contains 1,069 measures."
+      }
     },
     {
       "id": "edouard-philippe",
@@ -274,9 +286,15 @@
         "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026. Earlier prime-ministerial policies are not a current manifesto."
       },
       "dossier_updated": "2026-11-08",
-      "programme_link": null,
-      "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link": "https://www.edouardphilippe.fr/",
+      "programme_link_label": "Official campaign website / initial priorities",
+      "programme_link_note": "The campaign site presents initial priorities and says a broader programme will be presented; not labelled a complete programme.",
+      "official_site_audit": {
+        "status": "Primary source checked",
+        "checked_date": "2026-11-08",
+        "url": "https://www.edouardphilippe.fr/",
+        "note": "Official 2027 campaign website checked. It publishes initial priorities and campaign activity; this should not be described as a complete detailed programme."
+      }
     },
     {
       "id": "raphael-glucksmann",
@@ -362,7 +380,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "gabriel-attal",
@@ -447,8 +470,14 @@
       },
       "dossier_updated": "2026-11-08",
       "programme_link": null,
-      "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_label": "2027 programme coming soon",
+      "programme_link_note": "An official 2024 legislative programme page exists, but it is not a 2027 presidential programme.",
+      "official_site_audit": {
+        "status": "Primary source checked; historical programme only",
+        "checked_date": "2026-11-08",
+        "url": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme",
+        "note": "The located programme page refers to the 2024 legislative election and must not be presented as a 2027 presidential programme."
+      }
     },
     {
       "id": "bruno-retailleau",
@@ -534,7 +563,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "marine-tondelier",
@@ -620,7 +654,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "david-lisnard",
@@ -685,7 +724,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "eric-zemmour",
@@ -750,7 +794,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "francois-ruffin",
@@ -815,7 +864,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "fabien-roussel",
@@ -880,7 +934,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -945,7 +1004,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "natacha-polony",
@@ -1010,7 +1074,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "xavier-bertrand",
@@ -1075,7 +1144,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "nathalie-arthaud",
@@ -1140,7 +1214,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified."
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     },
     {
       "id": "bruno-le-maire",
@@ -1205,7 +1284,12 @@
       "dossier_updated": "2026-11-08",
       "programme_link": "https://www.observatoire2027.fr/document/bruno-le-maire-une-autre-france/",
       "programme_link_label": "Read the published manifesto · L’An I — Une autre France",
-      "programme_link_note": "This is a published political manifesto, not a formal declaration of candidacy or a final campaign programme."
+      "programme_link_note": "This is a published political manifesto, not a formal declaration of candidacy or a final campaign programme.",
+      "official_site_audit": {
+        "status": "Not yet systematically verified",
+        "checked_date": "2026-11-08",
+        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+      }
     }
   ],
   "debates": [
@@ -1240,7 +1324,10 @@
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Jean-Luc Mélenchon",
@@ -1252,7 +1339,10 @@
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Édouard Philippe",
@@ -1264,7 +1354,10 @@
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Raphaël Glucksmann",
@@ -1276,7 +1369,10 @@
         "title": "Pensions evidence indexed by Vote Public (LCP / Public Sénat via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "David Lisnard",
@@ -1288,7 +1384,10 @@
         "title": "Pensions evidence indexed by Vote Public (Candidate site via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Bruno Retailleau",
@@ -1300,7 +1399,10 @@
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Gabriel Attal",
@@ -1312,7 +1414,10 @@
         "title": "Pensions evidence indexed by Vote Public (Europe 1 / Public Sénat via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Éric Zemmour",
@@ -1324,7 +1429,10 @@
         "title": "Pensions evidence indexed by Vote Public (Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Marine Tondelier",
@@ -1336,7 +1444,10 @@
         "title": "Pensions evidence indexed by Vote Public (Les Écologistes / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Nicolas Dupont-Aignan",
@@ -1348,7 +1459,10 @@
         "title": "Pensions evidence indexed by Vote Public (Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Fabien Roussel",
@@ -1360,7 +1474,10 @@
         "title": "Pensions evidence indexed by Vote Public (PCF/campaign review via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Nathalie Arthaud",
@@ -1372,7 +1489,10 @@
         "title": "Pensions evidence indexed by Vote Public (LO campaign material via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "Debate reporting; consult the candidate's primary statement where available"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Marine Le Pen",
@@ -1384,7 +1504,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Jean-Luc Mélenchon",
@@ -1396,7 +1519,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Édouard Philippe",
@@ -1408,7 +1534,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Raphaël Glucksmann",
@@ -1420,7 +1549,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Gabriel Attal",
@@ -1432,7 +1564,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Bruno Retailleau",
@@ -1444,7 +1579,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     },
     {
       "candidate_name": "Marine Tondelier",
@@ -1456,7 +1594,10 @@
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate reporting"
-      }
+      },
+      "verification_status": "Secondary source cited; primary-source review pending",
+      "checked_date": null,
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
     }
   ],
   "polls": [
@@ -1970,6 +2111,11 @@
         "title": "French presidential hopeful Mélenchon pledges economic stimulus, renews NATO exit call",
         "url": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -1983,6 +2129,11 @@
         "title": "« Ici est la force ! » : depuis Le Bourget, Jean-Luc Mélenchon prêt à décoller pour le second tour",
         "url": "https://www.leparisien.fr/elections/presidentielle/ici-est-la-force-depuis-le-bourget-jean-luc-melenchon-pret-a-decoller-pour-le-second-tour-de-la-presidentielle-07-11-2026-5AP5ZDQ7V5CATKZPLLC7VKHT6I.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -1996,6 +2147,11 @@
         "title": "En meeting au Bourget, Mélenchon mobilise sa base tout en cherchant à élargir son électorat",
         "url": "https://www.lemonde.fr/politique/article/2026/11/08/presidentielle-2027-en-meeting-au-bourget-jean-luc-melenchon-s-attelle-a-mobiliser-sa-base-tout-en-elargissant-son-electorat_6808387_823448.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2009,6 +2165,11 @@
         "title": "Présidentielle 2027 : les sondages ont-ils toujours vu juste à six mois des élections ?",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-sondages-ont-ils-toujours-vu-juste-a-six-mois-des-elections-07-11-2026-WZ7PUIGJPRCNHAJWBGWFRLZPJA.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2022,6 +2183,11 @@
         "title": "Présidentielle 2027 : l’hypothèse d’une candidature de Christine Lagarde questionne à droite et au sein du bloc central",
         "url": "https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-l-hypothese-d-une-candidature-de-christine-lagarde-questionne-a-droite-et-au-sein-du-bloc-central_6807815_823448.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2035,6 +2201,11 @@
         "title": "« Au boulot ! » : François Ruffin dévoile 40 propositions dans un livre, qui n’est « pas un programme »",
         "url": "https://www.leparisien.fr/elections/presidentielle/au-boulot-candidat-a-la-presidentielle-2027-francois-ruffin-devoile-40-propositions-dans-un-livre-qui-nest-pas-un-programme-06-11-2026-4NR3EYU2VBAIXHCUVP4K4NYVIQ.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2048,6 +2219,11 @@
         "title": "Meeting de Mélenchon : une création artistique collective illustrera le programme présidentiel de LFI",
         "url": "https://www.leparisien.fr/elections/presidentielle/meeting-de-melenchon-au-bourget-une-creation-artistique-collective-illustrera-le-programme-presidentiel-de-lfi-06-11-2026-JBQI7V3K5VH4LLASGP2ZVT6BKY.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2061,6 +2237,11 @@
         "title": "Présidentielle 2027 : la primaire de la droite et du centre a du plomb dans l’aile avant même d’avoir décollé",
         "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-a-du-plomb-dans-l-aile-avant-meme-d-avoir-decolle_6805552_823448.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2074,6 +2255,11 @@
         "title": "Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe",
         "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2087,6 +2273,11 @@
         "title": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
         "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2100,6 +2291,11 @@
         "title": "2027 French presidential election: Who’s running?",
         "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/11/2027-french-presidential-election-who-s-running_6752856_9.html",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2113,6 +2309,11 @@
         "title": "Présidentielle 2027 : ce qu’il faut retenir du débat entre les candidats devant le Medef",
         "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2126,6 +2327,11 @@
         "title": "Dette, retraites, fiscalité… que retenir du premier débat des candidats à l’élection présidentielle ?",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2139,6 +2345,11 @@
         "title": "Édouard Philippe, Gabriel Attal et Bruno Retailleau : un impossible ménage à trois ?",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-gabriel-attal-et-bruno-retailleau-un-impossible-menage-a-trois-07-08-2026-K46XN56IBFDDTMOYNJYPUB2MBQ.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2152,6 +2363,11 @@
         "title": "Au cœur de l’été, Retailleau prépare son odyssée présidentielle depuis l’île d’Yeu",
         "url": "https://www.leparisien.fr/elections/presidentielle/ca-permet-de-prendre-de-la-distance-au-coeur-de-lete-retailleau-prepare-son-odyssee-presidentielle-depuis-lile-dyeu-07-08-2026-AJCEQFVGQJHZLMWFRKAE3IZNC4.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2165,6 +2381,11 @@
         "title": "Marine Tondelier veut pouvoir interdire X en cas d’ingérences étrangères",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-veut-pouvoir-interdire-x-en-cas-dingerences-etrangeres-06-08-2026-H7CEM6RWLVBTTN4QT3ULN64F2M.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2178,6 +2399,11 @@
         "title": "Les candidats n’ont plus que quatre mois pour trouver les 500 parrainages nécessaires",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-candidats-nont-plus-que-quatre-mois-pour-trouver-les-500-parrainages-necessaires-avant-le-premier-tour-06-11-2026-Z2U635YNRRFQZMABPMN5YUEGQU.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2191,6 +2417,11 @@
         "title": "Attal says discussions on a right-centre primary are accelerating",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2204,6 +2435,11 @@
         "title": "Raphaël Glucksmann schedules his first major campaign rally for 6 December",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-emission-sur-les-reseaux-ce-vendredi-et-grand-meeting-a-paris-le-6-decembre-raphael-glucksmann-lance-sa-campagne-06-11-2026-VJAS3ET2JJBA5C7JDA47N6FOIY.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2217,6 +2453,11 @@
         "title": "La stratégie de Jean-Luc Mélenchon pour réformer l’État",
         "url": "https://www.leparisien.fr/elections/presidentielle/souverainete-populaire-permanente-republique-federative-la-strategie-de-jean-luc-melenchon-pour-reformer-letat-04-08-2026-S5DTNYYY5RDN7GJMJQG3XS2FFY.php",
         "type": "News article"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2230,6 +2471,11 @@
         "title": "Read Le Monde report",
         "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
         "type": "News analysis"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
       }
     },
     {
@@ -2243,6 +2489,157 @@
         "title": "Read Selectra report",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
         "type": "Debate summary"
+      },
+      "verification": {
+        "status": "Legacy entry · review pending",
+        "checked_date": null,
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+      }
+    },
+    {
+      "publication_date": "2026-11-08",
+      "title": "Jean-Luc Mélenchon energizes his base and seeks to broaden his electorate",
+      "publisher": "Le Monde",
+      "language": "English",
+      "topic": "Jean-Luc Mélenchon / campaign launch",
+      "summary": "Coverage of the Le Bourget rally and launch of the 2027 L’Avenir en commun programme, including the campaign’s effort to broaden its appeal beyond its core electorate.",
+      "source": {
+        "title": "Le Monde, 8 November 2026",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html",
+        "type": "Independent news report"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "primary_source": "https://www.lavenirencommun.org/",
+        "note": "Programme claims should be checked against the official programme text; electoral interpretation remains reporting."
+      }
+    },
+    {
+      "publication_date": "2026-11-07",
+      "title": "Trump’s midterm drubbing adds to the populist right’s losses. France’s Le Pen could still win",
+      "publisher": "Associated Press",
+      "language": "English",
+      "topic": "Marine Le Pen / international context",
+      "summary": "AP examines how recent electoral setbacks for populist-right parties elsewhere may or may not affect Marine Le Pen’s position in France, with legal and electoral context.",
+      "source": {
+        "title": "Associated Press, 7 November 2026",
+        "url": "https://apnews.com/article/583894626bd16d826030e9c152cb04c7",
+        "type": "Independent international news report"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Analysis and expert interpretation are attributed; poll and legal claims should be read in the article’s stated context."
+      }
+    },
+    {
+      "publication_date": "2026-11-07",
+      "title": "Présidentielle 2027 : Mélenchon s’installe derrière Le Pen, Glucksmann chute et Lisnard crée la surprise dans un sondage",
+      "publisher": "RTL",
+      "language": "French",
+      "topic": "Polling / candidate dynamics",
+      "summary": "RTL reports on an Ifop survey fielded 27–29 October 2026, including different candidate configurations and the pollster’s stated sample and margin-of-error information.",
+      "source": {
+        "title": "RTL, 3 November 2026",
+        "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301",
+        "type": "News report on polling"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Poll findings are attributed to Ifop; this is not a substitute for the full poll notice filed with the Commission des sondages."
+      }
+    },
+    {
+      "publication_date": "2026-11-06",
+      "title": "Présidentielle 2027 : ce qui change dans le nouveau programme de Jean-Luc Mélenchon",
+      "publisher": "LCP - Assemblée nationale",
+      "language": "French",
+      "topic": "Jean-Luc Mélenchon / programme",
+      "summary": "LCP reviews the new L’Avenir en commun programme, including retirement at 60 subject to 40 contribution years, a €1,700 net minimum wage proposal, tax measures and energy policy.",
+      "source": {
+        "title": "LCP, 6 November 2026",
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+        "type": "Parliamentary broadcaster / programme analysis"
+      },
+      "verification": {
+        "status": "Primary-source cross-check available",
+        "checked_date": "2026-11-08",
+        "primary_source": "https://www.lavenirencommun.org/",
+        "note": "LCP is secondary reporting; the programme itself is linked separately as the primary source."
+      }
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Élection présidentielle 2027 : qui sont les candidats déclarés ou presque ?",
+      "publisher": "Public Sénat",
+      "language": "French",
+      "topic": "Candidate field / campaign status",
+      "summary": "A broad overview of declared and potential candidates across the political spectrum, including the distinction between public declarations and the later requirement to secure 500 sponsorships.",
+      "source": {
+        "title": "Public Sénat, 14 October 2026",
+        "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
+        "type": "Public-service parliamentary broadcaster"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Candidate declarations are time-sensitive and must be reconfirmed against direct statements and official campaign channels."
+      }
+    },
+    {
+      "publication_date": "2026-10-12",
+      "title": "French centre left must wage ‘existential battle’ to prevent far right winning presidency",
+      "publisher": "The Guardian",
+      "language": "English",
+      "topic": "Raphaël Glucksmann / left strategy",
+      "summary": "The Guardian reports on Raphaël Glucksmann’s positioning after the social-democratic primary and his appeal for a broader centre-left effort ahead of 2027.",
+      "source": {
+        "title": "The Guardian, 12 October 2026",
+        "url": "https://www.theguardian.com/world/2026/oct/12/french-centre-left-must-wage-existential-battle-to-prevent-far-right-winning-presidency",
+        "type": "Independent international news report"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Political characterisations and strategic analysis are attributed to the report and quoted sources."
+      }
+    },
+    {
+      "publication_date": "2026-11-05",
+      "title": "2027 French presidential election: To fend off Le Pen and Mélenchon, Macron recommends wide coalition",
+      "publisher": "Le Monde",
+      "language": "English",
+      "topic": "Centre / coalition strategy",
+      "summary": "Reporting on Emmanuel Macron’s preference for a broad centrist coalition and the strategic debate about a possible Le Pen–Mélenchon runoff.",
+      "source": {
+        "title": "Le Monde, 5 November 2026",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/05/2027-french-presidential-election-to-fend-off-le-pen-and-melenchon-macron-recommends-wide-coalition_6772504_5.html",
+        "type": "Independent news report"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Macron’s position is attributed to reporting; poll references are not treated as forecasts."
+      }
+    },
+    {
+      "publication_date": "2026-11-07",
+      "title": "2027 French presidential election: Centrists and right speculate over Christine Lagarde’s motives",
+      "publisher": "Le Monde",
+      "language": "English",
+      "topic": "Centre-right / potential candidacies",
+      "summary": "Reporting on political speculation following Christine Lagarde’s announcement that she would leave the European Central Bank early. The article distinguishes public reaction from evidence of an actual candidacy.",
+      "source": {
+        "title": "Le Monde, 7 November 2026",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/07/2027-french-presidential-election-centrists-and-right-speculate-over-christine-lagarde-s-motives_6774419_5.html",
+        "type": "Independent news report"
+      },
+      "verification": {
+        "status": "Cross-checked",
+        "checked_date": "2026-11-08",
+        "note": "Speculation is labelled as speculation; no candidacy is inferred."
       }
     }
   ],
@@ -2409,6 +2806,216 @@
       "publisher": "data.gouv.fr / Hémicycle",
       "language": "French",
       "type": "Open candidate-status dataset"
+    },
+    {
+      "title": "AFP",
+      "publisher": "AFP",
+      "url": "https://www.afp.com/",
+      "language": "French",
+      "type": "News agency · monitored outlet directory"
+    },
+    {
+      "title": "Reuters",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/",
+      "language": "English",
+      "type": "International news agency · monitored outlet directory"
+    },
+    {
+      "title": "Associated Press",
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/",
+      "language": "English",
+      "type": "International news agency · monitored outlet directory"
+    },
+    {
+      "title": "Franceinfo",
+      "publisher": "Franceinfo",
+      "url": "https://www.franceinfo.fr/",
+      "language": "French",
+      "type": "Public-service news · monitored outlet directory"
+    },
+    {
+      "title": "France Inter",
+      "publisher": "France Inter",
+      "url": "https://www.radiofrance.fr/franceinter",
+      "language": "French",
+      "type": "Public-service radio · monitored outlet directory"
+    },
+    {
+      "title": "France 24",
+      "publisher": "France 24",
+      "url": "https://www.france24.com/",
+      "language": "French / English",
+      "type": "International broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "RFI",
+      "publisher": "RFI",
+      "url": "https://www.rfi.fr/",
+      "language": "French / English",
+      "type": "International public radio · monitored outlet directory"
+    },
+    {
+      "title": "TF1 Info",
+      "publisher": "TF1 Info",
+      "url": "https://www.tf1info.fr/",
+      "language": "French",
+      "type": "National broadcaster news · monitored outlet directory"
+    },
+    {
+      "title": "BFMTV",
+      "publisher": "BFMTV",
+      "url": "https://www.bfmtv.com/",
+      "language": "French",
+      "type": "News broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "RTL",
+      "publisher": "RTL",
+      "url": "https://www.rtl.fr/",
+      "language": "French",
+      "type": "Radio / news · monitored outlet directory"
+    },
+    {
+      "title": "Europe 1",
+      "publisher": "Europe 1",
+      "url": "https://www.europe1.fr/",
+      "language": "French",
+      "type": "Radio / news · monitored outlet directory"
+    },
+    {
+      "title": "LCP - Assemblée nationale",
+      "publisher": "LCP - Assemblée nationale",
+      "url": "https://lcp.fr/",
+      "language": "French",
+      "type": "Parliamentary broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "Public Sénat",
+      "publisher": "Public Sénat",
+      "url": "https://www.publicsenat.fr/",
+      "language": "French",
+      "type": "Parliamentary broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "Libération",
+      "publisher": "Libération",
+      "url": "https://www.liberation.fr/",
+      "language": "French",
+      "type": "National newspaper · monitored outlet directory"
+    },
+    {
+      "title": "Le Figaro",
+      "publisher": "Le Figaro",
+      "url": "https://www.lefigaro.fr/",
+      "language": "French",
+      "type": "National newspaper · monitored outlet directory"
+    },
+    {
+      "title": "Les Échos",
+      "publisher": "Les Échos",
+      "url": "https://www.lesechos.fr/",
+      "language": "French",
+      "type": "Business newspaper · monitored outlet directory"
+    },
+    {
+      "title": "La Croix",
+      "publisher": "La Croix",
+      "url": "https://www.la-croix.com/",
+      "language": "French",
+      "type": "National newspaper · monitored outlet directory"
+    },
+    {
+      "title": "Mediapart",
+      "publisher": "Mediapart",
+      "url": "https://www.mediapart.fr/",
+      "language": "French",
+      "type": "Investigative / digital newspaper · monitored outlet directory"
+    },
+    {
+      "title": "HuffPost France",
+      "publisher": "HuffPost France",
+      "url": "https://www.huffingtonpost.fr/",
+      "language": "French",
+      "type": "Digital news outlet · monitored outlet directory"
+    },
+    {
+      "title": "Le JDD",
+      "publisher": "Le JDD",
+      "url": "https://www.lejdd.fr/",
+      "language": "French",
+      "type": "Weekly newspaper · monitored outlet directory"
+    },
+    {
+      "title": "The Guardian",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/world/france",
+      "language": "English",
+      "type": "International newspaper · monitored outlet directory"
+    },
+    {
+      "title": "BBC News",
+      "publisher": "BBC News",
+      "url": "https://www.bbc.com/news",
+      "language": "English",
+      "type": "International broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "Politico Europe",
+      "publisher": "Politico Europe",
+      "url": "https://www.politico.eu/",
+      "language": "English",
+      "type": "European political news · monitored outlet directory"
+    },
+    {
+      "title": "Euractiv",
+      "publisher": "Euractiv",
+      "url": "https://www.euractiv.com/",
+      "language": "English / French",
+      "type": "European policy news · monitored outlet directory"
+    },
+    {
+      "title": "Deutsche Welle",
+      "publisher": "Deutsche Welle",
+      "url": "https://www.dw.com/",
+      "language": "English / German",
+      "type": "International broadcaster · monitored outlet directory"
+    },
+    {
+      "title": "The New York Times",
+      "publisher": "The New York Times",
+      "url": "https://www.nytimes.com/",
+      "language": "English",
+      "type": "International newspaper · monitored outlet directory"
+    },
+    {
+      "title": "The Economist",
+      "publisher": "The Economist",
+      "url": "https://www.economist.com/",
+      "language": "English",
+      "type": "International current affairs · monitored outlet directory"
+    },
+    {
+      "title": "Le Monde",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/",
+      "language": "French / English",
+      "type": "National / international newspaper · monitored outlet directory"
+    },
+    {
+      "title": "La Tribune",
+      "publisher": "La Tribune",
+      "url": "https://www.latribune.fr/",
+      "language": "French",
+      "type": "Business and economics news · monitored outlet directory"
+    },
+    {
+      "title": "Challenges",
+      "publisher": "Challenges",
+      "url": "https://www.challenges.fr/",
+      "language": "French",
+      "type": "Business and politics magazine · monitored outlet directory"
     }
   ],
   "updates": [
@@ -2439,6 +3046,10 @@
     {
       "date": "2026-11-08",
       "summary": "Restored 19 historical poll records and a separately labelled polling-average snapshot; added 20 linked news records; updated campaign status using published candidate guides and the 27 August MEDEF debate; added sourced pension-policy entries and the Elections for Dummies guide."
+    },
+    {
+      "date": "2026-11-08",
+      "summary": "Editorial standards v1.0 added; source hierarchy, verification labels, claim rules, corrections policy and compass evidence policy documented. News archive diversified with individually linked reporting from RTL, Public Sénat, LCP, AP, The Guardian and additional Le Monde coverage. Official candidate website checks completed for Mélenchon, Édouard Philippe and Gabriel Attal; other candidate official-site audits remain explicitly pending."
     }
   ],
   "poll_trends": [
@@ -2574,5 +3185,272 @@
       "snapshot_date": "2026-11-08",
       "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
     }
-  ]
+  ],
+  "media_directory": [
+    {
+      "publisher": "AFP",
+      "language": "French",
+      "type": "News agency",
+      "url": "https://www.afp.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Reuters",
+      "language": "English",
+      "type": "International news agency",
+      "url": "https://www.reuters.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Associated Press",
+      "language": "English",
+      "type": "International news agency",
+      "url": "https://apnews.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Franceinfo",
+      "language": "French",
+      "type": "Public-service news",
+      "url": "https://www.franceinfo.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "France Inter",
+      "language": "French",
+      "type": "Public-service radio",
+      "url": "https://www.radiofrance.fr/franceinter",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "France 24",
+      "language": "French / English",
+      "type": "International broadcaster",
+      "url": "https://www.france24.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "RFI",
+      "language": "French / English",
+      "type": "International public radio",
+      "url": "https://www.rfi.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "TF1 Info",
+      "language": "French",
+      "type": "National broadcaster news",
+      "url": "https://www.tf1info.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "BFMTV",
+      "language": "French",
+      "type": "News broadcaster",
+      "url": "https://www.bfmtv.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "RTL",
+      "language": "French",
+      "type": "Radio / news",
+      "url": "https://www.rtl.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Europe 1",
+      "language": "French",
+      "type": "Radio / news",
+      "url": "https://www.europe1.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "LCP - Assemblée nationale",
+      "language": "French",
+      "type": "Parliamentary broadcaster",
+      "url": "https://lcp.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Public Sénat",
+      "language": "French",
+      "type": "Parliamentary broadcaster",
+      "url": "https://www.publicsenat.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Libération",
+      "language": "French",
+      "type": "National newspaper",
+      "url": "https://www.liberation.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Le Figaro",
+      "language": "French",
+      "type": "National newspaper",
+      "url": "https://www.lefigaro.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Les Échos",
+      "language": "French",
+      "type": "Business newspaper",
+      "url": "https://www.lesechos.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "La Croix",
+      "language": "French",
+      "type": "National newspaper",
+      "url": "https://www.la-croix.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Mediapart",
+      "language": "French",
+      "type": "Investigative / digital newspaper",
+      "url": "https://www.mediapart.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "HuffPost France",
+      "language": "French",
+      "type": "Digital news outlet",
+      "url": "https://www.huffingtonpost.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Le JDD",
+      "language": "French",
+      "type": "Weekly newspaper",
+      "url": "https://www.lejdd.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "The Guardian",
+      "language": "English",
+      "type": "International newspaper",
+      "url": "https://www.theguardian.com/world/france",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "BBC News",
+      "language": "English",
+      "type": "International broadcaster",
+      "url": "https://www.bbc.com/news",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Politico Europe",
+      "language": "English",
+      "type": "European political news",
+      "url": "https://www.politico.eu/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Euractiv",
+      "language": "English / French",
+      "type": "European policy news",
+      "url": "https://www.euractiv.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Deutsche Welle",
+      "language": "English / German",
+      "type": "International broadcaster",
+      "url": "https://www.dw.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "The New York Times",
+      "language": "English",
+      "type": "International newspaper",
+      "url": "https://www.nytimes.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "The Economist",
+      "language": "English",
+      "type": "International current affairs",
+      "url": "https://www.economist.com/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Le Monde",
+      "language": "French / English",
+      "type": "National / international newspaper",
+      "url": "https://www.lemonde.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "La Tribune",
+      "language": "French",
+      "type": "Business and economics news",
+      "url": "https://www.latribune.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    },
+    {
+      "publisher": "Challenges",
+      "language": "French",
+      "type": "Business and politics magazine",
+      "url": "https://www.challenges.fr/",
+      "directory_note": "Outlet to monitor; inclusion does not imply endorsement or that every article is suitable evidence."
+    }
+  ],
+  "editorial_standards": {
+    "version": "1.0",
+    "adopted_date": "2026-11-08",
+    "editor_in_charge": "Thomas Igou",
+    "principles": [
+      "Non-partisan; no endorsement of candidates or parties.",
+      "Primary sources take precedence for what a candidate or party says about itself.",
+      "Independent reporting is used for context, scrutiny and corroboration, not substituted for primary evidence when the latter is available.",
+      "No position is inferred from party family, ideology, past manifesto or another politician.",
+      "Unknown, disputed, outdated and unverified claims are labelled and excluded from candidate matching where appropriate.",
+      "Corrections are logged with the previous wording, revised wording, date and reason."
+    ],
+    "source_hierarchy": [
+      "Official candidate campaign website, signed programme, dated speech or direct interview recording/transcript.",
+      "Official party website and party programme, clearly labelled as party rather than personal candidate commitment.",
+      "Government, Parliament, Constitutional Council, courts, official statistics and regulatory institutions.",
+      "Independent reporting from multiple reputable French and international outlets.",
+      "Polling institutes and legally filed poll notices; secondary poll trackers are discovery aids only.",
+      "Commentary, aggregators and social media are leads, not sufficient proof for contested factual claims."
+    ],
+    "verification_statuses": [
+      {
+        "label": "Verified",
+        "meaning": "Primary source checked and material details independently corroborated where practicable."
+      },
+      {
+        "label": "Primary source checked",
+        "meaning": "The original candidate, party or institutional source was checked; independent corroboration is not yet recorded."
+      },
+      {
+        "label": "Partially verified",
+        "meaning": "Some elements are supported, but material details, context or date remain unresolved."
+      },
+      {
+        "label": "Unverified",
+        "meaning": "Insufficient evidence. Must not be presented as established fact or used in compass scoring."
+      },
+      {
+        "label": "Outdated",
+        "meaning": "A once-valid statement has been superseded or is not evidence of a current 2027 position."
+      }
+    ],
+    "claim_rules": [
+      "Every material policy claim should carry a source URL, source type, publication or statement date, date checked, and a concise context note.",
+      "Separate candidate statement, party programme, government record, independent analysis and editorial inference.",
+      "For numerical claims, verify units, baseline, timeframe and whether the number is a proposal, estimate or independently assessed result.",
+      "For legal or election-process claims, use the relevant official institution as primary source.",
+      "For polls, preserve pollster, sponsor, fieldwork dates, sample, method, question wording, candidate scenario and poll-notice link. Never compare unlike scenarios as if identical.",
+      "For disputed claims, record the competing evidence and do not silently choose a side.",
+      "News summaries must link to the original article, preserve attribution and avoid presenting analysis as fact."
+    ],
+    "corrections_policy": "Corrections are made transparently. Each correction records the date, affected page or claim, what changed, why it changed, and the sources supporting the revision. Material corrections should be visible to readers.",
+    "compass_policy": "The compass measures directional alignment only where a dated, attributable candidate position can be coded against a question. It does not infer positions from ideology. Missing positions are excluded from the score and displayed as evidence gaps. Match scores are not probabilities or voting recommendations.",
+    "current_audit_limit": "This is the launch of a formal editorial process, not a claim that every historical entry has already passed it. Legacy claims remain under audit until their individual verification records are completed."
+  }
 }
