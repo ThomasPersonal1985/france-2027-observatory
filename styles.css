@@ -267,3 +267,99 @@ button.secondary,.secondary{background:#fff!important;border-color:#cbd8e6!impor
 .latest-poll-source{margin-top:10px;font-size:11px}
 .poll-chart-method{margin:15px 0 0;color:#778397;font-size:11px;line-height:1.55;border-top:1px solid #e6ebf2;padding-top:12px}
 @media(max-width:760px){.overview-poll-chart-panel{padding:18px 14px}.latest-poll-leaders{grid-template-columns:repeat(2,minmax(0,1fr))}.latest-poll-heading{flex-direction:column}.latest-poll-heading>strong{text-align:left}.poll-trend-svg{min-height:180px}.poll-chart-toolbar{align-items:flex-start;flex-direction:column}}
+
+
+/* Refined tricolour finish: restrained colour, softer surfaces, quieter controls */
+:root{
+ --fr-blue:rgba(38,91,145,.92);
+ --fr-red:rgba(190,67,79,.88);
+ --fr-white:rgba(255,255,255,.92);
+ --line:#e2e6ed;
+}
+body{
+ background:
+  radial-gradient(ellipse at 4% 9%,rgba(43,103,166,.075),transparent 31%),
+  radial-gradient(ellipse at 96% 12%,rgba(202,69,83,.065),transparent 29%),
+  linear-gradient(180deg,#fafbfe 0%,#f5f7fb 100%);
+}
+.top:after{
+ content:"";display:block;height:2px;
+ background:linear-gradient(90deg,rgba(38,91,145,.58),rgba(255,255,255,.9) 50%,rgba(190,67,79,.5));
+ position:absolute;left:0;right:0;bottom:-1px;pointer-events:none;
+}
+.hero{
+ background:
+  linear-gradient(105deg,rgba(38,91,145,.09),rgba(255,255,255,.78) 48%,rgba(190,67,79,.075)),
+  #fff;
+ border-color:rgba(189,199,213,.7);
+}
+.overview-panel,.overview-kpi{
+ background:rgba(255,255,255,.94);
+ border-color:rgba(216,224,234,.9);
+}
+.overview-cta{
+ position:relative;overflow:hidden;
+ background:linear-gradient(105deg,rgba(38,91,145,.095),rgba(255,255,255,.93) 48%,rgba(190,67,79,.085));
+ border:1px solid rgba(213,220,230,.95);
+ box-shadow:0 12px 30px rgba(37,60,88,.055);
+}
+.overview-cta:before{
+ content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+ background:linear-gradient(180deg,rgba(38,91,145,.8) 0 33%,rgba(255,255,255,.95) 33% 66%,rgba(190,67,79,.75) 66%);
+}
+.overview-cta-actions{
+ display:flex;align-items:center;justify-content:flex-end;gap:9px;max-width:470px;
+}
+.overview-cta-actions button{
+ appearance:none!important;
+ display:inline-flex;align-items:center;justify-content:center;
+ min-height:42px;padding:9px 15px!important;
+ border-radius:999px!important;
+ font-family:inherit;font-size:13px!important;font-weight:700!important;
+ letter-spacing:.005em;line-height:1.25;
+ white-space:normal;box-shadow:none!important;
+ transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease;
+}
+.overview-cta-actions button.primary{
+ color:#fff!important;
+ background:rgba(31,75,119,.94)!important;
+ border:1px solid rgba(31,75,119,.72)!important;
+}
+.overview-cta-actions button.primary:hover{
+ background:#183f66!important;transform:translateY(-1px);
+}
+.overview-cta-actions button.secondary{
+ color:#345775!important;
+ background:rgba(255,255,255,.68)!important;
+ border:1px solid rgba(105,137,166,.32)!important;
+}
+.overview-cta-actions button.secondary:hover{
+ background:rgba(226,237,248,.82)!important;
+ border-color:rgba(57,105,151,.48)!important;transform:translateY(-1px);
+}
+.overview-poll-chart-panel{
+ background:linear-gradient(125deg,rgba(38,91,145,.025),rgba(255,255,255,.98) 35%,rgba(190,67,79,.025));
+}
+.overview-poll-chart{
+ background:linear-gradient(180deg,rgba(246,249,253,.85),rgba(255,255,255,.95));
+ border-color:#e5eaf1;
+}
+.poll-gridline{stroke:rgba(112,130,153,.17);stroke-width:1}
+.poll-series{stroke-width:2.25;filter:none;opacity:.9}
+.poll-trend-svg circle{r:3.2;opacity:.95}
+.poll-legend-item{
+ border-color:rgba(210,220,232,.85);background:rgba(255,255,255,.8);
+ font-size:10.5px;padding:6px 9px;
+}
+.poll-legend-item:hover{background:#f1f5fa;border-color:#b9c9da}
+.latest-poll-leaders>div{
+ background:linear-gradient(140deg,rgba(38,91,145,.055),rgba(255,255,255,.95));
+ border-color:rgba(215,224,235,.9);
+}
+.latest-poll-leaders>div:nth-child(2n){
+ background:linear-gradient(140deg,rgba(190,67,79,.045),rgba(255,255,255,.96));
+}
+@media(max-width:760px){
+ .overview-cta-actions{justify-content:flex-start}
+ .overview-cta-actions button{width:auto;flex:1 1 100%}
+}

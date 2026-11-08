@@ -84,8 +84,8 @@ function renderOverviewPollChart(){
   if(!pts.length)return;
   const d=pts.map((o,i)=>(i?'L':'M')+x(o.t).toFixed(1)+','+y(o.v).toFixed(1)).join(' ');
   const color=pollChartPalette[idx%pollChartPalette.length];
-  svg+=`<path d="${d}" fill="none" stroke="${color}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="poll-series"/>`;
-  pts.forEach(o=>{svg+=`<circle cx="${x(o.t)}" cy="${y(o.v)}" r="4.8" fill="${color}" stroke="#fff" stroke-width="2"><title>${safe(name)}: ${o.v}% · ${safe(o.p.pollster)} · ${safe(o.p.publication_date)}</title></circle>`});
+  svg+=`<path d="${d}" fill="none" stroke="${color}" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="poll-series"/>`;
+  pts.forEach(o=>{svg+=`<circle cx="${x(o.t)}" cy="${y(o.v)}" r="3.2" fill="${color}" stroke="#fff" stroke-width="2"><title>${safe(name)}: ${o.v}% · ${safe(o.p.pollster)} · ${safe(o.p.publication_date)}</title></circle>`});
  });
  svg+='</svg>';
  host.innerHTML=shown.length?svg:'<p class="muted">No dated polling observations in this period.</p>';
