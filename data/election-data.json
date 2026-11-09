@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "France 2027 Election Observatory",
-    "last_updated": "2026-11-08",
-    "data_version": 4,
-    "editorial_note": "Candidate campaign status is distinct from official ballot qualification. All tracked prospective candidates are subject to the same statutory sponsorship and Constitutional Council validation process.",
+    "last_updated": "2026-11-09",
+    "data_version": 5,
+    "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
-    "candidate_dossiers": "Very-deep dossiers added for all 16 tracked figures. Evidence gaps are explicitly labelled; not all profiles represent confirmed candidacies or complete programmes.",
+    "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
     "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive.",
     "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive.",
     "compass_question_count": 36,
@@ -1139,10 +1139,10 @@
       "id": "xavier-bertrand",
       "name": "Xavier Bertrand",
       "party": "Nous France",
-      "campaign_status": "Potential contender; not confirmed as a formal candidate in the current baseline.",
+      "campaign_status": "Declared candidate; announced 27 August 2026, according to current candidate trackers.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre-right",
-      "profile": "Centre-right political figure; keep as potential rather than declared until a clear announcement is sourced.",
+      "profile": "Xavier Bertrand announced a 2027 presidential candidacy on 27 August 2026, according to current candidate trackers. This is a campaign declaration, not official ballot qualification.",
       "sources": [
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
@@ -1163,12 +1163,22 @@
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
           "type": "Programme tracker"
+        },
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        },
+        {
+          "title": "Toute l’Europe: declared candidates and official qualification process",
+          "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+          "type": "News candidate tracker"
         }
       ],
       "policy_summary": "Centre-right / social-Gaullist themes include industrial employment, regional development, public services and security. Industrial jobs and regional economic development Security and public order Public services and territorial equality",
-      "programme_status": "Potential contender in this research snapshot, not confirmed as a formal candidate. No complete 2027 programme indexed.",
+      "programme_status": "No complete 2027 programme independently verified in this update.",
       "dossier": {
-        "bio": "President of the Hauts-de-France regional council and founder of the Nous France movement, Xavier Bertrand is a centre-right figure with a profile rooted in regional government and social-Gaullist themes. The project’s baseline treats him as a potential contender rather than a confirmed formal candidate.",
+        "bio": "President of the Hauts-de-France regional council and founder of the Nous France movement, Xavier Bertrand announced a 2027 presidential candidacy on 27 August 2026, according to current candidate trackers. His regional and ministerial record is context, not a substitute for a presidential manifesto.",
         "record": "His career includes service as a minister, MP and president of the Hauts-de-France region. He has focused on industrial employment, regional economic development, security and public services. His regional executive record provides evidence of governing priorities but is not a presidential manifesto.",
         "themes": [
           "Industrial jobs and regional economic development",
@@ -1191,22 +1201,22 @@
             "evidence": "Public record / regional executive context"
           }
         ],
-        "feasibility": "Key tests: whether he formally enters the race; how regional policies would scale nationally; and how his candidacy would relate to the LR and centre-right selection process.",
-        "open": "Formal candidacy announcement; party/primary route; full programme; costed national proposals.",
-        "programme": "Potential contender in the 8 November baseline. No complete 2027 programme indexed by Observatoire 2027 on 7 November."
+        "feasibility": "Key tests: how regional policies would scale nationally; how his candidacy relates to the LR and centre-right selection process; and the cost and feasibility of any published national proposals.",
+        "open": "Primary-source confirmation and campaign details; party or primary route; full programme; costed national proposals.",
+        "programme": "No complete 2027 programme independently verified in this update."
       },
-      "dossier_updated": "2026-11-08",
+      "dossier_updated": "2026-11-09",
       "programme_link": null,
       "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. Update when a programme is published and verified.",
       "official_site_audit": {
         "status": "Not yet systematically verified",
         "checked_date": "2026-11-08",
         "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
       },
-      "campaign_stage": "Potential candidate",
+      "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "Personnalité politique de centre droit ; il doit rester classé parmi les candidatures potentielles tant qu’une annonce claire n’est pas sourcée.",
+      "profile_fr": "Xavier Bertrand a annoncé sa candidature à la présidentielle de 2027 le 27 août 2026, selon les suivis de candidatures. Cette déclaration ne vaut pas qualification officielle pour le bulletin.",
       "policy_summary_fr": "Ses thèmes de centre droit et de gaullisme social comprennent l’emploi industriel, le développement régional, les services publics et la sécurité."
     },
     {
@@ -1356,6 +1366,937 @@
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien ministre de l’Économie et des Finances. Observatoire 2027 le classe parmi les candidatures probables ; ne pas le présenter comme officiellement déclaré sans annonce directe.",
       "policy_summary_fr": "Les thèmes économiques de centre droit comprennent la politique budgétaire, la dette, la compétitivité et la réforme institutionnelle, sur la base des positions répertoriées par Observatoire 2027."
+    },
+    {
+      "id": "teddy-riner",
+      "name": "Teddy Riner",
+      "party": "Independent / no party affiliation stated in the announcement",
+      "campaign_status": "Declared candidate; announced 9 November 2026 in an interview and public campaign video.",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not yet assessed",
+      "profile": "Teddy Riner announced a 2027 presidential candidacy on 9 November 2026. He described his positioning as neither left nor right and said he wants to bring people together. His announcement does not establish official ballot qualification.",
+      "profile_fr": "Teddy Riner a annoncé sa candidature à la présidentielle de 2027 le 9 novembre 2026. Il se présente comme ni de droite ni de gauche et dit vouloir rassembler. Cette annonce ne vaut pas qualification officielle pour le bulletin.",
+      "sources": [
+        {
+          "title": "Le Parisien: Teddy Riner announces his 2027 candidacy, 9 November 2026",
+          "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-je-suis-candidat-pour-dire-quon-peut-relever-la-france-teddy-riner-se-lance-dans-la-competition-09-11-2026-36MFSFMWDFGATLM2YGR3MDF4QI.php",
+          "type": "Direct interview / announcement"
+        },
+        {
+          "title": "Associated Press: Teddy Riner announces a run for French president, 9 November 2026",
+          "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
+          "type": "News report"
+        }
+      ],
+      "policy_summary": "The announcement presents a unifying, non-partisan positioning. No detailed policy programme has been verified.",
+      "programme_status": "No detailed 2027 programme verified at the time of announcement.",
+      "dossier": {
+        "bio": "Olympic judo champion Teddy Riner announced his candidacy on 9 November 2026 in an interview with Le Parisien and a public campaign video. The Associated Press independently reported the announcement.",
+        "record": "A political and public-policy record has not yet been established for this new candidacy. Sporting achievements are not treated as political experience.",
+        "themes": [
+          "National unity and bringing people together (as described in the announcement; detailed proposals pending verification)."
+        ],
+        "positions": [],
+        "feasibility": "The first practical test is whether the campaign can obtain the statutory elected-official sponsorships. Policy and implementation questions require a published programme.",
+        "open": "Campaign team and affiliation; detailed programme; financing; sponsorship progress; dated policy positions.",
+        "programme": "No detailed 2027 programme verified as of 9 November 2026."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not yet published / verified",
+      "programme_link_note": "No detailed official programme was available in the cited announcement coverage.",
+      "official_site_audit": {
+        "status": "Announcement verified by interview and AP report",
+        "checked_date": "2026-11-09",
+        "note": "The declaration is reported; campaign website and detailed programme have not been independently reviewed."
+      },
+      "campaign_stage": "Announced candidacy",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "bernard-cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "party": "La Convention",
+      "campaign_status": "Status disputed: Toute l’Europe reports a candidacy; Le Parisien’s tracker lists him as potential rather than declared.",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Centre-left",
+      "profile": "Former prime minister Bernard Cazeneuve is tracked as a prospective 2027 candidate. Current candidate guides differ on whether he has formally declared; this site keeps that uncertainty visible.",
+      "sources": [
+        {
+          "title": "Toute l’Europe: declared candidates and official qualification process",
+          "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+          "type": "News candidate tracker"
+        },
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No 2027 platform independently verified for this prospective candidacy.",
+      "programme_status": "No 2027 programme independently verified in this update.",
+      "dossier": {
+        "bio": "Former prime minister Bernard Cazeneuve is a significant prospective candidate. The cited sources conflict on whether he has formally declared.",
+        "record": "A fuller public-record review has not been completed in this update.",
+        "themes": [
+          "No campaign priorities independently verified for this prospective candidacy."
+        ],
+        "positions": [],
+        "feasibility": "Clarify formal candidacy and party route before assessing campaign feasibility.",
+        "open": "Direct announcement; party status; official campaign materials; dated policy positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official campaign programme verified.",
+      "official_site_audit": {
+        "status": "Status requires primary-source check",
+        "checked_date": "2026-11-09",
+        "note": "The current secondary guides use different candidacy classifications."
+      },
+      "campaign_stage": "Reported candidacy · classification disputed",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "dominique-de-villepin",
+      "name": "Dominique de Villepin",
+      "party": "La France humaniste",
+      "campaign_status": "Confirmed intention to run on 3 November 2026; said it was too early to formally declare.",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Centre-right / Gaullist (not independently reassessed)",
+      "profile": "Former prime minister Dominique de Villepin confirmed his intention to run on 3 November 2026, while saying he was not yet formally declaring his candidacy.",
+      "sources": [
+        {
+          "title": "Le Parisien: Dominique de Villepin confirms intention to run, 3 November 2026",
+          "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-soyez-patients-dominique-de-villepin-confirme-son-intention-de-candidater-03-11-2026-XYE6ZJ64QFFYXC65PMEK4U3M5E.php",
+          "type": "News report; intention stated, not formal declaration"
+        }
+      ],
+      "policy_summary": "No complete 2027 programme independently verified in this update.",
+      "programme_status": "Intention stated; no formal candidacy or complete programme verified in the cited report.",
+      "dossier": {
+        "bio": "Former prime minister Dominique de Villepin confirmed an intention to run in an interview on 3 November 2026 but said it was too early to make a formal declaration.",
+        "record": "A fuller record review is pending; his previous government service should be kept distinct from future campaign commitments.",
+        "themes": [
+          "No current campaign priorities added without a formal programme or attributable statement."
+        ],
+        "positions": [],
+        "feasibility": "Track whether the stated intention becomes a formal campaign and whether sponsorships are obtained.",
+        "open": "Formal declaration; campaign structure; programme; current attributable policy positions.",
+        "programme": "No complete 2027 programme verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No complete official 2027 programme verified.",
+      "official_site_audit": {
+        "status": "Intention reported; formal declaration not made",
+        "checked_date": "2026-11-09",
+        "note": "Le Parisien reports his stated intention and notes he is not yet formally declaring."
+      },
+      "campaign_stage": "Potential candidate · intention stated, not formally declared",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "jean-lassalle",
+      "name": "Jean Lassalle",
+      "party": "Résistons!",
+      "campaign_status": "Potential candidate; reported to be fundraising toward a possible third presidential campaign.",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Centre / regionalist (not independently reassessed)",
+      "profile": "Former presidential candidate Jean Lassalle is tracked as a possible 2027 contender. Le Monde reported that he launched a fundraising effort toward a third campaign; this is not treated here as a formal declaration.",
+      "sources": [
+        {
+          "title": "Le Monde: Jean Lassalle raises funds for a possible third presidential campaign, 12 October 2026",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
+          "type": "News candidate guide; potential candidacy"
+        }
+      ],
+      "policy_summary": "No current 2027 programme independently verified.",
+      "programme_status": "Potential candidacy only; no complete 2027 programme verified in this update.",
+      "dossier": {
+        "bio": "Jean Lassalle has previously run for president. Le Monde’s 12 October 2026 candidate guide reported a fundraising effort toward a possible third campaign.",
+        "record": "His prior campaigns are context only; current 2027 commitments have not been established.",
+        "themes": [
+          "No current policy priorities independently verified for a 2027 campaign."
+        ],
+        "positions": [],
+        "feasibility": "Confirm whether the fundraising effort becomes a formal candidacy and assess sponsorship prospects.",
+        "open": "Formal announcement; campaign funding; 2027 programme; current attributable policy positions.",
+        "programme": "No complete 2027 programme verified."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme verified.",
+      "official_site_audit": {
+        "status": "Potential candidacy only",
+        "checked_date": "2026-11-09",
+        "note": "A fundraising effort was reported; a formal announcement was not verified in this update."
+      },
+      "campaign_stage": "Potential candidate · formal declaration not verified",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "francois-asselineau",
+      "name": "François Asselineau",
+      "party": "Union populaire républicaine",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Sovereigntist; classification not independently assessed",
+      "profile": "François Asselineau is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included François Asselineau in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "delphine-batho",
+      "name": "Delphine Batho",
+      "party": "Génération Écologie",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Ecologist",
+      "profile": "Delphine Batho is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Delphine Batho in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "olivier-becht",
+      "name": "Olivier Becht",
+      "party": "Agir (Renaissance-affiliated)",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Centre-right; source description",
+      "profile": "Olivier Becht is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Olivier Becht in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "party": "Parti socialiste",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Social democratic; source description",
+      "profile": "Karim Bouamrane is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Karim Bouamrane in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "juan-branco",
+      "name": "Juan Branco",
+      "party": "Les Ruches",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Juan Branco is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Juan Branco in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "sylvain-durif",
+      "name": "Sylvain Durif",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Sylvain Durif is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Sylvain Durif in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "clara-egger",
+      "name": "Clara Egger",
+      "party": "Solution démocratique",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Clara Egger is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Clara Egger in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "party": "Révolution permanente",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Far left; movement affiliation",
+      "profile": "Anasse Kazib is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Anasse Kazib in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "selma-labib",
+      "name": "Selma Labib",
+      "party": "NPA-Révolutionnaires",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Far left; party affiliation",
+      "profile": "Selma Labib is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Selma Labib in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "francis-lalanne",
+      "name": "Francis Lalanne",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Francis Lalanne is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Francis Lalanne in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "jean-francois-legendre",
+      "name": "Jean-François Legendre",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Jean-François Legendre is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Jean-François Legendre in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "mira-markovic",
+      "name": "Mira Markovic",
+      "party": "Parti animaliste",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Animalist; source affiliation",
+      "profile": "Mira Markovic is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Mira Markovic in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "benoit-mathieu",
+      "name": "Benoît Mathieu",
+      "party": "Independent / affiliation not established",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Benoît Mathieu is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Benoît Mathieu in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "antoine-mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "party": "Équinoxe",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Antoine Mikolajczak is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Antoine Mikolajczak in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "manolo-mlekuz",
+      "name": "Manolo Mlekuz",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Manolo Mlekuz is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Manolo Mlekuz in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "philippe-petit",
+      "name": "Philippe Petit",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Philippe Petit is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Philippe Petit in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "florian-philippot",
+      "name": "Florian Philippot",
+      "party": "Les Patriotes",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Sovereigntist; classification not independently assessed",
+      "profile": "Florian Philippot is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Florian Philippot in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "gilles-platret",
+      "name": "Gilles Platret",
+      "party": "Les Républicains",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Centre-right; source affiliation",
+      "profile": "Gilles Platret is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Gilles Platret in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+    },
+    {
+      "id": "erwan-rohou",
+      "name": "Erwan Rohou",
+      "party": "Not established in the tracker excerpt",
+      "campaign_status": "Declared (reported by Le Parisien’s 14 October 2026 tracker; direct primary-source confirmation not yet checked).",
+      "ballot_status": "Not yet on the official ballot list",
+      "orientation": "Not independently classified",
+      "profile": "Erwan Rohou is listed as a declared candidate in Le Parisien’s 14 October 2026 tracker. Primary-source confirmation and a fuller profile are pending.",
+      "sources": [
+        {
+          "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+          "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "type": "News candidate tracker; source classification, not official ballot list"
+        }
+      ],
+      "policy_summary": "No policy positions independently verified for this profile yet.",
+      "programme_status": "No 2027 programme independently verified for this profile yet.",
+      "dossier": {
+        "bio": "Le Parisien included Erwan Rohou in its 34-person declared-candidacy roster updated 14 October 2026. This site records the tracker classification while direct candidate or party confirmation and a detailed public record remain to be checked.",
+        "record": "A biographical and public-record review has not been completed for this newly added tracker entry.",
+        "themes": [
+          "No policy priorities independently verified yet."
+        ],
+        "positions": [],
+        "feasibility": "Assess only after current proposals and their sources are established.",
+        "open": "Verify the declaration from a primary source; confirm affiliation; review official campaign material and dated public positions.",
+        "programme": "No 2027 programme independently verified in this update."
+      },
+      "dossier_updated": "2026-11-09",
+      "programme_link": null,
+      "programme_link_label": "Not verified",
+      "programme_link_note": "No official 2027 programme link has been verified for this profile.",
+      "official_site_audit": {
+        "status": "Not yet checked",
+        "checked_date": "2026-11-09",
+        "note": "Direct candidate or party sources and any official campaign site still need review."
+      },
+      "campaign_stage": "Reported declaration · primary-source check pending",
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
     }
   ],
   "debates": [
@@ -2707,6 +3648,24 @@
         "checked_date": "2026-11-08",
         "note": "Speculation is labelled as speculation; no candidacy is inferred."
       }
+    },
+    {
+      "publication_date": "2026-11-09",
+      "title": "Judo star Teddy Riner announces a run for French president",
+      "publisher": "Associated Press",
+      "language": "English",
+      "topic": "Teddy Riner / candidacy",
+      "summary": "The Associated Press reports that Teddy Riner announced a 2027 presidential bid in a public message and interview with Le Parisien. The report notes that he must still obtain 500 elected-official sponsorships to qualify for the official ballot.",
+      "source": {
+        "title": "Associated Press: Teddy Riner announces a run for French president, 9 November 2026",
+        "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
+        "type": "News report"
+      },
+      "verification": {
+        "status": "Reviewed for this update",
+        "checked_date": "2026-11-09",
+        "note": "Announcement cross-checked against the same-day Le Parisien interview. Candidate declaration is distinct from official ballot qualification."
+      }
     }
   ],
   "events": [
@@ -3116,6 +4075,10 @@
     {
       "date": "2026-11-08",
       "summary": "Editorial standards v1.0 added; source hierarchy, verification labels, claim rules, corrections policy and compass evidence policy documented. News archive diversified with individually linked reporting from RTL, Public Sénat, LCP, AP, The Guardian and additional Le Monde coverage. Official candidate website checks completed for Mélenchon, Édouard Philippe and Gabriel Attal; other candidate official-site audits remain explicitly pending."
+    },
+    {
+      "date": "2026-11-09",
+      "summary": "Expanded the candidate directory using Le Parisien’s 14 October declared-candidacy roster; added Teddy Riner’s 9 November declaration, Bernard Cazeneuve and Dominique de Villepin with source-status caveats, and Jean Lassalle as a potential contender. Corrected Xavier Bertrand’s status. New entries carry explicit primary-source and programme research gaps."
     }
   ],
   "poll_trends": [
