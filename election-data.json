@@ -24,42 +24,50 @@
         {
           "title": "French government election information",
           "url": "https://www.info.gouv.fr/actualite/election-presidentielle-2027",
-          "type": "Official"
+          "type": "Official",
+          "source_id": "src-ebca2b7af2e5afd5"
         },
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/marine-le-pen/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-9e00a669bb7a8816"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Recurring RN priorities include tighter immigration and border controls, national-preference measures, public order and purchasing power, alongside criticism of aspects of EU integration. These are recurring positions, not a substitute for a complete 2027 manifesto. Immigration and border controls; national preference and changes to access to public benefits Purchasing power, household taxation and energy costs Public order, policing and justice",
@@ -124,42 +132,50 @@
         {
           "title": "Reuters: Mélenchon programme launch, 7 November 2026",
           "url": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
-          "type": "News report"
+          "type": "News report",
+          "source_id": "src-89e2f27deb8b34e5"
         },
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/jean-luc-melenchon/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-e5d94025bff7f169"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "LFI’s 7 November 2026 programme proposes a higher net minimum wage, price controls on essentials, wage indexation, higher taxes on wealthy households, reversing the pension reform and a foreign/energy-policy shift including leaving NATO’s integrated command and replacing nuclear power with renewables. Redistribution, higher wages and stronger public services Price controls or regulated prices for essential goods Progressive taxation and greater contributions from high incomes and wealth",
@@ -226,37 +242,44 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/edouard-philippe/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-f3bd91fe72867125"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Centre-right, liberal-conservative themes include fiscal discipline, economic competitiveness, public-sector reform and pension-system changes. In September 2026 he argued for moving the legal retirement age to 65 within less than ten years, with a funded pillar. Fiscal consolidation and debt reduction Work incentives, competitiveness and labour-market reform Pension-system sustainability, including a higher retirement age",
@@ -322,37 +345,44 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/raphael-glucksmann/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-c74cbbac7db6caeb"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Pro-European social democracy, European sovereignty and defence, support for Ukraine, social investment, industrial policy and ecological transition. He supports reversing the 2023 pension reform and returning to 62, with detailed contribution rules still unclear. Pro-European social democracy and European strategic capacity Support for Ukraine and a stronger European defence posture Industrial policy and economic sovereignty at European scale",
@@ -417,37 +447,44 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/gabriel-attal/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-a8c3f25b2ca93fe2"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Centrist / liberal-reformist themes include work, education, economic competitiveness, public order and state reform. In September 2026 he argued for a duration-based pension system with points and a funded component, without specifying a new legal retirement age. Economic competitiveness, work and employment Education and school standards Public order and state authority",
@@ -513,37 +550,44 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/bruno-retailleau/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-822ab5bdf57ed3fb"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Conservative-right priorities include immigration control, public order, authority and fiscal restraint. In 2026 he proposed a minimum retirement age of 63, a full-rate age of 65 and a funded component for new entrants. Tighter immigration and asylum rules Security, policing, criminal justice and state authority Fiscal restraint and public-sector reform",
@@ -608,37 +652,44 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/marine-tondelier/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-d0b4e9b333a674ec"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "LCP: first MEDEF debate, 27 August 2026",
           "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-          "type": "Debate coverage"
+          "type": "Debate coverage",
+          "source_id": "src-4f4f8e7b9e66a76a"
         },
         {
           "title": "Le Monde: candidates' economic divide, 28 August 2026",
           "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-          "type": "Debate analysis"
+          "type": "Debate analysis",
+          "source_id": "src-a96bc601a0f1de0e"
         },
         {
           "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-          "type": "Debate summary"
+          "type": "Debate summary",
+          "source_id": "src-65ffd352a761fbb2"
         }
       ],
       "policy_summary": "Green politics centred on climate action, biodiversity, ecological planning, public transport, energy transition, renovation, food systems and social protection. In 2026 she supported reversing the pension reform, initially returning to 62 with an eventual 60 for early starters or arduous work. Climate action and ecological planning Public transport, energy renovation and lower-carbon infrastructure Purchasing power and social protection during the transition",
@@ -703,22 +754,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/david-lisnard/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-9d1cea18becd9ec8"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Liberal-right themes include lower taxes and spending, economic freedom, local government and public order. His earlier pension positions include keeping the 2023 reform and adding a collective funded pillar. Lower taxes and reduced public spending Administrative simplification and decentralisation Security and stronger enforcement",
@@ -777,22 +832,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/eric-zemmour/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-782f3a0ba6a493c9"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "National-conservative / far-right politics focused on sharply restricting immigration, assimilation, national identity and revising France’s relationship with the EU. In September 2026 he discussed raising the legal retirement age to 64 or 65 by 2030. Sharp restrictions on immigration and asylum Assimilationist national identity and citizenship policy Security, policing and justice",
@@ -851,22 +910,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/francois-ruffin/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-352718e812c10422"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Left-wing, labour-focused and economically interventionist themes include industrial rebuilding, domestic production, worker protections and climate transition. His November 2026 book set out 40 proposals on industrial, demographic and climate challenges, but he said it was not a formal programme. Reindustrialisation and domestic production Wages, worker protections and purchasing power Reducing social and territorial inequality",
@@ -925,22 +988,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/fabien-roussel/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-75a8eef3e6eec640"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Communist / left politics traditionally prioritises wages, purchasing power, industrial sovereignty, public services and workers’ interests. No sufficiently recent quantified 2026 pension position was found in the research workbook. Higher wages and purchasing power Industrial sovereignty, manufacturing and energy security Public services and public investment",
@@ -999,22 +1066,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-e737c552f7bbff4b"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Sovereigntist right themes include national independence, criticism of EU integration, purchasing power and public services. In October 2026 he proposed maintaining the retirement age at 62 years and nine months and creating a funded account for each newborn. National sovereignty and a more limited EU role Industrial protection and strategic autonomy Purchasing power and public services",
@@ -1073,22 +1144,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/natacha-polony/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-fe823e0d1b4ad62a"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Sovereigntist and republican themes include national sovereignty, education, industrial policy, secular republicanism and social cohesion. Her self-description as a left sovereigntist should be distinguished from outside ideological classifications. Education, school authority and transmission of shared knowledge National sovereignty and strategic autonomy Industrial policy and economic independence",
@@ -1147,32 +1222,38 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/xavier-bertrand/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-379dc807906867a1"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         },
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         },
         {
           "title": "Toute l’Europe: declared candidates and official qualification process",
           "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
-          "type": "News candidate tracker"
+          "type": "News candidate tracker",
+          "source_id": "src-2246c57ba79efcd4"
         }
       ],
       "policy_summary": "Centre-right / social-Gaullist themes include industrial employment, regional development, public services and security. Industrial jobs and regional economic development Security and public order Public services and territorial equality",
@@ -1231,22 +1312,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/nathalie-arthaud/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-179b5d4830a7654c"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Far-left / Trotskyist politics centred on workers’ interests, class struggle, redistribution and opposition to capitalism. Her September 2026 speech criticised Le Pen’s pension proposal but did not set out a quantified alternative retirement age. Workers’ wages and purchasing power Workers’ control and opposition to capitalist ownership Public transparency over corporate accounts and profits",
@@ -1305,22 +1390,26 @@
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News / candidate status overview"
+          "type": "News / candidate status overview",
+          "source_id": "src-247e69abeafa52c8"
         },
         {
           "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
           "url": "https://www.observatoire2027.fr/candidats/",
-          "type": "Secondary candidate tracker"
+          "type": "Secondary candidate tracker",
+          "source_id": "src-bac69a757e85ea3f"
         },
         {
           "title": "Observatoire 2027: individual candidate analysis",
           "url": "https://www.observatoire2027.fr/candidat/bruno-le-maire/",
-          "type": "Secondary tracker; public statements indexed"
+          "type": "Secondary tracker; public statements indexed",
+          "source_id": "src-f3d7d5072cff5c42"
         },
         {
           "title": "Observatoire 2027: written programme comparison",
           "url": "https://www.observatoire2027.fr/programmes/",
-          "type": "Programme tracker"
+          "type": "Programme tracker",
+          "source_id": "src-059c883257fdc130"
         }
       ],
       "policy_summary": "Centre-right economic policy themes include fiscal policy, debt, competitiveness and institutional reform, based on positions indexed by Observatoire 2027. Debt and deficit reduction Taxation and competitiveness Industrial sovereignty and productive investment",
@@ -1380,12 +1469,14 @@
         {
           "title": "Le Parisien: Teddy Riner announces his 2027 candidacy, 9 November 2026",
           "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-je-suis-candidat-pour-dire-quon-peut-relever-la-france-teddy-riner-se-lance-dans-la-competition-09-11-2026-36MFSFMWDFGATLM2YGR3MDF4QI.php",
-          "type": "Direct interview / announcement"
+          "type": "Direct interview / announcement",
+          "source_id": "src-f3bdf0a356f075da"
         },
         {
           "title": "Associated Press: Teddy Riner announces a run for French president, 9 November 2026",
           "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
-          "type": "News report"
+          "type": "News report",
+          "source_id": "src-9002d5153f8dba68"
         }
       ],
       "policy_summary": "The announcement presents a unifying, non-partisan positioning. No detailed policy programme has been verified.",
@@ -1425,12 +1516,14 @@
         {
           "title": "Toute l’Europe: declared candidates and official qualification process",
           "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
-          "type": "News candidate tracker"
+          "type": "News candidate tracker",
+          "source_id": "src-2246c57ba79efcd4"
         },
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No 2027 platform independently verified for this prospective candidacy.",
@@ -1470,7 +1563,8 @@
         {
           "title": "Le Parisien: Dominique de Villepin confirms intention to run, 3 November 2026",
           "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-soyez-patients-dominique-de-villepin-confirme-son-intention-de-candidater-03-11-2026-XYE6ZJ64QFFYXC65PMEK4U3M5E.php",
-          "type": "News report; intention stated, not formal declaration"
+          "type": "News report; intention stated, not formal declaration",
+          "source_id": "src-43453800a901960c"
         }
       ],
       "policy_summary": "No complete 2027 programme independently verified in this update.",
@@ -1510,7 +1604,8 @@
         {
           "title": "Le Monde: Jean Lassalle raises funds for a possible third presidential campaign, 12 October 2026",
           "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-          "type": "News candidate guide; potential candidacy"
+          "type": "News candidate guide; potential candidacy",
+          "source_id": "src-247e69abeafa52c8"
         }
       ],
       "policy_summary": "No current 2027 programme independently verified.",
@@ -1550,7 +1645,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1590,7 +1686,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1630,7 +1727,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1670,7 +1768,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1710,7 +1809,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1750,7 +1850,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1790,7 +1891,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1830,7 +1932,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1870,7 +1973,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1910,7 +2014,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1950,7 +2055,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -1990,7 +2096,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2030,7 +2137,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2070,7 +2178,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2110,7 +2219,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2150,7 +2260,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2190,7 +2301,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2230,7 +2342,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2270,7 +2383,8 @@
         {
           "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
           "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
-          "type": "News candidate tracker; source classification, not official ballot list"
+          "type": "News candidate tracker; source classification, not official ballot list",
+          "source_id": "src-c40429483ddf1552"
         }
       ],
       "policy_summary": "No policy positions independently verified for this profile yet.",
@@ -2316,7 +2430,8 @@
       "source": {
         "title": "MEDEF",
         "url": "https://www.medef.com/",
-        "type": "Event organiser"
+        "type": "Event organiser",
+        "source_id": "src-3f58b64c769c7000"
       }
     }
   ],
@@ -2330,11 +2445,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Jean-Luc Mélenchon",
@@ -2345,11 +2467,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Édouard Philippe",
@@ -2360,11 +2489,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Raphaël Glucksmann",
@@ -2375,11 +2511,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (LCP / Public Sénat via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "David Lisnard",
@@ -2390,11 +2533,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Candidate site via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Bruno Retailleau",
@@ -2405,11 +2555,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Gabriel Attal",
@@ -2420,11 +2577,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Europe 1 / Public Sénat via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Éric Zemmour",
@@ -2435,11 +2599,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Marine Tondelier",
@@ -2450,11 +2621,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Les Écologistes / Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Nicolas Dupont-Aignan",
@@ -2465,11 +2643,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (Europe 1 via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Fabien Roussel",
@@ -2480,11 +2665,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (PCF/campaign review via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Nathalie Arthaud",
@@ -2495,11 +2687,18 @@
       "source": {
         "title": "Pensions evidence indexed by Vote Public (LO campaign material via Vote Public)",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available"
+        "type": "Debate reporting; consult the candidate's primary statement where available",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Marine Le Pen",
@@ -2510,11 +2709,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Jean-Luc Mélenchon",
@@ -2525,11 +2731,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Édouard Philippe",
@@ -2540,11 +2753,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Raphaël Glucksmann",
@@ -2555,11 +2775,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Gabriel Attal",
@@ -2570,11 +2797,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Bruno Retailleau",
@@ -2585,11 +2819,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     },
     {
       "candidate_name": "Marine Tondelier",
@@ -2600,11 +2841,18 @@
       "source": {
         "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting"
+        "type": "Debate reporting",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification_status": "Secondary source cited; primary-source review pending",
       "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked."
+      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      }
     }
   ],
   "polls": [
@@ -2629,7 +2877,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2654,7 +2903,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2679,7 +2929,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2704,7 +2955,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2729,7 +2981,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2754,7 +3007,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2778,7 +3032,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2803,7 +3058,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2828,7 +3084,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2853,7 +3110,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2877,7 +3135,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2902,7 +3161,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2927,7 +3187,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2951,7 +3212,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -2976,7 +3238,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -3001,7 +3264,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -3026,7 +3290,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -3051,7 +3316,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -3076,7 +3342,8 @@
       "source": {
         "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
         "url": "https://vote-public.org/presidentielle-2027/",
-        "type": "Poll archive / secondary source"
+        "type": "Poll archive / secondary source",
+        "source_id": "src-1541e3ce5ededaef"
       },
       "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
     },
@@ -3101,7 +3368,8 @@
       "source": {
         "title": "Polling Forecast: France 2027 poll archive",
         "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
-        "type": "Secondary poll archive; original poll notice should be checked"
+        "type": "Secondary poll archive; original poll notice should be checked",
+        "source_id": "src-a44e490ce4c8fdac"
       },
       "data_note": "Latest indexed observation in the source checked on 8 November 2026. Results are a poll snapshot, not a forecast. Keep separate from the Vote Public rolling-average series."
     }
@@ -3117,12 +3385,16 @@
       "source": {
         "title": "French presidential hopeful Mélenchon pledges economic stimulus, renews NATO exit call",
         "url": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-89e2f27deb8b34e5"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3135,12 +3407,16 @@
       "source": {
         "title": "« Ici est la force ! » : depuis Le Bourget, Jean-Luc Mélenchon prêt à décoller pour le second tour",
         "url": "https://www.leparisien.fr/elections/presidentielle/ici-est-la-force-depuis-le-bourget-jean-luc-melenchon-pret-a-decoller-pour-le-second-tour-de-la-presidentielle-07-11-2026-5AP5ZDQ7V5CATKZPLLC7VKHT6I.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-241559660f2f5c34"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3153,12 +3429,16 @@
       "source": {
         "title": "En meeting au Bourget, Mélenchon mobilise sa base tout en cherchant à élargir son électorat",
         "url": "https://www.lemonde.fr/politique/article/2026/11/08/presidentielle-2027-en-meeting-au-bourget-jean-luc-melenchon-s-attelle-a-mobiliser-sa-base-tout-en-elargissant-son-electorat_6808387_823448.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-5ddb09c966498a67"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3171,12 +3451,16 @@
       "source": {
         "title": "Présidentielle 2027 : les sondages ont-ils toujours vu juste à six mois des élections ?",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-sondages-ont-ils-toujours-vu-juste-a-six-mois-des-elections-07-11-2026-WZ7PUIGJPRCNHAJWBGWFRLZPJA.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-317c0e07c89b7e13"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3189,12 +3473,16 @@
       "source": {
         "title": "Présidentielle 2027 : l’hypothèse d’une candidature de Christine Lagarde questionne à droite et au sein du bloc central",
         "url": "https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-l-hypothese-d-une-candidature-de-christine-lagarde-questionne-a-droite-et-au-sein-du-bloc-central_6807815_823448.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-bbf46b96b4726a38"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3207,12 +3495,16 @@
       "source": {
         "title": "« Au boulot ! » : François Ruffin dévoile 40 propositions dans un livre, qui n’est « pas un programme »",
         "url": "https://www.leparisien.fr/elections/presidentielle/au-boulot-candidat-a-la-presidentielle-2027-francois-ruffin-devoile-40-propositions-dans-un-livre-qui-nest-pas-un-programme-06-11-2026-4NR3EYU2VBAIXHCUVP4K4NYVIQ.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-ad8eacbf22d3af27"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3225,12 +3517,16 @@
       "source": {
         "title": "Meeting de Mélenchon : une création artistique collective illustrera le programme présidentiel de LFI",
         "url": "https://www.leparisien.fr/elections/presidentielle/meeting-de-melenchon-au-bourget-une-creation-artistique-collective-illustrera-le-programme-presidentiel-de-lfi-06-11-2026-JBQI7V3K5VH4LLASGP2ZVT6BKY.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-e936e0288fd66978"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3243,12 +3539,16 @@
       "source": {
         "title": "Présidentielle 2027 : la primaire de la droite et du centre a du plomb dans l’aile avant même d’avoir décollé",
         "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-a-du-plomb-dans-l-aile-avant-meme-d-avoir-decolle_6805552_823448.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-2a36261845a696a2"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3261,12 +3561,16 @@
       "source": {
         "title": "Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe",
         "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-7646108e3a661d57"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3279,12 +3583,16 @@
       "source": {
         "title": "Présidentielle 2027 : qui sont les principaux candidats déclarés ou probables ?",
         "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-247e69abeafa52c8"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3297,12 +3605,16 @@
       "source": {
         "title": "2027 French presidential election: Who’s running?",
         "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/11/2027-french-presidential-election-who-s-running_6752856_9.html",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-3ff9a887b01a0de1"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3315,12 +3627,16 @@
       "source": {
         "title": "Présidentielle 2027 : ce qu’il faut retenir du débat entre les candidats devant le Medef",
         "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-4f4f8e7b9e66a76a"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3333,12 +3649,16 @@
       "source": {
         "title": "Dette, retraites, fiscalité… que retenir du premier débat des candidats à l’élection présidentielle ?",
         "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-d4c7bb75f18c5353"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3351,12 +3671,16 @@
       "source": {
         "title": "Édouard Philippe, Gabriel Attal et Bruno Retailleau : un impossible ménage à trois ?",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-gabriel-attal-et-bruno-retailleau-un-impossible-menage-a-trois-07-08-2026-K46XN56IBFDDTMOYNJYPUB2MBQ.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-b6eb83961e5f2671"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3369,12 +3693,16 @@
       "source": {
         "title": "Au cœur de l’été, Retailleau prépare son odyssée présidentielle depuis l’île d’Yeu",
         "url": "https://www.leparisien.fr/elections/presidentielle/ca-permet-de-prendre-de-la-distance-au-coeur-de-lete-retailleau-prepare-son-odyssee-presidentielle-depuis-lile-dyeu-07-08-2026-AJCEQFVGQJHZLMWFRKAE3IZNC4.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-03847b639169e1fa"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3387,12 +3715,16 @@
       "source": {
         "title": "Marine Tondelier veut pouvoir interdire X en cas d’ingérences étrangères",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-veut-pouvoir-interdire-x-en-cas-dingerences-etrangeres-06-08-2026-H7CEM6RWLVBTTN4QT3ULN64F2M.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-6d19e24fe42df29f"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3405,12 +3737,16 @@
       "source": {
         "title": "Les candidats n’ont plus que quatre mois pour trouver les 500 parrainages nécessaires",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-candidats-nont-plus-que-quatre-mois-pour-trouver-les-500-parrainages-necessaires-avant-le-premier-tour-06-11-2026-Z2U635YNRRFQZMABPMN5YUEGQU.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-00a2a51cda3f6aae"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3423,12 +3759,16 @@
       "source": {
         "title": "Attal says discussions on a right-centre primary are accelerating",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-79ade616248c6100"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3441,12 +3781,16 @@
       "source": {
         "title": "Raphaël Glucksmann schedules his first major campaign rally for 6 December",
         "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-emission-sur-les-reseaux-ce-vendredi-et-grand-meeting-a-paris-le-6-decembre-raphael-glucksmann-lance-sa-campagne-06-11-2026-VJAS3ET2JJBA5C7JDA47N6FOIY.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-b9958a38a6afb280"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3459,12 +3803,16 @@
       "source": {
         "title": "La stratégie de Jean-Luc Mélenchon pour réformer l’État",
         "url": "https://www.leparisien.fr/elections/presidentielle/souverainete-populaire-permanente-republique-federative-la-strategie-de-jean-luc-melenchon-pour-reformer-letat-04-08-2026-S5DTNYYY5RDN7GJMJQG3XS2FFY.php",
-        "type": "News article"
+        "type": "News article",
+        "source_id": "src-f74488b2a5baba78"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3477,12 +3825,16 @@
       "source": {
         "title": "Read Le Monde report",
         "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
-        "type": "News analysis"
+        "type": "News analysis",
+        "source_id": "src-a96bc601a0f1de0e"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3495,12 +3847,16 @@
       "source": {
         "title": "Read Selectra report",
         "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate summary"
+        "type": "Debate summary",
+        "source_id": "src-65ffd352a761fbb2"
       },
       "verification": {
         "status": "Legacy entry · review pending",
         "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review."
+        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "legacy_status": "Legacy entry · review pending",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3513,13 +3869,17 @@
       "source": {
         "title": "Le Monde, 8 November 2026",
         "url": "https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html",
-        "type": "Independent news report"
+        "type": "Independent news report",
+        "source_id": "src-118cac209440d5c4"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
         "primary_source": "https://www.lavenirencommun.org/",
-        "note": "Programme claims should be checked against the official programme text; electoral interpretation remains reporting."
+        "note": "Programme claims should be checked against the official programme text; electoral interpretation remains reporting.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3532,12 +3892,16 @@
       "source": {
         "title": "Associated Press, 7 November 2026",
         "url": "https://apnews.com/article/583894626bd16d826030e9c152cb04c7",
-        "type": "Independent international news report"
+        "type": "Independent international news report",
+        "source_id": "src-ce0f9c917dbbf416"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Analysis and expert interpretation are attributed; poll and legal claims should be read in the article’s stated context."
+        "note": "Analysis and expert interpretation are attributed; poll and legal claims should be read in the article’s stated context.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3550,12 +3914,16 @@
       "source": {
         "title": "RTL, 3 November 2026",
         "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301",
-        "type": "News report on polling"
+        "type": "News report on polling",
+        "source_id": "src-73384a3f2a76d462"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Poll findings are attributed to Ifop; this is not a substitute for the full poll notice filed with the Commission des sondages."
+        "note": "Poll findings are attributed to Ifop; this is not a substitute for the full poll notice filed with the Commission des sondages.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3568,13 +3936,17 @@
       "source": {
         "title": "LCP, 6 November 2026",
         "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
-        "type": "Parliamentary broadcaster / programme analysis"
+        "type": "Parliamentary broadcaster / programme analysis",
+        "source_id": "src-8c51d60e17c35bcf"
       },
       "verification": {
         "status": "Primary-source cross-check available",
         "checked_date": "2026-11-08",
         "primary_source": "https://www.lavenirencommun.org/",
-        "note": "LCP is secondary reporting; the programme itself is linked separately as the primary source."
+        "note": "LCP is secondary reporting; the programme itself is linked separately as the primary source.",
+        "legacy_status": "Primary-source cross-check available",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3587,12 +3959,16 @@
       "source": {
         "title": "Public Sénat, 14 October 2026",
         "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
-        "type": "Public-service parliamentary broadcaster"
+        "type": "Public-service parliamentary broadcaster",
+        "source_id": "src-ec24b47c71652d8b"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Candidate declarations are time-sensitive and must be reconfirmed against direct statements and official campaign channels."
+        "note": "Candidate declarations are time-sensitive and must be reconfirmed against direct statements and official campaign channels.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3605,12 +3981,16 @@
       "source": {
         "title": "The Guardian, 12 October 2026",
         "url": "https://www.theguardian.com/world/2026/oct/12/french-centre-left-must-wage-existential-battle-to-prevent-far-right-winning-presidency",
-        "type": "Independent international news report"
+        "type": "Independent international news report",
+        "source_id": "src-5436a62ced49f877"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Political characterisations and strategic analysis are attributed to the report and quoted sources."
+        "note": "Political characterisations and strategic analysis are attributed to the report and quoted sources.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3623,12 +4003,16 @@
       "source": {
         "title": "Le Monde, 5 November 2026",
         "url": "https://www.lemonde.fr/en/politics/article/2026/11/05/2027-french-presidential-election-to-fend-off-le-pen-and-melenchon-macron-recommends-wide-coalition_6772504_5.html",
-        "type": "Independent news report"
+        "type": "Independent news report",
+        "source_id": "src-c642e63b34692d7f"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Macron’s position is attributed to reporting; poll references are not treated as forecasts."
+        "note": "Macron’s position is attributed to reporting; poll references are not treated as forecasts.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3641,12 +4025,16 @@
       "source": {
         "title": "Le Monde, 7 November 2026",
         "url": "https://www.lemonde.fr/en/politics/article/2026/11/07/2027-french-presidential-election-centrists-and-right-speculate-over-christine-lagarde-s-motives_6774419_5.html",
-        "type": "Independent news report"
+        "type": "Independent news report",
+        "source_id": "src-8ad8994b3cc0e231"
       },
       "verification": {
         "status": "Cross-checked",
         "checked_date": "2026-11-08",
-        "note": "Speculation is labelled as speculation; no candidacy is inferred."
+        "note": "Speculation is labelled as speculation; no candidacy is inferred.",
+        "legacy_status": "Cross-checked",
+        "code": "unreviewed",
+        "reviewer": null
       }
     },
     {
@@ -3659,12 +4047,16 @@
       "source": {
         "title": "Associated Press: Teddy Riner announces a run for French president, 9 November 2026",
         "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
-        "type": "News report"
+        "type": "News report",
+        "source_id": "src-9002d5153f8dba68"
       },
       "verification": {
         "status": "Reviewed for this update",
         "checked_date": "2026-11-09",
-        "note": "Announcement cross-checked against the same-day Le Parisien interview. Candidate declaration is distinct from official ballot qualification."
+        "note": "Announcement cross-checked against the same-day Le Parisien interview. Candidate declaration is distinct from official ballot qualification.",
+        "legacy_status": "Reviewed for this update",
+        "code": "unreviewed",
+        "reviewer": null
       }
     }
   ],
@@ -3732,315 +4124,360 @@
       "publisher": "info.gouv.fr",
       "url": "https://www.info.gouv.fr/actualite/election-presidentielle-2027",
       "language": "French",
-      "type": "Official government source"
+      "type": "Official government source",
+      "source_id": "src-ebca2b7af2e5afd5"
     },
     {
       "title": "Observatoire 2027",
       "publisher": "Observatoire 2027",
       "url": "https://observatoire2027.fr/",
       "language": "French",
-      "type": "Policy research / secondary source"
+      "type": "Policy research / secondary source",
+      "source_id": "src-d0b703063ec2c667"
     },
     {
       "title": "Polling Forecast: French presidential polls",
       "publisher": "Polling Forecast",
       "url": "https://www.pollingforecast.com/fr/polls?lang=en",
       "language": "English",
-      "type": "Polling aggregator"
+      "type": "Polling aggregator",
+      "source_id": "src-ab9e23c18bcadb4a"
     },
     {
       "title": "QuiEntre: polling archive",
       "publisher": "QuiEntre",
       "url": "https://quientre.fr/en/sondages",
       "language": "English",
-      "type": "Polling archive"
+      "type": "Polling archive",
+      "source_id": "src-232a53e17b154a2f"
     },
     {
       "title": "Reuters: Mélenchon programme launch, 7 November 2026",
       "publisher": "Reuters",
       "url": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
       "language": "English",
-      "type": "News report"
+      "type": "News report",
+      "source_id": "src-89e2f27deb8b34e5"
     },
     {
       "title": "Le Monde: candidate guide (12 October 2026)",
       "publisher": "Le Monde",
       "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
       "language": "French",
-      "type": "News / candidate overview"
+      "type": "News / candidate overview",
+      "source_id": "src-247e69abeafa52c8"
     },
     {
       "title": "Le Monde: candidate guide in English (11 October 2026)",
       "publisher": "Le Monde",
       "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/11/2027-french-presidential-election-who-s-running_6752856_9.html",
       "language": "English",
-      "type": "News / candidate overview"
+      "type": "News / candidate overview",
+      "source_id": "src-3ff9a887b01a0de1"
     },
     {
       "title": "LCP: MEDEF debate summary (27 August 2026)",
       "publisher": "LCP - Assemblée nationale",
       "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
       "language": "French",
-      "type": "News report"
+      "type": "News report",
+      "source_id": "src-4f4f8e7b9e66a76a"
     },
     {
       "title": "Public Sénat: MEDEF debate and pension proposals (27 August 2026)",
       "publisher": "Public Sénat",
       "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
       "language": "French",
-      "type": "News report"
+      "type": "News report",
+      "source_id": "src-d4c7bb75f18c5353"
     },
     {
       "title": "PresiTracker 2027: sponsorship methodology and status",
       "publisher": "PresiTracker 2027",
       "url": "https://presitracker2027.fr/parrainages",
       "language": "French",
-      "type": "Secondary tracker; announced pledges are not official validated sponsorships"
+      "type": "Secondary tracker; announced pledges are not official validated sponsorships",
+      "source_id": "src-a20c4567162d5a6c"
     },
     {
       "title": "Observatoire 2027: candidate position database",
       "publisher": "Observatoire 2027",
       "url": "https://www.observatoire2027.fr/candidats/",
       "language": "French",
-      "type": "Secondary policy database"
+      "type": "Secondary policy database",
+      "source_id": "src-bac69a757e85ea3f"
     },
     {
       "title": "Polling Forecast: France 2027 poll archive",
       "publisher": "Polling Forecast",
       "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
       "language": "English",
-      "type": "Polling archive; verify each poll notice"
+      "type": "Polling archive; verify each poll notice",
+      "source_id": "src-a44e490ce4c8fdac"
     },
     {
       "title": "Vote Public: presidential election 2027 poll and news tracker",
       "publisher": "Vote Public",
       "url": "https://vote-public.org/presidentielle-2027/",
       "language": "French",
-      "type": "Secondary polling and campaign tracker; verify each original poll notice"
+      "type": "Secondary polling and campaign tracker; verify each original poll notice",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "title": "Observatoire 2027: written programme tracker",
       "url": "https://www.observatoire2027.fr/programmes/",
       "publisher": "Observatoire 2027",
       "language": "French",
-      "type": "Secondary programme index"
+      "type": "Secondary programme index",
+      "source_id": "src-059c883257fdc130"
     },
     {
       "title": "data.gouv.fr: 2027 candidate status dataset",
       "url": "https://www.data.gouv.fr/datasets/candidats-a-lelection-presidentielle-2027-liste-partis-et-sources",
       "publisher": "data.gouv.fr / Hémicycle",
       "language": "French",
-      "type": "Open candidate-status dataset"
+      "type": "Open candidate-status dataset",
+      "source_id": "src-430c8dde0312f0ec"
     },
     {
       "title": "AFP",
       "publisher": "AFP",
       "url": "https://www.afp.com/",
       "language": "French",
-      "type": "News agency · monitored outlet directory"
+      "type": "News agency · monitored outlet directory",
+      "source_id": "src-69833b7a62e62df3"
     },
     {
       "title": "Reuters",
       "publisher": "Reuters",
       "url": "https://www.reuters.com/",
       "language": "English",
-      "type": "International news agency · monitored outlet directory"
+      "type": "International news agency · monitored outlet directory",
+      "source_id": "src-938754f9bd588c14"
     },
     {
       "title": "Associated Press",
       "publisher": "Associated Press",
       "url": "https://apnews.com/",
       "language": "English",
-      "type": "International news agency · monitored outlet directory"
+      "type": "International news agency · monitored outlet directory",
+      "source_id": "src-5f5348c331296c87"
     },
     {
       "title": "Franceinfo",
       "publisher": "Franceinfo",
       "url": "https://www.franceinfo.fr/",
       "language": "French",
-      "type": "Public-service news · monitored outlet directory"
+      "type": "Public-service news · monitored outlet directory",
+      "source_id": "src-ecd5495428c56ff2"
     },
     {
       "title": "France Inter",
       "publisher": "France Inter",
       "url": "https://www.radiofrance.fr/franceinter",
       "language": "French",
-      "type": "Public-service radio · monitored outlet directory"
+      "type": "Public-service radio · monitored outlet directory",
+      "source_id": "src-1734d1ed2f249cb2"
     },
     {
       "title": "France 24",
       "publisher": "France 24",
       "url": "https://www.france24.com/",
       "language": "French / English",
-      "type": "International broadcaster · monitored outlet directory"
+      "type": "International broadcaster · monitored outlet directory",
+      "source_id": "src-d807cf465ac7b0a3"
     },
     {
       "title": "RFI",
       "publisher": "RFI",
       "url": "https://www.rfi.fr/",
       "language": "French / English",
-      "type": "International public radio · monitored outlet directory"
+      "type": "International public radio · monitored outlet directory",
+      "source_id": "src-271e27c785348e3a"
     },
     {
       "title": "TF1 Info",
       "publisher": "TF1 Info",
       "url": "https://www.tf1info.fr/",
       "language": "French",
-      "type": "National broadcaster news · monitored outlet directory"
+      "type": "National broadcaster news · monitored outlet directory",
+      "source_id": "src-f508ca6e4c44e8c3"
     },
     {
       "title": "BFMTV",
       "publisher": "BFMTV",
       "url": "https://www.bfmtv.com/",
       "language": "French",
-      "type": "News broadcaster · monitored outlet directory"
+      "type": "News broadcaster · monitored outlet directory",
+      "source_id": "src-e072b1c7a9ec201c"
     },
     {
       "title": "RTL",
       "publisher": "RTL",
       "url": "https://www.rtl.fr/",
       "language": "French",
-      "type": "Radio / news · monitored outlet directory"
+      "type": "Radio / news · monitored outlet directory",
+      "source_id": "src-aca95282c81b3b64"
     },
     {
       "title": "Europe 1",
       "publisher": "Europe 1",
       "url": "https://www.europe1.fr/",
       "language": "French",
-      "type": "Radio / news · monitored outlet directory"
+      "type": "Radio / news · monitored outlet directory",
+      "source_id": "src-cbc77f3de07776f8"
     },
     {
       "title": "LCP - Assemblée nationale",
       "publisher": "LCP - Assemblée nationale",
       "url": "https://lcp.fr/",
       "language": "French",
-      "type": "Parliamentary broadcaster · monitored outlet directory"
+      "type": "Parliamentary broadcaster · monitored outlet directory",
+      "source_id": "src-09015c430218ff0b"
     },
     {
       "title": "Public Sénat",
       "publisher": "Public Sénat",
       "url": "https://www.publicsenat.fr/",
       "language": "French",
-      "type": "Parliamentary broadcaster · monitored outlet directory"
+      "type": "Parliamentary broadcaster · monitored outlet directory",
+      "source_id": "src-1e4f9cbc49fddaed"
     },
     {
       "title": "Libération",
       "publisher": "Libération",
       "url": "https://www.liberation.fr/",
       "language": "French",
-      "type": "National newspaper · monitored outlet directory"
+      "type": "National newspaper · monitored outlet directory",
+      "source_id": "src-26a99afb22a8fc64"
     },
     {
       "title": "Le Figaro",
       "publisher": "Le Figaro",
       "url": "https://www.lefigaro.fr/",
       "language": "French",
-      "type": "National newspaper · monitored outlet directory"
+      "type": "National newspaper · monitored outlet directory",
+      "source_id": "src-909d0e0a8ea83c48"
     },
     {
       "title": "Les Échos",
       "publisher": "Les Échos",
       "url": "https://www.lesechos.fr/",
       "language": "French",
-      "type": "Business newspaper · monitored outlet directory"
+      "type": "Business newspaper · monitored outlet directory",
+      "source_id": "src-846dae128391ce45"
     },
     {
       "title": "La Croix",
       "publisher": "La Croix",
       "url": "https://www.la-croix.com/",
       "language": "French",
-      "type": "National newspaper · monitored outlet directory"
+      "type": "National newspaper · monitored outlet directory",
+      "source_id": "src-595d90ad134add89"
     },
     {
       "title": "Mediapart",
       "publisher": "Mediapart",
       "url": "https://www.mediapart.fr/",
       "language": "French",
-      "type": "Investigative / digital newspaper · monitored outlet directory"
+      "type": "Investigative / digital newspaper · monitored outlet directory",
+      "source_id": "src-9433673bfb342154"
     },
     {
       "title": "HuffPost France",
       "publisher": "HuffPost France",
       "url": "https://www.huffingtonpost.fr/",
       "language": "French",
-      "type": "Digital news outlet · monitored outlet directory"
+      "type": "Digital news outlet · monitored outlet directory",
+      "source_id": "src-5fff52cf04a75df2"
     },
     {
       "title": "Le JDD",
       "publisher": "Le JDD",
       "url": "https://www.lejdd.fr/",
       "language": "French",
-      "type": "Weekly newspaper · monitored outlet directory"
+      "type": "Weekly newspaper · monitored outlet directory",
+      "source_id": "src-079efe5f7a639491"
     },
     {
       "title": "The Guardian",
       "publisher": "The Guardian",
       "url": "https://www.theguardian.com/world/france",
       "language": "English",
-      "type": "International newspaper · monitored outlet directory"
+      "type": "International newspaper · monitored outlet directory",
+      "source_id": "src-bdbe3d59e8bbe85e"
     },
     {
       "title": "BBC News",
       "publisher": "BBC News",
       "url": "https://www.bbc.com/news",
       "language": "English",
-      "type": "International broadcaster · monitored outlet directory"
+      "type": "International broadcaster · monitored outlet directory",
+      "source_id": "src-78e6c57559dbe99d"
     },
     {
       "title": "Politico Europe",
       "publisher": "Politico Europe",
       "url": "https://www.politico.eu/",
       "language": "English",
-      "type": "European political news · monitored outlet directory"
+      "type": "European political news · monitored outlet directory",
+      "source_id": "src-11b083d72a8e42ca"
     },
     {
       "title": "Euractiv",
       "publisher": "Euractiv",
       "url": "https://www.euractiv.com/",
       "language": "English / French",
-      "type": "European policy news · monitored outlet directory"
+      "type": "European policy news · monitored outlet directory",
+      "source_id": "src-7e4b4b5d8aea4006"
     },
     {
       "title": "Deutsche Welle",
       "publisher": "Deutsche Welle",
       "url": "https://www.dw.com/",
       "language": "English / German",
-      "type": "International broadcaster · monitored outlet directory"
+      "type": "International broadcaster · monitored outlet directory",
+      "source_id": "src-16b0bf7eef5c95ba"
     },
     {
       "title": "The New York Times",
       "publisher": "The New York Times",
       "url": "https://www.nytimes.com/",
       "language": "English",
-      "type": "International newspaper · monitored outlet directory"
+      "type": "International newspaper · monitored outlet directory",
+      "source_id": "src-10b6b18f32d34529"
     },
     {
       "title": "The Economist",
       "publisher": "The Economist",
       "url": "https://www.economist.com/",
       "language": "English",
-      "type": "International current affairs · monitored outlet directory"
+      "type": "International current affairs · monitored outlet directory",
+      "source_id": "src-b34fb78be74db355"
     },
     {
       "title": "Le Monde",
       "publisher": "Le Monde",
       "url": "https://www.lemonde.fr/",
       "language": "French / English",
-      "type": "National / international newspaper · monitored outlet directory"
+      "type": "National / international newspaper · monitored outlet directory",
+      "source_id": "src-1c86e53d0e2d2350"
     },
     {
       "title": "La Tribune",
       "publisher": "La Tribune",
       "url": "https://www.latribune.fr/",
       "language": "French",
-      "type": "Business and economics news · monitored outlet directory"
+      "type": "Business and economics news · monitored outlet directory",
+      "source_id": "src-0776c4f933299f40"
     },
     {
       "title": "Challenges",
       "publisher": "Challenges",
       "url": "https://www.challenges.fr/",
       "language": "French",
-      "type": "Business and politics magazine · monitored outlet directory"
+      "type": "Business and politics magazine · monitored outlet directory",
+      "source_id": "src-0f39e54bfed116a0"
     }
   ],
   "updates": [
@@ -4480,7 +4917,34 @@
     ],
     "corrections_policy": "Corrections are made transparently. Each correction records the date, affected page or claim, what changed, why it changed, and the sources supporting the revision. Material corrections should be visible to readers.",
     "compass_policy": "The compass measures directional alignment only where a dated, attributable candidate position can be coded against a question. It does not infer positions from ideology. Missing positions are excluded from the score and displayed as evidence gaps. Match scores are not probabilities or voting recommendations.",
-    "current_audit_limit": "This is the launch of a formal editorial process, not a claim that every historical entry has already passed it. Legacy claims remain under audit until their individual verification records are completed."
+    "current_audit_limit": "This is the launch of a formal editorial process, not a claim that every historical entry has already passed it. Legacy claims remain under audit until their individual verification records are completed.",
+    "source_provenance": {
+      "source_id_rule": "source_id is src- followed by the first 16 lowercase hexadecimal characters of SHA-256 of the exact cited URL.",
+      "registry": "source_registry records every distinct cited URL. sources remains the curated source directory shown in the interface.",
+      "verification_scope": "Verification codes attach to claims or archived items, not to a publisher as a whole. A source citation alone does not establish verification.",
+      "codes": [
+        {
+          "code": "unreviewed",
+          "meaning": "No claim-level verification is recorded."
+        },
+        {
+          "code": "secondary_only",
+          "meaning": "A secondary source is cited; the underlying primary statement has not been checked."
+        },
+        {
+          "code": "primary_verified",
+          "meaning": "The original primary source was checked for the stated claim; checked_date and reviewer are required."
+        },
+        {
+          "code": "disputed",
+          "meaning": "Credible sources materially disagree; the disagreement must be described."
+        },
+        {
+          "code": "superseded",
+          "meaning": "A later statement or event supersedes this evidence for current-position use."
+        }
+      ]
+    }
   },
   "compass_questions": [
     {
@@ -5593,5 +6057,629 @@
     "default_design": "Two questions from each of the twelve policy areas appear in the standard compass. One additional question per area is available in the optional extended stage.",
     "extended_design": "The visitor may continue from the 24-question standard compass to answer the remaining twelve questions, bringing the total to 36.",
     "weighting_note": "Policy areas retain equal baseline weight. Adding the third question in each area improves within-area detail; it does not increase that area’s overall baseline weight."
-  }
+  },
+  "source_registry": [
+    {
+      "title": "Les candidats n’ont plus que quatre mois pour trouver les 500 parrainages nécessaires",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-candidats-nont-plus-que-quatre-mois-pour-trouver-les-500-parrainages-necessaires-avant-le-premier-tour-06-11-2026-Z2U635YNRRFQZMABPMN5YUEGQU.php",
+      "type": "News article",
+      "id": "src-00a2a51cda3f6aae"
+    },
+    {
+      "title": "Au cœur de l’été, Retailleau prépare son odyssée présidentielle depuis l’île d’Yeu",
+      "url": "https://www.leparisien.fr/elections/presidentielle/ca-permet-de-prendre-de-la-distance-au-coeur-de-lete-retailleau-prepare-son-odyssee-presidentielle-depuis-lile-dyeu-07-08-2026-AJCEQFVGQJHZLMWFRKAE3IZNC4.php",
+      "type": "News article",
+      "id": "src-03847b639169e1fa"
+    },
+    {
+      "title": "Observatoire 2027: written programme comparison",
+      "url": "https://www.observatoire2027.fr/programmes/",
+      "type": "Programme tracker",
+      "id": "src-059c883257fdc130"
+    },
+    {
+      "title": "La Tribune",
+      "url": "https://www.latribune.fr/",
+      "type": "Business and economics news · monitored outlet directory",
+      "id": "src-0776c4f933299f40",
+      "publisher": "La Tribune",
+      "language": "French"
+    },
+    {
+      "title": "Le JDD",
+      "url": "https://www.lejdd.fr/",
+      "type": "Weekly newspaper · monitored outlet directory",
+      "id": "src-079efe5f7a639491",
+      "publisher": "Le JDD",
+      "language": "French"
+    },
+    {
+      "title": "LCP - Assemblée nationale",
+      "url": "https://lcp.fr/",
+      "type": "Parliamentary broadcaster · monitored outlet directory",
+      "id": "src-09015c430218ff0b",
+      "publisher": "LCP - Assemblée nationale",
+      "language": "French"
+    },
+    {
+      "title": "Challenges",
+      "url": "https://www.challenges.fr/",
+      "type": "Business and politics magazine · monitored outlet directory",
+      "id": "src-0f39e54bfed116a0",
+      "publisher": "Challenges",
+      "language": "French"
+    },
+    {
+      "title": "The New York Times",
+      "url": "https://www.nytimes.com/",
+      "type": "International newspaper · monitored outlet directory",
+      "id": "src-10b6b18f32d34529",
+      "publisher": "The New York Times",
+      "language": "English"
+    },
+    {
+      "title": "Le Monde, 8 November 2026",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html",
+      "type": "Independent news report",
+      "id": "src-118cac209440d5c4"
+    },
+    {
+      "title": "Politico Europe",
+      "url": "https://www.politico.eu/",
+      "type": "European political news · monitored outlet directory",
+      "id": "src-11b083d72a8e42ca",
+      "publisher": "Politico Europe",
+      "language": "English"
+    },
+    {
+      "title": "Vote Public: France 2027 poll archive (cross-check original notice)",
+      "url": "https://vote-public.org/presidentielle-2027/",
+      "type": "Poll archive / secondary source",
+      "id": "src-1541e3ce5ededaef"
+    },
+    {
+      "title": "Deutsche Welle",
+      "url": "https://www.dw.com/",
+      "type": "International broadcaster · monitored outlet directory",
+      "id": "src-16b0bf7eef5c95ba",
+      "publisher": "Deutsche Welle",
+      "language": "English / German"
+    },
+    {
+      "title": "France Inter",
+      "url": "https://www.radiofrance.fr/franceinter",
+      "type": "Public-service radio · monitored outlet directory",
+      "id": "src-1734d1ed2f249cb2",
+      "publisher": "France Inter",
+      "language": "French"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/nathalie-arthaud/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-179b5d4830a7654c"
+    },
+    {
+      "title": "Le Monde",
+      "url": "https://www.lemonde.fr/",
+      "type": "National / international newspaper · monitored outlet directory",
+      "id": "src-1c86e53d0e2d2350",
+      "publisher": "Le Monde",
+      "language": "French / English"
+    },
+    {
+      "title": "Public Sénat",
+      "url": "https://www.publicsenat.fr/",
+      "type": "Parliamentary broadcaster · monitored outlet directory",
+      "id": "src-1e4f9cbc49fddaed",
+      "publisher": "Public Sénat",
+      "language": "French"
+    },
+    {
+      "title": "Toute l’Europe: declared candidates and official qualification process",
+      "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+      "type": "News candidate tracker",
+      "id": "src-2246c57ba79efcd4"
+    },
+    {
+      "title": "QuiEntre: polling archive",
+      "url": "https://quientre.fr/en/sondages",
+      "type": "Polling archive",
+      "id": "src-232a53e17b154a2f",
+      "publisher": "QuiEntre",
+      "language": "English"
+    },
+    {
+      "title": "« Ici est la force ! » : depuis Le Bourget, Jean-Luc Mélenchon prêt à décoller pour le second tour",
+      "url": "https://www.leparisien.fr/elections/presidentielle/ici-est-la-force-depuis-le-bourget-jean-luc-melenchon-pret-a-decoller-pour-le-second-tour-de-la-presidentielle-07-11-2026-5AP5ZDQ7V5CATKZPLLC7VKHT6I.php",
+      "type": "News article",
+      "id": "src-241559660f2f5c34"
+    },
+    {
+      "title": "Le Monde: candidate guide (12 October 2026)",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html",
+      "type": "News / candidate status overview",
+      "id": "src-247e69abeafa52c8"
+    },
+    {
+      "title": "Libération",
+      "url": "https://www.liberation.fr/",
+      "type": "National newspaper · monitored outlet directory",
+      "id": "src-26a99afb22a8fc64",
+      "publisher": "Libération",
+      "language": "French"
+    },
+    {
+      "title": "RFI",
+      "url": "https://www.rfi.fr/",
+      "type": "International public radio · monitored outlet directory",
+      "id": "src-271e27c785348e3a",
+      "publisher": "RFI",
+      "language": "French / English"
+    },
+    {
+      "title": "Présidentielle 2027 : la primaire de la droite et du centre a du plomb dans l’aile avant même d’avoir décollé",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-a-du-plomb-dans-l-aile-avant-meme-d-avoir-decolle_6805552_823448.html",
+      "type": "News article",
+      "id": "src-2a36261845a696a2"
+    },
+    {
+      "title": "Présidentielle 2027 : les sondages ont-ils toujours vu juste à six mois des élections ?",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-sondages-ont-ils-toujours-vu-juste-a-six-mois-des-elections-07-11-2026-WZ7PUIGJPRCNHAJWBGWFRLZPJA.php",
+      "type": "News article",
+      "id": "src-317c0e07c89b7e13"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/francois-ruffin/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-352718e812c10422"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/xavier-bertrand/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-379dc807906867a1"
+    },
+    {
+      "title": "MEDEF",
+      "url": "https://www.medef.com/",
+      "type": "Event organiser",
+      "id": "src-3f58b64c769c7000"
+    },
+    {
+      "title": "2027 French presidential election: Who’s running?",
+      "url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/10/11/2027-french-presidential-election-who-s-running_6752856_9.html",
+      "type": "News article",
+      "id": "src-3ff9a887b01a0de1"
+    },
+    {
+      "title": "data.gouv.fr: 2027 candidate status dataset",
+      "url": "https://www.data.gouv.fr/datasets/candidats-a-lelection-presidentielle-2027-liste-partis-et-sources",
+      "type": "Open candidate-status dataset",
+      "id": "src-430c8dde0312f0ec",
+      "publisher": "data.gouv.fr / Hémicycle",
+      "language": "French"
+    },
+    {
+      "title": "Le Parisien: Dominique de Villepin confirms intention to run, 3 November 2026",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-soyez-patients-dominique-de-villepin-confirme-son-intention-de-candidater-03-11-2026-XYE6ZJ64QFFYXC65PMEK4U3M5E.php",
+      "type": "News report; intention stated, not formal declaration",
+      "id": "src-43453800a901960c"
+    },
+    {
+      "title": "LCP: first MEDEF debate, 27 August 2026",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+      "type": "Debate coverage",
+      "id": "src-4f4f8e7b9e66a76a"
+    },
+    {
+      "title": "The Guardian, 12 October 2026",
+      "url": "https://www.theguardian.com/world/2026/oct/12/french-centre-left-must-wage-existential-battle-to-prevent-far-right-winning-presidency",
+      "type": "Independent international news report",
+      "id": "src-5436a62ced49f877"
+    },
+    {
+      "title": "La Croix",
+      "url": "https://www.la-croix.com/",
+      "type": "National newspaper · monitored outlet directory",
+      "id": "src-595d90ad134add89",
+      "publisher": "La Croix",
+      "language": "French"
+    },
+    {
+      "title": "En meeting au Bourget, Mélenchon mobilise sa base tout en cherchant à élargir son électorat",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/08/presidentielle-2027-en-meeting-au-bourget-jean-luc-melenchon-s-attelle-a-mobiliser-sa-base-tout-en-elargissant-son-electorat_6808387_823448.html",
+      "type": "News article",
+      "id": "src-5ddb09c966498a67"
+    },
+    {
+      "title": "Associated Press",
+      "url": "https://apnews.com/",
+      "type": "International news agency · monitored outlet directory",
+      "id": "src-5f5348c331296c87",
+      "publisher": "Associated Press",
+      "language": "English"
+    },
+    {
+      "title": "HuffPost France",
+      "url": "https://www.huffingtonpost.fr/",
+      "type": "Digital news outlet · monitored outlet directory",
+      "id": "src-5fff52cf04a75df2",
+      "publisher": "HuffPost France",
+      "language": "French"
+    },
+    {
+      "title": "Selectra: proposals on debt at the MEDEF debate, 28 August 2026",
+      "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
+      "type": "Debate summary",
+      "id": "src-65ffd352a761fbb2"
+    },
+    {
+      "title": "AFP",
+      "url": "https://www.afp.com/",
+      "type": "News agency · monitored outlet directory",
+      "id": "src-69833b7a62e62df3",
+      "publisher": "AFP",
+      "language": "French"
+    },
+    {
+      "title": "Marine Tondelier veut pouvoir interdire X en cas d’ingérences étrangères",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-veut-pouvoir-interdire-x-en-cas-dingerences-etrangeres-06-08-2026-H7CEM6RWLVBTTN4QT3ULN64F2M.php",
+      "type": "News article",
+      "id": "src-6d19e24fe42df29f"
+    },
+    {
+      "title": "RTL, 3 November 2026",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301",
+      "type": "News report on polling",
+      "id": "src-73384a3f2a76d462"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/fabien-roussel/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-75a8eef3e6eec640"
+    },
+    {
+      "title": "Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html",
+      "type": "News article",
+      "id": "src-7646108e3a661d57"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/eric-zemmour/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-782f3a0ba6a493c9"
+    },
+    {
+      "title": "BBC News",
+      "url": "https://www.bbc.com/news",
+      "type": "International broadcaster · monitored outlet directory",
+      "id": "src-78e6c57559dbe99d",
+      "publisher": "BBC News",
+      "language": "English"
+    },
+    {
+      "title": "Attal says discussions on a right-centre primary are accelerating",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php",
+      "type": "News article",
+      "id": "src-79ade616248c6100"
+    },
+    {
+      "title": "Euractiv",
+      "url": "https://www.euractiv.com/",
+      "type": "European policy news · monitored outlet directory",
+      "id": "src-7e4b4b5d8aea4006",
+      "publisher": "Euractiv",
+      "language": "English / French"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/bruno-retailleau/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-822ab5bdf57ed3fb"
+    },
+    {
+      "title": "Les Échos",
+      "url": "https://www.lesechos.fr/",
+      "type": "Business newspaper · monitored outlet directory",
+      "id": "src-846dae128391ce45",
+      "publisher": "Les Échos",
+      "language": "French"
+    },
+    {
+      "title": "Reuters: Mélenchon programme launch, 7 November 2026",
+      "url": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
+      "type": "News report",
+      "id": "src-89e2f27deb8b34e5"
+    },
+    {
+      "title": "Le Monde, 7 November 2026",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/07/2027-french-presidential-election-centrists-and-right-speculate-over-christine-lagarde-s-motives_6774419_5.html",
+      "type": "Independent news report",
+      "id": "src-8ad8994b3cc0e231"
+    },
+    {
+      "title": "LCP, 6 November 2026",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+      "type": "Parliamentary broadcaster / programme analysis",
+      "id": "src-8c51d60e17c35bcf"
+    },
+    {
+      "title": "Associated Press: Teddy Riner announces a run for French president, 9 November 2026",
+      "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
+      "type": "News report",
+      "id": "src-9002d5153f8dba68"
+    },
+    {
+      "title": "Le Figaro",
+      "url": "https://www.lefigaro.fr/",
+      "type": "National newspaper · monitored outlet directory",
+      "id": "src-909d0e0a8ea83c48",
+      "publisher": "Le Figaro",
+      "language": "French"
+    },
+    {
+      "title": "Reuters",
+      "url": "https://www.reuters.com/",
+      "type": "International news agency · monitored outlet directory",
+      "id": "src-938754f9bd588c14",
+      "publisher": "Reuters",
+      "language": "English"
+    },
+    {
+      "title": "Mediapart",
+      "url": "https://www.mediapart.fr/",
+      "type": "Investigative / digital newspaper · monitored outlet directory",
+      "id": "src-9433673bfb342154",
+      "publisher": "Mediapart",
+      "language": "French"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/david-lisnard/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-9d1cea18becd9ec8"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/marine-le-pen/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-9e00a669bb7a8816"
+    },
+    {
+      "title": "PresiTracker 2027: sponsorship methodology and status",
+      "url": "https://presitracker2027.fr/parrainages",
+      "type": "Secondary tracker; announced pledges are not official validated sponsorships",
+      "id": "src-a20c4567162d5a6c",
+      "publisher": "PresiTracker 2027",
+      "language": "French"
+    },
+    {
+      "title": "Polling Forecast: France 2027 poll archive",
+      "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
+      "type": "Secondary poll archive; original poll notice should be checked",
+      "id": "src-a44e490ce4c8fdac"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/gabriel-attal/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-a8c3f25b2ca93fe2"
+    },
+    {
+      "title": "Le Monde: candidates' economic divide, 28 August 2026",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html",
+      "type": "Debate analysis",
+      "id": "src-a96bc601a0f1de0e"
+    },
+    {
+      "title": "Polling Forecast: French presidential polls",
+      "url": "https://www.pollingforecast.com/fr/polls?lang=en",
+      "type": "Polling aggregator",
+      "id": "src-ab9e23c18bcadb4a",
+      "publisher": "Polling Forecast",
+      "language": "English"
+    },
+    {
+      "title": "RTL",
+      "url": "https://www.rtl.fr/",
+      "type": "Radio / news · monitored outlet directory",
+      "id": "src-aca95282c81b3b64",
+      "publisher": "RTL",
+      "language": "French"
+    },
+    {
+      "title": "« Au boulot ! » : François Ruffin dévoile 40 propositions dans un livre, qui n’est « pas un programme »",
+      "url": "https://www.leparisien.fr/elections/presidentielle/au-boulot-candidat-a-la-presidentielle-2027-francois-ruffin-devoile-40-propositions-dans-un-livre-qui-nest-pas-un-programme-06-11-2026-4NR3EYU2VBAIXHCUVP4K4NYVIQ.php",
+      "type": "News article",
+      "id": "src-ad8eacbf22d3af27"
+    },
+    {
+      "title": "The Economist",
+      "url": "https://www.economist.com/",
+      "type": "International current affairs · monitored outlet directory",
+      "id": "src-b34fb78be74db355",
+      "publisher": "The Economist",
+      "language": "English"
+    },
+    {
+      "title": "Édouard Philippe, Gabriel Attal et Bruno Retailleau : un impossible ménage à trois ?",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-gabriel-attal-et-bruno-retailleau-un-impossible-menage-a-trois-07-08-2026-K46XN56IBFDDTMOYNJYPUB2MBQ.php",
+      "type": "News article",
+      "id": "src-b6eb83961e5f2671"
+    },
+    {
+      "title": "Raphaël Glucksmann schedules his first major campaign rally for 6 December",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-emission-sur-les-reseaux-ce-vendredi-et-grand-meeting-a-paris-le-6-decembre-raphael-glucksmann-lance-sa-campagne-06-11-2026-VJAS3ET2JJBA5C7JDA47N6FOIY.php",
+      "type": "News article",
+      "id": "src-b9958a38a6afb280"
+    },
+    {
+      "title": "Observatoire 2027: candidate tracker (updated 7 November 2026)",
+      "url": "https://www.observatoire2027.fr/candidats/",
+      "type": "Secondary candidate tracker",
+      "id": "src-bac69a757e85ea3f"
+    },
+    {
+      "title": "Présidentielle 2027 : l’hypothèse d’une candidature de Christine Lagarde questionne à droite et au sein du bloc central",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-l-hypothese-d-une-candidature-de-christine-lagarde-questionne-a-droite-et-au-sein-du-bloc-central_6807815_823448.html",
+      "type": "News article",
+      "id": "src-bbf46b96b4726a38"
+    },
+    {
+      "title": "The Guardian",
+      "url": "https://www.theguardian.com/world/france",
+      "type": "International newspaper · monitored outlet directory",
+      "id": "src-bdbe3d59e8bbe85e",
+      "publisher": "The Guardian",
+      "language": "English"
+    },
+    {
+      "title": "Le Parisien: declared and potential 2027 candidates (tracker updated 14 October 2026)",
+      "url": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+      "type": "News candidate tracker; source classification, not official ballot list",
+      "id": "src-c40429483ddf1552"
+    },
+    {
+      "title": "Le Monde, 5 November 2026",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/05/2027-french-presidential-election-to-fend-off-le-pen-and-melenchon-macron-recommends-wide-coalition_6772504_5.html",
+      "type": "Independent news report",
+      "id": "src-c642e63b34692d7f"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/raphael-glucksmann/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-c74cbbac7db6caeb"
+    },
+    {
+      "title": "Europe 1",
+      "url": "https://www.europe1.fr/",
+      "type": "Radio / news · monitored outlet directory",
+      "id": "src-cbc77f3de07776f8",
+      "publisher": "Europe 1",
+      "language": "French"
+    },
+    {
+      "title": "Associated Press, 7 November 2026",
+      "url": "https://apnews.com/article/583894626bd16d826030e9c152cb04c7",
+      "type": "Independent international news report",
+      "id": "src-ce0f9c917dbbf416"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/marine-tondelier/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-d0b4e9b333a674ec"
+    },
+    {
+      "title": "Observatoire 2027",
+      "url": "https://observatoire2027.fr/",
+      "type": "Policy research / secondary source",
+      "id": "src-d0b703063ec2c667",
+      "publisher": "Observatoire 2027",
+      "language": "French"
+    },
+    {
+      "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
+      "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
+      "type": "Debate reporting; consult the candidate's primary statement where available",
+      "id": "src-d4c7bb75f18c5353"
+    },
+    {
+      "title": "France 24",
+      "url": "https://www.france24.com/",
+      "type": "International broadcaster · monitored outlet directory",
+      "id": "src-d807cf465ac7b0a3",
+      "publisher": "France 24",
+      "language": "French / English"
+    },
+    {
+      "title": "BFMTV",
+      "url": "https://www.bfmtv.com/",
+      "type": "News broadcaster · monitored outlet directory",
+      "id": "src-e072b1c7a9ec201c",
+      "publisher": "BFMTV",
+      "language": "French"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/jean-luc-melenchon/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-e5d94025bff7f169"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-e737c552f7bbff4b"
+    },
+    {
+      "title": "Meeting de Mélenchon : une création artistique collective illustrera le programme présidentiel de LFI",
+      "url": "https://www.leparisien.fr/elections/presidentielle/meeting-de-melenchon-au-bourget-une-creation-artistique-collective-illustrera-le-programme-presidentiel-de-lfi-06-11-2026-JBQI7V3K5VH4LLASGP2ZVT6BKY.php",
+      "type": "News article",
+      "id": "src-e936e0288fd66978"
+    },
+    {
+      "title": "French government election information",
+      "url": "https://www.info.gouv.fr/actualite/election-presidentielle-2027",
+      "type": "Official",
+      "id": "src-ebca2b7af2e5afd5"
+    },
+    {
+      "title": "Public Sénat, 14 October 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
+      "type": "Public-service parliamentary broadcaster",
+      "id": "src-ec24b47c71652d8b"
+    },
+    {
+      "title": "Franceinfo",
+      "url": "https://www.franceinfo.fr/",
+      "type": "Public-service news · monitored outlet directory",
+      "id": "src-ecd5495428c56ff2",
+      "publisher": "Franceinfo",
+      "language": "French"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/edouard-philippe/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-f3bd91fe72867125"
+    },
+    {
+      "title": "Le Parisien: Teddy Riner announces his 2027 candidacy, 9 November 2026",
+      "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-je-suis-candidat-pour-dire-quon-peut-relever-la-france-teddy-riner-se-lance-dans-la-competition-09-11-2026-36MFSFMWDFGATLM2YGR3MDF4QI.php",
+      "type": "Direct interview / announcement",
+      "id": "src-f3bdf0a356f075da"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/bruno-le-maire/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-f3d7d5072cff5c42"
+    },
+    {
+      "title": "TF1 Info",
+      "url": "https://www.tf1info.fr/",
+      "type": "National broadcaster news · monitored outlet directory",
+      "id": "src-f508ca6e4c44e8c3",
+      "publisher": "TF1 Info",
+      "language": "French"
+    },
+    {
+      "title": "La stratégie de Jean-Luc Mélenchon pour réformer l’État",
+      "url": "https://www.leparisien.fr/elections/presidentielle/souverainete-populaire-permanente-republique-federative-la-strategie-de-jean-luc-melenchon-pour-reformer-letat-04-08-2026-S5DTNYYY5RDN7GJMJQG3XS2FFY.php",
+      "type": "News article",
+      "id": "src-f74488b2a5baba78"
+    },
+    {
+      "title": "Observatoire 2027: individual candidate analysis",
+      "url": "https://www.observatoire2027.fr/candidat/natacha-polony/",
+      "type": "Secondary tracker; public statements indexed",
+      "id": "src-fe823e0d1b4ad62a"
+    }
+  ]
 }

@@ -3,6 +3,7 @@
 from __future__ import annotations
 import json
 import re
+import hashlib
 import sys
 from datetime import date
 from pathlib import Path
@@ -10,8 +11,9 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/election-data.json"
-REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "updates", "poll_trends", "media_directory", "editorial_standards", "compass_questions", "compass_methodology")
+REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "source_registry", "updates", "poll_trends", "media_directory", "editorial_standards", "compass_questions", "compass_methodology")
 errors: list[str] = []
+SOURCE_IDS: set[str] = set()
 
 def err(path: str, message: str) -> None:
     errors.append(f"{path}: {message}")
@@ -43,6 +45,21 @@ def citation(value, path):
     if "title" in value: text(value["title"], f"{path}.title")
     if "url" in value: url(value["url"], f"{path}.url")
     if "type" in value: text(value["type"], f"{path}.type")
+    sid=value.get("source_id")
+    expected="src-"+hashlib.sha256(str(value.get("url", "")).encode("utf-8")).hexdigest()[:16]
+    if sid != expected: err(f"{path}.source_id", f"must equal stable URL ID {expected}")
+    if sid not in SOURCE_IDS: err(f"{path}.source_id", f"source ID {sid!r} is absent from source_registry")
+
+def validate_verification(value, path):
+    allowed={"unreviewed","secondary_only","primary_verified","disputed","superseded"}
+    code=value.get("code")
+    if code not in allowed: err(f"{path}.code",f"must be one of {', '.join(sorted(allowed))}")
+    if "checked_date" not in value: err(path,"missing 'checked_date'")
+    else: iso_date(value["checked_date"],f"{path}.checked_date",nullable=True)
+    if "reviewer" not in value: err(path,"missing 'reviewer'")
+    elif value["reviewer"] is not None: text(value["reviewer"],f"{path}.reviewer")
+    if code=="primary_verified" and (not value.get("checked_date") or not value.get("reviewer")):
+        err(path,"primary_verified requires checked_date and reviewer")
 
 def records(data, key):
     value = data.get(key)
@@ -50,9 +67,28 @@ def records(data, key):
     return value
 
 def validate(data):
+    global SOURCE_IDS
     if not obj(data, "$"): return
     for key in REQUIRED_ROOT:
         if key not in data: err("$", f"missing required section {key!r}")
+    registry=records(data, "source_registry")
+    SOURCE_IDS=set()
+    registry_urls=set()
+    for i, source in enumerate(registry):
+        p=f"source_registry[{i}]"
+        if not obj(source,p): continue
+        for key in ("id","title","url","type"):
+            if key not in source: err(p,f"missing {key!r}")
+        if "title" in source: text(source["title"],f"{p}.title")
+        if "url" in source: url(source["url"],f"{p}.url")
+        if "type" in source: text(source["type"],f"{p}.type")
+        sid=source.get("id"); src_url=source.get("url")
+        expected="src-"+hashlib.sha256(str(src_url or "").encode("utf-8")).hexdigest()[:16]
+        if sid != expected: err(f"{p}.id",f"must equal stable URL ID {expected}")
+        if sid in SOURCE_IDS: err(f"{p}.id",f"duplicate source ID {sid!r}")
+        SOURCE_IDS.add(sid)
+        if src_url in registry_urls: err(f"{p}.url",f"duplicate source URL {src_url!r}")
+        registry_urls.add(src_url)
     meta = data.get("meta", {})
     if obj(meta, "meta"):
         text(meta.get("title"), "meta.title")
@@ -90,6 +126,8 @@ def validate(data):
         else: citation(p_item["source"],f"{p}.source")
         if "checked_date" not in p_item: err(p,"missing 'checked_date'")
         else: iso_date(p_item["checked_date"],f"{p}.checked_date",nullable=True)
+        verify=p_item.get("verification")
+        if obj(verify,f"{p}.verification"): validate_verification(verify,f"{p}.verification")
 
     for i,poll in enumerate(records(data,"polls")):
         p=f"polls[{i}]"
@@ -122,7 +160,7 @@ def validate(data):
         verification=item.get("verification")
         if obj(verification,f"{p}.verification"):
             text(verification.get("status"),f"{p}.verification.status")
-            if "checked_date" in verification: iso_date(verification["checked_date"],f"{p}.verification.checked_date",nullable=True)
+            validate_verification(verification,f"{p}.verification")
 
     for key in ("sources",):
         for i,source in enumerate(records(data,key)): citation(source,f"{key}[{i}]")
