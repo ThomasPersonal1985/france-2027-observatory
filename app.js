@@ -230,12 +230,7 @@ $('#candidate-search').addEventListener('input',renderCandidates);$('#policy-sea
 let compassExtended=false;
 const compassAnswers={};
 function activeCompassQuestions(){const questions=DB?.compass_questions||[];return questions.filter(q=>compassExtended||q.stage!=='extended');}
-function renderCompassStatus(){const out=$('#compass-output');if(out)out.innerHTML='<div class="notice compass-pause-note" id="compass-pause-note" role="status"><b>Candidate rankings are paused.</b> The previous prototype used only a small legacy set of pension and public-finance questions and did not meet the published method’s evidence threshold. Rankings will return after the scoring and source-backed candidate positions meet that standard. Your selections stay in this browser tab and are not submitted.</div>';}
-
-function calculateCompassScores({allQuestions,activeQuestions,candidates,positions,answers,sourceRegistry,configuration}){
- const minWeight=configuration?.importance_minimum??1,maxWeight=configuration?.importance_maximum??3;
- const missingImportance=activeQuestions.filter(q=>{const weight=Number(answers?.[q.id]?.weight);return !Number.isInteger(weight)||weight<minWeight||weight>maxWeight});
- if(missingImportance.length)return {status:'importance_required',results:[],missingImportance:missingImportance.map(q=>q.id)};
+function getEligibleCompassPositions({allQuestions,positions,sourceRegistry,configuration}){
  const sourceIds=new Set((sourceRegistry||[]).map(s=>s.id));
  const questionById=new Map((allQuestions||[]).map(q=>[q.id,q]));
  const ordinalScale=q=>{
@@ -244,16 +239,51 @@ function calculateCompassScores({allQuestions,activeQuestions,candidates,positio
   if(values.some((v,i)=>!Number.isInteger(v)||v!==i+1))return null;
   return values.length;
  };
- const verifiedPositions=(positions||[]).filter(position=>{
+ const eligible=(positions||[]).filter(position=>{
   const q=questionById.get(position.question_id),v=position.verification||{};
   return position.candidate_id&&q&&ordinalScale(q)&&Number.isInteger(position.position_value)&&position.position_value>=1&&position.position_value<=q.options.length&&
    v.code===(configuration?.eligible_position_status||'primary_verified')&&Boolean(position.statement_date)&&Boolean(v.checked_date)&&Boolean(v.reviewer?.trim?.())&&
    Array.isArray(position.evidence)&&position.evidence.length>0&&position.evidence.every(e=>sourceIds.has(e.source_id)&&Boolean(e.locator?.trim?.())&&Boolean(e.evidence_summary?.trim?.()));
  });
+ return {questionById,ordinalScale,positions:eligible};
+}
+function getCompassReleaseStatus(){
+ const config=DB?.compass_methodology?.scoring_configuration||{};
+ const eligible=getEligibleCompassPositions({allQuestions:DB?.compass_questions||[],positions:DB?.compass_candidate_positions||[],sourceRegistry:DB?.source_registry||[],configuration:config});
+ const byCandidate=new Map();
+ for(const position of eligible.positions){if(!byCandidate.has(position.candidate_id))byCandidate.set(position.candidate_id,new Map());byCandidate.get(position.candidate_id).set(position.question_id,position)}
+ const minimumQuestions=config.minimum_verified_questions??12,minimumAreas=config.minimum_verified_areas??6,minimumCandidates=config.minimum_candidates_for_rankings??2;
+ const coverage=(DB?.candidates||[]).map(candidate=>{
+  const candidatePositions=byCandidate.get(candidate.id)||new Map();
+  const areas=new Set([...candidatePositions.keys()].map(id=>eligible.questionById.get(id)?.topic).filter(Boolean));
+  return {candidate,questions:candidatePositions.size,areas:areas.size,eligible:candidatePositions.size>=minimumQuestions&&areas.size>=minimumAreas};
+ });
+ const eligibleCandidates=coverage.filter(x=>x.eligible);
+ return {ready:eligibleCandidates.length>=minimumCandidates,eligibleCandidates,coverage,minimumQuestions,minimumAreas,minimumCandidates};
+}
+function renderCompassStatus(release=getCompassReleaseStatus()){
+ const button=$('#compass-results'),fr=currentLanguage==='fr';
+ if(button){button.disabled=!release.ready;button.textContent=release.ready?(fr?'Afficher mes correspondances':'Show my matches'):(fr?'Classements suspendus':'Candidate rankings paused');button.setAttribute('aria-describedby','compass-pause-note')}
+ const out=$('#compass-output');
+ if(out){
+  const title=release.ready?(fr?'Classements disponibles.':'Candidate rankings are available.'):(fr?'Classements suspendus.':'Candidate rankings are paused.');
+  const body=release.ready?(fr?`${release.eligibleCandidates.length} candidats satisfont au seuil de preuves. Les autres seront indiqués comme insuffisamment documentés.`:`${release.eligibleCandidates.length} candidates meet the evidence threshold. Candidates below it will be marked insufficient evidence.`):(fr?`${release.eligibleCandidates.length} candidat(s) sur ${release.minimumCandidates} requis satisfont actuellement au seuil : au moins ${release.minimumQuestions} positions vérifiées dans ${release.minimumAreas} thèmes.`:`${release.eligibleCandidates.length} of ${release.minimumCandidates} required candidates currently meet the gate: at least ${release.minimumQuestions} verified positions across ${release.minimumAreas} policy areas.`);
+  const privateNote=fr?'Vos réponses restent dans cet onglet et ne sont pas transmises.':'Your answers stay in this browser tab and are not submitted.';
+  const audit=!release.ready?`<details class="compass-coverage-audit"><summary>${fr?'Consulter la couverture actuelle des preuves':'View current candidate evidence coverage'}</summary><ul>${release.coverage.map(item=>`<li><b>${safe(item.candidate.name)}</b> — ${fr?'preuves vérifiées':'verified evidence'} ${item.questions}/${release.minimumQuestions} ${fr?'questions dans':'questions across'} ${item.areas}/${release.minimumAreas} ${fr?'thèmes':'areas'}${item.eligible?' · '+(fr?'seuil atteint':'threshold met'):''}</li>`).join('')}</ul></details>`:'';
+  out.innerHTML=`<div class="notice compass-pause-note" id="compass-pause-note" role="status"><b>${title}</b> ${safe(body)} ${safe(privateNote)}${audit}</div>`;
+ }
+}
+function calculateCompassScores({allQuestions,activeQuestions,candidates,positions,answers,sourceRegistry,configuration}){
+ const minWeight=configuration?.importance_minimum??1,maxWeight=configuration?.importance_maximum??3;
+ const missingImportance=activeQuestions.filter(q=>{const weight=Number(answers?.[q.id]?.weight);return !Number.isInteger(weight)||weight<minWeight||weight>maxWeight});
+ if(missingImportance.length)return {status:'importance_required',results:[],missingImportance:missingImportance.map(q=>q.id)};
+ const {questionById,ordinalScale,positions:verifiedPositions}=getEligibleCompassPositions({allQuestions,positions,sourceRegistry,configuration});
+ const sourceById=new Map((sourceRegistry||[]).map(source=>[source.id,source]));
  const byCandidate=new Map();
  for(const position of verifiedPositions){if(!byCandidate.has(position.candidate_id))byCandidate.set(position.candidate_id,new Map());byCandidate.get(position.candidate_id).set(position.question_id,position)}
  const minEvidenceQuestions=configuration?.minimum_verified_questions??12,minEvidenceAreas=configuration?.minimum_verified_areas??6;
  const minComparableQuestions=configuration?.minimum_comparable_questions??12,minComparableAreas=configuration?.minimum_comparable_areas??6;
+ const minCandidates=configuration?.minimum_candidates_for_rankings??2;
  const results=(candidates||[]).map(candidate=>{
   const positionsByQuestion=byCandidate.get(candidate.id)||new Map();
   const evidenceAreas=new Set([...positionsByQuestion.keys()].map(id=>questionById.get(id)?.topic).filter(Boolean));
@@ -265,26 +295,30 @@ function calculateCompassScores({allQuestions,activeQuestions,candidates,positio
    if(!position||!n||!answer||!Number.isInteger(Number(answer.answer))||Number(answer.answer)<1||Number(answer.answer)>n)continue;
    const weight=Number(answer.weight),alignment=1-Math.abs(Number(answer.answer)-position.position_value)/(n-1);
    if(!Number.isFinite(alignment)||weight<minWeight||weight>maxWeight)continue;
-   if(!byArea.has(q.topic))byArea.set(q.topic,{weightedTotal:0,totalWeight:0,questions:0});
-   const area=byArea.get(q.topic);area.weightedTotal+=alignment*weight;area.totalWeight+=weight;area.questions++;
+   if(!byArea.has(q.topic))byArea.set(q.topic,{weightedTotal:0,totalWeight:0,questions:0,details:[]});
+   const detail={questionId:q.id,title:q.title,alignment,weight,respondentValue:Number(answer.answer),respondentLabel:q.options.find(o=>Number(o[1])===Number(answer.answer))?.[0]||'',candidateValue:position.position_value,candidateLabel:q.options.find(o=>Number(o[1])===position.position_value)?.[0]||'',statementDate:position.statement_date,checkedDate:position.verification.checked_date,reviewer:position.verification.reviewer,evidence:position.evidence.map(e=>({...e,source:sourceById.get(e.source_id)}))};
+   const area=byArea.get(q.topic);area.weightedTotal+=alignment*weight;area.totalWeight+=weight;area.questions++;area.details.push(detail);
   }
   const comparedQuestions=[...byArea.values()].reduce((sum,area)=>sum+area.questions,0);
-  const areaScores=[...byArea.entries()].map(([area,v])=>({area,score:v.weightedTotal/v.totalWeight,questions:v.questions}));
+  const areaScores=[...byArea.entries()].map(([area,v])=>({area,score:v.weightedTotal/v.totalWeight,questions:v.questions,details:v.details}));
   base.coverage.comparableQuestions=comparedQuestions;base.coverage.comparableAreas=areaScores.length;base.coverage.areas=areaScores.map(x=>x.area);
   if(comparedQuestions<minComparableQuestions||areaScores.length<minComparableAreas)return {...base,status:'insufficient_comparison'};
   const score=areaScores.reduce((sum,area)=>sum+area.score,0)/areaScores.length;
   return {...base,status:'ranked',score:score*100,areaScores};
  }).sort((a,b)=>{
   if(a.status==='ranked'&&b.status!=='ranked')return -1;if(a.status!=='ranked'&&b.status==='ranked')return 1;
-  if(a.status==='ranked'&&b.status==='ranked'&&a.score!==b.score)return b.score-a.score;
+  if(a.status==='ranked'&&b.status==='ranked'&&Math.abs(a.score-b.score)>1e-9)return b.score-a.score;
   return a.candidate.name.localeCompare(b.candidate.name);
  });
+ const rankable=results.filter(r=>r.status==='ranked');
+ if(rankable.length<minCandidates)return {status:'insufficient_comparison_set',results:results.map(r=>r.status==='ranked'?{...r,status:'insufficient_comparison_set',score:null,rank:null}:r)};
  let rank=0,previousScore=null;
- results.filter(r=>r.status==='ranked').forEach((r,index)=>{if(previousScore===null||Math.abs(r.score-previousScore)>1e-9)rank=index+1;r.rank=rank;previousScore=r.score});
- return {status:results.some(r=>r.status==='ranked')?'ranked':'no_rankable_candidates',results};
+ rankable.forEach((r,index)=>{if(previousScore===null||Math.abs(r.score-previousScore)>1e-9)rank=index+1;r.rank=rank;previousScore=r.score});
+ return {status:'ranked',results};
 }
 function renderCompass(){
  const host=$('#compass-questions');
+ const release=getCompassReleaseStatus();
  // Preserve answers and importance ratings when the visitor expands from 24 to 36 questions.
  host.querySelectorAll('.compass-question').forEach(card=>{
   const qid=card.dataset.questionId;
@@ -296,13 +330,34 @@ function renderCompass(){
   if(weight&&weight.value) compassAnswers[qid].weight=weight.value;
  });
  const active=activeCompassQuestions();
- host.innerHTML=active.map((q,i)=>`<article class="card compass-question" data-question-id="${q.id}"><div class="eyebrow">${safe(q.topic)} · QUESTION ${i+1} OF ${active.length}</div><h3>${safe(q.title)}</h3><p>${safe(q.help)}</p><div class="compass-options">${q.options.map(o=>`<label><input type="radio" name="${q.id}" value="${o[1]}" ${compassAnswers[q.id]?.answer===String(o[1])?'checked':''}><span>${safe(o[0])}</span></label>`).join('')}</div><label class="importance">How important is this to you? <select id="weight-${q.id}"><option value="" ${!compassAnswers[q.id]?.weight?'selected':''}>Choose importance (optional)</option><option value="1" ${compassAnswers[q.id]?.weight==='1'?'selected':''}>Somewhat important</option><option value="2" ${compassAnswers[q.id]?.weight==='2'?'selected':''}>Very important</option><option value="3" ${compassAnswers[q.id]?.weight==='3'?'selected':''}>One of my top priorities</option></select><small class="importance-required">Optional while rankings are paused</small></label></article>`).join('');
+ host.innerHTML=active.map((q,i)=>`<article class="card compass-question" data-question-id="${q.id}"><div class="eyebrow">${safe(q.topic)} · QUESTION ${i+1} OF ${active.length}</div><h3>${safe(q.title)}</h3><p>${safe(q.help)}</p><div class="compass-options">${q.options.map(o=>`<label><input type="radio" name="${q.id}" value="${o[1]}" ${compassAnswers[q.id]?.answer===String(o[1])?'checked':''}><span>${safe(o[0])}</span></label>`).join('')}</div><label class="importance">How important is this to you? <select id="weight-${q.id}" ${release.ready?'required':''}><option value="" ${!compassAnswers[q.id]?.weight?'selected':''}>${release.ready?'Choose importance (required)':'Choose importance (optional)'}</option><option value="1" ${compassAnswers[q.id]?.weight==='1'?'selected':''}>Somewhat important</option><option value="2" ${compassAnswers[q.id]?.weight==='2'?'selected':''}>Very important</option><option value="3" ${compassAnswers[q.id]?.weight==='3'?'selected':''}>One of my top priorities</option></select><small class="importance-required">${release.ready?'Required for every question shown':'Optional while rankings are paused'}</small></label></article>`).join('');
  const expand=$('#compass-continue');
  if(expand) expand.hidden=compassExtended;
  const stage=$('#compass-stage-note');
  if(stage) stage.textContent=compassExtended?'Extended compass: all 36 questions across 12 policy areas.':'Standard compass: 24 questions across all 12 policy areas. You can continue to the full 36-question version when you finish.';
- renderCompassStatus();if(currentLanguage==='fr')translateVisibleText();
+ renderCompassStatus(release);if(currentLanguage==='fr')translateVisibleText();
 }
+function showCompassMatches(){
+ const release=getCompassReleaseStatus();
+ if(!release.ready){renderCompassStatus(release);return}
+ const active=activeCompassQuestions(),answers={};
+ for(const q of active){const selected=document.querySelector(`input[name="${q.id}"]:checked`),weight=$('#weight-'+q.id);answers[q.id]={answer:selected?Number(selected.value):null,weight:weight?.value?Number(weight.value):null}}
+ const config=DB.compass_methodology.scoring_configuration;
+ const result=calculateCompassScores({allQuestions:DB.compass_questions,activeQuestions:active,candidates:DB.candidates,positions:DB.compass_candidate_positions,answers,sourceRegistry:DB.source_registry,configuration:config});
+ const out=$('#compass-output');
+ if(result.status==='importance_required'){
+  const q=active.find(item=>item.id===result.missingImportance[0]);const field=q&&$('#weight-'+q.id);field?.focus();field?.reportValidity();out.innerHTML=`<div class="notice">Please rate the importance of every question shown before viewing matches. ${result.missingImportance.length} importance rating${result.missingImportance.length===1?' is':'s are'} missing.</div>`;return;
+ }
+ const ranked=result.results.filter(r=>r.status==='ranked');
+ if(!ranked.length){out.innerHTML='<div class="notice"><b>No rankings shown.</b> The scored answers did not produce enough comparable evidence for at least two candidates. Answer questions across more policy areas or check back after more candidate positions are verified.</div>';if(currentLanguage==='fr')translateVisibleText();return}
+ const renderArea=area=>`<section class="compass-match-area"><h4>${safe(area.area)} · ${Math.round(area.score*1000)/10}% <small>${area.questions} question${area.questions===1?'':'s'}</small></h4><ul>${area.details.map(d=>`<li><b>${safe(d.title)}</b><p>Your answer: ${safe(d.respondentLabel)} · candidate position: ${safe(d.candidateLabel)} · alignment ${Math.round(d.alignment*100)}% · importance ${d.weight}</p><p class="small muted">Position stated ${safe(d.statementDate)} · verified ${safe(d.checkedDate)} by ${safe(d.reviewer)}</p><ul>${d.evidence.map(e=>`<li>${e.source?link(e.source):safe(e.source_id)}${e.locator?` · ${safe(e.locator)}`:''} — ${safe(e.evidence_summary)}</li>`).join('')}</ul></li>`).join('')}</ul></section>`;
+ const rows=ranked.map(r=>`<article class="compass-match-row"><div class="match-head"><div><b>${r.rank}. ${safe(r.candidate.name)}</b><small>${safe(r.candidate.party)} · verified evidence ${r.coverage.verifiedQuestions}/${config.minimum_verified_questions} questions in ${r.coverage.verifiedAreas}/${config.minimum_verified_areas} areas · compared ${r.coverage.comparableQuestions} answers in ${r.coverage.comparableAreas} areas</small></div><strong>${r.score.toFixed(1)}%</strong></div><div class="match-track"><span style="width:${Math.max(0,Math.min(100,r.score))}%"></span></div><details><summary>See the sourced calculation</summary><p class="small muted">Importance-weighted question scores are averaged within each area. Area averages count equally. Alignment is directional, not a probability or voting recommendation.</p>${r.areaScores.map(renderArea).join('')}</details></article>`).join('');
+ const insufficient=result.results.filter(r=>r.status!=='ranked');
+ const insuffList=insufficient.map(r=>{const reason=r.status==='insufficient_evidence'?`Verified evidence: ${r.coverage.verifiedQuestions}/${config.minimum_verified_questions} questions across ${r.coverage.verifiedAreas}/${config.minimum_verified_areas} areas`:r.status==='insufficient_comparison_set'?`This result is withheld until at least ${config.minimum_candidates_for_rankings} candidates meet comparison coverage.`:`Comparable answers: ${r.coverage.comparableQuestions}/${config.minimum_comparable_questions} across ${r.coverage.comparableAreas}/${config.minimum_comparable_areas} areas`;return `<li><b>${safe(r.candidate.name)}</b> — insufficient ${r.status==='insufficient_evidence'?'candidate evidence':'comparison coverage'} (${safe(reason)})</li>`}).join('');
+ out.innerHTML=`<section class="card compass-results"><div class="eyebrow">YOUR RESULTS · ${ranked.length} RANKED CANDIDATES</div><h2>Your closest evidence-backed matches</h2><p class="muted small">Scores compare only dated, primary-verified positions on reviewed ordinal questions. Equal scores receive equal ranks. Missing positions are never inferred.</p>${rows}${insufficient.length?`<details class="compass-insufficient"><summary>Insufficient evidence or comparison coverage (${insufficient.length})</summary><ul>${insuffList}</ul></details>`:''}</section>`;
+ if(currentLanguage==='fr')translateVisibleText();out.scrollIntoView({behavior:'smooth',block:'start'});
+}
+$('#compass-results').addEventListener('click',showCompassMatches);
 $('#compass-continue').addEventListener('click',()=>{compassExtended=true;renderCompass();});
 $('#compass-reset').addEventListener('click',()=>{compassExtended=false;Object.keys(compassAnswers).forEach(k=>delete compassAnswers[k]);renderCompass();});
 // Live countdown to the first round. The target is local Paris midnight on 18 April 2027.

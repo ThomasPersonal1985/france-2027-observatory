@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 9,
+    "data_version": 10,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -6912,7 +6912,8 @@
       "importance_maximum": 3,
       "ties": "equal rank; do not break ties by coverage",
       "minimum_comparable_questions": 12,
-      "minimum_comparable_areas": 6
+      "minimum_comparable_areas": 6,
+      "minimum_candidates_for_rankings": 2
     }
   },
   "source_registry": [

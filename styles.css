@@ -1223,3 +1223,16 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 #overview .poll-legend-no-data small{color:#97a2ae;font-size:8px;line-height:1.2}
 #compass .compass-actions button:disabled{opacity:.58;cursor:not-allowed;filter:grayscale(.25)}
 #compass .compass-pause-note{margin-top:12px;line-height:1.55}
+#compass .compass-coverage-audit{margin-top:9px;font-size:12px}
+#compass .compass-coverage-audit summary{cursor:pointer;font-weight:700}
+#compass .compass-coverage-audit ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 16px;padding-left:20px}
+#compass .compass-insufficient{margin-top:14px}
+#compass .compass-insufficient summary{cursor:pointer;font-weight:700}
+#compass .compass-insufficient ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px;padding-left:20px}
+#compass .compass-match-area{margin:12px 0;padding:10px;border:1px solid #e2e8ed;border-radius:8px;background:#fbfcfd}
+#compass .compass-match-area h4{display:flex;justify-content:space-between;gap:12px;margin:0 0 8px}
+#compass .compass-match-area h4 small{font-weight:500;color:#687787}
+#compass .compass-match-area>ul{margin:0;padding-left:20px}
+#compass .compass-match-area li{margin:8px 0}
+#compass .compass-match-area p{margin:4px 0}
+@media(max-width:650px){#compass .compass-coverage-audit ul,#compass .compass-insufficient ul{grid-template-columns:1fr}}

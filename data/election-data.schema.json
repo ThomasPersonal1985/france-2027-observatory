@@ -982,7 +982,8 @@
         "importance_maximum",
         "ties",
         "minimum_comparable_questions",
-        "minimum_comparable_areas"
+        "minimum_comparable_areas",
+        "minimum_candidates_for_rankings"
       ],
       "properties": {
         "algorithm_version": {
@@ -1023,6 +1024,10 @@
         "minimum_comparable_areas": {
           "type": "integer",
           "minimum": 1
+        },
+        "minimum_candidates_for_rankings": {
+          "type": "integer",
+          "minimum": 2
         }
       },
       "additionalProperties": true

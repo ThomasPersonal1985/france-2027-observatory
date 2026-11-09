@@ -285,6 +285,8 @@ def validate(data):
     min_match_areas=config.get("minimum_comparable_areas")
     if not isinstance(min_match_questions,int) or isinstance(min_match_questions,bool) or min_match_questions<1: err("compass_methodology.scoring_configuration.minimum_comparable_questions","must be a positive integer")
     if not isinstance(min_match_areas,int) or isinstance(min_match_areas,bool) or min_match_areas<1 or min_match_areas>12: err("compass_methodology.scoring_configuration.minimum_comparable_areas","must be between 1 and 12")
+    min_rankable_candidates=config.get("minimum_candidates_for_rankings")
+    if not isinstance(min_rankable_candidates,int) or isinstance(min_rankable_candidates,bool) or min_rankable_candidates<2: err("compass_methodology.scoring_configuration.minimum_candidates_for_rankings","must be at least two candidates for a comparison ranking")
     if min_match_questions!=min_questions: err("compass_methodology.scoring_configuration.minimum_comparable_questions","must match the published minimum verified question threshold")
     if min_match_areas!=min_areas: err("compass_methodology.scoring_configuration.minimum_comparable_areas","must match the published minimum verified area threshold")
     if len({q.get("topic") for q in questions if isinstance(q,dict)})!=12: err("compass_questions","scoring requires exactly 12 policy areas")
