@@ -1174,3 +1174,10 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
   #overview .concept-hero .hero-copy{min-height:180px!important}
   #overview .concept-hero .hero-copy>h1{font-size:clamp(34px,7vw,48px)!important;white-space:normal!important}
 }
+
+/* First-round countdown: compact overlay in the hero's upper-right corner */
+#overview .hero-visual{position:relative}
+.election-countdown{position:absolute;z-index:4;top:16px;right:18px;display:flex;align-items:center;gap:9px;padding:8px 12px;border:1px solid rgba(255,255,255,.58);border-radius:6px;background:rgba(12,38,67,.78);color:#fff;box-shadow:0 4px 16px rgba(4,18,35,.18);backdrop-filter:blur(5px)}
+.election-countdown strong{font:700 25px/1 Georgia,serif;letter-spacing:-.04em}
+.election-countdown span{max-width:88px;font-size:8px;line-height:1.25;font-weight:850;letter-spacing:.11em}
+@media(max-width:600px){.election-countdown{top:10px;right:10px;padding:6px 8px}.election-countdown strong{font-size:20px}.election-countdown span{font-size:7px;max-width:72px}}

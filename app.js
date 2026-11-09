@@ -1,8 +1,8 @@
 
 const candidatePortraits={
- 'Marine Le Pen':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Marine_Le_Pen_-.jpg?width=560',credit:'Elekes Andor · Wikimedia Commons · CC BY 4.0',source:'https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_-.jpg'},
+ 'Marine Le Pen':{url:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Marine_Le_Pen_VIVA_24_(cropped).jpg',credit:'Vox España · Wikimedia Commons · CC0 1.0',source:'https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_VIVA_24_(cropped).jpg'},
  'Jean-Luc Mélenchon':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_officiel_JLM_20-01-2026.jpg?width=560',credit:'jlm2017.fr · Wikimedia Commons · CC BY 4.0',source:'https://commons.wikimedia.org/wiki/File:Portrait_officiel_JLM_20-01-2026.jpg'},
- 'Édouard Philippe':{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Philippe_(0).jpg?width=560',credit:'Wikimedia Commons',source:'https://commons.wikimedia.org/wiki/Category:%C3%89douard_Philippe'},
+ 'Édouard Philippe':{url:'https://www.linfo.re/public/images/2026/8/3/edouard-philippe-65fe__193176_w-1200.webp',credit:'LINFO.re · portrait publié 3 August 2026',source:'https://www.linfo.re/la-reunion/societe/edouard-philippe-a-la-reunion-des-ce-dimanche-decouvrez-le-programme-de-sa-visite'},
  'Raphaël Glucksmann':{url:'https://allary-editions.fr/cdn/shop/collections/portrait_raphael_glucksmann_400x.jpg?v=1626701051',credit:'Julien Mignot · Allary Éditions',source:'https://allary-editions.fr/collections/raphael-glucksmann'},
  'Gabriel Attal':{url:'https://cloudfront-eu-central-1.images.arcpublishing.com/lexpress/Q2JBPWZLYVBBVD3NMH5QQ55NEQ.jpg',credit:'L’Express',source:'https://www.lexpress.fr/auteur/perou-olivier/'},
  'Bruno Retailleau':{url:'https://static.lejdd.fr/lmnr/var/jdd/public/media/image/2026/02/28/15/bruno-retailleau-cbruno-martin-0z3a7402-copie_master.jpeg',credit:'Bruno Martin · Le JDD',source:'https://www.lejdd.fr/politique/bruno-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-pas-167502'},
@@ -220,6 +220,20 @@ function calculateCompass(){
 $('#compass-results').addEventListener('click',calculateCompass);
 $('#compass-continue').addEventListener('click',()=>{compassExtended=true;renderCompass();$('#compass-output').innerHTML='';});
 $('#compass-reset').addEventListener('click',()=>{compassExtended=false;Object.keys(compassAnswers).forEach(k=>delete compassAnswers[k]);renderCompass();$('#compass-output').innerHTML='';});
+// Live countdown to the first round. The target is local Paris midnight on 18 April 2027.
+function updateElectionCountdown(){
+ const el=document.getElementById('election-countdown'); if(!el)return;
+ const target=new Date('2027-04-18T00:00:00+02:00');
+ const ms=Math.max(0,target.getTime()-Date.now());
+ const days=Math.ceil(ms/86400000);
+ const fr=(document.documentElement.lang||'en')==='fr';
+ el.innerHTML=`<strong>${days.toLocaleString(fr?'fr-FR':'en-GB')}</strong><span>${fr?'JOURS AVANT LE PREMIER TOUR':'DAYS TO FIRST ROUND'}</span>`;
+ el.setAttribute('aria-label',fr?`${days} jours avant le premier tour`:`${days} days until the first round`);
+}
+function startElectionCountdown(){updateElectionCountdown();if(!window.__france2027Countdown){window.__france2027Countdown=setInterval(updateElectionCountdown,60000);}}
+startElectionCountdown();
+document.addEventListener('click',e=>{if(e.target.closest('[data-lang]'))setTimeout(updateElectionCountdown,0)});
+
 // Boot only after the document is ready. The compass is first rendered by render() after research data loads.
 function bootObservatory(){ if(window.__france2027Booted) return; window.__france2027Booted=true; init(); }
 if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',bootObservatory,{once:true}); else bootObservatory();
