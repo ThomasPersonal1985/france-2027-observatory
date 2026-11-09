@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/election-data.json"
-REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "source_registry", "updates", "poll_trends", "media_directory", "editorial_standards", "compass_questions", "compass_methodology")
+REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "source_registry", "updates", "poll_trends", "poll_trend_snapshots", "media_directory", "editorial_standards", "compass_questions", "compass_methodology")
 errors: list[str] = []
 SOURCE_IDS: set[str] = set()
 
@@ -201,18 +201,76 @@ def validate(data):
 
     for key in ("sources",):
         for i,source in enumerate(records(data,key)): citation(source,f"{key}[{i}]")
+    snapshots=records(data,"poll_trend_snapshots")
+    snapshot_by_id={}; snapshot_ids=set()
+    for i,snapshot in enumerate(snapshots):
+        p=f"poll_trend_snapshots[{i}]"
+        if not obj(snapshot,p): continue
+        for key in ("id","provider","method","scenario_note"): text(snapshot.get(key),f"{p}.{key}")
+        iso_date(snapshot.get("snapshot_date"),f"{p}.snapshot_date")
+        sid=snapshot.get("id")
+        if sid in snapshot_ids: err(f"{p}.id",f"duplicate snapshot ID {sid!r}")
+        snapshot_ids.add(sid); snapshot_by_id[sid]=snapshot
+        source_id=snapshot.get("source_id")
+        if source_id not in SOURCE_IDS: err(f"{p}.source_id","must reference source_registry")
+        kind=snapshot.get("calculation_type")
+        if kind not in ("external_provider","site_calculated"): err(f"{p}.calculation_type","must be external_provider or site_calculated")
+        version=snapshot.get("algorithm_version")
+        version_status=snapshot.get("algorithm_version_status")
+        inputs=snapshot.get("input_poll_ids")
+        input_status=snapshot.get("input_status")
+        if not isinstance(inputs,list): err(f"{p}.input_poll_ids","must be an array")
+        else:
+            for poll_id in inputs:
+                if poll_id not in poll_ids: err(f"{p}.input_poll_ids",f"unknown poll ID {poll_id!r}")
+        scenario=snapshot.get("scenario_id")
+        if scenario is not None and scenario not in {poll.get("scenario_id") for poll in records(data,"polls") if isinstance(poll,dict)}: err(f"{p}.scenario_id",f"unknown scenario ID {scenario!r}")
+        if kind=="site_calculated":
+            if not isinstance(version,str) or not version.strip(): err(f"{p}.algorithm_version","site-calculated snapshots require a version")
+            if version_status!="published": err(f"{p}.algorithm_version_status","site-calculated snapshots require published version metadata")
+            if not isinstance(inputs,list) or not inputs: err(f"{p}.input_poll_ids","site-calculated snapshots require linked input polls")
+            if not scenario: err(f"{p}.scenario_id","site-calculated snapshots require a comparable scenario")
+            if input_status!="linked": err(f"{p}.input_status","site-calculated snapshots require linked input status")
+        elif kind=="external_provider":
+            if not isinstance(inputs,list): pass
+            elif input_status=="not_provided" and inputs: err(f"{p}.input_poll_ids","must be empty when provider inputs were not supplied")
+            elif input_status=="linked" and not inputs: err(f"{p}.input_poll_ids","must contain IDs when inputs are marked linked")
+            if version is None and version_status!="not_published": err(f"{p}.algorithm_version_status","a missing provider algorithm version must be marked not_published")
+            if scenario is None and not snapshot.get("scenario_note"): err(f"{p}.scenario_note","describe why provider scenario data is unavailable")
+        observation_ids=snapshot.get("observation_ids")
+        if not isinstance(observation_ids,list) or len(observation_ids)!=len(set(observation_ids)): err(f"{p}.observation_ids","must be a list of unique trend observation IDs")
+
+    trend_ids=set(); trend_ids_by_snapshot={}
     for i,trend in enumerate(records(data,"poll_trends")):
         p=f"poll_trends[{i}]"
         if not obj(trend,p): continue
-        for k in ("candidate","method"): text(trend.get(k),f"{p}.{k}")
-        if "candidate" in trend and isinstance(trend["candidate"],str) and trend["candidate"].casefold() not in candidate_names:
-            err(f"{p}.candidate",f"does not match a candidate name: {trend['candidate']!r}")
-        for k in ("average",):
-            v=trend.get(k)
-            if not isinstance(v,(int,float)) or isinstance(v,bool) or not 0 <= v <= 100: err(f"{p}.{k}","must be a percentage from 0 to 100")
+        for k in ("candidate","method","id","snapshot_id"): text(trend.get(k),f"{p}.{k}")
+        tid=trend.get("id")
+        if tid in trend_ids: err(f"{p}.id",f"duplicate trend observation ID {tid!r}")
+        trend_ids.add(tid)
+        snapshot_id=trend.get("snapshot_id")
+        if snapshot_id not in snapshot_by_id: err(f"{p}.snapshot_id",f"unknown snapshot ID {snapshot_id!r}")
+        trend_ids_by_snapshot.setdefault(snapshot_id,[]).append(tid)
+        candidate_id=trend.get("candidate_id")
+        candidate=next((c for c in candidates if isinstance(c,dict) and c.get("id")==candidate_id),None)
+        if candidate is None: err(f"{p}.candidate_id",f"unknown candidate ID {candidate_id!r}")
+        elif candidate.get("name")!=trend.get("candidate"): err(f"{p}.candidate_id","must match the candidate label")
+        snapshot=snapshot_by_id.get(snapshot_id)
+        if snapshot:
+            if trend.get("snapshot_date")!=snapshot.get("snapshot_date"): err(f"{p}.snapshot_date","must match its snapshot date")
+            if trend.get("source_id")!=snapshot.get("source_id"): err(f"{p}.source_id","must match its snapshot source")
+            if trend.get("method")!=snapshot.get("method"): err(f"{p}.method","must match its snapshot method")
+        for k in ("average","observed_min","observed_max"):
+            if k in trend:
+                v=trend[k]
+                if not isinstance(v,(int,float)) or isinstance(v,bool) or not 0<=v<=100: err(f"{p}.{k}","must be a percentage from 0 to 100")
         count=trend.get("polls_count")
-        if not isinstance(count,int) or isinstance(count,bool) or count < 1: err(f"{p}.polls_count","must be a positive integer")
-        iso_date(trend.get("snapshot_date"),f"{p}.snapshot_date")
+        if not isinstance(count,int) or isinstance(count,bool) or count<1: err(f"{p}.polls_count","must be a positive integer")
+        if trend.get("change_30d") is not None and (not isinstance(trend["change_30d"],(int,float)) or isinstance(trend["change_30d"],bool) or not -100<=trend["change_30d"]<=100): err(f"{p}.change_30d","must be a percentage-point change or null")
+    for sid,snapshot in snapshot_by_id.items():
+        declared=snapshot.get("observation_ids")
+        actual=trend_ids_by_snapshot.get(sid,[])
+        if isinstance(declared,list) and set(declared)!=set(actual): err(f"poll_trend_snapshots[{sid}].observation_ids","must list exactly the linked trend observation IDs")
 
     questions=records(data,"compass_questions")
     qids=set()

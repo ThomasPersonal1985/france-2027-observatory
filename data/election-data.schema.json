@@ -19,7 +19,8 @@
     "media_directory",
     "editorial_standards",
     "compass_questions",
-    "compass_methodology"
+    "compass_methodology",
+    "poll_trend_snapshots"
   ],
   "properties": {
     "meta": {
@@ -243,6 +244,12 @@
     },
     "compass_methodology": {
       "type": "object"
+    },
+    "poll_trend_snapshots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/trendSnapshot"
+      }
     }
   },
   "additionalProperties": true,
@@ -656,6 +663,10 @@
       "type": "object",
       "required": [
         "candidate",
+        "candidate_id",
+        "id",
+        "snapshot_id",
+        "source_id",
         "average",
         "polls_count",
         "snapshot_date",
@@ -681,8 +692,176 @@
         "method": {
           "type": "string",
           "minLength": 1
+        },
+        "candidate_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^trend-"
+        },
+        "snapshot_id": {
+          "type": "string",
+          "pattern": "^snapshot-"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^src-[a-f0-9]{16}$"
         }
       },
+      "additionalProperties": true
+    },
+    "trendSnapshot": {
+      "type": "object",
+      "required": [
+        "id",
+        "snapshot_date",
+        "provider",
+        "source_id",
+        "calculation_type",
+        "method",
+        "algorithm_version",
+        "algorithm_version_status",
+        "input_poll_ids",
+        "input_status",
+        "scenario_id",
+        "scenario_note",
+        "observation_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^snapshot-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-f0-9]{12}$"
+        },
+        "snapshot_date": {
+          "$ref": "#/$defs/date"
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^src-[a-f0-9]{16}$"
+        },
+        "calculation_type": {
+          "enum": [
+            "external_provider",
+            "site_calculated"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "algorithm_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "algorithm_version_status": {
+          "enum": [
+            "published",
+            "not_published",
+            "not_applicable"
+          ]
+        },
+        "input_poll_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^poll-[a-f0-9]{16}$"
+          }
+        },
+        "input_status": {
+          "enum": [
+            "linked",
+            "not_provided",
+            "not_applicable"
+          ]
+        },
+        "scenario_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^first-round-lineup-[a-f0-9]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scenario_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observation_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^trend-"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "calculation_type": {
+                "const": "site_calculated"
+              }
+            },
+            "required": [
+              "calculation_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "algorithm_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "algorithm_version_status": {
+                "const": "published"
+              },
+              "input_status": {
+                "const": "linked"
+              },
+              "input_poll_ids": {
+                "minItems": 1
+              },
+              "scenario_id": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "calculation_type": {
+                "const": "external_provider"
+              }
+            },
+            "required": [
+              "calculation_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "input_status": {
+                "enum": [
+                  "not_provided",
+                  "linked"
+                ]
+              }
+            }
+          }
+        }
+      ],
       "additionalProperties": true
     }
   }

@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 6,
+    "data_version": 7,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -5105,7 +5105,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-marine-le-pen",
+      "candidate_id": "marine-le-pen",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Jean-Luc Mélenchon",
@@ -5116,7 +5120,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-jean-luc-melenchon",
+      "candidate_id": "jean-luc-melenchon",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Édouard Philippe",
@@ -5127,7 +5135,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-edouard-philippe",
+      "candidate_id": "edouard-philippe",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Raphaël Glucksmann",
@@ -5138,7 +5150,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-raphael-glucksmann",
+      "candidate_id": "raphael-glucksmann",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "David Lisnard",
@@ -5149,7 +5165,11 @@
       "polls_count": 5,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-david-lisnard",
+      "candidate_id": "david-lisnard",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Bruno Retailleau",
@@ -5160,7 +5180,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-bruno-retailleau",
+      "candidate_id": "bruno-retailleau",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Gabriel Attal",
@@ -5171,7 +5195,11 @@
       "polls_count": 4,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-gabriel-attal",
+      "candidate_id": "gabriel-attal",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Éric Zemmour",
@@ -5182,7 +5210,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-eric-zemmour",
+      "candidate_id": "eric-zemmour",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Marine Tondelier",
@@ -5193,7 +5225,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-marine-tondelier",
+      "candidate_id": "marine-tondelier",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Nicolas Dupont-Aignan",
@@ -5204,7 +5240,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-nicolas-dupont-aignan",
+      "candidate_id": "nicolas-dupont-aignan",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Fabien Roussel",
@@ -5215,7 +5255,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-fabien-roussel",
+      "candidate_id": "fabien-roussel",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     },
     {
       "candidate": "Nathalie Arthaud",
@@ -5226,7 +5270,11 @@
       "polls_count": 8,
       "method": "Vote Public rolling average, latest poll per institute in 35 days",
       "snapshot_date": "2026-11-08",
-      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals."
+      "interpretation": "Secondary rolling-average snapshot; latest poll per institute in a 35-day window. Observed min/max are not confidence intervals.",
+      "id": "trend-2026-11-08-nathalie-arthaud",
+      "candidate_id": "nathalie-arthaud",
+      "snapshot_id": "snapshot-2026-11-08-4d15830e8f38",
+      "source_id": "src-1541e3ce5ededaef"
     }
   ],
   "media_directory": [
@@ -7257,6 +7305,36 @@
       "url": "https://www.observatoire2027.fr/candidat/natacha-polony/",
       "type": "Secondary tracker; public statements indexed",
       "id": "src-fe823e0d1b4ad62a"
+    }
+  ],
+  "poll_trend_snapshots": [
+    {
+      "id": "snapshot-2026-11-08-4d15830e8f38",
+      "snapshot_date": "2026-11-08",
+      "provider": "Vote Public",
+      "source_id": "src-1541e3ce5ededaef",
+      "calculation_type": "external_provider",
+      "method": "Vote Public rolling average, latest poll per institute in 35 days",
+      "algorithm_version": null,
+      "algorithm_version_status": "not_published",
+      "input_poll_ids": [],
+      "input_status": "not_provided",
+      "scenario_id": null,
+      "scenario_note": "The provider snapshot does not identify the candidate lineup or scenario attached to each input poll.",
+      "observation_ids": [
+        "trend-2026-11-08-marine-le-pen",
+        "trend-2026-11-08-jean-luc-melenchon",
+        "trend-2026-11-08-edouard-philippe",
+        "trend-2026-11-08-raphael-glucksmann",
+        "trend-2026-11-08-david-lisnard",
+        "trend-2026-11-08-bruno-retailleau",
+        "trend-2026-11-08-gabriel-attal",
+        "trend-2026-11-08-eric-zemmour",
+        "trend-2026-11-08-marine-tondelier",
+        "trend-2026-11-08-nicolas-dupont-aignan",
+        "trend-2026-11-08-fabien-roussel",
+        "trend-2026-11-08-nathalie-arthaud"
+      ]
     }
   ]
 }
