@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/election-data.json"
-REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "source_registry", "updates", "poll_trends", "poll_trend_snapshots", "media_directory", "editorial_standards", "compass_questions", "compass_methodology")
+REQUIRED_ROOT = ("meta", "candidates", "debates", "policy_positions", "polls", "news", "events", "sources", "source_registry", "updates", "poll_trends", "poll_trend_snapshots", "media_directory", "editorial_standards", "compass_questions", "compass_methodology", "compass_candidate_positions")
 errors: list[str] = []
 SOURCE_IDS: set[str] = set()
 
@@ -273,6 +273,57 @@ def validate(data):
         if isinstance(declared,list) and set(declared)!=set(actual): err(f"poll_trend_snapshots[{sid}].observation_ids","must list exactly the linked trend observation IDs")
 
     questions=records(data,"compass_questions")
+    methodology=data.get("compass_methodology",{})
+    config=methodology.get("scoring_configuration",{}) if isinstance(methodology,dict) else {}
+    if not obj(config,"compass_methodology.scoring_configuration"): config={}
+    if config.get("algorithm_version")!="ordinal-distance-equal-area-v1": err("compass_methodology.scoring_configuration.algorithm_version","unsupported scoring algorithm version")
+    min_questions=config.get("minimum_verified_questions")
+    min_areas=config.get("minimum_verified_areas")
+    if not isinstance(min_questions,int) or isinstance(min_questions,bool) or min_questions<1: err("compass_methodology.scoring_configuration.minimum_verified_questions","must be a positive integer")
+    if not isinstance(min_areas,int) or isinstance(min_areas,bool) or min_areas<1 or min_areas>12: err("compass_methodology.scoring_configuration.minimum_verified_areas","must be between 1 and 12")
+    min_match_questions=config.get("minimum_comparable_questions")
+    min_match_areas=config.get("minimum_comparable_areas")
+    if not isinstance(min_match_questions,int) or isinstance(min_match_questions,bool) or min_match_questions<1: err("compass_methodology.scoring_configuration.minimum_comparable_questions","must be a positive integer")
+    if not isinstance(min_match_areas,int) or isinstance(min_match_areas,bool) or min_match_areas<1 or min_match_areas>12: err("compass_methodology.scoring_configuration.minimum_comparable_areas","must be between 1 and 12")
+    if min_match_questions!=min_questions: err("compass_methodology.scoring_configuration.minimum_comparable_questions","must match the published minimum verified question threshold")
+    if min_match_areas!=min_areas: err("compass_methodology.scoring_configuration.minimum_comparable_areas","must match the published minimum verified area threshold")
+    if len({q.get("topic") for q in questions if isinstance(q,dict)})!=12: err("compass_questions","scoring requires exactly 12 policy areas")
+    if config.get("eligible_position_status")!="primary_verified": err("compass_methodology.scoring_configuration.eligible_position_status","must be primary_verified")
+    if config.get("eligible_question_type")!="ordinal" or config.get("eligible_question_rubric_id")!="ordinal-distance-v1": err("compass_methodology.scoring_configuration","must use reviewed ordinal questions and the published ordinal distance rubric")
+    if config.get("ties")!="equal rank; do not break ties by coverage": err("compass_methodology.scoring_configuration.ties","must preserve ties without coverage-based tie breaking")
+
+    question_by_id={q.get("id"):q for q in questions if isinstance(q,dict)}
+    position_ids=set(); position_pairs=set()
+    for i,position in enumerate(records(data,"compass_candidate_positions")):
+        p=f"compass_candidate_positions[{i}]"
+        if not obj(position,p): continue
+        for key in ("id","candidate_id","question_id"): text(position.get(key),f"{p}.{key}")
+        pid=position.get("id")
+        if pid in position_ids: err(f"{p}.id",f"duplicate position ID {pid!r}")
+        position_ids.add(pid)
+        pair=(position.get("candidate_id"),position.get("question_id"))
+        if pair in position_pairs: err(p,"a candidate may have only one current position per question")
+        position_pairs.add(pair)
+        if pair[0] not in candidate_ids: err(f"{p}.candidate_id",f"unknown candidate ID {pair[0]!r}")
+        question=question_by_id.get(pair[1])
+        if question is None: err(f"{p}.question_id",f"unknown compass question ID {pair[1]!r}")
+        else:
+            values=[o[1] for o in question.get("options",[]) if isinstance(o,(list,tuple)) and len(o)>1]
+            value=position.get("position_value")
+            if not isinstance(value,(int,float)) or isinstance(value,bool) or value not in values: err(f"{p}.position_value","must be one of the linked question's coded answer options")
+        iso_date(position.get("statement_date"),f"{p}.statement_date")
+        evidence=position.get("evidence")
+        if not isinstance(evidence,list) or not evidence: err(f"{p}.evidence","must contain attributable source evidence")
+        else:
+            for j,item in enumerate(evidence):
+                ep=f"{p}.evidence[{j}]"
+                if not obj(item,ep): continue
+                source_id=item.get("source_id")
+                if source_id not in SOURCE_IDS: err(f"{ep}.source_id","must reference source_registry")
+                for key in ("locator","evidence_summary"): text(item.get(key),f"{ep}.{key}")
+        verification=position.get("verification")
+        if obj(verification,f"{p}.verification"): validate_verification(verification,f"{p}.verification")
+
     qids=set()
     for i,q in enumerate(questions):
         p=f"compass_questions[{i}]"
@@ -287,6 +338,19 @@ def validate(data):
         if not isinstance(options,list) or len(options)<2: err(f"{p}.options","must contain at least two options")
         maximum=q.get("max")
         if not isinstance(maximum,(int,float)) or isinstance(maximum,bool) or maximum <= 0: err(f"{p}.max","must be positive")
+        scoring=q.get("scoring")
+        if obj(scoring,f"{p}.scoring"):
+            if scoring.get("type") not in ("unreviewed","ordinal","categorical","multi_dimensional"): err(f"{p}.scoring.type","must identify an unreviewed, ordinal, categorical, or multi-dimensional scale")
+            rubric=scoring.get("rubric_id")
+            if scoring.get("type")=="ordinal" and rubric!="ordinal-distance-v1": err(f"{p}.scoring.rubric_id","ordinal distance scoring requires ordinal-distance-v1")
+            if scoring.get("type")=="ordinal":
+                iso_date(scoring.get("reviewed_date"),f"{p}.scoring.reviewed_date")
+                text(scoring.get("reviewer"),f"{p}.scoring.reviewer")
+            if scoring.get("type")=="unreviewed" and rubric is not None: err(f"{p}.scoring.rubric_id","must be null until scale review is complete")
+            if scoring.get("type")=="unreviewed" and (scoring.get("reviewed_date") is not None or scoring.get("reviewer") is not None): err(f"{p}.scoring","reviewer and date must be empty until scale review")
+            if scoring.get("type")=="ordinal" and isinstance(options,list) and len(options)>=2:
+                values=[o[1] for o in options if isinstance(o,(list,tuple)) and len(o)>1]
+                if values != list(range(1,len(options)+1)): err(f"{p}.options","ordinal-distance-v1 requires ordered integer positions 1 through N")
 
 if __name__ == "__main__":
     path=Path(sys.argv[1]) if len(sys.argv)>1 else DEFAULT_DATA

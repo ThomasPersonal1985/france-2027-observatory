@@ -36,12 +36,12 @@ For each comparable, ordinal question with N ordered answer positions:
 
 The intended model averages question alignments within each policy area using visitor importance weights, then averages the twelve policy-area scores equally. The 36-question version adds detail within each area; it must not give an area extra baseline influence just because it has an extra question.
 
-This ordinal-distance model is only suitable where answer options form a defensible ordered scale. It must not be used for categorical or multi-dimensional questions without a separately published coding rubric.
+This ordinal-distance model is only suitable where answer options form a defensible ordered scale. A question is eligible only after its data record explicitly marks the scale as reviewed ordinal and names the `ordinal-distance-v1` rubric. Unreviewed, categorical and multi-dimensional questions are excluded unless a separate scoring rubric is published. Candidate position records must have a dated claim, a primary-verified status and source evidence with a locator and summary. It must not be used for categorical or multi-dimensional questions without a separately published coding rubric.
 
 ## Evidence coverage and missing positions
 A candidate's position may only be coded when a dated, attributable source supports it. Do not infer positions from party affiliation, left-right labels, previous manifestos or assumptions. An absence of evidence is not evidence of a position.
 
-Unknown positions must be excluded from the alignment calculation and reduce evidence coverage. A ranked percentage should not be published unless evidence covers at least 6 of 12 policy areas and 12 questions.
+Unknown positions must be excluded from the alignment calculation and reduce evidence coverage. A ranked percentage should not be published unless verified candidate evidence covers at least 6 of 12 policy areas and 12 questions. To avoid presenting an overall match from a narrow subset, the implementation also requires at least 12 comparable answered questions across 6 areas; visitors may leave answers blank, but insufficient comparison coverage produces no ranking.
 
 ## Important current limitation
 The 36-question framework is present in the data and the interface now offers a 24-question standard path plus an optional 36-question extension. Candidate position coding has **not** been completed against primary sources for all questions. Existing hard-coded compass positions are legacy prototype data and must not be represented as fully verified. In the current prototype, only a small legacy set of pension and public-finance questions contributes to candidate matching. The other answers are not yet included in the ranking. This limitation is disclosed in the results.

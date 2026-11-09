@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 7,
+    "data_version": 9,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -5600,7 +5600,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "minimum_wage",
@@ -5630,7 +5636,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "working_time",
@@ -5660,7 +5672,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "public_finance",
@@ -5690,7 +5708,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "debt",
@@ -5720,7 +5744,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "public_services",
@@ -5750,7 +5780,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "retirement_age",
@@ -5792,7 +5828,13 @@
         ]
       ],
       "max": 8,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "reform",
@@ -5822,7 +5864,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "funding",
@@ -5852,7 +5900,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "immigration_levels",
@@ -5882,7 +5936,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "asylum",
@@ -5912,7 +5972,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "integration",
@@ -5942,7 +6008,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "policing",
@@ -5972,7 +6044,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "sentencing",
@@ -6002,7 +6080,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "justice_system",
@@ -6032,7 +6116,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "hospital",
@@ -6062,7 +6152,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "medical_deserts",
@@ -6092,7 +6188,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "health_insurance",
@@ -6122,7 +6224,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "school_funding",
@@ -6152,7 +6260,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "curriculum",
@@ -6182,7 +6296,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "higher_education",
@@ -6212,7 +6332,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "climate_pace",
@@ -6242,7 +6368,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "energy_mix",
@@ -6272,7 +6404,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "agriculture",
@@ -6302,7 +6440,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "housing_supply",
@@ -6332,7 +6476,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "rent_policy",
@@ -6362,7 +6512,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "cost_of_living",
@@ -6392,7 +6548,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "eu_integration",
@@ -6422,7 +6584,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "eu_law",
@@ -6452,7 +6620,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "institutions",
@@ -6482,7 +6656,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "ukraine",
@@ -6512,7 +6692,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "nato",
@@ -6542,7 +6728,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "defence_spending",
@@ -6572,7 +6764,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "secularism",
@@ -6602,7 +6800,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "end_of_life",
@@ -6632,7 +6836,13 @@
         ]
       ],
       "max": 5,
-      "stage": "standard"
+      "stage": "standard",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     },
     {
       "id": "digital_rights",
@@ -6662,7 +6872,13 @@
         ]
       ],
       "max": 5,
-      "stage": "extended"
+      "stage": "extended",
+      "scoring": {
+        "type": "unreviewed",
+        "rubric_id": null,
+        "reviewed_date": null,
+        "reviewer": null
+      }
     }
   ],
   "compass_methodology": {
@@ -6681,7 +6897,23 @@
     "extended_length": 36,
     "default_design": "Two questions from each of the twelve policy areas appear in the standard compass. One additional question per area is available in the optional extended stage.",
     "extended_design": "The visitor may continue from the 24-question standard compass to answer the remaining twelve questions, bringing the total to 36.",
-    "weighting_note": "Policy areas retain equal baseline weight. Adding the third question in each area improves within-area detail; it does not increase that area’s overall baseline weight."
+    "weighting_note": "Policy areas retain equal baseline weight. Adding the third question in each area improves within-area detail; it does not increase that area’s overall baseline weight.",
+    "scoring_configuration": {
+      "algorithm_version": "ordinal-distance-equal-area-v1",
+      "question_alignment": "1 - absolute position distance / (ordered answer count - 1)",
+      "within_area": "importance-weighted mean of comparable question scores",
+      "between_areas": "unweighted mean across areas with comparable questions",
+      "minimum_verified_questions": 12,
+      "minimum_verified_areas": 6,
+      "eligible_position_status": "primary_verified",
+      "eligible_question_type": "ordinal",
+      "eligible_question_rubric_id": "ordinal-distance-v1",
+      "importance_minimum": 1,
+      "importance_maximum": 3,
+      "ties": "equal rank; do not break ties by coverage",
+      "minimum_comparable_questions": 12,
+      "minimum_comparable_areas": 6
+    }
   },
   "source_registry": [
     {
@@ -7336,5 +7568,6 @@
         "trend-2026-11-08-nathalie-arthaud"
       ]
     }
-  ]
+  ],
+  "compass_candidate_positions": []
 }

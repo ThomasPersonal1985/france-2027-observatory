@@ -20,7 +20,8 @@
     "editorial_standards",
     "compass_questions",
     "compass_methodology",
-    "poll_trend_snapshots"
+    "poll_trend_snapshots",
+    "compass_candidate_positions"
   ],
   "properties": {
     "meta": {
@@ -209,7 +210,8 @@
           "title",
           "options",
           "max",
-          "stage"
+          "stage",
+          "scoring"
         ],
         "properties": {
           "id": {
@@ -237,18 +239,121 @@
               "standard",
               "extended"
             ]
+          },
+          "scoring": {
+            "type": "object",
+            "required": [
+              "type",
+              "rubric_id",
+              "reviewed_date",
+              "reviewer"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "unreviewed",
+                  "ordinal",
+                  "categorical",
+                  "multi_dimensional"
+                ]
+              },
+              "rubric_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reviewed_date": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/date"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "reviewer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ordinal"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ]
+                },
+                "then": {
+                  "properties": {
+                    "rubric_id": {
+                      "const": "ordinal-distance-v1"
+                    },
+                    "reviewed_date": {
+                      "$ref": "#/$defs/date"
+                    },
+                    "reviewer": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "unreviewed"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ]
+                },
+                "then": {
+                  "properties": {
+                    "rubric_id": {
+                      "type": "null"
+                    }
+                  }
+                }
+              }
+            ],
+            "additionalProperties": true
           }
         },
         "additionalProperties": true
       }
     },
     "compass_methodology": {
-      "type": "object"
+      "type": "object",
+      "required": [
+        "scoring_configuration"
+      ],
+      "properties": {
+        "scoring_configuration": {
+          "$ref": "#/$defs/compassScoringConfig"
+        }
+      }
     },
     "poll_trend_snapshots": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/trendSnapshot"
+      }
+    },
+    "compass_candidate_positions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/compassCandidatePosition"
       }
     }
   },
@@ -862,6 +967,127 @@
           }
         }
       ],
+      "additionalProperties": true
+    },
+    "compassScoringConfig": {
+      "type": "object",
+      "required": [
+        "algorithm_version",
+        "minimum_verified_questions",
+        "minimum_verified_areas",
+        "eligible_position_status",
+        "eligible_question_type",
+        "eligible_question_rubric_id",
+        "importance_minimum",
+        "importance_maximum",
+        "ties",
+        "minimum_comparable_questions",
+        "minimum_comparable_areas"
+      ],
+      "properties": {
+        "algorithm_version": {
+          "type": "string"
+        },
+        "minimum_verified_questions": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minimum_verified_areas": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "eligible_position_status": {
+          "const": "primary_verified"
+        },
+        "eligible_question_type": {
+          "const": "ordinal"
+        },
+        "eligible_question_rubric_id": {
+          "const": "ordinal-distance-v1"
+        },
+        "importance_minimum": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "importance_maximum": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ties": {
+          "type": "string"
+        },
+        "minimum_comparable_questions": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minimum_comparable_areas": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "compassCandidatePosition": {
+      "type": "object",
+      "required": [
+        "id",
+        "candidate_id",
+        "question_id",
+        "position_value",
+        "statement_date",
+        "evidence",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^cpos-[a-z0-9-]+$"
+        },
+        "candidate_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position_value": {
+          "type": "number"
+        },
+        "statement_date": {
+          "$ref": "#/$defs/date"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "source_id",
+              "locator",
+              "evidence_summary"
+            ],
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "pattern": "^src-[a-f0-9]{16}$"
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_summary": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      },
       "additionalProperties": true
     }
   }
