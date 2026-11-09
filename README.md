@@ -12,7 +12,8 @@ Static website for Cloudflare Pages. Replace the repository contents with this p
 - `index.html`: site shell and content sections
 - `app.js`: rendering, candidate dossier display, compass questionnaire and matching
 - `styles.css`: responsive styling
-- `data/election-data.json`: research data
+- `data/election-data.json`: canonical research dataset (the site runtime reads this file)
+- `election-data.json`: generated compatibility mirror; do not edit it directly
 - `profiles/`: individual candidate dossiers
 
 ## Deployment
@@ -71,10 +72,10 @@ The interface includes an English/French toggle in the header. Candidate directo
 
 ## Validate the election dataset
 
-The runtime dataset is `data/election-data.json`. Its structural contract is in `data/election-data.schema.json`; run the standard-library validator from the repository root before reviewing data changes:
+The single source of truth is `data/election-data.json`, which the site runtime reads. The root-level `election-data.json` is retained as a generated compatibility mirror; edit only the canonical file. Its structural contract is in `data/election-data.schema.json`. Run the standard-library validator from the repository root before reviewing data changes:
 
 ```sh
 python3 scripts/validate_election_data.py
 ```
 
-The validator checks required record fields, stable and unique candidate IDs, duplicate candidate/question IDs, ISO calendar dates, poll fieldwork ordering, percentage bounds, citation URL structure, policy-position candidate references, and poll-trend candidate references. It deliberately does not require poll percentages to sum to 100: undecided voters and unreported options may be omitted, and those values must not be silently treated as zero. A successful structural check does not mean a claim or source has been editorially verified.
+The validator checks required record fields, stable and unique candidate IDs, duplicate candidate/question IDs, ISO calendar dates, poll fieldwork ordering, percentage bounds, citation URL structure, policy-position candidate references, poll-trend candidate references, and parity between the canonical dataset and compatibility mirror. After intentionally changing the canonical dataset, refresh the mirror with `python3 scripts/sync_root_election_data.py --write`; the validator also checks mirror parity. It deliberately does not require poll percentages to sum to 100: undecided voters and unreported options may be omitted, and those values must not be silently treated as zero. A successful structural check does not mean a claim or source has been editorially verified.

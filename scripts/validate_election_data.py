@@ -161,6 +161,12 @@ if __name__ == "__main__":
     except (OSError,json.JSONDecodeError) as exc:
         print(f"Cannot read valid JSON from {path}: {exc}",file=sys.stderr); sys.exit(2)
     validate(data)
+    if path.resolve() == DEFAULT_DATA.resolve():
+        try:
+            mirror = json.loads((ROOT / "election-data.json").read_text(encoding="utf-8"))
+            if mirror != data: err("election-data.json", "legacy compatibility copy is out of sync; run python3 scripts/sync_root_election_data.py --write")
+        except (OSError, json.JSONDecodeError) as exc:
+            err("election-data.json", f"legacy compatibility copy is missing or invalid: {exc}")
     if errors:
         print(f"Election data validation failed ({len(errors)} error(s)):")
         print("\n".join(f"- {e}" for e in errors)); sys.exit(1)
