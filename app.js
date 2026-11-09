@@ -123,61 +123,104 @@ function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.da
 const pollChartPalette=['#174f83','#d33f50','#3e83c5','#9a4b9c','#5c963f','#b276c9','#68a9d6','#a9b8c8'];
 let pollChartRange='all';
 let pollChartSolo=null;
+let pollChartScenario='all';
+let pollChartPollster='all';
 function renderOverviewPollChart(){
  const host=$('#overview-poll-chart'); if(!host)return;
- const polls=[...(DB.polls||[])].filter(p=>p.results&&p.publication_date).sort((a,b)=>a.publication_date.localeCompare(b.publication_date));
- const latest=polls[polls.length-1];
+ const allPolls=[...(DB.polls||[])].filter(p=>p.results&&p.fieldwork_end&&p.scenario_id).sort((a,b)=>a.fieldwork_end.localeCompare(b.fieldwork_end)||a.publication_date.localeCompare(b.publication_date));
+ const latest=[...allPolls].sort((a,b)=>b.fieldwork_end.localeCompare(a.fieldwork_end)||b.publication_date.localeCompare(a.publication_date))[0];
+ const groups=new Map();
+ allPolls.forEach(p=>{if(!groups.has(p.scenario_id))groups.set(p.scenario_id,[]);groups.get(p.scenario_id).push(p)});
+ const scenarioEntries=[...groups.entries()].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0]));
+ const scenarioLabels=new Map();
+ scenarioEntries.forEach(([id,rows],i)=>{const count=new Set(rows.flatMap(p=>Object.values(p.candidate_ids||{}))).size;scenarioLabels.set(id,`Line-up ${String.fromCharCode(65+i)} · ${rows.length} polls · ${count} candidates`)});
+ const scenarioSelect=$('#poll-scenario-filter');
+ if(scenarioSelect){
+  scenarioSelect.innerHTML='<option value="all">All line-ups</option>'+scenarioEntries.map(([id])=>`<option value="${safe(id)}">${safe(scenarioLabels.get(id))}</option>`).join('');
+  if(pollChartScenario!=='all'&&!groups.has(pollChartScenario))pollChartScenario='all';
+  scenarioSelect.value=pollChartScenario;
+  if(!scenarioSelect.dataset.bound){scenarioSelect.dataset.bound='1';scenarioSelect.addEventListener('change',()=>{pollChartScenario=scenarioSelect.value;renderOverviewPollChart()})}
+ }
+ const pollsters=[...new Set(allPolls.map(p=>p.pollster).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+ const pollsterSelect=$('#poll-pollster-filter');
+ if(pollsterSelect){
+  pollsterSelect.innerHTML='<option value="all">All pollsters</option>'+pollsters.map(n=>`<option value="${safe(n)}">${safe(n)}</option>`).join('');
+  if(pollChartPollster!=='all'&&!pollsters.includes(pollChartPollster))pollChartPollster='all';
+  pollsterSelect.value=pollChartPollster;
+  if(!pollsterSelect.dataset.bound){pollsterSelect.dataset.bound='1';pollsterSelect.addEventListener('change',()=>{pollChartPollster=pollsterSelect.value;renderOverviewPollChart()})}
+ }
+ const bySelection=allPolls.filter(p=>(pollChartScenario==='all'||p.scenario_id===pollChartScenario)&&(pollChartPollster==='all'||p.pollster===pollChartPollster));
  const rangeDays=pollChartRange==='all'?null:Number(pollChartRange);
- const newest=latest?new Date(latest.publication_date+'T12:00:00'):new Date();
- const cutoff=rangeDays?new Date(newest.getTime()-rangeDays*86400000):null;
- const shown=polls.filter(p=>!cutoff||new Date(p.publication_date+'T12:00:00')>=cutoff);
+ const latestSelected=bySelection[bySelection.length-1];
+ const anchor=latestSelected?Date.parse(latestSelected.fieldwork_end+'T12:00:00Z'):Date.now();
+ const cutoff=rangeDays?anchor-rangeDays*86400000:null;
+ const shown=bySelection.filter(p=>!cutoff||Date.parse(p.fieldwork_end+'T12:00:00Z')>=cutoff);
  const candidates=DB.candidates||[];
  const names=candidates.map(c=>c.name);
  const observedNames=names.filter(n=>shown.some(p=>Object.prototype.hasOwnProperty.call(p.results,n)));
  const noDataNames=names.filter(n=>!observedNames.includes(n));
+ const selectedLineup=groups.get(pollChartScenario)||[];
+ const lineupIds=new Set(selectedLineup.flatMap(p=>Object.values(p.candidate_ids||{})));
+ const lineupNames=candidates.filter(c=>lineupIds.has(c.id)).map(c=>c.name);
+ const context=$('#poll-chart-selection-context');
+ if(context){
+  const filterText=[pollChartScenario==='all'?'Showing every tested line-up':scenarioLabels.get(pollChartScenario),pollChartPollster==='all'?'all pollsters':pollChartPollster].filter(Boolean).join(' · ');
+  context.textContent=`${filterText}. A line-up means the exact set of candidates tested. ${pollChartScenario==='all'?'Choose one line-up to see its candidates.':'Candidates tested: '+lineupNames.join(', ')+'.'}`;
+ }
  const W=1000,H=390,L=58,R=22,T=20,B=52,plotW=W-L-R,plotH=H-T-B;
- const dates=shown.map(p=>new Date(p.publication_date+'T12:00:00').getTime());
- const minX=dates.length?Math.min(...dates):newest.getTime(),maxX=dates.length?Math.max(...dates):newest.getTime();
+ const timeOf=p=>Date.parse(p.fieldwork_end+'T12:00:00Z');
+ const times=shown.map(timeOf);
+ const minX=times.length?Math.min(...times):anchor,maxX=times.length?Math.max(...times):anchor;
  const x=t=>L+(maxX===minX?plotW/2:(t-minX)/(maxX-minX)*plotW);
  const y=v=>T+plotH-(Number(v)/40)*plotH;
- const dateLabel=t=>new Date(t).toLocaleDateString('en-GB',{day:'numeric',month:'short'});
- const latestValue=name=>{for(let i=shown.length-1;i>=0;i--){const v=shown[i].results?.[name];if(v!==undefined&&v!==null&&Number.isFinite(Number(v)))return Number(v)}return null};
- let svg=`<svg class="poll-trend-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="First-round voting intentions across ${shown.length} published polls">`;
+ const dateLabel=value=>{const d=new Date(typeof value==='string'?Date.parse(value+'T12:00:00Z'):value);return d.toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'})};
+ let svg=`<svg class="poll-trend-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${safe(`First-round poll results by fieldwork end date; ${shown.length} polls shown${pollChartScenario==='all'?' across multiple tested line-ups':''}`)}">`;
  [0,5,10,15,20,25,30,35,40].forEach(v=>{svg+=`<line x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}" class="poll-gridline"/><text x="${L-12}" y="${y(v)+5}" text-anchor="end" class="poll-axis-label">${v}%</text>`});
- const ticks=Math.min(6,Math.max(2,shown.length));
- for(let i=0;i<ticks;i++){const t=minX+(maxX-minX)*(i/(ticks-1));svg+=`<text x="${x(t)}" y="${H-17}" text-anchor="middle" class="poll-axis-label">${dateLabel(t)}</text>`}
+ const ticks=maxX===minX?(shown.length?1:0):Math.min(6,Math.max(2,shown.length));
+ for(let i=0;i<ticks;i++){const t=ticks===1?minX:minX+(maxX-minX)*(i/(ticks-1));svg+=`<text x="${x(t)}" y="${H-17}" text-anchor="middle" class="poll-axis-label">${dateLabel(t)}</text>`}
  observedNames.forEach((name,idx)=>{
   if(pollChartSolo&&pollChartSolo!==name)return;
-  const pts=shown.filter(p=>Object.prototype.hasOwnProperty.call(p.results,name)).map(p=>({p,t:new Date(p.publication_date+'T12:00:00').getTime(),v:Number(p.results[name])})).filter(o=>Number.isFinite(o.v));
-  if(!pts.length)return;
-  const d=pts.map((o,i)=>((i===0||o.p.publication_date===pts[i-1].p.publication_date)?'M':'L')+x(o.t).toFixed(1)+','+y(o.v).toFixed(1)).join(' ');
+  const points=shown.filter(p=>Object.prototype.hasOwnProperty.call(p.results,name)).map(p=>({p,t:timeOf(p),v:Number(p.results[name])})).filter(o=>Number.isFinite(o.v)).sort((a,b)=>a.t-b.t||a.p.pollster.localeCompare(b.p.pollster));
+  if(!points.length)return;
+  const byScenario=new Map();points.forEach(o=>{if(!byScenario.has(o.p.scenario_id))byScenario.set(o.p.scenario_id,[]);byScenario.get(o.p.scenario_id).push(o)});
   const color=pollChartPalette[idx%pollChartPalette.length];
-  svg+=`<path d="${d}" fill="none" stroke="${color}" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round" class="poll-series"/>`;
-  pts.forEach(o=>{const tip=`${name} · ${o.v}% · ${o.p.pollster||'Pollster not stated'} · published ${o.p.publication_date} · fieldwork ${o.p.fieldwork_label||'not stated'}`;svg+=`<circle class="poll-point-hit" cx="${x(o.t)}" cy="${y(o.v)}" r="13" fill="transparent" tabindex="0" role="img" aria-label="${safe(tip)}" data-tip="${safe(tip)}"><title>${safe(tip)}</title></circle><circle class="poll-point-visible" cx="${x(o.t)}" cy="${y(o.v)}" r="5.2" fill="${color}" stroke="#fff" stroke-width="2" pointer-events="none"/>`});
+  byScenario.forEach(pts=>{
+   let previousDate=null;
+   const d=pts.map(o=>{const move=previousDate===null||o.p.fieldwork_end===previousDate;previousDate=o.p.fieldwork_end;return (move?'M':'L')+x(o.t).toFixed(1)+','+y(o.v).toFixed(1)}).join(' ');
+   svg+=`<path d="${d}" fill="none" stroke="${color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="poll-series"/>`;
+  });
+  const sameDay=new Map();points.forEach(o=>{if(!sameDay.has(o.p.fieldwork_end))sameDay.set(o.p.fieldwork_end,[]);sameDay.get(o.p.fieldwork_end).push(o)});
+  points.forEach(o=>{
+   const dayPoints=sameDay.get(o.p.fieldwork_end),position=dayPoints.indexOf(o),offset=(position-(dayPoints.length-1)/2)*7;
+   const scenarioName=scenarioLabels.get(o.p.scenario_id)||'candidate line-up not labelled';
+   const tip=`${name}: ${o.v}% · ${o.p.pollster} · fieldwork ${o.p.fieldwork_start} to ${o.p.fieldwork_end} · published ${o.p.publication_date} · sample ${o.p.sample_size} · ${scenarioName} · source: ${o.p.source?.title||'not stated'}`;
+   svg+=`<circle class="poll-point-hit" cx="${(x(o.t)+offset).toFixed(1)}" cy="${y(o.v)}" r="13" fill="transparent" tabindex="0" role="img" aria-label="${safe(tip)}" data-tip="${safe(tip)}"><title>${safe(tip)}</title></circle><circle class="poll-point-visible" cx="${(x(o.t)+offset).toFixed(1)}" cy="${y(o.v)}" r="5.2" fill="${color}" stroke="#fff" stroke-width="2" pointer-events="none"/>`;
+  });
  });
  svg+='</svg><div class="poll-hover-tip" role="status" aria-live="polite"></div>';
- host.innerHTML=shown.length?svg:'<p class="muted">No dated polling observations in this period.</p>';
- $('#poll-chart-count').textContent=`${shown.length} polls · ${shown.length?dateLabel(minX)+' to '+dateLabel(maxX):'no observations'}`;
+ host.innerHTML=shown.length?svg:'<p class="muted">No polling observations match these filters and fieldwork date range.</p>';
+ $('#poll-chart-count').textContent=`${shown.length} polls · ${shown.length?dateLabel(minX)+' to '+dateLabel(maxX)+' fieldwork end':'no observations'}`;
  const legend=$('#overview-poll-legend');
  if(legend){
-  const withData=observedNames.map(name=>{const i=observedNames.indexOf(name),v=latestValue(name);return `<button class="poll-legend-item ${pollChartSolo&&pollChartSolo!==name?'is-muted':''} ${pollChartSolo===name?'is-selected':''}" data-poll-name="${safe(name)}" aria-pressed="${pollChartSolo===name?'true':'false'}"><i style="--poll-color:${pollChartPalette[i%pollChartPalette.length]}"></i><span>${safe(name)}</span><b>${v===null?'—':v.toFixed(1)+'%'}</b></button>`}).join('');
-  const noData=noDataNames.map(name=>`<span class="poll-legend-no-data"><i></i>${safe(name)}</span>`).join('');
-  legend.innerHTML=`<div class="poll-legend-observed"><div class="poll-legend-heading">With poll observations (${observedNames.length}) <span>Click a name to isolate it · click again to show all</span></div><div class="poll-legend-grid">${withData}</div></div>${noDataNames.length?`<div class="poll-legend-unavailable"><div class="poll-legend-heading">No comparable poll observations yet (${noDataNames.length})</div><div class="poll-legend-grid poll-legend-grid-muted">${noData}</div></div>`:''}`;
+  const withData=observedNames.map(name=>{const i=names.indexOf(name),vals=shown.filter(p=>Object.prototype.hasOwnProperty.call(p.results,name)).sort((a,b)=>a.fieldwork_end.localeCompare(b.fieldwork_end)),v=vals.length?Number(vals[vals.length-1].results[name]):null;return `<button class="poll-legend-item ${pollChartSolo&&pollChartSolo!==name?'is-muted':''} ${pollChartSolo===name?'is-selected':''}" data-poll-name="${safe(name)}" aria-pressed="${pollChartSolo===name?'true':'false'}"><i style="--poll-color:${pollChartPalette[i%pollChartPalette.length]}"></i><span>${safe(name)}</span><b>${v===null?'—':v.toFixed(1)+'%'}</b></button>`}).join('');
+  const noData=noDataNames.map(name=>{const c=candidates.find(x=>x.name===name);const reason=pollChartScenario!=='all'&&c&&!lineupIds.has(c.id)?'not tested in this line-up':'no reported result in selected dates';return `<span class="poll-legend-no-data"><i></i><span>${safe(name)}<small>${safe(reason)}</small></span></span>`}).join('');
+  const noDataHeading=pollChartScenario==='all'?'No reported result in selected polls':'No result for these candidates in the selected line-up and date range';
+  legend.innerHTML=`<div class="poll-legend-observed"><div class="poll-legend-heading">With poll observations (${observedNames.length}) <span>Click a name to isolate it · click again to show all</span></div><div class="poll-legend-grid">${withData}</div></div>${noDataNames.length?`<div class="poll-legend-unavailable"><div class="poll-legend-heading">${safe(noDataHeading)} (${noDataNames.length})</div><div class="poll-legend-grid poll-legend-grid-muted">${noData}</div></div>`:''}`;
  }
  if(latest){
   const namesInPoll=Object.entries(latest.results).sort((a,b)=>b[1]-a[1]).slice(0,5);
-  $('#overview-latest-poll').innerHTML=`<div class="latest-poll-heading"><div><span class="eyebrow">LATEST POLL IN THE ARCHIVE</span><h3>${safe(latest.pollster)} · ${safe(latest.sponsor||'Sponsor not specified')}</h3></div><strong>${safe(latest.fieldwork_label||latest.publication_date)}</strong></div><div class="latest-poll-meta"><span>Sample: ${safe(latest.sample_size||'Not stated')}</span><span>Published: ${safe(latest.publication_date)}</span></div><div class="latest-poll-leaders">${namesInPoll.map((o,i)=>`<div><span>${i+1}. ${safe(o[0])}</span><b>${safe(o[1])}%</b></div>`).join('')}</div><div class="latest-poll-source">${link(latest.source)}</div>`;
+  $('#overview-latest-poll').innerHTML=`<div class="latest-poll-heading"><div><span class="eyebrow">LATEST FIELDWORK IN THE ARCHIVE</span><h3>${safe(latest.pollster)} · ${safe(latest.sponsor||'Sponsor not specified')}</h3></div><strong>${safe(latest.fieldwork_start)} to ${safe(latest.fieldwork_end)}</strong></div><div class="latest-poll-meta"><span>Sample: ${safe(latest.sample_size||'Not stated')}</span><span>Published: ${safe(latest.publication_date)}</span></div><div class="latest-poll-leaders">${namesInPoll.map((o,i)=>`<div><span>${i+1}. ${safe(o[0])}</span><b>${safe(o[1])}%</b></div>`).join('')}</div><div class="latest-poll-source">${link(latest.source)}</div>`;
  }
  document.querySelectorAll('[data-poll-range]').forEach(b=>b.classList.toggle('active',b.dataset.pollRange===pollChartRange));
  document.querySelectorAll('[data-poll-range]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{pollChartRange=b.dataset.pollRange;renderOverviewPollChart()})}});
  document.querySelectorAll('[data-poll-name]').forEach(b=>{b.addEventListener('click',()=>{const n=b.dataset.pollName;pollChartSolo=pollChartSolo===n?null:n;renderOverviewPollChart()})});
  const tip=host.querySelector('.poll-hover-tip');
  host.querySelectorAll('.poll-point-hit').forEach(point=>{
-  const show=()=>{if(!tip)return;tip.textContent=point.dataset.tip;tip.classList.add('is-visible');const r=point.getBoundingClientRect(),hr=host.getBoundingClientRect();tip.style.left=Math.max(8,Math.min(hr.width-270,r.left-hr.left+10))+'px';tip.style.top=Math.max(4,r.top-hr.top-48)+'px'};
+  const show=()=>{if(!tip)return;tip.textContent=point.dataset.tip;tip.classList.add('is-visible');const r=point.getBoundingClientRect(),hr=host.getBoundingClientRect();tip.style.left=Math.max(8,Math.min(hr.width-290,r.left-hr.left+10))+'px';tip.style.top=Math.max(4,r.top-hr.top-58)+'px'};
   point.addEventListener('pointerenter',show);point.addEventListener('focus',show);point.addEventListener('pointerleave',()=>tip?.classList.remove('is-visible'));point.addEventListener('blur',()=>tip?.classList.remove('is-visible'));
  });
 }
-function renderPolls(){const trend=DB.poll_trends||[];$('#poll-trend').innerHTML=trend.length?`<div class="trend-note"><b>Rolling-average snapshot</b><span>Research workbook snapshot · latest poll per institute in a 35-day window · not an individual poll or forecast.</span></div><div class="trend-grid">${trend.map(t=>`<div class="trend-row"><div class="trend-label"><b>${safe(t.candidate)}</b><strong>${Number(t.average).toFixed(1)}%</strong></div><div class="track"><span style="width:${Math.max(0,Math.min(100,Number(t.average)/40*100))}%"></span></div><small>Observed range ${safe(t.observed_min)}–${safe(t.observed_max)}% · ${safe(t.polls_count)} polls/institutes${t.change_30d==null?'':` · ${t.change_30d>0?'+':''}${safe(t.change_30d)} pts / 30d`}</small></div>`).join('')}</div>`:'<div class="notice">No rolling-average snapshot loaded.</div>';const rows=[...(DB.polls||[])].sort((a,b)=>b.publication_date.localeCompare(a.publication_date));$('#poll-list').innerHTML=rows.length?`<table><thead><tr><th>Poll date</th><th>Pollster / sponsor</th><th>Fieldwork</th><th>Sample</th><th>Results (%)</th><th>Source / note</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.publication_date)}</td><td><b>${safe(p.pollster)}</b><br>${safe(p.sponsor)}</td><td>${safe(p.fieldwork_label||p.fieldwork_start+' to '+p.fieldwork_end)}</td><td>${safe(p.sample_size)}</td><td>${Object.entries(p.results||{}).map(([n,v])=>`${safe(n)} ${safe(v)}%`).join('<br>')}</td><td>${link(p.source)}<br><small>${safe(p.data_note||'')}</small></td></tr>`).join('')}</tbody></table>`:'<div class="notice">No poll-level records loaded.</div>'}
+function renderPolls(){const trend=DB.poll_trends||[];$('#poll-trend').innerHTML=trend.length?`<div class="trend-note"><b>Rolling-average snapshot</b><span>Research workbook snapshot · latest poll per institute in a 35-day window · not an individual poll or forecast.</span></div><div class="trend-grid">${trend.map(t=>`<div class="trend-row"><div class="trend-label"><b>${safe(t.candidate)}</b><strong>${Number(t.average).toFixed(1)}%</strong></div><div class="track"><span style="width:${Math.max(0,Math.min(100,Number(t.average)/40*100))}%"></span></div><small>Observed range ${safe(t.observed_min)}–${safe(t.observed_max)}% · ${safe(t.polls_count)} polls/institutes${t.change_30d==null?'':` · ${t.change_30d>0?'+':''}${safe(t.change_30d)} pts / 30d`}</small></div>`).join('')}</div>`:'<div class="notice">No rolling-average snapshot loaded.</div>';const rows=[...(DB.polls||[])].sort((a,b)=>b.fieldwork_end.localeCompare(a.fieldwork_end)||b.publication_date.localeCompare(a.publication_date));$('#poll-list').innerHTML=rows.length?`<table><thead><tr><th>Fieldwork end</th><th>Published</th><th>Pollster / sponsor</th><th>Fieldwork</th><th>Sample</th><th>Results (%)</th><th>Source / note</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.fieldwork_end)}</td><td>${safe(p.publication_date)}</td><td><b>${safe(p.pollster)}</b><br>${safe(p.sponsor)}</td><td>${safe(p.fieldwork_label||p.fieldwork_start+' to '+p.fieldwork_end)}</td><td>${safe(p.sample_size)}</td><td>${Object.entries(p.results||{}).map(([n,v])=>`${safe(n)} ${safe(v)}%`).join('<br>')}</td><td>${link(p.source)}<br><small>${safe(p.data_note||'')}</small></td></tr>`).join('')}</tbody></table>`:'<div class="notice">No poll-level records loaded.</div>'}
 function renderNews(){const q=$('#news-search').value.toLowerCase(),lang=$('#news-language').value;const rows=[...(DB.news||[])].sort((a,b)=>b.publication_date.localeCompare(a.publication_date)).filter(n=>(!lang||n.language===lang)&&JSON.stringify(n).toLowerCase().includes(q));$('#news-list').innerHTML=rows.length?rows.map(n=>`<article class="source"><div class="eyebrow">${safe(n.language)} · ${safe(n.publication_date)} · ${safe(n.topic||'Campaign')}</div><h3>${safe(n.title)}</h3><p><b>${safe(n.publisher)}</b></p><p>${safe(n.summary)}</p>${link(n.source)}${n.verification?`<p class="small muted"><b>Editorial check:</b> ${safe(n.verification.status)} · checked ${safe(n.verification.checked_date)}${n.verification.note?' · '+safe(n.verification.note):''}</p>`:''}</article>`).join(''):'<div class="notice">No articles match this search.</div>'}
 function renderTimeline(){$('#timeline-list').innerHTML=DB.events.map(e=>`<div class="timeline-item"><time>${safe(e.date_label||e.date)}</time><h3>${safe(e.title)}</h3><p>${safe(e.detail)} ${safe(e.status||'')}</p></div>`).join('')}
 function renderSources(){const primary=DB.sources.filter(s=>!String(s.type).includes('monitored outlet directory'));const directory=DB.media_directory||[];const e=DB.editorial_standards||{};$('#source-list').innerHTML=`<h3 class="full-row">Core institutional, research and reference sources</h3>${primary.map(s=>`<article class="source"><h3>${link(s)}</h3><p>${safe(s.publisher)} · ${safe(s.language)} · ${safe(s.type)}</p></article>`).join('')}<h3 class="full-row">Media monitoring directory · ${directory.length} outlets</h3><p class="full-row muted small">This is a monitoring list, not a claim that every outlet has published a relevant article or that all coverage carries equal evidential weight.</p>${directory.map(s=>`<article class="source"><h3><a href="${safe(s.url)}" target="_blank" rel="noopener noreferrer">${safe(s.publisher)} ↗</a></h3><p>${safe(s.language)} · ${safe(s.type)}</p></article>`).join('')}`;const box=document.querySelector('#editorial-standards');if(box&&e.version){box.innerHTML=`<h3>Editorial standards & verification policy</h3><p><b>Version ${safe(e.version)} · adopted ${safe(e.adopted_date)}</b> · Editorial responsibility: ${safe(e.editor_in_charge)}.</p><p>${safe(e.current_audit_limit)}</p><h4>Source hierarchy</h4><ol>${e.source_hierarchy.map(x=>`<li>${safe(x)}</li>`).join('')}</ol><h4>Verification labels</h4><ul>${e.verification_statuses.map(x=>`<li><b>${safe(x.label)}:</b> ${safe(x.meaning)}</li>`).join('')}</ul><h4>Claim-level rules</h4><ul>${e.claim_rules.map(x=>`<li>${safe(x)}</li>`).join('')}</ul><h4>Corrections policy</h4><p>${safe(e.corrections_policy)}</p><h4>Voting compass policy</h4><p>${safe(e.compass_policy)}</p>`}}
