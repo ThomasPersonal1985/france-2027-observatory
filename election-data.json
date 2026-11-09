@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 5,
+    "data_version": 6,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -2880,7 +2880,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-d453ca6e59935dc2",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-22",
@@ -2906,7 +2935,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-dc037cef756c4057",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-21",
@@ -2932,7 +2990,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-82f779c9c38118ff",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-19",
@@ -2958,7 +3045,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-31cc2eb65e092a1f",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-16",
@@ -2984,7 +3100,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-3dcc27da091fcc0e",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-15",
@@ -3010,7 +3155,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-3d56fc61b913ea6e",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-15",
@@ -3035,7 +3209,35 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-f4ceb136b8cd",
+      "scenario_type": "first_round",
+      "id": "poll-4f695fc762dea961",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-14",
@@ -3061,7 +3263,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-e3137752f1a39819",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-14",
@@ -3087,7 +3318,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-df3152e574df029a",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-08",
@@ -3113,7 +3373,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-5312a7738d5466ca",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-10-07",
@@ -3138,7 +3427,35 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour"
+      },
+      "scenario_id": "first-round-lineup-9123cdd5fec2",
+      "scenario_type": "first_round",
+      "id": "poll-22f7885f95f8a1d6",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-29",
@@ -3164,7 +3481,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-4eaae9d44de757de",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-24",
@@ -3190,7 +3536,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-cdc98d74c49ae926",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-21",
@@ -3215,7 +3590,35 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-ad900db43c72",
+      "scenario_type": "first_round",
+      "id": "poll-4e21e4996da7cce5",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-16",
@@ -3241,7 +3644,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-72891049cb918dc6",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-11",
@@ -3267,7 +3699,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-ed25d7de255a020a",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-10",
@@ -3293,7 +3754,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-18bc3a7091e30f3d",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-09",
@@ -3319,7 +3809,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-41f34e8848099023",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-09-09",
@@ -3345,7 +3864,36 @@
         "type": "Poll archive / secondary source",
         "source_id": "src-1541e3ce5ededaef"
       },
-      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero."
+      "data_note": "Historical values transcribed from the project research workbook (Vote Public poll series). Check the original poll notice for question wording and candidate configuration; blank candidates were not tested or not reported, never zero.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-de47d658e49e1191",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-1541e3ce5ededaef",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     },
     {
       "publication_date": "2026-11-05",
@@ -3371,7 +3919,36 @@
         "type": "Secondary poll archive; original poll notice should be checked",
         "source_id": "src-a44e490ce4c8fdac"
       },
-      "data_note": "Latest indexed observation in the source checked on 8 November 2026. Results are a poll snapshot, not a forecast. Keep separate from the Vote Public rolling-average series."
+      "data_note": "Latest indexed observation in the source checked on 8 November 2026. Results are a poll snapshot, not a forecast. Keep separate from the Vote Public rolling-average series.",
+      "candidate_ids": {
+        "Marine Le Pen": "marine-le-pen",
+        "Jean-Luc Mélenchon": "jean-luc-melenchon",
+        "Édouard Philippe": "edouard-philippe",
+        "Raphaël Glucksmann": "raphael-glucksmann",
+        "Bruno Retailleau": "bruno-retailleau",
+        "Éric Zemmour": "eric-zemmour",
+        "Marine Tondelier": "marine-tondelier"
+      },
+      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_type": "first_round",
+      "id": "poll-5167494ce3be4ead",
+      "source_provenance": {
+        "cited_source_type": "secondary_archive",
+        "secondary_archive_source_id": "src-a44e490ce4c8fdac",
+        "original_poll_notice_source_id": null
+      },
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": null,
+        "reviewer": null,
+        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+      },
+      "survey_methodology": {
+        "question_wording": null,
+        "collection_mode": null,
+        "margin_of_error": null,
+        "sampling_frame": null
+      }
     }
   ],
   "news": [

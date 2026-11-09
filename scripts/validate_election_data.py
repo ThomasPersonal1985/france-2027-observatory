@@ -129,9 +129,14 @@ def validate(data):
         verify=p_item.get("verification")
         if obj(verify,f"{p}.verification"): validate_verification(verify,f"{p}.verification")
 
+    poll_ids=set()
     for i,poll in enumerate(records(data,"polls")):
         p=f"polls[{i}]"
         if not obj(poll,p): continue
+        poll_id=poll.get("id")
+        if not isinstance(poll_id,str) or not re.fullmatch(r"poll-[a-f0-9]{16}",poll_id): err(f"{p}.id","must be a stable poll- ID")
+        elif poll_id in poll_ids: err(f"{p}.id",f"duplicate poll ID {poll_id!r}")
+        else: poll_ids.add(poll_id)
         for k in ("publication_date","fieldwork_start","fieldwork_end"): iso_date(poll.get(k),f"{p}.{k}")
         if all(isinstance(poll.get(k),str) for k in ("fieldwork_start","fieldwork_end")):
             try:
@@ -149,6 +154,38 @@ def validate(data):
                 if not isinstance(value,(int,float)) or isinstance(value,bool) or not 0 <= value <= 100: err(f"{p}.results[{name!r}]","must be a percentage from 0 to 100")
         if "source" not in poll: err(p,"missing 'source'")
         else: citation(poll["source"],f"{p}.source")
+        prov=poll.get("source_provenance")
+        if obj(prov,f"{p}.source_provenance"):
+            cited_type=prov.get("cited_source_type")
+            if cited_type not in ("primary_pollster_notice","secondary_archive"): err(f"{p}.source_provenance.cited_source_type","must identify a primary pollster notice or secondary archive")
+            archive_id=prov.get("secondary_archive_source_id")
+            if archive_id is not None and archive_id not in SOURCE_IDS: err(f"{p}.source_provenance.secondary_archive_source_id","must reference a source_registry ID or be null")
+            notice_id=prov.get("original_poll_notice_source_id")
+            if notice_id is not None and notice_id not in SOURCE_IDS: err(f"{p}.source_provenance.original_poll_notice_source_id","must reference a source_registry ID or be null")
+            attached_id=poll.get("source",{}).get("source_id") if isinstance(poll.get("source"),dict) else None
+            expected_attached=archive_id if cited_type=="secondary_archive" else notice_id
+            if expected_attached is None or attached_id!=expected_attached: err(f"{p}.source_provenance","cited source type must agree with the linked poll source")
+        verification=poll.get("verification")
+        if obj(verification,f"{p}.verification"): validate_verification(verification,f"{p}.verification")
+        methodology=poll.get("survey_methodology")
+        if obj(methodology,f"{p}.survey_methodology"):
+            for key in ("question_wording","collection_mode","margin_of_error","sampling_frame"):
+                if key not in methodology: err(f"{p}.survey_methodology",f"missing {key!r}")
+                elif methodology[key] is not None and (not isinstance(methodology[key],(str,int,float)) or isinstance(methodology[key],bool) or (isinstance(methodology[key],str) and not methodology[key].strip())): err(f"{p}.survey_methodology.{key}","must be a non-empty value or null")
+        result_names=poll.get("results",{})
+        candidate_map=poll.get("candidate_ids")
+        if not isinstance(candidate_map,dict): err(f"{p}.candidate_ids","must map every result label to a candidate ID")
+        else:
+            expected_map={}
+            for result_name in result_names if isinstance(result_names,dict) else []:
+                cid=next((c.get("id") for c in candidates if isinstance(c,dict) and isinstance(c.get("name"),str) and c["name"].casefold()==str(result_name).casefold()),None)
+                if cid is None: err(f"{p}.results",f"candidate label {result_name!r} does not match a candidate")
+                else: expected_map[result_name]=cid
+            if candidate_map != expected_map: err(f"{p}.candidate_ids","must contain exactly the result labels mapped to their canonical candidate IDs")
+            lineup=sorted(set(candidate_map.values()))
+            expected_scenario="first-round-lineup-"+hashlib.sha256("\n".join(lineup).encode("utf-8")).hexdigest()[:12]
+            if poll.get("scenario_id") != expected_scenario: err(f"{p}.scenario_id",f"must describe the tested lineup as {expected_scenario}")
+        if poll.get("scenario_type") != "first_round": err(f"{p}.scenario_type","current archived records are first-round scenarios")
 
     for i,item in enumerate(records(data,"news")):
         p=f"news[{i}]"
