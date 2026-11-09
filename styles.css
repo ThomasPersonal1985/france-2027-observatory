@@ -1181,3 +1181,32 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 .election-countdown strong{font:700 25px/1 Georgia,serif;letter-spacing:-.04em}
 .election-countdown span{max-width:88px;font-size:8px;line-height:1.25;font-weight:850;letter-spacing:.11em}
 @media(max-width:600px){.election-countdown{top:10px;right:10px;padding:6px 8px}.election-countdown strong{font-size:20px}.election-countdown span{font-size:7px;max-width:72px}}
+
+
+/* Countdown fix: anchor it to the full hero, not the responsive image panel.
+   The image panel is hidden at some breakpoints, which previously hid the clock. */
+#overview .concept-hero{position:relative!important}
+#overview .concept-hero>.election-countdown{
+ position:absolute!important;display:flex!important;visibility:visible!important;opacity:1!important;
+ z-index:30!important;top:18px!important;right:22px!important;
+ align-items:center!important;gap:10px!important;padding:10px 14px!important;
+ min-width:142px!important;min-height:54px!important;box-sizing:border-box!important;
+ border:1px solid rgba(255,255,255,.72)!important;border-radius:7px!important;
+ background:rgba(9,31,55,.88)!important;color:#fff!important;
+ box-shadow:0 5px 18px rgba(4,18,35,.25)!important;backdrop-filter:blur(6px)!important;
+ pointer-events:none!important
+}
+#overview .concept-hero>.election-countdown strong{
+ display:block!important;color:#fff!important;font:700 30px/1 Georgia,serif!important;
+ letter-spacing:-.04em!important;white-space:nowrap!important
+}
+#overview .concept-hero>.election-countdown span{
+ display:block!important;max-width:92px!important;color:#fff!important;
+ font-size:8px!important;line-height:1.3!important;font-weight:900!important;
+ letter-spacing:.10em!important;text-transform:uppercase!important
+}
+@media(max-width:600px){
+ #overview .concept-hero>.election-countdown{top:10px!important;right:10px!important;min-width:112px!important;min-height:43px!important;padding:7px 9px!important;gap:7px!important}
+ #overview .concept-hero>.election-countdown strong{font-size:23px!important}
+ #overview .concept-hero>.election-countdown span{font-size:7px!important;max-width:72px!important}
+}
