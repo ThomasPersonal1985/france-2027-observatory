@@ -68,3 +68,13 @@ Portrait assets are loaded from their cited source hosts at runtime. The site re
 
 ## Language and candidate portraits
 The interface includes an English/French toggle in the header. Candidate directory cards include portrait sources with a fallback if a remote image is unavailable. Source article headlines remain in their original publication language.
+
+## Validate the election dataset
+
+The runtime dataset is `data/election-data.json`. Its structural contract is in `data/election-data.schema.json`; run the standard-library validator from the repository root before reviewing data changes:
+
+```sh
+python3 scripts/validate_election_data.py
+```
+
+The validator checks required record fields, stable and unique candidate IDs, duplicate candidate/question IDs, ISO calendar dates, poll fieldwork ordering, percentage bounds, citation URL structure, policy-position candidate references, and poll-trend candidate references. It deliberately does not require poll percentages to sum to 100: undecided voters and unreported options may be omitted, and those values must not be silently treated as zero. A successful structural check does not mean a claim or source has been editorially verified.
