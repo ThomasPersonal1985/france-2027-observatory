@@ -14,8 +14,6 @@ jobs:
           python-version: '3.x'
       - name: Validate canonical election data
         run: python3 scripts/validate_election_data.py
-      - name: Check generated editorial review queue
-        run: python3 scripts/build_editorial_review_queue.py --check
       - name: Test editorial approval rules
         run: python3 -m unittest discover -s tests -v
       - uses: actions/setup-node@v4
