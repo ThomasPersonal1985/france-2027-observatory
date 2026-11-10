@@ -425,6 +425,44 @@
         },
         "language": {
           "type": "string"
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_date": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "checked_date": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "unreviewed",
+            "secondary_only",
+            "primary_verified",
+            "disputed",
+            "superseded"
+          ]
+        },
+        "editorial_notes": {
+          "type": "string"
         }
       },
       "additionalProperties": true
@@ -476,7 +514,8 @@
         "party",
         "campaign_status",
         "ballot_status",
-        "sources"
+        "sources",
+        "editorial"
       ],
       "properties": {
         "id": {
@@ -504,6 +543,9 @@
           "items": {
             "$ref": "#/$defs/citation"
           }
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
         }
       },
       "additionalProperties": true
@@ -526,7 +568,8 @@
         "source",
         "source_provenance",
         "verification",
-        "survey_methodology"
+        "survey_methodology",
+        "editorial"
       ],
       "properties": {
         "id": {
@@ -663,6 +706,9 @@
             }
           },
           "additionalProperties": true
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
         }
       },
       "additionalProperties": true
@@ -677,7 +723,8 @@
         "topic",
         "summary",
         "source",
-        "verification"
+        "verification",
+        "editorial"
       ],
       "properties": {
         "publication_date": {
@@ -708,6 +755,9 @@
         },
         "verification": {
           "$ref": "#/$defs/verification"
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
         }
       },
       "additionalProperties": true
@@ -722,7 +772,8 @@
         "source",
         "verification_status",
         "checked_date",
-        "verification"
+        "verification",
+        "editorial"
       ],
       "properties": {
         "candidate_name": {
@@ -760,6 +811,9 @@
         },
         "verification": {
           "$ref": "#/$defs/verification"
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
         }
       },
       "additionalProperties": true
@@ -832,7 +886,8 @@
         "input_status",
         "scenario_id",
         "scenario_note",
-        "observation_ids"
+        "observation_ids",
+        "editorial"
       ],
       "properties": {
         "id": {
@@ -909,6 +964,9 @@
             "type": "string",
             "pattern": "^trend-"
           }
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
         }
       },
       "allOf": [
@@ -1093,6 +1151,276 @@
           "$ref": "#/$defs/verification"
         }
       },
+      "additionalProperties": true
+    },
+    "claimEvidence": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "locator",
+        "supports",
+        "publication_date",
+        "checked_date"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^src-[a-f0-9]{16}$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supports": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_date": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "checked_date": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "additionalProperties": true
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "text",
+        "classification",
+        "verification_status",
+        "evidence",
+        "editorial_notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "enum": [
+            "confirmed_fact",
+            "candidate_statement",
+            "independent_analysis",
+            "unverified_or_disputed"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "unverified",
+            "partially_verified",
+            "verified",
+            "disputed",
+            "rejected"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claimEvidence"
+          }
+        },
+        "editorial_notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "editorial": {
+      "type": "object",
+      "required": [
+        "status",
+        "verification",
+        "publication",
+        "claims",
+        "editorial_notes",
+        "legacy_public"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "collected",
+            "under_review",
+            "verified",
+            "approved_for_publication",
+            "rejected",
+            "needs_updating"
+          ]
+        },
+        "verification": {
+          "type": "object",
+          "required": [
+            "status",
+            "last_verified_date",
+            "reviewer"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "unverified",
+                "partially_verified",
+                "verified",
+                "disputed",
+                "rejected"
+              ]
+            },
+            "last_verified_date": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "publication": {
+          "type": "object",
+          "required": [
+            "approved_by",
+            "approved_date"
+          ],
+          "properties": {
+            "approved_by": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "approved_date": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim"
+          }
+        },
+        "editorial_notes": {
+          "type": "string"
+        },
+        "legacy_public": {
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "approved_for_publication"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "verification": {
+                "properties": {
+                  "status": {
+                    "const": "verified"
+                  },
+                  "last_verified_date": {
+                    "$ref": "#/$defs/date"
+                  },
+                  "reviewer": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "publication": {
+                "properties": {
+                  "approved_by": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "approved_date": {
+                    "$ref": "#/$defs/date"
+                  }
+                }
+              },
+              "claims": {
+                "minItems": 1,
+                "items": {
+                  "properties": {
+                    "verification_status": {
+                      "const": "verified"
+                    },
+                    "evidence": {
+                      "minItems": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "collected",
+                  "under_review",
+                  "verified",
+                  "rejected",
+                  "needs_updating"
+                ]
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "publication": {
+                "properties": {
+                  "approved_by": {
+                    "type": "null"
+                  },
+                  "approved_date": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
       "additionalProperties": true
     }
   }

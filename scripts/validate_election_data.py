@@ -61,6 +61,62 @@ def validate_verification(value, path):
     if code=="primary_verified" and (not value.get("checked_date") or not value.get("reviewer")):
         err(path,"primary_verified requires checked_date and reviewer")
 
+def validate_editorial(value, path):
+    if not obj(value, path): return
+    statuses={"collected","under_review","verified","approved_for_publication","rejected","needs_updating"}
+    verification_statuses={"unverified","partially_verified","verified","disputed","rejected"}
+    status=value.get("status")
+    if status not in statuses: err(f"{path}.status",f"must be one of {', '.join(sorted(statuses))}")
+    if not isinstance(value.get("legacy_public"),bool): err(f"{path}.legacy_public","must be a boolean")
+    if value.get("legacy_public") and status not in {"under_review","needs_updating"}: err(f"{path}.legacy_public","legacy visibility is only allowed for under-review or needs-updating records")
+    text(value.get("editorial_notes"),f"{path}.editorial_notes")
+    verification=value.get("verification")
+    if obj(verification,f"{path}.verification"):
+        if verification.get("status") not in verification_statuses: err(f"{path}.verification.status","unknown verification status")
+        iso_date(verification.get("last_verified_date"),f"{path}.verification.last_verified_date",nullable=True)
+        reviewer=verification.get("reviewer")
+        if reviewer is not None: text(reviewer,f"{path}.verification.reviewer")
+        if verification.get("status")=="verified" and (not verification.get("last_verified_date") or not reviewer): err(f"{path}.verification","verified content requires a last-verified date and reviewer")
+    publication=value.get("publication")
+    if obj(publication,f"{path}.publication"):
+        approver=publication.get("approved_by"); approved_date=publication.get("approved_date")
+        if approver is not None: text(approver,f"{path}.publication.approved_by")
+        iso_date(approved_date,f"{path}.publication.approved_date",nullable=True)
+        if status=="approved_for_publication" and (not approver or not approved_date): err(f"{path}.publication","publication approval requires an approver and date")
+        if status!="approved_for_publication" and (approver is not None or approved_date is not None): err(f"{path}.publication","approval fields must be empty until publication is approved")
+    claims=value.get("claims")
+    if not isinstance(claims,list): err(f"{path}.claims","must be an array"); claims=[]
+    claim_ids=set(); claim_statuses={"unverified","partially_verified","verified","disputed","rejected"}
+    classifications={"confirmed_fact","candidate_statement","independent_analysis","unverified_or_disputed"}
+    for i,claim in enumerate(claims):
+        cp=f"{path}.claims[{i}]"
+        if not obj(claim,cp): continue
+        for key in ("id","text","editorial_notes"): text(claim.get(key),f"{cp}.{key}")
+        cid=claim.get("id")
+        if cid in claim_ids: err(f"{cp}.id",f"duplicate claim ID {cid!r}")
+        claim_ids.add(cid)
+        if claim.get("classification") not in classifications: err(f"{cp}.classification","unknown claim classification")
+        if claim.get("verification_status") not in claim_statuses: err(f"{cp}.verification_status","unknown claim verification status")
+        evidence=claim.get("evidence")
+        if not isinstance(evidence,list): err(f"{cp}.evidence","must be an array"); continue
+        for j,item in enumerate(evidence):
+            ep=f"{cp}.evidence[{j}]"
+            if not obj(item,ep): continue
+            if item.get("source_id") not in SOURCE_IDS: err(f"{ep}.source_id","must reference source_registry")
+            for key in ("locator","supports"): text(item.get(key),f"{ep}.{key}")
+            if "publication_date" not in item: err(ep,"missing publication_date (use null when unknown)")
+            else: iso_date(item.get("publication_date"),f"{ep}.publication_date",nullable=True)
+            iso_date(item.get("checked_date"),f"{ep}.checked_date")
+    if status=="approved_for_publication":
+        if not isinstance(verification,dict) or verification.get("status")!="verified" or not verification.get("last_verified_date") or not verification.get("reviewer"):
+            err(path,"approved content must first be verified with reviewer and last-verified date")
+        if not claims: err(f"{path}.claims","approved content must contain at least one claim")
+        for i,claim in enumerate(claims):
+            if isinstance(claim,dict) and (claim.get("verification_status")!="verified" or not claim.get("evidence")):
+                err(f"{path}.claims[{i}]","approved content requires verified claims with source evidence")
+    if status=="verified" and (not isinstance(verification,dict) or verification.get("status")!="verified"):
+        err(f"{path}.status","workflow status verified requires verification status verified")
+
 def records(data, key):
     value = data.get(key)
     if not isinstance(value, list): err(key, "must be an array"); return []
@@ -82,6 +138,12 @@ def validate(data):
         if "title" in source: text(source["title"],f"{p}.title")
         if "url" in source: url(source["url"],f"{p}.url")
         if "type" in source: text(source["type"],f"{p}.type")
+        if source.get("author") is not None: text(source["author"],f"{p}.author")
+        for date_key in ("publication_date","checked_date"):
+            if date_key in source: iso_date(source[date_key],f"{p}.{date_key}",nullable=True)
+        if source.get("verification_status") is not None and source.get("verification_status") not in {"unreviewed","secondary_only","primary_verified","disputed","superseded"}:
+            err(f"{p}.verification_status","unknown source verification status")
+        if source.get("editorial_notes") is not None: text(source["editorial_notes"],f"{p}.editorial_notes")
         sid=source.get("id"); src_url=source.get("url")
         expected="src-"+hashlib.sha256(str(src_url or "").encode("utf-8")).hexdigest()[:16]
         if sid != expected: err(f"{p}.id",f"must equal stable URL ID {expected}")
@@ -198,6 +260,12 @@ def validate(data):
         if obj(verification,f"{p}.verification"):
             text(verification.get("status"),f"{p}.verification.status")
             validate_verification(verification,f"{p}.verification")
+
+    for key in ("candidates","policy_positions","news","polls","poll_trend_snapshots"):
+        for i,item in enumerate(records(data,key)):
+            p=f"{key}[{i}].editorial"
+            if "editorial" not in item: err(p,"missing editorial workflow metadata")
+            else: validate_editorial(item.get("editorial"),p)
 
     for key in ("sources",):
         for i,source in enumerate(records(data,key)): citation(source,f"{key}[{i}]")
