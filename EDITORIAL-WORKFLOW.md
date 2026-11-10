@@ -41,6 +41,10 @@ The initial migration leaves all existing content and candidate-universe members
 
 Candidate selection is out of scope. Human review should focus on candidate status statements, individual profile claims and policy positions, especially entries supported only by secondary sources or with unclear attribution. Distinguish confirmed facts, attributed candidate/campaign statements, independent analysis, and disputed or unverified material in the claim classification and notes.
 
+## Review queue
+
+`EDITORIAL-REVIEW-QUEUE.md` is a generated, metadata-only list of records needing human review. It exposes existing workflow and provenance gaps; it does not verify claims, change statuses, expand the candidate universe, or approve content. Regenerate it after data changes with `python3 scripts/build_editorial_review_queue.py`. CI checks that the committed report matches the canonical JSON.
+
 ## Future approved-only assistant
 
 A future chatbot knowledge export must select only records with `status: approved_for_publication`, `verification.status: verified`, and claim-level verified evidence. It should carry claim text, classification, source IDs and URLs, locator, publication and checked dates, reviewer, and publication approver. It must answer only from this approved export, say when the export has no supporting claim, and never fill gaps from general model knowledge or web search. The chatbot itself is not part of this phase.
