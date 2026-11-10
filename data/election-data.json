@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 10,
+    "data_version": 11,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -118,7 +118,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Marine Le Pen a annoncé sa candidature le 7 juillet 2026. Son jugement en appel et la procédure de cassation restent déterminants pour son éligibilité ; ne pas la présenter comme admise sur le bulletin de vote.",
-      "policy_summary_fr": "Les priorités récurrentes du RN comprennent le durcissement de l’immigration et du contrôle des frontières, des mesures de préférence nationale, le maintien de l’ordre et le pouvoir d’achat, ainsi que la critique de certains aspects de l’intégration européenne."
+      "policy_summary_fr": "Les priorités récurrentes du RN comprennent le durcissement de l’immigration et du contrôle des frontières, des mesures de préférence nationale, le maintien de l’ordre et le pouvoir d’achat, ainsi que la critique de certains aspects de l’intégration européenne.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "jean-luc-melenchon",
@@ -228,7 +243,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "La France insoumise a présenté son programme le 7 novembre 2026. Les propositions sont résumées dans l’article Reuters lié ; il convient de distinguer les engagements du parti de leur chiffrage indépendant.",
-      "policy_summary_fr": "Le programme de LFI du 7 novembre 2026 propose une hausse du salaire minimum net, l’encadrement des prix des produits essentiels, l’indexation des salaires, une hausse des impôts sur les ménages aisés, l’abrogation de la réforme des retraites et un changement d’orientation en matière de politique étrangère et énergétique."
+      "policy_summary_fr": "Le programme de LFI du 7 novembre 2026 propose une hausse du salaire minimum net, l’encadrement des prix des produits essentiels, l’indexation des salaires, une hausse des impôts sur les ménages aisés, l’abrogation de la réforme des retraites et un changement d’orientation en matière de politique étrangère et énergétique.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "edouard-philippe",
@@ -331,7 +361,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien Premier ministre et dirigeant d’Horizons. Il rejette pour l’instant la proposition d’une primaire de la droite et du centre ; voir l’article du Monde du 3 novembre 2026.",
-      "policy_summary_fr": "Les thèmes libéraux-conservateurs du centre droit comprennent la discipline budgétaire, la compétitivité économique, la réforme du secteur public et l’évolution du système de retraite. En septembre 2026, il a défendu un relèvement de l’âge légal à 65 ans en moins de dix ans."
+      "policy_summary_fr": "Les thèmes libéraux-conservateurs du centre droit comprennent la discipline budgétaire, la compétitivité économique, la réforme du secteur public et l’évolution du système de retraite. En septembre 2026, il a défendu un relèvement de l’âge légal à 65 ans en moins de dix ans.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "raphael-glucksmann",
@@ -433,7 +478,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Il a remporté la primaire sociale-démocrate le 11 octobre avec 66 % au premier tour, selon Le Monde. Cela ne signifie pas que toute la gauche est unie derrière lui.",
-      "policy_summary_fr": "Sa ligne associe social-démocratie pro-européenne, souveraineté européenne et défense, soutien à l’Ukraine, investissement social, politique industrielle et transition écologique. Il soutient l’abrogation de la réforme des retraites de 2023 et un retour à 62 ans."
+      "policy_summary_fr": "Sa ligne associe social-démocratie pro-européenne, souveraineté européenne et défense, soutien à l’Ukraine, investissement social, politique industrielle et transition écologique. Il soutient l’abrogation de la réforme des retraites de 2023 et un retour à 62 ans.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "gabriel-attal",
@@ -536,7 +596,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien Premier ministre. Il plaide pour une primaire afin de désigner un candidat plus large du centre et de la droite ; cela ne signifie pas que les autres prétendants sont d’accord.",
-      "policy_summary_fr": "Les thèmes centristes et réformistes libéraux comprennent le travail, l’éducation, la compétitivité économique, l’ordre public et la réforme de l’État. En septembre 2026, il a défendu un système de retraite fondé sur la durée de cotisation et des points, avec une composante par capitalisation."
+      "policy_summary_fr": "Les thèmes centristes et réformistes libéraux comprennent le travail, l’éducation, la compétitivité économique, l’ordre public et la réforme de l’État. En septembre 2026, il a défendu un système de retraite fondé sur la durée de cotisation et des points, avec une composante par capitalisation.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "bruno-retailleau",
@@ -638,7 +713,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Prétendant de la droite conservatrice. Ses déclarations sur les retraites et l’économie sont consignées séparément d’un programme présidentiel complet pour 2027.",
-      "policy_summary_fr": "Ses priorités conservatrices portent sur le contrôle de l’immigration, l’ordre public, l’autorité et la maîtrise des dépenses. En 2026, il a proposé un âge minimal de départ à 63 ans, un âge du taux plein à 65 ans et une composante par capitalisation pour les nouveaux entrants."
+      "policy_summary_fr": "Ses priorités conservatrices portent sur le contrôle de l’immigration, l’ordre public, l’autorité et la maîtrise des dépenses. En 2026, il a proposé un âge minimal de départ à 63 ans, un âge du taux plein à 65 ans et une composante par capitalisation pour les nouveaux entrants.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "marine-tondelier",
@@ -740,7 +830,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Dirigeante des Écologistes. Sa participation au débat du MEDEF du 27 août atteste de son engagement dans la campagne ; le programme 2027 doit être documenté séparément.",
-      "policy_summary_fr": "L’écologie politique qu’elle défend met l’accent sur l’action climatique, la biodiversité, la planification écologique, les transports publics, la transition énergétique, la rénovation, l’alimentation et la protection sociale."
+      "policy_summary_fr": "L’écologie politique qu’elle défend met l’accent sur l’action climatique, la biodiversité, la planification écologique, les transports publics, la transition énergétique, la rénovation, l’alimentation et la protection sociale.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "david-lisnard",
@@ -818,7 +923,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Maire de Cannes et dirigeant de Nouvelle Énergie. Ne pas déduire la validation des parrainages à partir de promesses de soutien annoncées.",
-      "policy_summary_fr": "Sa ligne libérale de droite met l’accent sur la baisse des impôts et des dépenses, la liberté économique, les collectivités locales et l’ordre public. Ses positions antérieures sur les retraites incluent le maintien de la réforme de 2023 et l’ajout d’un pilier collectif par capitalisation."
+      "policy_summary_fr": "Sa ligne libérale de droite met l’accent sur la baisse des impôts et des dépenses, la liberté économique, les collectivités locales et l’ordre public. Ses positions antérieures sur les retraites incluent le maintien de la réforme de 2023 et l’ajout d’un pilier collectif par capitalisation.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "eric-zemmour",
@@ -896,7 +1016,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Commentateur politique et dirigeant de Reconquête ! Les propositions actuelles de campagne doivent être sourcées spécifiquement pour 2027.",
-      "policy_summary_fr": "Sa ligne nationale-conservatrice, classée à l’extrême droite, se concentre sur une forte restriction de l’immigration, l’assimilation, l’identité nationale et une révision des relations entre la France et l’Union européenne."
+      "policy_summary_fr": "Sa ligne nationale-conservatrice, classée à l’extrême droite, se concentre sur une forte restriction de l’immigration, l’assimilation, l’identité nationale et une révision des relations entre la France et l’Union européenne.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "francois-ruffin",
@@ -974,7 +1109,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Député de Debout ! Le Parisien a rapporté le 6 novembre qu’il avait publié 40 propositions, tout en précisant que le livre ne constituait pas un programme ; sa disponibilité à se retirer dans le cadre des parrainages doit être suivie séparément.",
-      "policy_summary_fr": "Sa ligne de gauche, centrée sur le travail et l’intervention économique, met l’accent sur la reconstruction industrielle, la production nationale, la protection des travailleurs et la transition climatique."
+      "policy_summary_fr": "Sa ligne de gauche, centrée sur le travail et l’intervention économique, met l’accent sur la reconstruction industrielle, la production nationale, la protection des travailleurs et la transition climatique.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "fabien-roussel",
@@ -1052,7 +1202,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Dirigeant du PCF. Son statut formel et toute ratification par le parti doivent être vérifiés auprès de sources primaires.",
-      "policy_summary_fr": "La tradition communiste et de gauche met l’accent sur les salaires, le pouvoir d’achat, la souveraineté industrielle, les services publics et les intérêts des travailleurs. Aucune position chiffrée suffisamment récente sur les retraites n’a été établie dans les recherches de 2026."
+      "policy_summary_fr": "La tradition communiste et de gauche met l’accent sur les salaires, le pouvoir d’achat, la souveraineté industrielle, les services publics et les intérêts des travailleurs. Aucune position chiffrée suffisamment récente sur les retraites n’a été établie dans les recherches de 2026.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -1130,7 +1295,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien candidat à la présidentielle et dirigeant de Debout la France. Son programme actuel doit être directement sourcé.",
-      "policy_summary_fr": "Sa ligne souverainiste de droite met l’accent sur l’indépendance nationale, la critique de l’intégration européenne, le pouvoir d’achat et les services publics. En octobre 2026, il a proposé de maintenir l’âge de départ à 62 ans et neuf mois."
+      "policy_summary_fr": "Sa ligne souverainiste de droite met l’accent sur l’indépendance nationale, la critique de l’intégration européenne, le pouvoir d’achat et les services publics. En octobre 2026, il a proposé de maintenir l’âge de départ à 62 ans et neuf mois.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "natacha-polony",
@@ -1208,7 +1388,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Journaliste et essayiste. Il convient de distinguer sa propre présentation de ses idées des classifications idéologiques proposées par des observateurs extérieurs.",
-      "policy_summary_fr": "Ses thèmes souverainistes et républicains comprennent la souveraineté nationale, l’éducation, la politique industrielle, la laïcité républicaine et la cohésion sociale."
+      "policy_summary_fr": "Ses thèmes souverainistes et républicains comprennent la souveraineté nationale, l’éducation, la politique industrielle, la laïcité républicaine et la cohésion sociale.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "xavier-bertrand",
@@ -1298,7 +1493,22 @@
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Xavier Bertrand a annoncé sa candidature à la présidentielle de 2027 le 27 août 2026, selon les suivis de candidatures. Cette déclaration ne vaut pas qualification officielle pour le bulletin.",
-      "policy_summary_fr": "Ses thèmes de centre droit et de gaullisme social comprennent l’emploi industriel, le développement régional, les services publics et la sécurité."
+      "policy_summary_fr": "Ses thèmes de centre droit et de gaullisme social comprennent l’emploi industriel, le développement régional, les services publics et la sécurité.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "nathalie-arthaud",
@@ -1376,7 +1586,22 @@
       "campaign_stage": "Publicly stated candidacy / contender",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Porte-parole de Lutte ouvrière. Les détails de sa campagne 2027 doivent être confirmés auprès des sources du parti.",
-      "policy_summary_fr": "Sa ligne trotskiste d’extrême gauche est centrée sur les intérêts des travailleurs, la lutte des classes, la redistribution et l’opposition au capitalisme."
+      "policy_summary_fr": "Sa ligne trotskiste d’extrême gauche est centrée sur les intérêts des travailleurs, la lutte des classes, la redistribution et l’opposition au capitalisme.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "bruno-le-maire",
@@ -1454,7 +1679,22 @@
       "campaign_stage": "Potential candidate",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien ministre de l’Économie et des Finances. Observatoire 2027 le classe parmi les candidatures probables ; ne pas le présenter comme officiellement déclaré sans annonce directe.",
-      "policy_summary_fr": "Les thèmes économiques de centre droit comprennent la politique budgétaire, la dette, la compétitivité et la réforme institutionnelle, sur la base des positions répertoriées par Observatoire 2027."
+      "policy_summary_fr": "Les thèmes économiques de centre droit comprennent la politique budgétaire, la dette, la compétitivité et la réforme institutionnelle, sur la base des positions répertoriées par Observatoire 2027.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "teddy-riner",
@@ -1502,7 +1742,22 @@
         "note": "The declaration is reported; campaign website and detailed programme have not been independently reviewed."
       },
       "campaign_stage": "Announced candidacy",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "bernard-cazeneuve",
@@ -1549,7 +1804,22 @@
         "note": "The current secondary guides use different candidacy classifications."
       },
       "campaign_stage": "Reported candidacy · classification disputed",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "dominique-de-villepin",
@@ -1590,7 +1860,22 @@
         "note": "Le Parisien reports his stated intention and notes he is not yet formally declaring."
       },
       "campaign_stage": "Potential candidate · intention stated, not formally declared",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "jean-lassalle",
@@ -1631,7 +1916,22 @@
         "note": "A fundraising effort was reported; a formal announcement was not verified in this update."
       },
       "campaign_stage": "Potential candidate · formal declaration not verified",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "francois-asselineau",
@@ -1672,7 +1972,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "delphine-batho",
@@ -1713,7 +2028,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "olivier-becht",
@@ -1754,7 +2084,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "karim-bouamrane",
@@ -1795,7 +2140,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "juan-branco",
@@ -1836,7 +2196,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "sylvain-durif",
@@ -1877,7 +2252,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "clara-egger",
@@ -1918,7 +2308,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "anasse-kazib",
@@ -1959,7 +2364,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "selma-labib",
@@ -2000,7 +2420,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "francis-lalanne",
@@ -2041,7 +2476,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "jean-francois-legendre",
@@ -2082,7 +2532,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "mira-markovic",
@@ -2123,7 +2588,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "benoit-mathieu",
@@ -2164,7 +2644,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "antoine-mikolajczak",
@@ -2205,7 +2700,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "manolo-mlekuz",
@@ -2246,7 +2756,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "philippe-petit",
@@ -2287,7 +2812,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "florian-philippot",
@@ -2328,7 +2868,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "gilles-platret",
@@ -2369,7 +2924,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "id": "erwan-rohou",
@@ -2410,7 +2980,22 @@
         "note": "Direct candidate or party sources and any official campaign site still need review."
       },
       "campaign_stage": "Reported declaration · primary-source check pending",
-      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations."
+      "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     }
   ],
   "debates": [
@@ -2456,6 +3041,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2478,6 +3078,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2500,6 +3115,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2522,6 +3152,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2544,6 +3189,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2566,6 +3226,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2588,6 +3263,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2610,6 +3300,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2632,6 +3337,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2654,6 +3374,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2676,6 +3411,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2698,6 +3448,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2720,6 +3485,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2742,6 +3522,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2764,6 +3559,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2786,6 +3596,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2808,6 +3633,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2830,6 +3670,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2852,6 +3707,21 @@
         "checked_date": null,
         "reviewer": null,
         "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     }
   ],
@@ -2909,6 +3779,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -2964,6 +3849,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3019,6 +3919,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3074,6 +3989,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3129,6 +4059,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3184,6 +4129,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3237,6 +4197,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3292,6 +4267,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3347,6 +4337,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3402,6 +4407,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3455,6 +4475,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3510,6 +4545,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3565,6 +4615,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3618,6 +4683,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3673,6 +4753,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3728,6 +4823,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3783,6 +4893,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3838,6 +4963,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3893,6 +5033,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3948,6 +5103,21 @@
         "collection_mode": null,
         "margin_of_error": null,
         "sampling_frame": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     }
   ],
@@ -3972,6 +5142,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -3994,6 +5179,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4016,6 +5216,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4038,6 +5253,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4060,6 +5290,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4082,6 +5327,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4104,6 +5364,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4126,6 +5401,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4148,6 +5438,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4170,6 +5475,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4192,6 +5512,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4214,6 +5549,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4236,6 +5586,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4258,6 +5623,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4280,6 +5660,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4302,6 +5697,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4324,6 +5734,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4346,6 +5771,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4368,6 +5808,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4390,6 +5845,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4412,6 +5882,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4434,6 +5919,21 @@
         "legacy_status": "Legacy entry · review pending",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4457,6 +5957,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4479,6 +5994,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4501,6 +6031,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4524,6 +6069,21 @@
         "legacy_status": "Primary-source cross-check available",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4546,6 +6106,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4568,6 +6143,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4590,6 +6180,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4612,6 +6217,21 @@
         "legacy_status": "Cross-checked",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     },
     {
@@ -4634,6 +6254,21 @@
         "legacy_status": "Reviewed for this update",
         "code": "unreviewed",
         "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     }
   ],
@@ -7567,7 +9202,22 @@
         "trend-2026-11-08-nicolas-dupont-aignan",
         "trend-2026-11-08-fabien-roussel",
         "trend-2026-11-08-nathalie-arthaud"
-      ]
+      ],
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public snapshot retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     }
   ],
   "compass_candidate_positions": []
