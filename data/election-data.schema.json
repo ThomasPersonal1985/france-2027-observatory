@@ -68,7 +68,8 @@
           "date",
           "title",
           "participants",
-          "source"
+          "source",
+          "editorial"
         ],
         "properties": {
           "date": {
@@ -86,6 +87,9 @@
           },
           "source": {
             "$ref": "#/$defs/citation"
+          },
+          "editorial": {
+            "$ref": "#/$defs/editorial"
           }
         },
         "additionalProperties": true
@@ -116,7 +120,8 @@
         "required": [
           "date",
           "title",
-          "status"
+          "status",
+          "editorial"
         ],
         "properties": {
           "date": {
@@ -129,6 +134,9 @@
           "status": {
             "type": "string",
             "minLength": 1
+          },
+          "editorial": {
+            "$ref": "#/$defs/editorial"
           }
         },
         "additionalProperties": true

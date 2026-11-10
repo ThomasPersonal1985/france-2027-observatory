@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-09",
-    "data_version": 11,
+    "data_version": 12,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -3017,6 +3017,21 @@
         "url": "https://www.medef.com/",
         "type": "Event organiser",
         "source_id": "src-3f58b64c769c7000"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
       }
     }
   ],
@@ -6278,56 +6293,176 @@
       "date_label": "Early February 2027",
       "title": "Publication of decree convening voters",
       "detail": "Exact date to be confirmed; the sponsorship collection period opens the following day.",
-      "status": "Provisional / official calendar wording"
+      "status": "Provisional / official calendar wording",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-03-12",
       "date_label": "12 March 2027",
       "title": "Ordinary deadline to register on electoral lists",
       "detail": "The government calendar notes exceptions for particular situations.",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-03-12T18:00:00",
       "date_label": "12 March 2027, 18:00",
       "title": "Closing of sponsorship collection",
       "detail": "500 valid sponsorships are required, from at least 30 departments or overseas territories; no more than 50 may come from any one department or overseas territory. Official collection closes at 18:00.",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-03-26",
       "date_label": "By 26 March 2027",
       "title": "Publication of official candidate list",
       "detail": "The Constitutional Council publishes the official list.",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-04-05",
       "date_label": "5 April 2027",
       "title": "Start of official first-round campaign",
       "detail": "",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-04-18",
       "date_label": "18 April 2027",
       "title": "First round",
       "detail": "Some overseas territories vote on 17 April.",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-04-19",
       "date_label": "19 April 2027",
       "title": "Start of official second-round campaign",
       "detail": "",
-      "status": "Calendar milestone; verify final official decree"
+      "status": "Calendar milestone; verify final official decree",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     },
     {
       "date": "2027-05-02",
       "date_label": "2 May 2027",
       "title": "Second round",
       "detail": "Some overseas territories vote on 1 May.",
-      "status": "Official calendar"
+      "status": "Official calendar",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "legacy_public": true
+      }
     }
   ],
   "sources": [
