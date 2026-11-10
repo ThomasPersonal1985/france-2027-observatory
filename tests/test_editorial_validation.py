@@ -1,5 +1,6 @@
 """Unit tests for editorial status and publication approval validation."""
 import importlib.util
+import json
 import unittest
 from pathlib import Path
 
@@ -95,3 +96,11 @@ class EditorialValidationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class CloudflarePreviewConfigurationTests(unittest.TestCase):
+    def test_worker_static_assets_config_has_preview_block(self):
+        config_path = Path(__file__).resolve().parents[1] / "wrangler.jsonc"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        self.assertEqual("france-2027-observatory", config["name"])
+        self.assertEqual(".", config["assets"]["directory"])
+        self.assertEqual({}, config["previews"])
