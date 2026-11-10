@@ -15,7 +15,7 @@ Verification answers **“does the evidence support this claim?”** Publication
 
 ## Record shape
 
-Each candidate profile, policy position, news item, poll, and polling snapshot has an `editorial` object:
+Each candidate profile, policy position, news item, poll, polling snapshot, election event, and debate has an `editorial` object:
 
 - `status`: one of the workflow states above.
 - `verification`: `status`, `last_verified_date`, and `reviewer`.
@@ -33,11 +33,11 @@ Claim evidence references a stable `source_registry` ID and records a locator, w
 4. A separate editor sets `approved_for_publication`, `approved_by`, and `approved_date` after deciding the verified material is suitable for publication.
 5. Use `rejected` for material that should not be published. Use `needs_updating` when an existing claim may be stale; re-check it before restoring approval.
 
-New records do not inherit legacy visibility. The public renderer gate is a subsequent implementation step; it will show only fully approved new records, while existing migrated records remain visible with an explicit review label until the audit is complete. Rejected legacy records are never eligible for legacy visibility.
+New records do not inherit legacy visibility. The public renderer now shows only fully approved new records; existing migrated records remain visible with an explicit “Legacy public record · review pending” label until the audit is complete. Rejected legacy records are never eligible for legacy visibility. The label appears on each retained record and a site-wide notice explains the migration. An approved record is rendered from its approved claim text and source trail rather than its unreviewed dossier summary. Polling averages are shown only when their snapshot passes the same gate, and candidate rankings require both approved candidate profiles and approved sourced compass positions.
 
 ## Safe migration and scope
 
-The initial migration leaves all existing content and candidate-universe membership intact. It marks 39 candidate profiles, 19 policy positions, 31 news records, 20 individual polls, and the existing polling snapshot as `under_review`, `unverified`, with `legacy_public: true`. Claim lists remain empty until editors create evidence-backed claim records; no claim is fabricated or silently promoted. Existing verification fields (including `secondary_only` and `unreviewed`) remain unchanged. The current interface is unchanged in this first step.
+The initial migration leaves all existing content and candidate-universe membership intact. It marks 39 candidate profiles, 19 policy positions, 31 news records, 20 individual polls, the existing polling snapshot, 8 election events, and 1 debate as `under_review`, `unverified`, with `legacy_public: true`. Claim lists remain empty until editors create evidence-backed claim records; no claim is fabricated or silently promoted. Existing verification fields (including `secondary_only` and `unreviewed`) remain unchanged. The data and candidate universe remain intact. The public interface adds per-record status labels and hides newly collected, under-review, verified-but-not-approved, rejected, or metadata-free records. The pre-existing static election explainer is retained under the site-wide legacy review notice; its claims still need a separate content-level audit.
 
 Candidate selection is out of scope. Human review should focus on candidate status statements, individual profile claims and policy positions, especially entries supported only by secondary sources or with unclear attribution. Distinguish confirmed facts, attributed candidate/campaign statements, independent analysis, and disputed or unverified material in the claim classification and notes.
 

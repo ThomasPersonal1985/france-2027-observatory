@@ -63,21 +63,27 @@ async function init(){
 }
 function setText(selector,value){const el=$(selector);if(el)el.textContent=value}
 function setHTML(selector,value){const el=$(selector);if(el)el.innerHTML=value}
+function publicRecords(rows){return EditorialWorkflow.filterPublicRecords(rows,DB?.source_registry||[])}
+function editorialBadge(record){const label=EditorialWorkflow.publicLabel(record,DB?.source_registry||[],currentLanguage);const approved=EditorialWorkflow.isApprovedForPublication(record,DB?.source_registry||[]);return `<span class="editorial-badge ${approved?'approved':'legacy'}">${safe(label)}</span>`}
+function approvedClaimMarkup(record){const sources=new Map((DB?.source_registry||[]).map(source=>[source.id,source]));return (record?.editorial?.claims||[]).map(claim=>`<section class="approved-claim"><p>${safe(claim.text)}</p>${claim.evidence.map(evidence=>{const source=sources.get(evidence.source_id);return `<small>${source?link(source):''}${evidence.locator?` · ${safe(evidence.locator)}`:''} · checked ${safe(evidence.checked_date)}</small>`}).join('')}</section>`).join('')}
 function render(){
  setText('#updated','RESEARCH UPDATED · '+DB.meta.last_updated);
- setText('#stat-candidates',DB.candidates.length);
- setText('#stat-polls',DB.polls.length);
- setText('#stat-news',DB.news.length);
- setText('#stat-events',DB.events.length);
- setText('#count-candidates',DB.candidates.length+' candidates tracked');
- setHTML('#next-events',DB.events.slice(0,4).map(eventCard).join(''));
- setHTML('#debate-participants',(DB.debates[0]?.participants||[]).map(n=>`<span class="chip">${safe(n)}</span>`).join(''));
+ setText('#stat-candidates',publicRecords(DB.candidates).length);
+ setText('#stat-polls',publicRecords(DB.polls).length);
+ setText('#stat-news',publicRecords(DB.news).length);
+ setText('#stat-events',publicRecords(DB.events).length);
+ setText('#count-candidates',publicRecords(DB.candidates).length+' candidates tracked');
+ setHTML('#next-events',publicRecords(DB.events).slice(0,4).map(eventCard).join(''));
+ const debate=publicRecords(DB.debates)[0];
+ setHTML('#debate-participants',debate?editorialBadge(debate)+(debate.participants||[]).map(n=>`<span class="chip">${safe(n)}</span>`).join(''):'<span class="muted small">No debate record cleared for display.</span>');
  renderOverview();renderCandidates();renderPolicies();renderPolls();renderNews();renderTimeline();renderSources();renderCompass();
 }
 function renderOverview(){
- const candidates=DB.candidates||[], polls=DB.polls||[], news=[...(DB.news||[])].sort((a,b)=>b.publication_date.localeCompare(a.publication_date));
+ const candidates=publicRecords(DB.candidates), polls=publicRecords(DB.polls), news=publicRecords(DB.news).sort((a,b)=>b.publication_date.localeCompare(a.publication_date));
  setText('#overview-snapshot','RESEARCH SNAPSHOT · '+String(DB.meta.last_updated||'').replaceAll('-','/'));
- const trends=[...(DB.poll_trends||[])].sort((a,b)=>Number(b.average)-Number(a.average));
+ const snapshots=publicRecords(DB.poll_trend_snapshots).sort((a,b)=>b.snapshot_date.localeCompare(a.snapshot_date));
+ const visibleSnapshot=snapshots[0];
+ const trends=(DB.poll_trends||[]).filter(t=>visibleSnapshot&&t.snapshot_id===visibleSnapshot.id).sort((a,b)=>Number(b.average)-Number(a.average));
  const declared=candidates.filter(c=>/^Declared/.test(c.campaign_status||'')).length;
  const potential=candidates.length-declared;
  const kpis=[
@@ -87,26 +93,27 @@ function renderOverview(){
   ['Election rounds','2','First and second rounds scheduled for April and May 2027']
  ];
  $('#overview-kpis').innerHTML=kpis.map(k=>`<article class="overview-kpi"><span>${safe(k[0])}</span><strong>${safe(k[1])}</strong><small>${safe(k[2])}</small></article>`).join('');
- $('#overview-latest').innerHTML=news.slice(0,3).map((n,i)=>`<article class="overview-story ${i===0?'featured':''}"><div class="eyebrow">${safe(n.publisher)} · ${safe(n.publication_date)} · ${safe(n.language)}</div><h3>${safe(n.title)}</h3><p>${safe(n.summary)}</p>${link(n.source)}</article>`).join('')||'<p class="muted">No news reports have been added yet.</p>';
+ $('#overview-latest').innerHTML=news.slice(0,3).map((n,i)=>`<article class="overview-story ${i===0?'featured':''}"><div class="eyebrow">${safe(n.publisher)} · ${safe(n.publication_date)} · ${safe(n.language)}</div>${editorialBadge(n)}<h3>${safe(n.title)}</h3>${EditorialWorkflow.isApprovedForPublication(n,DB?.source_registry||[])?approvedClaimMarkup(n):`<p>${safe(n.summary)}</p>`}${link(n.source)}</article>`).join('')||'<p class="muted">No news reports have been added yet.</p>';
  const top=trends.slice(0,6);
  renderOverviewPollChart();
  $('#overview-candidate-summary').innerHTML=`<span><b>${declared}</b> publicly declared / stated contenders</span><span><b>${potential}</b> potential or other tracked figures</span><span><b>${candidates.length}</b> tracked in total</span>`;
  const focus=top.slice(0,5).map(t=>candidates.find(c=>c.name===t.candidate)).filter(Boolean);
  const portraits=candidatePortraits;
- $('#overview-candidates').innerHTML=focus.map(c=>{const portrait=portraits[c.name];return `<article class="overview-person"><div class="overview-person-photo">${portrait?`<img src="${portrait.url}" alt="Portrait of ${safe(c.name)}" loading="lazy" onerror="const p=this.parentElement;p.classList.add('portrait-missing');const a=document.createElement('span');a.className='overview-avatar';a.textContent='${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}';this.remove();p.prepend(a)"><a class="portrait-credit" href="${portrait.source}" target="_blank" rel="noopener noreferrer" title="${safe(portrait.credit)}">Photo credit ↗</a>`:`<span class="overview-avatar">${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}</span>`}</div><div class="overview-person-copy"><b>${safe(c.name)}</b><small>${safe(c.party)}</small><span>${safe((c.campaign_status||'Status not established').split(';')[0])}</span><a class="person-open" href="#" data-open-candidate="${safe(c.id)}">View dossier →</a></div></article>`}).join('')||'<p class="muted">Candidate profiles are being compiled.</p>';
+ $('#overview-candidates').innerHTML=focus.map(c=>{const portrait=portraits[c.name];return `<article class="overview-person"><div class="overview-person-photo">${portrait?`<img src="${portrait.url}" alt="Portrait of ${safe(c.name)}" loading="lazy" onerror="const p=this.parentElement;p.classList.add('portrait-missing');const a=document.createElement('span');a.className='overview-avatar';a.textContent='${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}';this.remove();p.prepend(a)"><a class="portrait-credit" href="${portrait.source}" target="_blank" rel="noopener noreferrer" title="${safe(portrait.credit)}">Photo credit ↗</a>`:`<span class="overview-avatar">${safe(c.name.split(/\s+/).map(x=>x[0]).slice(0,2).join(''))}</span>`}</div><div class="overview-person-copy"><b>${safe(c.name)}</b>${editorialBadge(c)}<small>${safe(c.party)}</small><span>${safe((c.campaign_status||'Status not established').split(';')[0])}</span><a class="person-open" href="#" data-open-candidate="${safe(c.id)}">View dossier →</a></div></article>`}).join('')||'<p class="muted">Candidate profiles are being compiled.</p>';
  const today=new Date().toISOString().slice(0,10);
- const upcoming=(DB.events||[]).filter(e=>(e.date||'').slice(0,10)>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
- $('#overview-events').innerHTML=upcoming.map(e=>`<article class="overview-event"><time>${safe(e.date_label||e.date)}</time><div><b>${safe(e.title)}</b><small>${safe(e.status||'')}</small></div></article>`).join('')||'<p class="muted">No upcoming milestones currently listed.</p>';
+ const upcoming=publicRecords(DB.events).filter(e=>(e.date||'').slice(0,10)>=today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
+ $('#overview-events').innerHTML=upcoming.map(e=>`<article class="overview-event"><time>${safe(e.date_label||e.date)}</time><div><b>${safe(e.title)}</b>${editorialBadge(e)}<small>${safe(e.status||'')}</small></div></article>`).join('')||'<p class="muted">No upcoming milestones currently listed.</p>';
 }
 function renderCandidates(){
  const q=$('#candidate-search').value.toLowerCase();
- const list=DB.candidates.filter(c=>(c.name+' '+c.party+' '+c.orientation+' '+c.campaign_status).toLowerCase().includes(q));
+ const list=publicRecords(DB.candidates).filter(c=>(c.name+' '+c.party+' '+c.orientation+' '+c.campaign_status).toLowerCase().includes(q));
  $('#candidate-list').innerHTML=list.map(c=>{
+  if(EditorialWorkflow.isApprovedForPublication(c,DB?.source_registry||[]))return `<article class="candidate candidate-approved"><div class="candidate-card-body"><h3>${safe(c.name)}</h3>${editorialBadge(c)}${approvedClaimMarkup(c)}</div></article>`;
   const d=c.dossier||{};
   const themes=(d.themes||[]).map(x=>`<li>${safe(x)}</li>`).join('');
   const positions=(d.positions||[]).map(p=>`<div class="dossier-position"><strong>${safe(p.area)} · ${safe(p.date)}</strong><p>${safe(p.detail)}</p><span class="small muted">${safe(p.evidence)}</span></div>`).join('');
   const sources=(c.sources||[]).map(link).join(' · ');
-  return `<article class="candidate candidate-with-portrait">${portraitMarkup(c)}<div class="candidate-card-body"><h3>${safe(c.name)}</h3><div class="party">${safe(c.party)} · ${safe(c.orientation)}</div><span class="status">${safe(c.campaign_stage||'Status under review')}</span><div class="ballot"><b>Official ballot status:</b> ${safe(c.ballot_status||'Not yet established')}<small>${safe(c.ballot_status_note||'The Constitutional Council determines the official list after checking statutory requirements.')} <a href="https://qpc360.conseil-constitutionnel.fr/2019-05-17/decision-2019-783-qpc-17-mai-2019" target="_blank" rel="noopener noreferrer">Official legal framework ↗</a></small></div><p><b>At a glance:</b> ${safe(currentLanguage==='fr'?(c.policy_summary_fr||c.policy_summary||c.profile):(c.policy_summary||c.profile))}</p><p class="small muted"><b>Programme:</b> ${safe(c.programme_status||'Not established')}</p><p class="programme-link">${c.programme_link?`<a href="${safe(c.programme_link)}" target="_blank" rel="noopener noreferrer">${safe(c.programme_link_label||'Read programme')} ↗</a>`:`<span class="coming-soon">${safe(c.programme_link_label||'Coming soon')}</span>`}<small>${safe(c.programme_link_note||'')}</small></p>
+  return `<article class="candidate candidate-with-portrait">${portraitMarkup(c)}<div class="candidate-card-body"><h3>${safe(c.name)}</h3>${editorialBadge(c)}<div class="party">${safe(c.party)} · ${safe(c.orientation)}</div><span class="status">${safe(c.campaign_stage||'Status under review')}</span><div class="ballot"><b>Official ballot status:</b> ${safe(c.ballot_status||'Not yet established')}<small>${safe(c.ballot_status_note||'The Constitutional Council determines the official list after checking statutory requirements.')} <a href="https://qpc360.conseil-constitutionnel.fr/2019-05-17/decision-2019-783-qpc-17-mai-2019" target="_blank" rel="noopener noreferrer">Official legal framework ↗</a></small></div><p><b>At a glance:</b> ${safe(currentLanguage==='fr'?(c.policy_summary_fr||c.policy_summary||c.profile):(c.policy_summary||c.profile))}</p><p class="small muted"><b>Programme:</b> ${safe(c.programme_status||'Not established')}</p><p class="programme-link">${c.programme_link?`<a href="${safe(c.programme_link)}" target="_blank" rel="noopener noreferrer">${safe(c.programme_link_label||'Read programme')} ↗</a>`:`<span class="coming-soon">${safe(c.programme_link_label||'Coming soon')}</span>`}<small>${safe(c.programme_link_note||'')}</small></p>
   <details><summary>OPEN FULL RESEARCH DOSSIER ↗</summary><div class="dossier-grid">
    <section class="dossier-block"><h4>Political biography</h4><p>${safe(currentLanguage==='fr'?(c.profile_fr||d.bio||c.profile):(d.bio||c.profile))}</p></section>
    <section class="dossier-block"><h4>Political record</h4><p>${safe(d.record||'Further record research pending.')}</p></section>
@@ -117,8 +124,8 @@ function renderCandidates(){
   <section class="dossier-block" style="margin-top:12px"><h4>Official website audit</h4><p><b>${safe(c.official_site_audit?.status||'Not yet systematically verified')}</b> · checked ${safe(c.official_site_audit?.checked_date||'Not recorded')}</p><p>${safe(c.official_site_audit?.note||'Direct official-site review pending.')}</p>${c.official_site_audit?.url?`<p><a href="${safe(c.official_site_audit.url)}" target="_blank" rel="noopener">Open official source ↗</a></p>`:''}</section><section class="dossier-block" style="margin-top:12px"><h4>Source trail</h4><p>${sources}</p></section></details></div></article>`;
  }).join('')||'<p>No matching candidate.</p>';
 }
-function renderPolicies(){const q=$('#policy-search').value.toLowerCase(),topic=$('#policy-topic').value;const rows=DB.policy_positions.filter(p=>(!topic||p.topic===topic)&&JSON.stringify(p).toLowerCase().includes(q));$('#policy-list').innerHTML=rows.length?`<table><thead><tr><th>Candidate</th><th>Policy area</th><th>Position / proposal</th><th>Evidence</th><th>Source</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.candidate_name)}</td><td>${safe(p.topic)}</td><td>${safe(p.position)}</td><td>${safe(p.evidence_type||'Not specified')}<br>${safe(p.statement_date||'')}</td><td>${link(p.source)||'Source pending'}</td></tr>`).join('')}</tbody></table>`:'<div class="notice">No sourced policy entries match this filter. Empty does not mean the candidate has no position.</div>'}
-function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.date)}</time><b>${safe(e.title)}</b><small>${safe(e.detail)}</small></div>`}
+function renderPolicies(){const q=$('#policy-search').value.toLowerCase(),topic=$('#policy-topic').value;const rows=publicRecords(DB.policy_positions).filter(p=>(!topic||p.topic===topic)&&JSON.stringify(p).toLowerCase().includes(q));$('#policy-list').innerHTML=rows.length?`<table><thead><tr><th>Candidate</th><th>Policy area</th><th>Position / proposal</th><th>Evidence</th><th>Source</th><th>Editorial status</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.candidate_name)}</td><td>${safe(p.topic)}</td><td>${EditorialWorkflow.isApprovedForPublication(p,DB?.source_registry||[])?approvedClaimMarkup(p):safe(p.position)}</td><td>${safe(p.evidence_type||'Not specified')}<br>${safe(p.statement_date||'')}</td><td>${EditorialWorkflow.isApprovedForPublication(p,DB?.source_registry||[])?approvedClaimMarkup(p):link(p.source)||'Source pending'}</td><td>${editorialBadge(p)}</td></tr>`).join('')}</tbody></table>`:'<div class="notice">No policy entries are cleared for public display. Empty does not mean the candidate has no position.</div>'}
+function eventCard(e){return `<div class="event"><time>${safe(e.date_label||e.date)}</time>${editorialBadge(e)}<b>${safe(e.title)}</b><small>${safe(e.detail)}</small></div>`}
 
 const pollChartPalette=['#174f83','#d33f50','#3e83c5','#9a4b9c','#5c963f','#b276c9','#68a9d6','#a9b8c8'];
 let pollChartRange='all';
@@ -127,7 +134,7 @@ let pollChartScenario='all';
 let pollChartPollster='all';
 function renderOverviewPollChart(){
  const host=$('#overview-poll-chart'); if(!host)return;
- const allPolls=[...(DB.polls||[])].filter(p=>p.results&&p.fieldwork_end&&p.scenario_id).sort((a,b)=>a.fieldwork_end.localeCompare(b.fieldwork_end)||a.publication_date.localeCompare(b.publication_date));
+ const allPolls=publicRecords(DB.polls).filter(p=>p.results&&p.fieldwork_end&&p.scenario_id).sort((a,b)=>a.fieldwork_end.localeCompare(b.fieldwork_end)||a.publication_date.localeCompare(b.publication_date));
  const latest=[...allPolls].sort((a,b)=>b.fieldwork_end.localeCompare(a.fieldwork_end)||b.publication_date.localeCompare(a.publication_date))[0];
  const groups=new Map();
  allPolls.forEach(p=>{if(!groups.has(p.scenario_id))groups.set(p.scenario_id,[]);groups.get(p.scenario_id).push(p)});
@@ -155,7 +162,7 @@ function renderOverviewPollChart(){
  const anchor=latestSelected?Date.parse(latestSelected.fieldwork_end+'T12:00:00Z'):Date.now();
  const cutoff=rangeDays?anchor-rangeDays*86400000:null;
  const shown=bySelection.filter(p=>!cutoff||Date.parse(p.fieldwork_end+'T12:00:00Z')>=cutoff);
- const candidates=DB.candidates||[];
+ const candidates=publicRecords(DB.candidates);
  const names=candidates.map(c=>c.name);
  const observedNames=names.filter(n=>shown.some(p=>Object.prototype.hasOwnProperty.call(p.results,n)));
  const noDataNames=names.filter(n=>!observedNames.includes(n));
@@ -165,7 +172,7 @@ function renderOverviewPollChart(){
  const context=$('#poll-chart-selection-context');
  if(context){
   const filterText=[pollChartScenario==='all'?'Showing every tested line-up':scenarioLabels.get(pollChartScenario),pollChartPollster==='all'?'all pollsters':pollChartPollster].filter(Boolean).join(' · ');
-  context.textContent=`${filterText}. A line-up means the exact set of candidates tested. ${pollChartScenario==='all'?'Choose one line-up to see its candidates.':'Candidates tested: '+lineupNames.join(', ')+'.'}`;
+  context.innerHTML=`${latestSelected?editorialBadge(latestSelected):''} ${safe(filterText)}. A line-up means the exact set of candidates tested. ${pollChartScenario==='all'?'Choose one line-up to see its candidates.':'Candidates tested: '+safe(lineupNames.join(', '))+'.'}`;
  }
  const W=1000,H=390,L=58,R=22,T=20,B=52,plotW=W-L-R,plotH=H-T-B;
  const timeOf=p=>Date.parse(p.fieldwork_end+'T12:00:00Z');
@@ -209,7 +216,7 @@ function renderOverviewPollChart(){
  }
  if(latest){
   const namesInPoll=Object.entries(latest.results).sort((a,b)=>b[1]-a[1]).slice(0,5);
-  $('#overview-latest-poll').innerHTML=`<div class="latest-poll-heading"><div><span class="eyebrow">LATEST FIELDWORK IN THE ARCHIVE</span><h3>${safe(latest.pollster)} · ${safe(latest.sponsor||'Sponsor not specified')}</h3></div><strong>${safe(latest.fieldwork_start)} to ${safe(latest.fieldwork_end)}</strong></div><div class="latest-poll-meta"><span>Sample: ${safe(latest.sample_size||'Not stated')}</span><span>Published: ${safe(latest.publication_date)}</span></div><div class="latest-poll-leaders">${namesInPoll.map((o,i)=>`<div><span>${i+1}. ${safe(o[0])}</span><b>${safe(o[1])}%</b></div>`).join('')}</div><div class="latest-poll-source">${link(latest.source)}</div>`;
+  $('#overview-latest-poll').innerHTML=`<div class="latest-poll-heading"><div>${editorialBadge(latest)}<span class="eyebrow">LATEST FIELDWORK IN THE ARCHIVE</span><h3>${safe(latest.pollster)} · ${safe(latest.sponsor||'Sponsor not specified')}</h3></div><strong>${safe(latest.fieldwork_start)} to ${safe(latest.fieldwork_end)}</strong></div><div class="latest-poll-meta"><span>Sample: ${safe(latest.sample_size||'Not stated')}</span><span>Published: ${safe(latest.publication_date)}</span></div><div class="latest-poll-leaders">${namesInPoll.map((o,i)=>`<div><span>${i+1}. ${safe(o[0])}</span><b>${safe(o[1])}%</b></div>`).join('')}</div><div class="latest-poll-source">${link(latest.source)}</div>`;
  }
  document.querySelectorAll('[data-poll-range]').forEach(b=>b.classList.toggle('active',b.dataset.pollRange===pollChartRange));
  document.querySelectorAll('[data-poll-range]').forEach(b=>{if(!b.dataset.bound){b.dataset.bound='1';b.addEventListener('click',()=>{pollChartRange=b.dataset.pollRange;renderOverviewPollChart()})}});
@@ -220,9 +227,18 @@ function renderOverviewPollChart(){
   point.addEventListener('pointerenter',show);point.addEventListener('focus',show);point.addEventListener('pointerleave',()=>tip?.classList.remove('is-visible'));point.addEventListener('blur',()=>tip?.classList.remove('is-visible'));
  });
 }
-function renderPolls(){const trend=DB.poll_trends||[],snapshot=(DB.poll_trend_snapshots||[]).slice().sort((a,b)=>b.snapshot_date.localeCompare(a.snapshot_date))[0],source=snapshot?(DB.source_registry||[]).find(s=>s.id===snapshot.source_id):null;const snapshotNote=snapshot?`<div class="trend-note"><b>External polling snapshot · ${safe(snapshot.snapshot_date)}</b><span>${safe(snapshot.provider)} method: ${safe(snapshot.method)}. This site republishes the provider's average; it does not calculate it. Algorithm version: ${snapshot.algorithm_version?safe(snapshot.algorithm_version):'not published'}. Input poll IDs: ${snapshot.input_poll_ids?.length?snapshot.input_poll_ids.length+' linked':'not provided'}. ${snapshot.scenario_id?'Scenario '+safe(snapshot.scenario_id):safe(snapshot.scenario_note||'Scenario not specified.')}</span>${source?link(source):''}</div>`:'<div class="trend-note"><b>Rolling-average snapshot</b><span>Snapshot provenance not recorded.</span></div>';$('#poll-trend').innerHTML=trend.length?snapshotNote+`<div class="trend-grid">${trend.map(t=>`<div class="trend-row"><div class="trend-label"><b>${safe(t.candidate)}</b><strong>${Number(t.average).toFixed(1)}%</strong></div><div class="track"><span style="width:${Math.max(0,Math.min(100,Number(t.average)/40*100))}%"></span></div><small>Observed range ${safe(t.observed_min)}–${safe(t.observed_max)}% · ${safe(t.polls_count)} polls/institutes${t.change_30d==null?'':` · ${t.change_30d>0?'+':''}${safe(t.change_30d)} pts / 30d`}</small></div>`).join('')}</div>`:'<div class="notice">No rolling-average snapshot loaded.</div>';const rows=[...(DB.polls||[])].sort((a,b)=>b.fieldwork_end.localeCompare(a.fieldwork_end)||b.publication_date.localeCompare(a.publication_date));$('#poll-list').innerHTML=rows.length?`<table><thead><tr><th>Fieldwork end</th><th>Published</th><th>Pollster / sponsor</th><th>Fieldwork</th><th>Sample</th><th>Results (%)</th><th>Source / note</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.fieldwork_end)}</td><td>${safe(p.publication_date)}</td><td><b>${safe(p.pollster)}</b><br>${safe(p.sponsor)}</td><td>${safe(p.fieldwork_label||p.fieldwork_start+' to '+p.fieldwork_end)}</td><td>${safe(p.sample_size)}</td><td>${Object.entries(p.results||{}).map(([n,v])=>`${safe(n)} ${safe(v)}%`).join('<br>')}</td><td>${link(p.source)}<br><small>${safe(p.data_note||'')}</small></td></tr>`).join('')}</tbody></table>`:'<div class="notice">No poll-level records loaded.</div>'}
-function renderNews(){const q=$('#news-search').value.toLowerCase(),lang=$('#news-language').value;const rows=[...(DB.news||[])].sort((a,b)=>b.publication_date.localeCompare(a.publication_date)).filter(n=>(!lang||n.language===lang)&&JSON.stringify(n).toLowerCase().includes(q));$('#news-list').innerHTML=rows.length?rows.map(n=>`<article class="source"><div class="eyebrow">${safe(n.language)} · ${safe(n.publication_date)} · ${safe(n.topic||'Campaign')}</div><h3>${safe(n.title)}</h3><p><b>${safe(n.publisher)}</b></p><p>${safe(n.summary)}</p>${link(n.source)}${n.verification?`<p class="small muted"><b>Editorial check:</b> ${safe(n.verification.status)} · checked ${safe(n.verification.checked_date)}${n.verification.note?' · '+safe(n.verification.note):''}</p>`:''}</article>`).join(''):'<div class="notice">No articles match this search.</div>'}
-function renderTimeline(){$('#timeline-list').innerHTML=DB.events.map(e=>`<div class="timeline-item"><time>${safe(e.date_label||e.date)}</time><h3>${safe(e.title)}</h3><p>${safe(e.detail)} ${safe(e.status||'')}</p></div>`).join('')}
+function renderPolls(){
+ const snapshots=publicRecords(DB.poll_trend_snapshots).sort((a,b)=>b.snapshot_date.localeCompare(a.snapshot_date));
+ const snapshot=snapshots[0];
+ const trend=snapshot?(DB.poll_trends||[]).filter(t=>t.snapshot_id===snapshot.id):[];
+ const source=snapshot?(DB.source_registry||[]).find(s=>s.id===snapshot.source_id):null;
+ const snapshotNote=snapshot?`<div class="trend-note"><b>External polling snapshot · ${safe(snapshot.snapshot_date)}</b>${editorialBadge(snapshot)}<span>${safe(snapshot.provider)} method: ${safe(snapshot.method)}. This site republishes the provider's average; it does not calculate it. Algorithm version: ${snapshot.algorithm_version?safe(snapshot.algorithm_version):'not published'}. Input poll IDs: ${snapshot.input_poll_ids?.length?snapshot.input_poll_ids.length+' linked':'not provided'}. ${snapshot.scenario_id?'Scenario '+safe(snapshot.scenario_id):safe(snapshot.scenario_note||'Scenario not specified.')}</span>${source?link(source):''}</div>`:'<div class="notice">No polling trend snapshot is cleared for public display.</div>';
+ $('#poll-trend').innerHTML=trend.length?snapshotNote+`<div class="trend-grid">${trend.map(t=>`<div class="trend-row"><div class="trend-label"><b>${safe(t.candidate)}</b><strong>${Number(t.average).toFixed(1)}%</strong></div><div class="track"><span style="width:${Math.max(0,Math.min(100,Number(t.average)/40*100))}%"></span></div><small>Observed range ${safe(t.observed_min)}–${safe(t.observed_max)}% · ${safe(t.polls_count)} polls/institutes${t.change_30d==null?'':` · ${t.change_30d>0?'+':''}${safe(t.change_30d)} pts / 30d`}</small></div>`).join('')}</div>`:snapshotNote;
+ const rows=publicRecords(DB.polls).sort((a,b)=>b.fieldwork_end.localeCompare(a.fieldwork_end)||b.publication_date.localeCompare(a.publication_date));
+ $('#poll-list').innerHTML=rows.length?`<table><thead><tr><th>Fieldwork end</th><th>Published</th><th>Pollster / sponsor</th><th>Fieldwork</th><th>Sample</th><th>Results (%)</th><th>Source / note</th><th>Editorial status</th></tr></thead><tbody>${rows.map(p=>`<tr><td>${safe(p.fieldwork_end)}</td><td>${safe(p.publication_date)}</td><td><b>${safe(p.pollster)}</b><br>${safe(p.sponsor)}</td><td>${safe(p.fieldwork_label||p.fieldwork_start+' to '+p.fieldwork_end)}</td><td>${safe(p.sample_size)}</td><td>${Object.entries(p.results||{}).map(([n,v])=>`${safe(n)} ${safe(v)}%`).join('<br>')}</td><td>${link(p.source)}<br><small>${safe(p.data_note||'')}</small></td><td>${editorialBadge(p)}</td></tr>`).join('')}</tbody></table>`:'<div class="notice">No polls are cleared for public display.</div>';
+}
+function renderNews(){const q=$('#news-search').value.toLowerCase(),lang=$('#news-language').value;const rows=publicRecords(DB.news).sort((a,b)=>b.publication_date.localeCompare(a.publication_date)).filter(n=>(!lang||n.language===lang)&&JSON.stringify(n).toLowerCase().includes(q));$('#news-list').innerHTML=rows.length?rows.map(n=>`<article class="source"><div class="eyebrow">${safe(n.language)} · ${safe(n.publication_date)} · ${safe(n.topic||'Campaign')}</div>${editorialBadge(n)}<h3>${safe(n.title)}</h3><p><b>${safe(n.publisher)}</b></p>${EditorialWorkflow.isApprovedForPublication(n,DB?.source_registry||[])?approvedClaimMarkup(n):`<p>${safe(n.summary)}</p>`}${link(n.source)}${n.verification?`<p class="small muted"><b>Source check:</b> ${safe(n.verification.status)} · checked ${safe(n.verification.checked_date)}${n.verification.note?' · '+safe(n.verification.note):''}</p>`:''}</article>`).join(''):'<div class="notice">No articles are cleared for public display.</div>'}
+function renderTimeline(){const events=publicRecords(DB.events);$('#timeline-list').innerHTML=events.map(e=>`<div class="timeline-item"><time>${safe(e.date_label||e.date)}</time>${editorialBadge(e)}<h3>${safe(e.title)}</h3><p>${safe(e.detail)} ${safe(e.status||'')}</p></div>`).join('')||'<div class="notice">No timeline records are cleared for public display.</div>'}
 function renderSources(){const primary=DB.sources.filter(s=>!String(s.type).includes('monitored outlet directory'));const directory=DB.media_directory||[];const e=DB.editorial_standards||{};$('#source-list').innerHTML=`<h3 class="full-row">Core institutional, research and reference sources</h3>${primary.map(s=>`<article class="source"><h3>${link(s)}</h3><p>${safe(s.publisher)} · ${safe(s.language)} · ${safe(s.type)}</p></article>`).join('')}<h3 class="full-row">Media monitoring directory · ${directory.length} outlets</h3><p class="full-row muted small">This is a monitoring list, not a claim that every outlet has published a relevant article or that all coverage carries equal evidential weight.</p>${directory.map(s=>`<article class="source"><h3><a href="${safe(s.url)}" target="_blank" rel="noopener noreferrer">${safe(s.publisher)} ↗</a></h3><p>${safe(s.language)} · ${safe(s.type)}</p></article>`).join('')}`;const box=document.querySelector('#editorial-standards');if(box&&e.version){box.innerHTML=`<h3>Editorial standards & verification policy</h3><p><b>Version ${safe(e.version)} · adopted ${safe(e.adopted_date)}</b> · Editorial responsibility: ${safe(e.editor_in_charge)}.</p><p>${safe(e.current_audit_limit)}</p><h4>Source hierarchy</h4><ol>${e.source_hierarchy.map(x=>`<li>${safe(x)}</li>`).join('')}</ol><h4>Verification labels</h4><ul>${e.verification_statuses.map(x=>`<li><b>${safe(x.label)}:</b> ${safe(x.meaning)}</li>`).join('')}</ul><h4>Claim-level rules</h4><ul>${e.claim_rules.map(x=>`<li>${safe(x)}</li>`).join('')}</ul><h4>Corrections policy</h4><p>${safe(e.corrections_policy)}</p><h4>Voting compass policy</h4><p>${safe(e.compass_policy)}</p>`}}
 document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav [data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===b.dataset.tab));document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id===b.dataset.tab));window.scrollTo({top:0,behavior:'smooth'})}));
 $('#candidate-search').addEventListener('input',renderCandidates);$('#policy-search').addEventListener('input',renderPolicies);$('#policy-topic').addEventListener('change',renderPolicies);$('#news-search').addEventListener('input',renderNews);$('#news-language').addEventListener('change',renderNews);
@@ -241,7 +257,7 @@ function getEligibleCompassPositions({allQuestions,positions,sourceRegistry,conf
  };
  const eligible=(positions||[]).filter(position=>{
   const q=questionById.get(position.question_id),v=position.verification||{};
-  return position.candidate_id&&q&&ordinalScale(q)&&Number.isInteger(position.position_value)&&position.position_value>=1&&position.position_value<=q.options.length&&
+  return EditorialWorkflow.isApprovedForPublication(position,sourceRegistry)&&position.candidate_id&&q&&ordinalScale(q)&&Number.isInteger(position.position_value)&&position.position_value>=1&&position.position_value<=q.options.length&&
    v.code===(configuration?.eligible_position_status||'primary_verified')&&Boolean(position.statement_date)&&Boolean(v.checked_date)&&Boolean(v.reviewer?.trim?.())&&
    Array.isArray(position.evidence)&&position.evidence.length>0&&position.evidence.every(e=>sourceIds.has(e.source_id)&&Boolean(e.locator?.trim?.())&&Boolean(e.evidence_summary?.trim?.()));
  });
@@ -253,7 +269,7 @@ function getCompassReleaseStatus(){
  const byCandidate=new Map();
  for(const position of eligible.positions){if(!byCandidate.has(position.candidate_id))byCandidate.set(position.candidate_id,new Map());byCandidate.get(position.candidate_id).set(position.question_id,position)}
  const minimumQuestions=config.minimum_verified_questions??12,minimumAreas=config.minimum_verified_areas??6,minimumCandidates=config.minimum_candidates_for_rankings??2;
- const coverage=(DB?.candidates||[]).map(candidate=>{
+ const coverage=publicRecords(DB?.candidates||[]).filter(candidate=>EditorialWorkflow.isApprovedForPublication(candidate,DB?.source_registry||[])).map(candidate=>{
   const candidatePositions=byCandidate.get(candidate.id)||new Map();
   const areas=new Set([...candidatePositions.keys()].map(id=>eligible.questionById.get(id)?.topic).filter(Boolean));
   return {candidate,questions:candidatePositions.size,areas:areas.size,eligible:candidatePositions.size>=minimumQuestions&&areas.size>=minimumAreas};
@@ -343,7 +359,7 @@ function showCompassMatches(){
  const active=activeCompassQuestions(),answers={};
  for(const q of active){const selected=document.querySelector(`input[name="${q.id}"]:checked`),weight=$('#weight-'+q.id);answers[q.id]={answer:selected?Number(selected.value):null,weight:weight?.value?Number(weight.value):null}}
  const config=DB.compass_methodology.scoring_configuration;
- const result=calculateCompassScores({allQuestions:DB.compass_questions,activeQuestions:active,candidates:DB.candidates,positions:DB.compass_candidate_positions,answers,sourceRegistry:DB.source_registry,configuration:config});
+ const result=calculateCompassScores({allQuestions:DB.compass_questions,activeQuestions:active,candidates:publicRecords(DB.candidates).filter(candidate=>EditorialWorkflow.isApprovedForPublication(candidate,DB?.source_registry||[])),positions:DB.compass_candidate_positions,answers,sourceRegistry:DB.source_registry,configuration:config});
  const out=$('#compass-output');
  if(result.status==='importance_required'){
   const q=active.find(item=>item.id===result.missingImportance[0]);const field=q&&$('#weight-'+q.id);field?.focus();field?.reportValidity();out.innerHTML=`<div class="notice">Please rate the importance of every question shown before viewing matches. ${result.missingImportance.length} importance rating${result.missingImportance.length===1?' is':'s are'} missing.</div>`;return;

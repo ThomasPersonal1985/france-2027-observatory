@@ -1236,3 +1236,13 @@ body{background:linear-gradient(115deg,#edf3f9 0%,#f7f7f4 56%,#f8eff0 100%)}
 #compass .compass-match-area li{margin:8px 0}
 #compass .compass-match-area p{margin:4px 0}
 @media(max-width:650px){#compass .compass-coverage-audit ul,#compass .compass-insufficient ul{grid-template-columns:1fr}}
+
+/* Editorial review indicators for retained legacy records and approved claims. */
+.editorial-policy-banner{margin:0 0 22px;padding:13px 16px;border:1px solid #b27624;border-left:4px solid var(--amber);border-radius:10px;background:#2a2115;color:#f1dfbd;font-size:13px}
+.editorial-badge{display:inline-flex;align-items:center;width:max-content;max-width:100%;padding:3px 8px;border-radius:999px;font-size:10px;font-weight:800;line-height:1.45;vertical-align:middle}
+.editorial-badge.legacy{border:1px solid #b27624;background:#2a2115;color:#f5cf86}
+.editorial-badge.approved{border:1px solid #26795b;background:#10271f;color:#8ee0bd}
+.approved-claim{margin:10px 0;padding:10px 12px;border-left:3px solid var(--green);background:#0d201c;border-radius:0 8px 8px 0}
+.approved-claim p{margin:0 0 6px}.approved-claim small{display:block;color:var(--muted);font-size:11px}
+.candidate-approved{grid-template-columns:1fr}
+.editorial-policy-banner .editorial-badge{margin-left:6px}

@@ -261,7 +261,7 @@ def validate(data):
             text(verification.get("status"),f"{p}.verification.status")
             validate_verification(verification,f"{p}.verification")
 
-    for key in ("candidates","policy_positions","news","polls","poll_trend_snapshots"):
+    for key in ("candidates","policy_positions","news","polls","poll_trend_snapshots","events","debates"):
         for i,item in enumerate(records(data,key)):
             p=f"{key}[{i}].editorial"
             if "editorial" not in item: err(p,"missing editorial workflow metadata")
