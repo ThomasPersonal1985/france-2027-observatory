@@ -8,14 +8,14 @@ Dataset last updated: 2026-11-12. This report is generated from the canonical `d
 
 | Content type | Records | Workflow status | No claim-level evidence | No linked source reference |
 | --- | ---: | --- | ---: | ---: |
-| Candidate profiles | 40 | `under_review`: 40 | 39 | 0 |
-| Policy positions | 22 | `under_review`: 22 | 19 | 0 |
-| News records | 35 | `under_review`: 35 | 34 | 0 |
-| Individual polls | 20 | `under_review`: 20 | 19 | 0 |
+| Candidate profiles | 40 | `under_review`: 40 | 40 | 0 |
+| Policy positions | 19 | `under_review`: 19 | 19 | 0 |
+| News records | 34 | `under_review`: 34 | 34 | 0 |
+| Individual polls | 20 | `under_review`: 20 | 20 | 0 |
 | Polling snapshots | 1 | `under_review`: 1 | 1 | 0 |
 | Election events | 12 | `under_review`: 12 | 12 | 8 |
 | Debates | 1 | `under_review`: 1 | 1 | 0 |
-| **All listed records** | **131** | **under_review: 131** | **125** | **8** |
+| **All listed records** | **127** | **under_review: 127** | **127** | **8** |
 
 ## Candidate profiles
 
@@ -39,7 +39,7 @@ Every candidate profile currently has no editorial claims. Review each profile c
 | Xavier Bertrand | Declared candidate; announced 27 August 2026, according to current candidate trackers. | Not yet systematically verified | 6 | `src-059c883257fdc130, src-2246c57ba79efcd4, src-247e69abeafa52c8, src-379dc807906867a1, src-bac69a757e85ea3f, src-c40429483ddf1552` | `under_review` |
 | Nathalie Arthaud | Declared contender; Lutte ouvrière spokesperson and repeat presidential candidate. | Not yet systematically verified | 4 | `src-059c883257fdc130, src-179b5d4830a7654c, src-247e69abeafa52c8, src-bac69a757e85ea3f` | `under_review` |
 | Bruno Le Maire | Probable / potential contender; programme material indexed by Observatoire 2027, but formal status requires verification. | Not yet systematically verified | 4 | `src-059c883257fdc130, src-247e69abeafa52c8, src-bac69a757e85ea3f, src-f3d7d5072cff5c42` | `under_review` |
-| Teddy Riner | Declared candidate; announced 9 November 2026 in an interview and public campaign video. | Announcement independently reported; later Macron remarks reported | 4 | `src-54719782c7da2e34, src-9002d5153f8dba68, src-d5031ebc3397c2f3, src-f3bdf0a356f075da` | `under_review` |
+| Teddy Riner | Declared candidate; announced 9 November 2026 in an interview and public campaign video. | Announcement independently reported; later Macron remarks reported | 3 | `src-9002d5153f8dba68, src-d5031ebc3397c2f3, src-f3bdf0a356f075da` | `under_review` |
 | Bernard Cazeneuve | Status disputed: Toute l’Europe reports a candidacy; Le Parisien’s tracker lists him as potential rather than declared. | Status requires primary-source check | 2 | `src-2246c57ba79efcd4, src-c40429483ddf1552` | `under_review` |
 | Dominique de Villepin | Confirmed intention to run on 3 November 2026; said it was too early to formally declare. | Intention reported; formal declaration not made | 1 | `src-43453800a901960c` | `under_review` |
 | Jean Lassalle | Potential candidate; reported to be fundraising toward a possible third presidential campaign. | Potential candidacy only | 1 | `src-247e69abeafa52c8` | `under_review` |
@@ -95,8 +95,8 @@ All existing policy-position records currently have no editorial claims. The leg
 
 ## News and polling
 
-- News: 35 records; 34 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (3), unreviewed (31).
-- Individual polls: 20 records; 19 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (19).
+- News: 34 records; 34 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (2), unreviewed (31).
+- Individual polls: 20 records; 20 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (19).
 - Polling trend snapshots: 1; no snapshot is treated as verified by this queue.
 - For polling, locate the original pollster notice and preserve fieldwork dates, sponsor, sample, method, question wording, and tested scenario as separate observations.
 
@@ -106,15 +106,15 @@ Election events: 12; debates: 1. Review their factual dates, descriptions, and s
 
 ## Source-registry completeness
 
-The records reference 69 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
+The records reference 68 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
 
 | Registry field | Referenced entries populated | Referenced entries |
 | --- | ---: | ---: |
-| `publisher` | 13 | 69 |
-| `author` | 1 | 69 |
-| `publication_date` | 8 | 69 |
-| `checked_date` | 13 | 69 |
-| `verification_status` | 13 | 69 |
+| `publisher` | 12 | 68 |
+| `author` | 0 | 68 |
+| `publication_date` | 7 | 68 |
+| `checked_date` | 12 | 68 |
+| `verification_status` | 12 | 68 |
 
 ### Referenced source records
 
