@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-12",
-    "data_version": 14,
+    "data_version": 15,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -140,10 +140,10 @@
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "party": "La France insoumise",
-      "campaign_status": "Declared candidate; announced 3 May 2026; presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. LFI lists further public meetings for 12 November.",
+      "campaign_status": "Declared candidate; on 3 May 2026, LFI’s intergroup proposed his candidacy for its popular investiture; LFI described the presidential campaign as launched on 5 May. Presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. These campaign milestones do not establish official ballot qualification.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Left-wing",
-      "profile": "LFI released its 2027 programme, L’Avenir en commun, on 6 November and presented it at Le Bourget on 7 November. The campaign site publishes 1,069 measures. Attribute these as party proposals, not independent evaluations or costings.",
+      "profile": "La France insoumise proposed Jean-Luc Mélenchon for its popular investiture on 3 May 2026 and described the presidential campaign as launched on 5 May. LFI released L’Avenir en commun on 6 November and presented it at Le Bourget on 7 November. The party says the programme contains 1,069 measures. Official LFI and campaign pages disagree on whether this is the fifth or sixth edition; the Observatory records the discrepancy without selecting an ordinal. All proposals are campaign commitments, not independent evaluations or costings.",
       "sources": [
         {
           "title": "Reuters: Mélenchon programme launch, 7 November 2026",
@@ -216,12 +216,48 @@
           "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html",
           "type": "Independent news report",
           "source_id": "src-cdf547303b05c308"
+        },
+        {
+          "title": "LFI intergroup statement proposing Mélenchon for popular investiture, 3 May 2026",
+          "url": "https://lafranceinsoumise.fr/2026/05/03/declaration-de-lintergroupe-de-la-france-insoumise-du-3-mai-2026/",
+          "type": "Official party statement",
+          "source_id": "src-ad28534ee9ba841b"
+        },
+        {
+          "title": "LFI statement on campaign launch, 5 May 2026",
+          "url": "https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/",
+          "type": "Official party statement",
+          "source_id": "src-7f956e4bad7b6d38"
+        },
+        {
+          "title": "Campaign programme history page: fifth version",
+          "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
+          "type": "Official campaign programme history",
+          "source_id": "src-96aa93a95c8b24bf"
+        },
+        {
+          "title": "Campaign programme discovery page: sixth edition",
+          "url": "https://melenchon2027.fr/programme/decouvrir/",
+          "type": "Official campaign programme page",
+          "source_id": "src-b62b0e29b4b83ee1"
+        },
+        {
+          "title": "Official campaign programme: pensions chapter",
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1",
+          "type": "Official campaign programme text",
+          "source_id": "src-e1e5201dfe247eaa"
+        },
+        {
+          "title": "Official campaign programme: wages, prices and taxation chapter",
+          "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2",
+          "type": "Official campaign programme text",
+          "source_id": "src-935423b9c51aef66"
         }
       ],
-      "policy_summary": "LFI’s 7 November 2026 programme proposes a higher net minimum wage, price controls on essentials, wage indexation, higher taxes on wealthy households, reversing the pension reform and a foreign/energy-policy shift including leaving NATO’s integrated command and replacing nuclear power with renewables. Redistribution, higher wages and stronger public services Price controls or regulated prices for essential goods Progressive taxation and greater contributions from high incomes and wealth",
-      "programme_status": "The 2027 programme was released on 6 November and presented on 7 November. LFI says it contains 1,069 measures. LFI calls this the fifth edition in its release, while the campaign website calls it the sixth; the ordinal is flagged as a source discrepancy.",
+      "policy_summary": "The published 2027 programme proposes, among other measures, lowering the retirement age to 60 for a full pension after 40 contribution years; raising the monthly net SMIC to €1,700 and indexing wages to inflation; and blocking or regulating prices for essential goods. These are attributed programme commitments, not independent assessments or costings.",
+      "programme_status": "The programme was released on 6 November and presented at Le Bourget on 7 November. LFI states 1,069 measures. The party release and campaign history page call it the fifth edition; the campaign discovery page calls it the sixth. This unresolved source discrepancy is retained.",
       "dossier": {
-        "bio": "Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026. On 7 November 2026, LFI presented a written programme at Le Bourget, making this one of the most developed published platforms in the current field.",
+        "bio": "Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president in 2012, 2017 and 2022. On 3 May 2026, LFI’s intergroup proposed him for its popular investiture; LFI described its presidential campaign as launched on 5 May. The 2027 programme was published on 6 November and presented at Le Bourget on 7 November.",
         "record": "His political career spans the Socialist Party, the Left Party and LFI. The 2022 presidential campaign and the NUPES alliance shaped his recent national profile. The 2027 programme should be read as the current party platform; earlier LFI plans and parliamentary positions are useful context but are not substitutes for it.",
         "themes": [
           "Redistribution, higher wages and stronger public services",
@@ -232,6 +268,18 @@
           "A more non-aligned foreign policy and changes to France’s NATO relationship"
         ],
         "positions": [
+          {
+            "area": "Minimum wage, wages and essential prices",
+            "detail": "The programme proposes raising monthly net SMIC to €1,700, indexing wages to inflation in the private and public sectors, and blocking or regulating prices for essential goods. These are stated proposals; financing and effects are not assessed here.",
+            "date": "2026-11-06",
+            "evidence": "Official 2027 campaign programme, economic chapter."
+          },
+          {
+            "area": "Pensions",
+            "detail": "The programme proposes repealing the 2023 reform and lowering the retirement age to 60 at full rate for 40 contribution years. This is a party programme commitment; fiscal effects require independent costing.",
+            "date": "2026-11-06",
+            "evidence": "Official 2027 campaign programme, social-security chapter."
+          },
           {
             "area": "Minimum wage and wages",
             "detail": "The 7 November programme launch was reported by Reuters as pledging a higher minimum wage; the exact implementation and financing should be checked against the full programme text.",
@@ -265,35 +313,137 @@
         ],
         "feasibility": "Key tests: the fiscal cost and revenue assumptions behind the programme; the legal and institutional route for price controls and debt restructuring; labour-market effects of wage changes; and the practical timetable for energy transition.",
         "open": "Independent costing and feasibility; exact implementation of foreign-policy proposals; the legal conditions for any vote on borders; clarification of how such a vote would account for displacement and occupation.",
-        "programme": "The 2027 edition was released on 6 November and presented at Le Bourget on 7 November. LFI says 1,069 measures; the edition number differs between the LFI release (fifth) and campaign site (sixth), so this update avoids selecting an ordinal. The proposals are party commitments, not independently costed facts."
+        "programme": "The 2027 edition was released on 6 November and presented at Le Bourget on 7 November. LFI says it contains 1,069 measures. The LFI release and campaign history page call it the fifth edition; another campaign page calls it the sixth. The ordinal remains unresolved. All proposals are party commitments, not independently costed facts."
       },
       "dossier_updated": "2026-11-12",
       "programme_link": "https://www.lavenirencommun.org/",
       "programme_link_label": "Official 2027 programme",
       "programme_link_note": "Official programme site; online synthesis and full published programme have different measure counts.",
       "official_site_audit": {
-        "status": "Primary source checked",
-        "checked_date": "2026-11-08",
-        "url": "https://www.lavenirencommun.org/",
-        "note": "Official 2027 programme site checked. The website states that the online synthesis contains 795 measures and the full book contains 1,069 measures."
+        "status": "Primary programme sources checked; partial claim review",
+        "checked_date": "2026-11-12",
+        "url": "https://melenchon2027.fr/programme/decouvrir/",
+        "note": "Campaign programme, programme history, pension chapter and economic chapter checked. Source pages conflict on the edition number (fifth vs sixth); recorded without resolution. A few programme claims are verified; Ukraine interpretation and remaining dossier claims stay under review."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "LFI a publié le 6 novembre son programme 2027, L’Avenir en commun, présenté au Bourget le 7 novembre. Le site de campagne publie 1 069 mesures. Les propositions doivent être attribuées au mouvement et distinguées d’une évaluation ou d’un chiffrage indépendant.",
-      "policy_summary_fr": "Le programme de LFI du 7 novembre 2026 propose une hausse du salaire minimum net, l’encadrement des prix des produits essentiels, l’indexation des salaires, une hausse des impôts sur les ménages aisés, l’abrogation de la réforme des retraites et un changement d’orientation en matière de politique étrangère et énergétique.",
+      "profile_fr": "La France insoumise a proposé la candidature de Jean-Luc Mélenchon à son investiture populaire le 3 mai 2026 et a annoncé le lancement de la campagne présidentielle le 5 mai. LFI a publié L’Avenir en commun le 6 novembre et l’a présenté au Bourget le 7 novembre. Le mouvement indique que le programme contient 1 069 mesures. Les pages officielles ne s’accordent pas sur le fait qu’il s’agisse de la cinquième ou de la sixième édition ; l’Observatoire signale cette divergence sans trancher. Les propositions sont des engagements de campagne, pas des évaluations ou chiffrages indépendants.",
+      "policy_summary_fr": "Le programme 2027 propose notamment d’abaisser l’âge de la retraite à 60 ans à taux plein après 40 annuités ; de porter le SMIC mensuel net à 1 700 euros et d’indexer les salaires sur l’inflation ; et de bloquer ou encadrer les prix des produits de première nécessité. Ce sont des engagements du programme, non des évaluations ou chiffrages indépendants.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "melenchon-lfi-investiture-campaign-launch",
+            "text": "On 3 May 2026 LFI’s intergroup decided to propose Mélenchon’s candidacy for a popular investiture of 150,000 citizens; on 5 May LFI described his presidential campaign as launched.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ad28534ee9ba841b",
+                "locator": "paragraphs 1–5",
+                "supports": "LFI says its intergroup met on 3 May and decided to propose Mélenchon for the popular investiture.",
+                "publication_date": "2026-05-03",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-7f956e4bad7b6d38",
+                "locator": "opening section",
+                "supports": "LFI describes the launch of Mélenchon’s presidential campaign and the support process.",
+                "publication_date": "2026-05-05",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Describes party campaign milestones; not official ballot qualification or the Constitutional Council candidate list."
+          },
+          {
+            "id": "melenchon-programme-release-and-count",
+            "text": "LFI announced release of L’Avenir en commun on 6 November 2026, a presentation meeting at Le Bourget on 7 November, and a total of 1,069 measures.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-075fbe4f90cb172d",
+                "locator": "paragraphs 1–3 and “Le programme en quelques chiffres”",
+                "supports": "The official LFI announcement gives the release date, presentation date, and 1,069-measure count.",
+                "publication_date": "2026-11-02",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "The number is an attributed count stated by LFI, not an independent evaluation of the proposals."
+          },
+          {
+            "id": "melenchon-programme-edition-number-discrepancy",
+            "text": "Official sources disagree on the ordinal edition: LFI’s 2 November release and the campaign history page say fifth, while the campaign discovery page says sixth.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-075fbe4f90cb172d",
+                "locator": "paragraph 3",
+                "supports": "LFI calls it the fifth edition.",
+                "publication_date": "2026-11-02",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-96aa93a95c8b24bf",
+                "locator": "heading for 6 November 2026",
+                "supports": "Campaign history page labels it the fifth version.",
+                "publication_date": null,
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-b62b0e29b4b83ee1",
+                "locator": "“Le Livre programme : L’Avenir en Commun”",
+                "supports": "Campaign discovery page labels the book the sixth edition.",
+                "publication_date": null,
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Record the discrepancy; do not choose an ordinal absent clarification from the publisher/campaign."
+          },
+          {
+            "id": "melenchon-2027-pension-proposal",
+            "text": "The 2027 programme proposes repealing the 2023 reform and restoring retirement at 60 at full rate after 40 contribution years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-e1e5201dfe247eaa",
+                "locator": "“Garantir une retraite digne”, measure clé",
+                "supports": "The official campaign text states repeal of the reform and a 60-year retirement age at full rate for 40 contribution years.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Candidate/party proposal; do not present as enacted policy, independent costing, or feasibility assessment."
+          },
+          {
+            "id": "melenchon-2027-smic-price-proposals",
+            "text": "The 2027 programme proposes a monthly net SMIC of €1,700, wage indexation to inflation, and blocking or regulating prices for essential goods.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-935423b9c51aef66",
+                "locator": "“Créer un état d’urgence sociale” and “Augmenter les salaires”, measures clés",
+                "supports": "The official campaign text states the essential-price and monthly net SMIC proposals and wage indexation.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Party programme commitments; not independently costed or assessed."
+          }
+        ],
+        "editorial_notes": "Claim-level review covers campaign milestones, publication/measure count, the edition-number discrepancy, pension proposal, and wage/price proposals. Other biographical and programme claims, including the disputed Ukraine interpretation, remain under review. Publication approval is not granted.",
         "legacy_public": true
       }
     },
@@ -4096,6 +4246,114 @@
         "editorial_notes": "Claim is source-checked. Record remains under review; publication approval is pending.",
         "legacy_public": false
       }
+    },
+    {
+      "candidate_name": "Jean-Luc Mélenchon",
+      "topic": "Employment & pensions",
+      "position": "The programme proposes repealing the 2023 pension reform and lowering the retirement age to 60 at full rate after 40 contribution years.",
+      "statement_date": "6 Nov 2026 programme",
+      "evidence_type": "Published 2027 party programme",
+      "source": {
+        "title": "Chapitre 1 : À chacun selon ses besoins",
+        "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1",
+        "type": "Official campaign programme text",
+        "source_id": "src-e1e5201dfe247eaa"
+      },
+      "verification_status": "Primary text checked; editorial approval pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Stated programme commitment, not an independently verified effect, cost or feasibility assessment.",
+      "verification": {
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "The official campaign text states the retirement proposal."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "melenchon-policy-4daf127075ce",
+            "text": "The programme proposes repealing the 2023 pension reform and lowering the retirement age to 60 at full rate after 40 contribution years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-e1e5201dfe247eaa",
+                "locator": "“Garantir une retraite digne”, measure clé",
+                "supports": "The official campaign text states the retirement proposal.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed programme commitment; no independent costing or assessment."
+          }
+        ],
+        "editorial_notes": "Primary text checked. New policy record remains under review and is not approved for publication.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Jean-Luc Mélenchon",
+      "topic": "Wages & cost of living",
+      "position": "The programme proposes monthly net SMIC of €1,700, wage indexation to inflation, and blocking or regulating prices for essential goods.",
+      "statement_date": "6 Nov 2026 programme",
+      "evidence_type": "Published 2027 party programme",
+      "source": {
+        "title": "Chapitre 2 : Partager les richesses",
+        "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2",
+        "type": "Official campaign programme text",
+        "source_id": "src-935423b9c51aef66"
+      },
+      "verification_status": "Primary text checked; editorial approval pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Stated programme commitment, not an independently verified effect, cost or feasibility assessment.",
+      "verification": {
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "The official campaign text states the listed proposals."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "melenchon-policy-d10b4275378b",
+            "text": "The programme proposes monthly net SMIC of €1,700, wage indexation to inflation, and blocking or regulating prices for essential goods.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-935423b9c51aef66",
+                "locator": "“Créer un état d’urgence sociale” and “Augmenter les salaires”, measures clés",
+                "supports": "The official campaign text states the listed proposals.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed programme commitment; no independent costing or assessment."
+          }
+        ],
+        "editorial_notes": "Primary text checked. New policy record remains under review and is not approved for publication.",
+        "legacy_public": false
+      }
     }
   ],
   "polls": [
@@ -7683,6 +7941,54 @@
       "language": "French",
       "type": "Independent report summarising candidate statements",
       "source_id": "src-54719782c7da2e34"
+    },
+    {
+      "title": "Déclaration de l’intergroupe de la France insoumise du 3 mai 2026",
+      "publisher": "La France insoumise",
+      "url": "https://lafranceinsoumise.fr/2026/05/03/declaration-de-lintergroupe-de-la-france-insoumise-du-3-mai-2026/",
+      "language": "French",
+      "type": "Official party statement",
+      "source_id": "src-ad28534ee9ba841b"
+    },
+    {
+      "title": "Communiqué de la France insoumise du 5 mai 2026",
+      "publisher": "La France insoumise",
+      "url": "https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/",
+      "language": "French",
+      "type": "Official party statement",
+      "source_id": "src-7f956e4bad7b6d38"
+    },
+    {
+      "title": "Comment a été conçu le programme",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
+      "language": "French",
+      "type": "Official programme history page",
+      "source_id": "src-96aa93a95c8b24bf"
+    },
+    {
+      "title": "Découvrir le programme",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "language": "French",
+      "type": "Official programme page",
+      "source_id": "src-b62b0e29b4b83ee1"
+    },
+    {
+      "title": "Chapitre 1 : À chacun selon ses besoins",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1",
+      "language": "French",
+      "type": "Official campaign programme text",
+      "source_id": "src-e1e5201dfe247eaa"
+    },
+    {
+      "title": "Chapitre 2 : Partager les richesses",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2",
+      "language": "French",
+      "type": "Official campaign programme text",
+      "source_id": "src-935423b9c51aef66"
     }
   ],
   "updates": [
@@ -7729,6 +8035,10 @@
     {
       "date": "2026-11-12",
       "summary": "Editorial review correction: fixed the Harris margin-of-error upper bound from ±2.9 to ±3.1 against the official notice; added source-checked, attributed initial Teddy Riner policy statements and a hidden-under-review news/policy record. No new content was approved for publication."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Editorial review: added claim-level evidence for Jean-Luc Mélenchon’s LFI campaign milestones, 2027 programme release/count, official-source edition discrepancy, pension proposal and minimum-wage/price proposals. Added two new hidden-under-review programme-position records; no publication approval granted."
     }
   ],
   "poll_trends": [
@@ -10343,6 +10653,84 @@
       "checked_date": "2026-11-12",
       "verification_status": "secondary_only",
       "editorial_notes": "Summarises Riner’s 9 November Le Parisien interview and campaign video; statements are attributed to Riner. Reviewed 12 Nov; policy claims are not independent assessments."
+    },
+    {
+      "id": "src-ad28534ee9ba841b",
+      "title": "Déclaration de l’intergroupe de la France insoumise du 3 mai 2026",
+      "url": "https://lafranceinsoumise.fr/2026/05/03/declaration-de-lintergroupe-de-la-france-insoumise-du-3-mai-2026/",
+      "type": "Official party statement",
+      "publisher": "La France insoumise",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-05-03",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Says the intergroup decided to propose Mélenchon’s candidacy to a popular investiture of 150,000 citizens."
+    },
+    {
+      "id": "src-7f956e4bad7b6d38",
+      "title": "Communiqué de la France insoumise du 5 mai 2026",
+      "url": "https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/",
+      "type": "Official party statement",
+      "publisher": "La France insoumise",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-05-05",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Describes the launch of Mélenchon’s presidential campaign; checked 12 Nov."
+    },
+    {
+      "id": "src-96aa93a95c8b24bf",
+      "title": "Comment a été conçu le programme",
+      "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
+      "type": "Official programme history page",
+      "publisher": "Mélenchon 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign history page identifies the 6 November 2026 book as the fifth version; checked 12 Nov."
+    },
+    {
+      "id": "src-b62b0e29b4b83ee1",
+      "title": "Découvrir le programme",
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "type": "Official programme page",
+      "publisher": "Mélenchon 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign page calls the book the sixth edition and states it contains 1,069 measures; checked 12 Nov."
+    },
+    {
+      "id": "src-e1e5201dfe247eaa",
+      "title": "Chapitre 1 : À chacun selon ses besoins",
+      "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1",
+      "type": "Official campaign programme text",
+      "publisher": "Mélenchon 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Contains the programme’s stated pension measures; checked 12 Nov."
+    },
+    {
+      "id": "src-935423b9c51aef66",
+      "title": "Chapitre 2 : Partager les richesses",
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2",
+      "type": "Official campaign programme text",
+      "publisher": "Mélenchon 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Contains price-control, minimum-wage, wage-indexation and tax proposals; checked 12 Nov."
     }
   ],
   "poll_trend_snapshots": [
