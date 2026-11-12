@@ -13,7 +13,7 @@
 | Édouard Philippe / Horizons | Declared; no new status change checked | The latest Harris scenario assumes he is the sole centrist candidate; the poll also tested other central-camp configurations. These are not forecasts of actual alliances. |
 | Gabriel Attal / Renaissance | Declared; no new status change checked | The Harris poll’s separate scenario with Attal and Philippe gives different results; keep it distinct from the Philippe-only line-up. |
 | Bruno Retailleau / Les Républicains | Declared; no new status change checked | Remains a separate right-wing option in the poll scenarios. No new nomination or alliance verified in this window. |
-| Teddy Riner | Declared 9 November; no detailed programme verified | Macron publicly welcomed the candidacy. Riner associates denied Élysée orchestration; this is not recorded as formal endorsement or alliance. |
+| Teddy Riner | Declared 9 November; early policy directions reported, fuller programme forthcoming | LCP reports candidate statements on pension reform, wages, working time, spending, security and anti-racism. Macron publicly welcomed the candidacy; Riner associates denied Élysée orchestration. Neither is treated as a formal endorsement or alliance. |
 | Éric Zemmour / Reconquête | Declared before this update; reaffirmed on TF1 10 November | Reaffirmation is not a new declaration. No new programme or official ballot qualification verified. |
 | Christine Lagarde | Potential / unconfirmed monitoring entry | Le Monde revived speculation; her direct statement “I’m not a candidate” remains material. No campaign or programme verified. Her appearance in a potential-to-vote survey does not create a vote-intention candidacy scenario. |
 | Other existing candidates | No status change verified in this date window | Existing candidate universe retained; no new declaration, withdrawal, nomination or primary result established by the sources checked. |
@@ -44,6 +44,7 @@ Macron’s broad-coalition proposal and its early reactions are already in the p
 
 1. LFI’s own 2 November release calls the 2027 programme the fifth edition; the campaign programme page calls it the sixth. The Observatory refers to it as the 2027 edition until clarified.
 2. Harris poll record correction: the dataset previously said publication 5 November, had only a secondary archive, omitted three candidates, and left the scenario unchecked. Corrected after direct review of the filed notice; prior source retained.
-3. Riner: Macron’s favourable words do not establish endorsement or campaign control; a counterstatement from people close to Riner is included.
-4. Lagarde: potential speculation remains paired with her direct statement that she is not a candidate.
-5. Newly collected news, potential-candidate content and event listings remain `under_review`; they are not approved for publication.
+3. Riner: LCP’s 10 November report documents initial candidate statements and says a fuller programme is forthcoming; these are attributed positions, not a completed or costed platform. Macron’s favourable words do not establish endorsement or campaign control; a counterstatement from people close to Riner is included.
+4. Polling correction: the Harris notice’s overall margin range is ±1.4 to ±3.1 points, not ±1.4 to ±2.9; the data and briefing were corrected against page 2 of the original notice.
+5. Lagarde: potential speculation remains paired with her direct statement that she is not a candidate.
+6. Newly collected news, potential-candidate content and event listings remain `under_review`; they are not approved for publication.
