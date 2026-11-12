@@ -1,15 +1,16 @@
 {
   "meta": {
     "title": "France 2027 Election Observatory",
-    "last_updated": "2026-11-09",
-    "data_version": 12,
+    "last_updated": "2026-11-12",
+    "data_version": 13,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
-    "poll_archive_note": "19 historical poll records from the workbook plus the latest indexed Harris Interactive observation (fieldwork 3–5 November 2026). Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive.",
-    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive.",
+    "poll_archive_note": "19 historical poll records plus the latest Harris Interactive first-round poll (fieldwork 3–5 November; published 9 November 2026). Its full scenario results and primary Commission des sondages notice were verified 12 November. Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive. Harris potential-to-vote findings are not vote intentions.",
+    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive. 12 November update adds an attributed LFI statement and dispute on Ukraine, Macron’s public response to Teddy Riner, and Zemmour’s reaffirmation (not a new declaration); all new items remain under editorial review.",
     "compass_question_count": 36,
-    "compass_policy_areas": 12
+    "compass_policy_areas": 12,
+    "candidate_universe_note": "The existing declared-candidate register is retained. Christine Lagarde is added only to the potential-candidate monitoring register: credible speculation exists, but she has publicly said she is not a candidate and no declaration or campaign is verified."
   },
   "candidates": [
     {
@@ -139,10 +140,10 @@
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "party": "La France insoumise",
-      "campaign_status": "Declared candidate; announced 3 May 2026; participated in the 27 August MEDEF debate; presented LFI programme at Le Bourget on 7 November.",
+      "campaign_status": "Declared candidate; announced 3 May 2026; presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. LFI lists further public meetings for 12 November.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Left-wing",
-      "profile": "LFI presented its programme on 7 November 2026. Programme proposals are summarised in the linked Reuters report; distinguish party commitments from independent costing.",
+      "profile": "LFI released its 2027 programme, L’Avenir en commun, on 6 November and presented it at Le Bourget on 7 November. The campaign site publishes 1,069 measures. Attribute these as party proposals, not independent evaluations or costings.",
       "sources": [
         {
           "title": "Reuters: Mélenchon programme launch, 7 November 2026",
@@ -191,10 +192,34 @@
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
           "type": "Debate summary",
           "source_id": "src-65ffd352a761fbb2"
+        },
+        {
+          "title": "Sortie de L’Avenir en commun, le programme de la Nouvelle France",
+          "url": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/",
+          "type": "Official party announcement",
+          "source_id": "src-075fbe4f90cb172d"
+        },
+        {
+          "title": "L’Avenir en commun 2027: Une France indépendante au service de la paix",
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+          "type": "Official campaign programme text",
+          "source_id": "src-a5085a7de2ef427e"
+        },
+        {
+          "title": "Mise au point sur la position de la France insoumise et son candidat sur la guerre en Ukraine",
+          "url": "https://lafranceinsoumise.fr/2026/11/09/mise-au-point-sur-la-position-de-la-france-insoumise-et-son-candidat-sur-la-guerre-en-ukraine/",
+          "type": "Official party statement",
+          "source_id": "src-4e3f1cd78bae2818"
+        },
+        {
+          "title": "Présidentielle 2027 : Mélenchon critiqué pour ses propositions sur l’Ukraine, accuse les médias d’avoir « truqué ses paroles »",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html",
+          "type": "Independent news report",
+          "source_id": "src-cdf547303b05c308"
         }
       ],
       "policy_summary": "LFI’s 7 November 2026 programme proposes a higher net minimum wage, price controls on essentials, wage indexation, higher taxes on wealthy households, reversing the pension reform and a foreign/energy-policy shift including leaving NATO’s integrated command and replacing nuclear power with renewables. Redistribution, higher wages and stronger public services Price controls or regulated prices for essential goods Progressive taxation and greater contributions from high incomes and wealth",
-      "programme_status": "A written 2027 programme was presented at Le Bourget on 7 November 2026. Figures and policy details should be attributed to the LFI programme and independently assessed for cost and feasibility.",
+      "programme_status": "The 2027 programme was released on 6 November and presented on 7 November. LFI says it contains 1,069 measures. LFI calls this the fifth edition in its release, while the campaign website calls it the sixth; the ordinal is flagged as a source discrepancy.",
       "dossier": {
         "bio": "Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026. On 7 November 2026, LFI presented a written programme at Le Bourget, making this one of the most developed published platforms in the current field.",
         "record": "His political career spans the Socialist Party, the Left Party and LFI. The 2022 presidential campaign and the NUPES alliance shaped his recent national profile. The 2027 programme should be read as the current party platform; earlier LFI plans and parliamentary positions are useful context but are not substitutes for it.",
@@ -224,13 +249,25 @@
             "detail": "At the MEDEF debate he argued for restructuring public debt, including debt held by the European Central Bank. This is a political proposal whose legal, monetary and market consequences require separate analysis.",
             "date": "27 August 2026",
             "evidence": "Debate reporting"
+          },
+          {
+            "area": "Foreign policy — Palestine and Israel",
+            "detail": "The 2027 programme calls for a ceasefire in Palestine, a Palestinian state on occupied territories since 1967 while also considering an equal binational state, sanctions on the Israeli government, arms embargo measures and suspension of the EU–Israel association agreement. These are stated programme proposals.",
+            "date": "2026-11-06",
+            "evidence": "Published campaign programme"
+          },
+          {
+            "area": "Foreign policy — Ukraine",
+            "detail": "The programme calls for a ceasefire, withdrawal of Russian troops, negotiations, collective security guarantees and a vote by populations concerned about any border modification. After the 7 November speech triggered criticism over a possible Donbas vote, Mélenchon said Russia’s invasion was unacceptable and rejected the claim that he endorsed territorial cession. Le Monde reported that Ukraine’s foreign ministry and French political opponents viewed a referendum under occupation as legitimizing annexation. Attribute both positions; interpretation remains contested.",
+            "date": "2026-11-07 to 2026-11-11",
+            "evidence": "Published campaign programme, party statement and independent reporting"
           }
         ],
         "feasibility": "Key tests: the fiscal cost and revenue assumptions behind the programme; the legal and institutional route for price controls and debt restructuring; labour-market effects of wage changes; and the practical timetable for energy transition.",
-        "open": "Full independent costing; exact timetable and legislative route for the pension rollback; treatment of EU and NATO commitments; detailed sequencing of energy policy.",
-        "programme": "A written 2027 programme was presented on 7 November 2026. Observatoire 2027 indexed 142 written commitments across 24 topics and seven documents in its 7 November snapshot. These are party commitments, not independent costings."
+        "open": "Independent costing and feasibility; exact implementation of foreign-policy proposals; the legal conditions for any vote on borders; clarification of how such a vote would account for displacement and occupation.",
+        "programme": "The 2027 edition was released on 6 November and presented at Le Bourget on 7 November. LFI says 1,069 measures; the edition number differs between the LFI release (fifth) and campaign site (sixth), so this update avoids selecting an ordinal. The proposals are party commitments, not independently costed facts."
       },
-      "dossier_updated": "2026-11-08",
+      "dossier_updated": "2026-11-12",
       "programme_link": "https://www.lavenirencommun.org/",
       "programme_link_label": "Official 2027 programme",
       "programme_link_note": "Official programme site; online synthesis and full published programme have different measure counts.",
@@ -242,7 +279,7 @@
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "La France insoumise a présenté son programme le 7 novembre 2026. Les propositions sont résumées dans l’article Reuters lié ; il convient de distinguer les engagements du parti de leur chiffrage indépendant.",
+      "profile_fr": "LFI a publié le 6 novembre son programme 2027, L’Avenir en commun, présenté au Bourget le 7 novembre. Le site de campagne publie 1 069 mesures. Les propositions doivent être attribuées au mouvement et distinguées d’une évaluation ou d’un chiffrage indépendant.",
       "policy_summary_fr": "Le programme de LFI du 7 novembre 2026 propose une hausse du salaire minimum net, l’encadrement des prix des produits essentiels, l’indexation des salaires, une hausse des impôts sur les ménages aisés, l’abrogation de la réforme des retraites et un changement d’orientation en matière de politique étrangère et énergétique.",
       "editorial": {
         "status": "under_review",
@@ -1703,7 +1740,7 @@
       "campaign_status": "Declared candidate; announced 9 November 2026 in an interview and public campaign video.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Not yet assessed",
-      "profile": "Teddy Riner announced a 2027 presidential candidacy on 9 November 2026. He described his positioning as neither left nor right and said he wants to bring people together. His announcement does not establish official ballot qualification.",
+      "profile": "Teddy Riner announced a 2027 presidential candidacy on 9 November and described his positioning as neither left nor right. On 12 November Le Monde reported Macron’s favourable public remarks. Riner associates denied that the Élysée orchestrated the candidacy. No formal endorsement, party alliance, or detailed programme is verified.",
       "profile_fr": "Teddy Riner a annoncé sa candidature à la présidentielle de 2027 le 9 novembre 2026. Il se présente comme ni de droite ni de gauche et dit vouloir rassembler. Cette annonce ne vaut pas qualification officielle pour le bulletin.",
       "sources": [
         {
@@ -1717,29 +1754,36 @@
           "url": "https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396",
           "type": "News report",
           "source_id": "src-9002d5153f8dba68"
+        },
+        {
+          "title": "Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
+          "type": "Independent news report",
+          "source_id": "src-d5031ebc3397c2f3"
         }
       ],
       "policy_summary": "The announcement presents a unifying, non-partisan positioning. No detailed policy programme has been verified.",
       "programme_status": "No detailed 2027 programme verified at the time of announcement.",
       "dossier": {
         "bio": "Olympic judo champion Teddy Riner announced his candidacy on 9 November 2026 in an interview with Le Parisien and a public campaign video. The Associated Press independently reported the announcement.",
-        "record": "A political and public-policy record has not yet been established for this new candidacy. Sporting achievements are not treated as political experience.",
+        "record": "An independent report published 12 November quotes Macron publicly welcoming Riner’s candidacy. It also reports that Riner associates denied Élysée orchestration. Treat the comment as favourable public rhetoric, not a formal endorsement or proof of campaign coordination. No detailed policy platform or campaign financing has been verified.",
         "themes": [
           "National unity and bringing people together (as described in the announcement; detailed proposals pending verification)."
         ],
         "positions": [],
         "feasibility": "The first practical test is whether the campaign can obtain the statutory elected-official sponsorships. Policy and implementation questions require a published programme.",
-        "open": "Campaign team and affiliation; detailed programme; financing; sponsorship progress; dated policy positions.",
+        "open": "Campaign team and affiliation; detailed programme; financing; sponsorship progress; dated policy positions; whether any formal political endorsement or alliance is announced.",
         "programme": "No detailed 2027 programme verified as of 9 November 2026."
       },
-      "dossier_updated": "2026-11-09",
+      "dossier_updated": "2026-11-12",
       "programme_link": null,
       "programme_link_label": "Not yet published / verified",
       "programme_link_note": "No detailed official programme was available in the cited announcement coverage.",
       "official_site_audit": {
-        "status": "Announcement verified by interview and AP report",
-        "checked_date": "2026-11-09",
-        "note": "The declaration is reported; campaign website and detailed programme have not been independently reviewed."
+        "status": "Announcement independently reported; later Macron remarks reported",
+        "checked_date": "2026-11-12",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
+        "note": "Public praise is not recorded as endorsement. Riner associates deny reported Élysée orchestration. No official programme verified."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
@@ -2995,6 +3039,59 @@
         "claims": [],
         "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
         "legacy_public": true
+      }
+    },
+    {
+      "id": "christine-lagarde",
+      "name": "Christine Lagarde",
+      "party": "No current party affiliation or campaign affiliation verified",
+      "campaign_status": "Potential candidate only: recent reporting revived speculation after her announced early departure from the ECB, but she has said publicly that she is not a candidate. No formal declaration, campaign team, or party nomination verified.",
+      "ballot_status": "Not a declared candidate; not on an official ballot list.",
+      "orientation": "Not classified by the Observatory. Former French economy minister; currently ECB president until her announced early departure.",
+      "profile": "Monitored potential name because credible reporting revived 2027 speculation. Her own public statement that she is not a candidate remains material; no formal candidacy is established. A Harris potential-to-vote study is not an intention-to-vote candidate scenario.",
+      "profile_fr": "Nom surveillé comme hypothèse potentielle après la relance de spéculations médiatiques. Christine Lagarde a déclaré publiquement ne pas être candidate ; aucune déclaration de candidature, équipe de campagne ou investiture n’a été vérifiée. Une enquête de potentiel électoral ne constitue pas un scénario d’intentions de vote.",
+      "sources": [
+        {
+          "title": "Présidentielle 2027 : l’hypothèse d’une candidature de Christine Lagarde questionne à droite et au sein du bloc central",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-l-hypothese-d-une-candidature-de-christine-lagarde-questionne-a-droite-et-au-sein-du-bloc-central_6807815_823448.html",
+          "type": "Independent news report",
+          "source_id": "src-bbf46b96b4726a38"
+        },
+        {
+          "title": "Christine Lagarde tells Euronews: “I’m not a candidate”",
+          "url": "https://www.euronews.com/2026/07/09/im-not-a-candidate-lagarde-tells-euronews-as-french-election-speculation-grows",
+          "type": "Direct interview",
+          "source_id": "src-a9b3ff23a6b4adb6"
+        }
+      ],
+      "policy_summary": "No 2027 programme or specific presidential proposals verified.",
+      "programme_status": "No 2027 programme verified; do not infer a platform from prior ministerial positions or ECB office.",
+      "dossier": {
+        "bio": "French economist and public official; former French economy and finance minister and current president of the European Central Bank.",
+        "record": "Credible news coverage revived discussion of a possible 2027 role after her announced early departure from the ECB. Her direct July 2026 interview statement was that she was not a candidate. Le Monde’s November coverage reported no visible campaign team and described a candidacy as unlikely.",
+        "themes": [],
+        "positions": [],
+        "feasibility": "No policy platform or campaign organization verified.",
+        "open": "Whether she intends any campaign role; whether a party or coalition would support her; what she would propose; whether the ECB departure is related to French political activity.",
+        "programme": "No 2027 programme verified."
+      },
+      "dossier_updated": "2026-11-12",
+      "campaign_stage": "Potential / unconfirmed",
+      "ballot_status_note": "Do not describe as a declared candidate. Any change requires a direct announcement or reliable evidence of formal party backing.",
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Added to the monitored potential-candidate register under the project’s credible-reporting threshold. Her public denial is prominent; no declaration is asserted.",
+        "legacy_public": false
       }
     }
   ],
@@ -5066,58 +5163,65 @@
       }
     },
     {
-      "publication_date": "2026-11-05",
+      "publication_date": "2026-11-09",
       "fieldwork_start": "2026-11-03",
       "fieldwork_end": "2026-11-05",
       "fieldwork_label": "3–5 November 2026",
       "pollster": "Harris Interactive",
-      "sponsor": "Not specified in indexed archive excerpt",
+      "sponsor": "M6 and RTL",
       "sample_size": 2101,
-      "scenario": "First-round main line-up as displayed by Polling Forecast. Candidate configuration should be checked against the original poll notice.",
+      "scenario": "First-round scenario: Édouard Philippe is the sole centrist candidate. The poll notice also tests other candidate configurations; this record represents only this exact configuration.",
       "results": {
-        "Marine Le Pen": 36,
+        "Nathalie Arthaud": 1,
         "Jean-Luc Mélenchon": 19,
-        "Édouard Philippe": 14,
+        "Fabien Roussel": 2,
+        "Marine Tondelier": 2,
         "Raphaël Glucksmann": 12,
+        "Édouard Philippe": 14,
         "Bruno Retailleau": 8,
-        "Éric Zemmour": 4,
-        "Marine Tondelier": 2
+        "Nicolas Dupont-Aignan": 2,
+        "Marine Le Pen": 36,
+        "Éric Zemmour": 4
       },
       "source": {
-        "title": "Polling Forecast: France 2027 poll archive",
-        "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
-        "type": "Secondary poll archive; original poll notice should be checked",
-        "source_id": "src-a44e490ce4c8fdac"
+        "title": "Toluna Harris Interactive: Intentions de vote à l’élection présidentielle 2027 — notice à la Commission des sondages",
+        "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
+        "type": "Official pollster notice filed with Commission des sondages",
+        "source_id": "src-ce8869d46f35a155"
       },
-      "data_note": "Latest indexed observation in the source checked on 8 November 2026. Results are a poll snapshot, not a forecast. Keep separate from the Vote Public rolling-average series.",
+      "data_note": "Corrected 2026-11-12 after checking the official notice. The project previously had the release date wrong (5 Nov instead of 9 Nov), cited only a secondary archive, omitted three candidates in this scenario, and described the lineup as unchecked. This poll is one of four distinct first-round configurations; it is not a forecast and must not be combined with the separate rolling-average snapshot.",
       "candidate_ids": {
-        "Marine Le Pen": "marine-le-pen",
+        "Nathalie Arthaud": "nathalie-arthaud",
         "Jean-Luc Mélenchon": "jean-luc-melenchon",
-        "Édouard Philippe": "edouard-philippe",
+        "Fabien Roussel": "fabien-roussel",
+        "Marine Tondelier": "marine-tondelier",
         "Raphaël Glucksmann": "raphael-glucksmann",
+        "Édouard Philippe": "edouard-philippe",
         "Bruno Retailleau": "bruno-retailleau",
-        "Éric Zemmour": "eric-zemmour",
-        "Marine Tondelier": "marine-tondelier"
+        "Nicolas Dupont-Aignan": "nicolas-dupont-aignan",
+        "Marine Le Pen": "marine-le-pen",
+        "Éric Zemmour": "eric-zemmour"
       },
-      "scenario_id": "first-round-lineup-03bba34a970b",
+      "scenario_id": "first-round-lineup-54b8f6875475",
       "scenario_type": "first_round",
       "id": "poll-5167494ce3be4ead",
       "source_provenance": {
-        "cited_source_type": "secondary_archive",
+        "cited_source_type": "primary_pollster_notice",
         "secondary_archive_source_id": "src-a44e490ce4c8fdac",
-        "original_poll_notice_source_id": null
+        "original_poll_notice_source_id": "src-ce8869d46f35a155",
+        "secondary_archive_preserved": true
       },
       "verification": {
-        "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Poll result is retained from the cited secondary archive; the original poll notice is not linked in this dataset."
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "Research update 2026-11-12",
+        "note": "Scores, publication date, sponsor, fieldwork dates, sample base, question, and candidate configuration checked against the official Toluna Harris Interactive notice filed with the Commission des sondages. The old Polling Forecast archive is retained as a secondary cross-reference."
       },
       "survey_methodology": {
-        "question_wording": null,
-        "collection_mode": null,
-        "margin_of_error": null,
-        "sampling_frame": null
+        "question_wording": "Among the following candidates, for whom would you be most likely to vote if the first round of the presidential election were held next Sunday? Scenario: Édouard Philippe as sole centrist candidate.",
+        "collection_mode": "Online survey; quotas and weighting described in the official technical notice.",
+        "margin_of_error": "The notice reports a range of ±1.4 to ±2.9 points for overall results, depending on score; this scenario’s expressed-vote base is 1,339.",
+        "sampling_frame": "2,436 adults representative of the French population aged 18+; 2,101 registered voters; published vote-intention results use 1,339 registered voters certain to vote who expressed an intention."
       },
       "editorial": {
         "status": "under_review",
@@ -5133,7 +5237,27 @@
         "claims": [],
         "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
         "legacy_public": true
-      }
+      },
+      "scenario_configuration": [
+        "Nathalie Arthaud",
+        "Jean-Luc Mélenchon",
+        "Fabien Roussel",
+        "Marine Tondelier",
+        "Raphaël Glucksmann",
+        "Édouard Philippe",
+        "Bruno Retailleau",
+        "Nicolas Dupont-Aignan",
+        "Marine Le Pen",
+        "Éric Zemmour"
+      ],
+      "related_sources": [
+        {
+          "title": "Polling Forecast: France 2027 poll archive",
+          "url": "https://www.pollingforecast.com/fr/polls?lang=en&layout=table",
+          "type": "Polling archive; verify each poll notice",
+          "source_id": "src-a44e490ce4c8fdac"
+        }
+      ]
     }
   ],
   "news": [
@@ -6078,9 +6202,9 @@
       },
       "verification": {
         "status": "Primary-source cross-check available",
-        "checked_date": "2026-11-08",
+        "checked_date": "2026-11-12",
         "primary_source": "https://www.lavenirencommun.org/",
-        "note": "LCP is secondary reporting; the programme itself is linked separately as the primary source.",
+        "note": "Existing LCP report checked against the campaign programme text and LFI release. LFI calls the programme edition the fifth; the campaign website page describes it as the sixth. The dossier avoids the disputed ordinal and records the discrepancy.",
         "legacy_status": "Primary-source cross-check available",
         "code": "unreviewed",
         "reviewer": null
@@ -6097,9 +6221,23 @@
           "approved_date": null
         },
         "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "editorial_notes": "Existing story retained; official programme and announcement linked as additional sources. The ordinal edition count differs between LFI release and campaign page and remains flagged.",
         "legacy_public": true
-      }
+      },
+      "related_sources": [
+        {
+          "title": "Sortie de L’Avenir en commun, le programme de la Nouvelle France",
+          "url": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/",
+          "type": "Official party announcement",
+          "source_id": "src-075fbe4f90cb172d"
+        },
+        {
+          "title": "L’Avenir en commun 2027: Une France indépendante au service de la paix",
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+          "type": "Official campaign programme text",
+          "source_id": "src-a5085a7de2ef427e"
+        }
+      ]
     },
     {
       "publication_date": "2026-10-14",
@@ -6285,6 +6423,128 @@
         "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
         "legacy_public": true
       }
+    },
+    {
+      "publication_date": "2026-11-09",
+      "title": "LFI clarifies its candidate’s position on the war in Ukraine after Bourget remarks",
+      "publisher": "La France insoumise",
+      "language": "French",
+      "topic": "Jean-Luc Mélenchon / foreign policy / Ukraine",
+      "summary": "LFI said it supports Ukraine’s capacity to defend itself against Russia’s invasion, while opposing long-range missile deliveries, foreign combat troops and Ukraine’s EU accession on its stated grounds. The party’s account followed criticism of Mélenchon’s 7 November Bourget remarks on a possible vote concerning changes to borders. Le Monde reported that opponents and Ukraine’s foreign ministry viewed a referendum under occupation as legitimizing annexation; Mélenchon rejected that interpretation and reiterated that Russia’s invasion was unacceptable. This is a disputed political interpretation, not an independently settled fact.",
+      "source": {
+        "title": "Mise au point sur la position de la France insoumise et son candidat sur la guerre en Ukraine",
+        "url": "https://lafranceinsoumise.fr/2026/11/09/mise-au-point-sur-la-position-de-la-france-insoumise-et-son-candidat-sur-la-guerre-en-ukraine/",
+        "type": "Official party statement",
+        "source_id": "src-4e3f1cd78bae2818"
+      },
+      "related_sources": [
+        {
+          "title": "Présidentielle 2027 : Mélenchon critiqué pour ses propositions sur l’Ukraine, accuse les médias d’avoir « truqué ses paroles »",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html",
+          "type": "Independent news report",
+          "source_id": "src-cdf547303b05c308"
+        },
+        {
+          "title": "L’Avenir en commun 2027: Une France indépendante au service de la paix",
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+          "type": "Official campaign programme text",
+          "source_id": "src-a5085a7de2ef427e"
+        }
+      ],
+      "verification": {
+        "status": "Primary statement cross-checked with independent reporting",
+        "checked_date": "2026-11-12",
+        "note": "The LFI statement describes the party’s own position; Le Monde documents criticism and response. The programme text separately records the proposal for ceasefire, Russian troop withdrawal, negotiations, collective security, and a vote on any border change.",
+        "code": "primary_verified",
+        "reviewer": "Research update 2026-11-12"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "New source-linked item. Party claims and opponents’ interpretations are attributed separately; publication approval remains pending.",
+        "legacy_public": false
+      }
+    },
+    {
+      "publication_date": "2026-11-12",
+      "title": "Macron publicly welcomes Teddy Riner’s presidential bid; no formal endorsement recorded",
+      "publisher": "Le Monde",
+      "language": "English",
+      "topic": "Teddy Riner / Emmanuel Macron / campaign relationships",
+      "summary": "Le Monde reports that President Emmanuel Macron said he was “very happy” that Riner had decided to take part in the presidential debate and that the candidacy could benefit the country. The same report says Riner associates deny that the Élysée orchestrated his entry. Record this as a favourable public comment, not as a formal endorsement, alliance, or evidence that Riner’s campaign is controlled by Macron.",
+      "source": {
+        "title": "Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
+        "type": "Independent news report",
+        "source_id": "src-d5031ebc3397c2f3"
+      },
+      "verification": {
+        "status": "Independent report checked",
+        "checked_date": "2026-11-12",
+        "note": "The report attributes the remarks to Macron and includes denials by people close to Riner; formal endorsement or campaign coordination is not established.",
+        "code": "secondary_only",
+        "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "New item. Attribute Macron’s words and counterstatement; do not convert political praise into an endorsement or alliance.",
+        "legacy_public": false
+      }
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Éric Zemmour reiterates his already announced 2027 candidacy on TF1",
+      "publisher": "Le Monde",
+      "language": "French",
+      "topic": "Éric Zemmour / candidacy status",
+      "summary": "Le Monde reports that Zemmour repeated on TF1 on 10 November that he intends to run in 2027. This is a reaffirmation of his previously announced candidacy, not a new declaration; candidate status remains declared, with no official ballot qualification established.",
+      "source": {
+        "title": "Eric Zemmour confirme sa candidature à l’élection présidentielle",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html",
+        "type": "Independent news report",
+        "source_id": "src-90ef11d05d43524a"
+      },
+      "verification": {
+        "status": "Independent report checked",
+        "checked_date": "2026-11-12",
+        "note": "Reported televised reaffirmation; the initial declaration predates this update.",
+        "code": "secondary_only",
+        "reviewer": null
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "New report about a reaffirmation. Explicitly labelled as such to avoid recasting an old declaration as new.",
+        "legacy_public": false
+      }
     }
   ],
   "events": [
@@ -6462,6 +6722,137 @@
         "claims": [],
         "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
         "legacy_public": true
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "date_label": "2026-11-12 at 19:30 CET",
+      "title": "Réunion publique présidentielle 2027 avec Mathilde Panot, Louis Boyard, Anaïs Belouassa Cherifi et Charlotte Leduc",
+      "detail": "Metz — Centre culturel Saint Denis de la Réunion, 2 Route de Lorry, 57050 Metz",
+      "participants": [
+        "Mathilde Panot",
+        "Louis Boyard",
+        "Anaïs Belouassa Cherifi",
+        "Charlotte Leduc"
+      ],
+      "status": "Scheduled on the campaign calendar; completion not checked",
+      "source": {
+        "title": "Réunion publique avec Mathilde Panot, Louis Boyard, Anaïs Belouassa Cherifi et Charlotte Leduc — Metz",
+        "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-mathilde-panot-louis-boyard-anais-belouassa-cherifi-et-charlotte-leduc/",
+        "type": "Official campaign event listing",
+        "source_id": "src-26afbca62cabb443"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Campaign-site listing checked 2026-11-12. This confirms that the event is listed, not that it took place.",
+        "legacy_public": false
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "date_label": "2026-11-12 at 19:00 CET",
+      "title": "Réunion publique présidentielle 2027 avec Manuel Bompard et Sophia Chikirou",
+      "detail": "Arles — Salle des Fêtes, 1 Boulevard des Lices, 13200 Arles",
+      "participants": [
+        "Manuel Bompard",
+        "Sophia Chikirou"
+      ],
+      "status": "Scheduled on the campaign calendar; completion not checked",
+      "source": {
+        "title": "Réunion publique avec Manuel Bompard et Sophia Chikirou — Arles",
+        "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-manuel-bompard-et-sophia-chikirou/",
+        "type": "Official campaign event listing",
+        "source_id": "src-c1696fbfeabd74d1"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Campaign-site listing checked 2026-11-12. This confirms that the event is listed, not that it took place.",
+        "legacy_public": false
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "date_label": "2026-11-12 at 18:30 CET",
+      "title": "Réunion publique « pour la planification écologique : vite, les éco-régions ! »",
+      "detail": "Saint-Quirc — Salle des fêtes, Place du Bicentenaire, 09700 Saint-Quirc",
+      "participants": [
+        "Gabriel Amard",
+        "Claire Lejeune"
+      ],
+      "status": "Scheduled on the campaign calendar; completion not checked",
+      "source": {
+        "title": "Réunion publique pour la planification écologique — Saint-Quirc",
+        "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-pour-la-planification-ecologique-vite-les-eco-regions-avec-gabriel-amard-et-claire-lejeune/",
+        "type": "Official campaign event listing",
+        "source_id": "src-8315aa94fb69ea50"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Campaign-site listing checked 2026-11-12. This confirms that the event is listed, not that it took place.",
+        "legacy_public": false
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "date_label": "2026-11-12 at 19:00 CET",
+      "title": "Réunion publique présidentielle 2027 avec Anne Stambach-Terrenoir, Bérenger Cernon et Laurent Alexandre",
+      "detail": "Rodez — Maison de quartier Saint-Éloi, Rue Louis Dausse, 12000 Rodez",
+      "participants": [
+        "Anne Stambach-Terrenoir",
+        "Bérenger Cernon",
+        "Laurent Alexandre"
+      ],
+      "status": "Scheduled on the campaign calendar; completion not checked",
+      "source": {
+        "title": "Réunion publique avec Anne Stambach-Terrenoir, Bérenger Cernon et Laurent Alexandre — Rodez",
+        "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-anne-stambach-terrenoir-berenger-cernon-et-laurent-alexandre/",
+        "type": "Official campaign event listing",
+        "source_id": "src-a6791c0f90931176"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "unverified",
+          "last_verified_date": null,
+          "reviewer": null
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [],
+        "editorial_notes": "Campaign-site listing checked 2026-11-12. This confirms that the event is listed, not that it took place.",
+        "legacy_public": false
       }
     }
   ],
@@ -6825,6 +7216,118 @@
       "language": "French",
       "type": "Business and politics magazine · monitored outlet directory",
       "source_id": "src-0f39e54bfed116a0"
+    },
+    {
+      "title": "Toluna Harris Interactive: Intentions de vote à l’élection présidentielle 2027 — notice à la Commission des sondages",
+      "publisher": "Toluna Harris Interactive",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
+      "language": "French",
+      "type": "Official pollster notice filed with Commission des sondages",
+      "source_id": "src-ce8869d46f35a155"
+    },
+    {
+      "title": "Toluna Harris Interactive: Suivi du potentiel électoral — notice à la Commission des sondages",
+      "publisher": "Toluna Harris Interactive",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2385",
+      "language": "French",
+      "type": "Official pollster notice filed with Commission des sondages",
+      "source_id": "src-d8a382698418bd1a"
+    },
+    {
+      "title": "Sortie de L’Avenir en commun, le programme de la Nouvelle France",
+      "publisher": "La France insoumise",
+      "url": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/",
+      "language": "French",
+      "type": "Official party announcement",
+      "source_id": "src-075fbe4f90cb172d"
+    },
+    {
+      "title": "L’Avenir en commun 2027: Une France indépendante au service de la paix",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+      "language": "French",
+      "type": "Official campaign programme text",
+      "source_id": "src-a5085a7de2ef427e"
+    },
+    {
+      "title": "Mise au point sur la position de la France insoumise et son candidat sur la guerre en Ukraine",
+      "publisher": "La France insoumise",
+      "url": "https://lafranceinsoumise.fr/2026/11/09/mise-au-point-sur-la-position-de-la-france-insoumise-et-son-candidat-sur-la-guerre-en-ukraine/",
+      "language": "French",
+      "type": "Official party statement",
+      "source_id": "src-4e3f1cd78bae2818"
+    },
+    {
+      "title": "Présidentielle 2027 : Mélenchon critiqué pour ses propositions sur l’Ukraine, accuse les médias d’avoir « truqué ses paroles »",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html",
+      "language": "French",
+      "type": "Independent news report",
+      "source_id": "src-cdf547303b05c308"
+    },
+    {
+      "title": "Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
+      "language": "English",
+      "type": "Independent news report",
+      "source_id": "src-d5031ebc3397c2f3"
+    },
+    {
+      "title": "Eric Zemmour confirme sa candidature à l’élection présidentielle",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html",
+      "language": "French",
+      "type": "Independent news report",
+      "source_id": "src-90ef11d05d43524a"
+    },
+    {
+      "title": "Présidentielle 2027 : l’hypothèse d’une candidature de Christine Lagarde questionne à droite et au sein du bloc central",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-l-hypothese-d-une-candidature-de-christine-lagarde-questionne-a-droite-et-au-sein-du-bloc-central_6807815_823448.html",
+      "language": "French",
+      "type": "Independent news report",
+      "source_id": "src-bbf46b96b4726a38"
+    },
+    {
+      "title": "Christine Lagarde tells Euronews: “I’m not a candidate”",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/2026/07/09/im-not-a-candidate-lagarde-tells-euronews-as-french-election-speculation-grows",
+      "language": "English",
+      "type": "Direct interview",
+      "source_id": "src-a9b3ff23a6b4adb6"
+    },
+    {
+      "title": "Réunion publique avec Mathilde Panot, Louis Boyard, Anaïs Belouassa Cherifi et Charlotte Leduc — Metz",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-mathilde-panot-louis-boyard-anais-belouassa-cherifi-et-charlotte-leduc/",
+      "language": "French",
+      "type": "Official campaign event listing",
+      "source_id": "src-26afbca62cabb443"
+    },
+    {
+      "title": "Réunion publique avec Manuel Bompard et Sophia Chikirou — Arles",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-manuel-bompard-et-sophia-chikirou/",
+      "language": "French",
+      "type": "Official campaign event listing",
+      "source_id": "src-c1696fbfeabd74d1"
+    },
+    {
+      "title": "Réunion publique pour la planification écologique — Saint-Quirc",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-pour-la-planification-ecologique-vite-les-eco-regions-avec-gabriel-amard-et-claire-lejeune/",
+      "language": "French",
+      "type": "Official campaign event listing",
+      "source_id": "src-8315aa94fb69ea50"
+    },
+    {
+      "title": "Réunion publique avec Anne Stambach-Terrenoir, Bérenger Cernon et Laurent Alexandre — Rodez",
+      "publisher": "Mélenchon 2027 campaign",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-anne-stambach-terrenoir-berenger-cernon-et-laurent-alexandre/",
+      "language": "French",
+      "type": "Official campaign event listing",
+      "source_id": "src-a6791c0f90931176"
     }
   ],
   "updates": [
@@ -6863,6 +7366,10 @@
     {
       "date": "2026-11-09",
       "summary": "Expanded the candidate directory using Le Parisien’s 14 October declared-candidacy roster; added Teddy Riner’s 9 November declaration, Bernard Cazeneuve and Dominique de Villepin with source-status caveats, and Jean Lassalle as a potential contender. Corrected Xavier Bertrand’s status. New entries carry explicit primary-source and programme research gaps."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Daily research update: corrected the 3–5 November Harris record against the 9 November Commission des sondages notice (publication date, sponsor, exact Philippe-sole-centrist scenario and all ten results; preserved secondary archive and noted correction); added verified programme sources and documented LFI’s new Ukraine dispute; added a carefully qualified Christine Lagarde potential profile under the new credible-reporting threshold; updated Teddy Riner’s profile with Macron’s favourable public comment and the counterstatement; added Zemmour’s reaffirmation without treating it as a new candidacy; recorded four campaign-calendar listings for 12 November. Vote-intention averages and scenarios were not merged or recomputed."
     }
   ],
   "poll_trends": [
@@ -9308,6 +9815,162 @@
       "url": "https://www.observatoire2027.fr/candidat/natacha-polony/",
       "type": "Secondary tracker; public statements indexed",
       "id": "src-fe823e0d1b4ad62a"
+    },
+    {
+      "id": "src-ce8869d46f35a155",
+      "title": "Toluna Harris Interactive: Intentions de vote à l’élection présidentielle 2027 — notice à la Commission des sondages",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
+      "type": "Official pollster notice filed with Commission des sondages",
+      "publisher": "Toluna Harris Interactive",
+      "language": "French",
+      "publication_date": "2026-11-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Full notice; fieldwork 3–5 Nov, published 9 Nov; scenarios and technical details checked 12 Nov."
+    },
+    {
+      "id": "src-d8a382698418bd1a",
+      "title": "Toluna Harris Interactive: Suivi du potentiel électoral — notice à la Commission des sondages",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2385",
+      "type": "Official pollster notice filed with Commission des sondages",
+      "publisher": "Toluna Harris Interactive",
+      "language": "French",
+      "publication_date": "2026-11-10",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Potential-to-vote measure, explicitly not an intention-to-vote poll; checked 12 Nov."
+    },
+    {
+      "id": "src-075fbe4f90cb172d",
+      "title": "Sortie de L’Avenir en commun, le programme de la Nouvelle France",
+      "url": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/",
+      "type": "Official party announcement",
+      "publisher": "La France insoumise",
+      "language": "French",
+      "publication_date": "2026-11-02",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "LFI states the new 2027 edition was released 6 Nov and presented at the Bourget on 7 Nov; it calls this the fifth edition."
+    },
+    {
+      "id": "src-a5085a7de2ef427e",
+      "title": "L’Avenir en commun 2027: Une France indépendante au service de la paix",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+      "type": "Official campaign programme text",
+      "publisher": "Mélenchon 2027 campaign",
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign site reproduces programme text; checked 12 Nov."
+    },
+    {
+      "id": "src-4e3f1cd78bae2818",
+      "title": "Mise au point sur la position de la France insoumise et son candidat sur la guerre en Ukraine",
+      "url": "https://lafranceinsoumise.fr/2026/11/09/mise-au-point-sur-la-position-de-la-france-insoumise-et-son-candidat-sur-la-guerre-en-ukraine/",
+      "type": "Official party statement",
+      "publisher": "La France insoumise",
+      "language": "French",
+      "publication_date": "2026-11-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Party’s characterization of its own position; contested elements checked against Le Monde reporting and programme text."
+    },
+    {
+      "id": "src-cdf547303b05c308",
+      "title": "Présidentielle 2027 : Mélenchon critiqué pour ses propositions sur l’Ukraine, accuse les médias d’avoir « truqué ses paroles »",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html",
+      "type": "Independent news report",
+      "publisher": "Le Monde",
+      "language": "French",
+      "publication_date": "2026-11-11",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports remarks, opposition and Ukrainian MFA responses, and Mélenchon’s rebuttal; checked 12 Nov."
+    },
+    {
+      "id": "src-d5031ebc3397c2f3",
+      "title": "Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
+      "type": "Independent news report",
+      "publisher": "Le Monde",
+      "language": "English",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports Macron’s positive public remarks and the counterclaim by Riner associates that his candidacy was not orchestrated by the Élysée; checked 12 Nov."
+    },
+    {
+      "id": "src-90ef11d05d43524a",
+      "title": "Eric Zemmour confirme sa candidature à l’élection présidentielle",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html",
+      "type": "Independent news report",
+      "publisher": "Le Monde",
+      "language": "French",
+      "publication_date": "2026-11-10",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports televised reaffirmation; this is not a new candidacy announcement."
+    },
+    {
+      "id": "src-a9b3ff23a6b4adb6",
+      "title": "Christine Lagarde tells Euronews: “I’m not a candidate”",
+      "url": "https://www.euronews.com/2026/07/09/im-not-a-candidate-lagarde-tells-euronews-as-french-election-speculation-grows",
+      "type": "Direct interview",
+      "publisher": "Euronews",
+      "language": "English",
+      "publication_date": "2026-07-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Direct interview; Lagarde says she is not a candidate; checked 12 Nov."
+    },
+    {
+      "id": "src-26afbca62cabb443",
+      "title": "Réunion publique avec Mathilde Panot, Louis Boyard, Anaïs Belouassa Cherifi et Charlotte Leduc — Metz",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-mathilde-panot-louis-boyard-anais-belouassa-cherifi-et-charlotte-leduc/",
+      "type": "Official campaign event listing",
+      "publisher": "Mélenchon 2027 campaign",
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign calendar lists 12 Nov 2026, 19:30, Metz; date and location checked 12 Nov."
+    },
+    {
+      "id": "src-c1696fbfeabd74d1",
+      "title": "Réunion publique avec Manuel Bompard et Sophia Chikirou — Arles",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-manuel-bompard-et-sophia-chikirou/",
+      "type": "Official campaign event listing",
+      "publisher": "Mélenchon 2027 campaign",
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign calendar lists 12 Nov 2026, 19:00, Arles; date and location checked 12 Nov."
+    },
+    {
+      "id": "src-8315aa94fb69ea50",
+      "title": "Réunion publique pour la planification écologique — Saint-Quirc",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-pour-la-planification-ecologique-vite-les-eco-regions-avec-gabriel-amard-et-claire-lejeune/",
+      "type": "Official campaign event listing",
+      "publisher": "Mélenchon 2027 campaign",
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign calendar lists 12 Nov 2026, 18:30, Saint-Quirc; date and location checked 12 Nov."
+    },
+    {
+      "id": "src-a6791c0f90931176",
+      "title": "Réunion publique avec Anne Stambach-Terrenoir, Bérenger Cernon et Laurent Alexandre — Rodez",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-anne-stambach-terrenoir-berenger-cernon-et-laurent-alexandre/",
+      "type": "Official campaign event listing",
+      "publisher": "Mélenchon 2027 campaign",
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign calendar lists 12 Nov 2026, 19:00, Rodez; date and location checked 12 Nov."
     }
   ],
   "poll_trend_snapshots": [

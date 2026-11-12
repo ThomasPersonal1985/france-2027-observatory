@@ -1,53 +1,53 @@
 # Jean-Luc Mélenchon | France 2027 research dossier
 
-**Party / movement:** La France insoumise  
-**Political family:** Left-wing  
-**Campaign status (8 November 2026):** Declared candidate; announced 3 May 2026; participated in the 27 August MEDEF debate; presented LFI programme at Le Bourget on 7 November.  
-**Ballot status:** Declared; not yet officially qualified.  
-**Programme status:** A written 2027 programme was presented on 7 November 2026. Observatoire 2027 indexed 142 written commitments across 24 topics and seven documents in its 7 November snapshot. These are party commitments, not independent costings.
+**Party / movement:** La France insoumise
+**Political family:** Left-wing
+**Campaign status (12 November 2026):** Declared candidate; announced 3 May 2026. LFI released the 2027 edition of *L’Avenir en commun* on 6 November and presented it at Le Bourget on 7 November.
+**Ballot status:** Declared; not officially qualified.
+**Programme status:** Published 2027 programme. LFI says it contains 1,069 measures. LFI calls it the fifth edition in its release, while the campaign site calls it the sixth; the project flags this discrepancy and uses “2027 edition” without choosing an ordinal.
 
 ## Political biography and career
-Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026. On 7 November 2026, LFI presented a written programme at Le Bourget, making this one of the most developed published platforms in the current field.
 
-## Political record
-His political career spans the Socialist Party, the Left Party and LFI. The 2022 presidential campaign and the NUPES alliance shaped his recent national profile. The 2027 programme should be read as the current party platform; earlier LFI plans and parliamentary positions are useful context but are not substitutes for it.
+Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026.
 
-## Main policy themes
-- Redistribution, higher wages and stronger public services
-- Price controls or regulated prices for essential goods
-- Progressive taxation and greater contributions from high incomes and wealth
-- Reversing the 2023 pension reform, with a medium-term goal of retirement at 60
-- Ecological planning and a shift in energy policy away from nuclear
-- A more non-aligned foreign policy and changes to France’s NATO relationship
+## Current programme and stated positions
 
-## Current, attributable positions
-### Minimum wage and wages | 7 November 2026
-**Evidence type:** Published programme / news report
-The 7 November programme launch was reported by Reuters as pledging a higher minimum wage; the exact implementation and financing should be checked against the full programme text.
+The 2027 programme is the current party platform. Historical LFI programmes and parliamentary positions remain context, not substitutes for the newly published text. Proposals below are attributed to the candidate or party; feasibility, effects and costs require independent analysis.
 
-### Pensions | 27 August 2026
-**Evidence type:** Debate statement
-At the 27 August MEDEF debate, Mélenchon called for repeal of the 2023 reform, an initial return to 62 and a medium-term objective of 60, with 40 contribution years. The research workbook also records a proposal to raise the minimum old-age benefit and gradually increase pension contributions.
+### Social and economic policy
 
-### Public finances | 27 August 2026
-**Evidence type:** Debate reporting
-At the MEDEF debate he argued for restructuring public debt, including debt held by the European Central Bank. This is a political proposal whose legal, monetary and market consequences require separate analysis.
+The programme proposes retirement at 60 after 40 contribution years and a €1,700 net minimum wage, among other measures. These are campaign commitments, not independently costed outcomes.
 
-## Feasibility questions
-Key tests: the fiscal cost and revenue assumptions behind the programme; the legal and institutional route for price controls and debt restructuring; labour-market effects of wage changes; and the practical timetable for energy transition.
+### Palestine, Israel and regional policy
 
-## What remains unanswered
-Full independent costing; exact timetable and legislative route for the pension rollback; treatment of EU and NATO commitments; detailed sequencing of energy policy.
+The programme calls for a ceasefire in Palestine, an end to the Gaza blockade, support for Palestinian sovereignty over occupied territories since 1967 while also considering an equal binational state, sanctions against the Israeli government, arms-embargo measures, and suspension of the EU–Israel association agreement. Record these as programme proposals and compare with other candidates’ published texts when available.
+
+### Ukraine
+
+The programme calls for a ceasefire, Russian troop withdrawal, negotiations, collective security guarantees and a vote by populations concerned about any border modification. At the 7 November Bourget meeting, Mélenchon discussed a consultation on whether residents of the Donbas wished to be Ukrainian or Russian. LFI and Mélenchon subsequently said that the proposal did not endorse Russian invasion or territorial seizure; LFI stated that it supports Ukraine’s right to defend itself while opposing long-range missile deliveries and foreign combat troops.
+
+Le Monde reported that the Ukrainian foreign ministry and French political opponents objected that a referendum under occupation could legitimize annexation, and that Ukraine’s 1991 independence referendum included the Donbas. This interpretation is contested and should remain attributed. The published programme calls for Russian troop withdrawal; that proposal should be shown alongside the speech and subsequent clarification.
+
+## Campaign activity and disputes
+
+- **7 November:** Programme presentation and campaign meeting at Le Bourget.
+- **9 November:** LFI published a statement clarifying its position on Ukraine.
+- **11 November:** Mélenchon delivered a “peace” speech at La Souterraine and responded to criticism of the Bourget remarks, according to Le Monde.
+- **12 November:** LFI’s campaign calendar lists public meetings in Metz, Arles, Saint-Quirc and Rodez led by LFI figures; these are listed events, not confirmation of attendance or completion.
+
+## Feasibility and outstanding questions
+
+Independent costing and implementation; legal conditions for any vote affecting borders; how proposals account for occupation and displaced populations; and the sequencing of EU, NATO, defence and energy policy.
 
 ## Sources
-- [Reuters: Mélenchon programme launch, 7 November 2026](https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/) (News report)
-- [Le Monde: candidate guide (12 October 2026)](https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html) (News / candidate status overview)
-- [Observatoire 2027: candidate tracker (updated 7 November 2026)](https://www.observatoire2027.fr/candidats/) (Secondary candidate tracker)
-- [Observatoire 2027: individual candidate analysis](https://www.observatoire2027.fr/candidat/jean-luc-melenchon/) (Secondary tracker; public statements indexed)
-- [Observatoire 2027: written programme comparison](https://www.observatoire2027.fr/programmes/) (Programme tracker)
-- [LCP: first MEDEF debate, 27 August 2026](https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670) (Debate coverage)
-- [Le Monde: candidates' economic divide, 28 August 2026](https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html) (Debate analysis)
-- [Selectra: proposals on debt at the MEDEF debate, 28 August 2026](https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne) (Debate summary)
+
+- [LFI announcement of the 2027 programme release](https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/) — party statement, 2 November; says release 6 November and presentation 7 November, calls it fifth edition.
+- [Official campaign programme page](https://melenchon2027.fr/programme/decouvrir/) — states 1,069 measures and labels the book the sixth edition.
+- [Official campaign programme: foreign policy chapter](https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2) — full text of stated positions.
+- [LFI clarification on Ukraine](https://lafranceinsoumise.fr/2026/11/09/mise-au-point-sur-la-position-de-la-france-insoumise-et-son-candidat-sur-la-guerre-en-ukraine/) — party’s own account, 9 November.
+- [Le Monde: criticism and response on Ukraine](https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-ses-paroles_6809023_823448.html) — independent report, 11 November.
+- [Le Monde: programme presentation and policy themes](https://www.lemonde.fr/politique/article/2026/11/06/presidentielle-2027-jean-luc-melenchon-construit-son-programme-l-avenir-en-commun-autour-du-concept-de-nouvelle-france_6807729_823448.html) — reporting on programme release.
+- [LFI campaign calendar](https://melenchon2027.fr/) — direct listings for 12 November meetings.
 
 ---
-Non-partisan research note. Public statements, historical party positions and official programme commitments are kept separate. Analytical feasibility questions are not factual claims about likely outcomes.
+Non-partisan research note. Party commitments, independent reporting, contested interpretations and feasibility questions remain distinct.
