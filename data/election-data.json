@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-12",
-    "data_version": 15,
+    "data_version": 16,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -20,7 +20,7 @@
       "campaign_status": "Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "National-conservative",
-      "profile": "Marine Le Pen announced her candidacy on 7 July 2026. Her appeal judgment and cassation process remain material to eligibility; do not describe her as ballot-qualified.",
+      "profile": "Marine Le Pen declared her candidacy in a TF1 interview on 7 July 2026. The Paris Court of Appeal issued a judgment in the European Parliament assistants case the same day; cassation proceedings remain ongoing, with the Court of Cassation’s 16 October update scheduling QPC review for 16 December 2026. She is not on the official ballot list. The official campaign page checked 12 November did not link a complete 2027 programme.",
       "sources": [
         {
           "title": "French government election information",
@@ -69,10 +69,40 @@
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
           "type": "Debate summary",
           "source_id": "src-65ffd352a761fbb2"
+        },
+        {
+          "title": "« Ce soir, je suis candidate à l’élection présidentielle », annonce Marine Le Pen au 20H de TF1",
+          "url": "https://www.tf1info.fr/politique/videos/video-ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-au-20h-de-tf1-28383-2451908.html",
+          "type": "Recorded candidate statement / TF1 interview",
+          "source_id": "src-7f76fc13327f4e6b"
+        },
+        {
+          "title": "Suivi de la procédure devant la chambre criminelle de la Cour de cassation — communiqué n°3",
+          "url": "https://www.courdecassation.fr/toutes-les-actualites/2026/10/16/communique-affaire-dite-des-assistants-parlementaires-du-front",
+          "type": "Official court procedural update",
+          "source_id": "src-6c9a996046c49776"
+        },
+        {
+          "title": "Marine Le Pen : verdict de la cour d’appel et peine",
+          "url": "https://www.lemonde.fr/societe/article/2026/07/07/le-monde-publie-les-principaux-extraits-de-la-decision-en-appel-condamnant-marine-le-pen-la-gravite-objective-des-faits-est-averee_6721545_3224.html",
+          "type": "Report publishing extracts of appeal judgment",
+          "source_id": "src-e0913b8baea284dc"
+        },
+        {
+          "title": "Site officiel de campagne — Marine Le Pen 2027",
+          "url": "https://www.marinelepen.com/",
+          "type": "Official campaign website",
+          "source_id": "src-99bb567092491635"
+        },
+        {
+          "title": "Ce que nous avons demandé aux candidats en 2027",
+          "url": "https://quiproposequoi2027.fr/transparence.html",
+          "type": "Independent transparency register",
+          "source_id": "src-32d0aec34918b25e"
         }
       ],
       "policy_summary": "Recurring RN priorities include tighter immigration and border controls, national-preference measures, public order and purchasing power, alongside criticism of aspects of EU integration. These are recurring positions, not a substitute for a complete 2027 manifesto. Immigration and border controls; national preference and changes to access to public benefits Purchasing power, household taxation and energy costs Public order, policing and justice",
-      "programme_status": "No full 2027 programme established in this snapshot. Her 2026 MEDEF pensions proposal was a return to 62, with 60 for qualifying long-career workers and 42 contribution years. Legal eligibility remains a separate issue.",
+      "programme_status": "No complete 2027 programme was linked from the official campaign landing page checked on 12 November 2026. Current statements and debate proposals are attributed individually and not presented as a complete manifesto.",
       "dossier": {
         "bio": "Long-time leader of the National Rally (RN), Marine Le Pen has been the party’s central presidential figure in 2012, 2017 and 2022. Her political project has combined a national-sovereignty message with a sustained effort to broaden the party’s appeal beyond its historic base. She announced a 2027 candidacy on 7 July 2026. The legal status of her candidacy must be tracked separately from electoral support and sponsorships; the current source record says her appeal judgment reduced the ineligibility penalty, while further legal steps remain relevant.",
         "record": "Her record includes leading the RN parliamentary group and serving as an MP; she has repeatedly contested presidential elections. The party has moved from the older Front National brand to the RN and pursued a strategy commonly described as normalisation or dédiabolisation. Her programme should not be inferred wholesale from the 2022 manifesto.",
@@ -104,35 +134,156 @@
           }
         ],
         "feasibility": "Key tests: whether proposed savings are specified by budget line; compatibility of national-preference measures with French constitutional and EU law; and the interaction between tax cuts, public services and deficit targets.",
-        "open": "The final legal status and formal ballot qualification; detailed 2027 programme; complete financing plan; precise legal design of national-preference proposals.",
+        "open": "Final legal status and official ballot qualification; any subsequent cassation/QPC decision; publication of a complete 2027 programme; detailed and independently assessable costing of the €125bn savings claim and €9bn pensions cost figure.",
         "programme": "No complete official 2027 programme was indexed by Observatoire 2027 in its 7 November 2026 programme snapshot. A candidate announcement is not itself a manifesto."
       },
-      "dossier_updated": "2026-11-08",
+      "dossier_updated": "2026-11-12",
       "programme_link": null,
-      "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "programme_link_label": "No complete programme linked on page checked 12 November 2026",
+      "programme_link_note": "Recheck the official campaign site and party channels before each publication update; prior programme-status records are date-specific.",
       "official_site_audit": {
-        "status": "Not yet systematically verified",
-        "checked_date": "2026-11-08",
-        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+        "status": "Official campaign site checked; no complete 2027 programme linked on inspected landing page",
+        "checked_date": "2026-11-12",
+        "url": "https://www.marinelepen.com/",
+        "note": "Landing page showed campaign sign-up and event information. This time-bounded check does not prove that no complete programme is published elsewhere."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "Marine Le Pen a annoncé sa candidature le 7 juillet 2026. Son jugement en appel et la procédure de cassation restent déterminants pour son éligibilité ; ne pas la présenter comme admise sur le bulletin de vote.",
+      "profile_fr": "Marine Le Pen a déclaré sa candidature lors du journal de TF1 le 7 juillet 2026. Le même jour, la cour d’appel de Paris a rendu son arrêt dans l’affaire des assistants parlementaires européens ; la procédure en cassation est en cours et la Cour de cassation a prévu l’examen des QPC le 16 décembre 2026 dans son communiqué du 16 octobre. Elle ne figure pas sur la liste officielle des candidats. Le site de campagne consulté le 12 novembre ne renvoyait pas à un programme 2027 complet.",
       "policy_summary_fr": "Les priorités récurrentes du RN comprennent le durcissement de l’immigration et du contrôle des frontières, des mesures de préférence nationale, le maintien de l’ordre et le pouvoir d’achat, ainsi que la critique de certains aspects de l’intégration européenne.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "le-pen-declared-candidate-2027",
+            "text": "On 7 July 2026, Marine Le Pen stated in a TF1 interview: “Ce soir, je suis candidate à l’élection présidentielle.”",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7f76fc13327f4e6b",
+                "locator": "video transcript / headline",
+                "supports": "The recorded TF1 interview reports her direct declaration of candidacy.",
+                "publication_date": "2026-07-07",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Her declared candidacy is distinct from official ballot qualification."
+          },
+          {
+            "id": "le-pen-appeal-judgment-2026",
+            "text": "On 7 July 2026, the Paris Court of Appeal upheld her conviction in the European Parliament assistants case and imposed a three-year prison sentence (one year under electronic monitoring), a €100,000 fine and 45 months of ineligibility, of which 30 months were suspended.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-e0913b8baea284dc",
+                "locator": "published extracts of the 7 July appellate decision",
+                "supports": "The extracts report the findings and sentence in the appellate judgment.",
+                "publication_date": "2026-07-07",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Describe the judgment and its procedural posture precisely; do not infer final conviction or current electoral eligibility from the appeal outcome alone."
+          },
+          {
+            "id": "le-pen-cassation-procedure-status-oct-2026",
+            "text": "As of the Court of Cassation’s 16 October 2026 update, 13 cassation appeals had been filed in the case; constitutional-priority questions were scheduled for a 16 December 2026 hearing before the court considers the cassation arguments.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6c9a996046c49776",
+                "locator": "communiqué n°3, procedural summary and next steps",
+                "supports": "The official court update states the 13 appeals, QPC review and scheduled 16 December hearing.",
+                "publication_date": "2026-10-16",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This is the procedural position reported on 16 October 2026, not a final cassation ruling. Recheck for later court updates before publication."
+          },
+          {
+            "id": "le-pen-no-full-programme-linked-2026-11-12",
+            "text": "The official campaign landing page checked on 12 November 2026 displayed campaign sign-up and event information; no complete 2027 programme was linked from that page.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-99bb567092491635",
+                "locator": "landing page checked 12 November 2026",
+                "supports": "The inspected campaign page showed a sign-up flow and event listings, with no linked full programme.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-32d0aec34918b25e",
+                "locator": "Marine Le Pen entry, lines 29–31",
+                "supports": "The transparency register records that the RN said on 6 September the final programme was still forthcoming.",
+                "publication_date": "2026-09-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Time-bounded and scope-limited observation. Do not state that no programme exists anywhere without rechecking campaign materials."
+          },
+          {
+            "id": "le-pen-pensions-stated-position-2026",
+            "text": "At the 27 August 2026 MEDEF debate, Le Pen said she supported retirement at 60 for people who began working before age 20, moving progressively to 42 contribution years and a legal retirement age of 62.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "section “Marine Le Pen va présenter un plan d’économies de 125 milliards d’euros”, paragraph on pensions",
+                "supports": "LCP attributes this retirement position directly to Le Pen at the MEDEF debate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "A stated position at a debate, not evidence of a final 2027 manifesto."
+          },
+          {
+            "id": "le-pen-pensions-cost-9bn-unverified",
+            "text": "The existing policy record attributes a €9bn full-year cost estimate to Le Pen’s pensions position, but the primary-source check did not establish this amount or its calculation.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "pensions section",
+                "supports": "The LCP report supports the stated retirement-age position but does not support or explain the €9bn estimate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Keep the €9bn figure clearly unverified; seek the original statement and methodology before presenting it as a sourced estimate."
+          },
+          {
+            "id": "le-pen-125bn-savings-plan-stated-claim",
+            "text": "At the 27 August 2026 MEDEF debate, Le Pen said the RN would present a public-finance recovery path involving €125bn in savings before the autumn budget debate.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "section “Marine Le Pen va présenter un plan d’économies de 125 milliards d’euros”",
+                "supports": "LCP directly quotes Le Pen’s announcement of the €125bn figure and intended timing.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This verifies that the figure was stated, not that the savings are achievable or correctly costed. The separate spending-deficit-rule wording in the legacy policy record was not claim-reviewed here."
+          }
+        ],
+        "editorial_notes": "Selected claims reviewed against the recorded TF1 statement, official court procedural updates, campaign site and independently reported debate statements. The complete biography, full policy summary and all legacy claims have not been comprehensively verified; eligibility remains subject to ongoing judicial process and official election administration.",
         "legacy_public": true
       }
     },
@@ -3389,33 +3540,66 @@
       "statement_date": "27 Aug 2026",
       "evidence_type": "Current 2026 statement",
       "source": {
-        "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
-        "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available",
-        "source_id": "src-d4c7bb75f18c5353"
+        "title": "Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef",
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "type": "Independent reporting of debate statement",
+        "source_id": "src-4f4f8e7b9e66a76a"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Partially verified: retirement position confirmed as a stated position; €9bn cost remains unverified",
+      "checked_date": "2026-11-12",
+      "editorial_note": "LCP reports the stated 60/62 and 40–42-year position. The €9bn cost in the legacy record is not supported by this source and remains unverified; do not present it as a validated estimate.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "Independent reporting verifies that the candidate stated the pension position. The €9bn figure and calculation were not verified."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "le-pen-pensions-stated-position-2026",
+            "text": "At the 27 August 2026 MEDEF debate, Le Pen said she supported retirement at 60 for people who began working before age 20, moving progressively to 42 contribution years and a legal retirement age of 62.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "section “Marine Le Pen va présenter un plan d’économies de 125 milliards d’euros”, paragraph on pensions",
+                "supports": "LCP attributes this retirement position directly to Le Pen at the MEDEF debate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "A stated position at a debate, not evidence of a final 2027 manifesto."
+          },
+          {
+            "id": "le-pen-pensions-cost-9bn-unverified",
+            "text": "The existing policy record attributes a €9bn full-year cost estimate to Le Pen’s pensions position, but the primary-source check did not establish this amount or its calculation.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "pensions section",
+                "supports": "The LCP report supports the stated retirement-age position but does not support or explain the €9bn estimate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Keep the €9bn figure clearly unverified; seek the original statement and methodology before presenting it as a sourced estimate."
+          }
+        ],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending. The legacy €9bn amount remains disputed/unverified; no publication approval granted.",
         "legacy_public": true
       }
     },
@@ -3833,33 +4017,50 @@
       "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
       "statement_date": "27 August 2026",
       "source": {
-        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
-        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting",
-        "source_id": "src-65ffd352a761fbb2"
+        "title": "Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef",
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "type": "Independent reporting of debate statement",
+        "source_id": "src-4f4f8e7b9e66a76a"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Partially verified: €125bn savings plan announcement confirmed as a statement; costing not independently verified",
+      "checked_date": "2026-11-12",
+      "editorial_note": "LCP confirms the amount and timing were stated at the debate; this does not validate the estimate. The separate current-spending-deficit-rule wording in the legacy record was not verified against this source.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "The stated amount and timing are independently reported; underlying costing and the separate fiscal-rule wording remain unverified."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "le-pen-125bn-savings-plan-stated-claim",
+            "text": "At the 27 August 2026 MEDEF debate, Le Pen said the RN would present a public-finance recovery path involving €125bn in savings before the autumn budget debate.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "section “Marine Le Pen va présenter un plan d’économies de 125 milliards d’euros”",
+                "supports": "LCP directly quotes Le Pen’s announcement of the €125bn figure and intended timing.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This verifies that the figure was stated, not that the savings are achievable or correctly costed. The separate spending-deficit-rule wording in the legacy policy record was not claim-reviewed here."
+          }
+        ],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending. This evidence verifies the candidate statement only; no independent costing or publication approval.",
         "legacy_public": true
       }
     },
@@ -8039,6 +8240,10 @@
     {
       "date": "2026-11-12",
       "summary": "Editorial review: added claim-level evidence for Jean-Luc Mélenchon’s LFI campaign milestones, 2027 programme release/count, official-source edition discrepancy, pension proposal and minimum-wage/price proposals. Added two new hidden-under-review programme-position records; no publication approval granted."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Editorial review: added claim-level evidence for Marine Le Pen’s declared candidacy, appellate judgment and current cassation procedure, time-bounded programme-site check, and MEDEF debate statements on pensions and €125bn savings. Flagged the legacy €9bn pension cost as unverified; no publication approval granted."
     }
   ],
   "poll_trends": [
@@ -10731,6 +10936,71 @@
       "checked_date": "2026-11-12",
       "verification_status": "primary_verified",
       "editorial_notes": "Contains price-control, minimum-wage, wage-indexation and tax proposals; checked 12 Nov."
+    },
+    {
+      "title": "« Ce soir, je suis candidate à l’élection présidentielle », annonce Marine Le Pen au 20H de TF1",
+      "url": "https://www.tf1info.fr/politique/videos/video-ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-au-20h-de-tf1-28383-2451908.html",
+      "type": "Recorded candidate statement / TF1 interview",
+      "publisher": "TF1 Info",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-07-07",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "TF1 video page records her direct declaration of candidacy on 7 July 2026.",
+      "id": "src-7f76fc13327f4e6b"
+    },
+    {
+      "title": "Suivi de la procédure devant la chambre criminelle de la Cour de cassation — communiqué n°3",
+      "url": "https://www.courdecassation.fr/toutes-les-actualites/2026/10/16/communique-affaire-dite-des-assistants-parlementaires-du-front",
+      "type": "Official court procedural update",
+      "publisher": "Cour de cassation",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-10-16",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Official procedural update: 13 cassation appeals, QPC stage and 16 December 2026 hearing; does not determine final eligibility.",
+      "id": "src-6c9a996046c49776"
+    },
+    {
+      "title": "Marine Le Pen : verdict de la cour d’appel et peine",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/07/le-monde-publie-les-principaux-extraits-de-la-decision-en-appel-condamnant-marine-le-pen-la-gravite-objective-des-faits-est-averee_6721545_3224.html",
+      "type": "Report publishing extracts of appeal judgment",
+      "publisher": "Le Monde",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-07-07",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Le Monde published extracts of the written appellate decision; used to describe the judgment, with procedural status separately checked against the Court of Cassation.",
+      "id": "src-e0913b8baea284dc"
+    },
+    {
+      "title": "Site officiel de campagne — Marine Le Pen 2027",
+      "url": "https://www.marinelepen.com/",
+      "type": "Official campaign website",
+      "publisher": "Rassemblement National / Marine Le Pen campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Landing page accessed 12 November 2026; campaign registration and events are visible. No complete 2027 programme was linked from the page checked.",
+      "id": "src-99bb567092491635"
+    },
+    {
+      "title": "Ce que nous avons demandé aux candidats en 2027",
+      "url": "https://quiproposequoi2027.fr/transparence.html",
+      "type": "Independent transparency register",
+      "publisher": "Qui propose quoi 2027",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Records the RN communications office’s 6 September response that the final 2027 programme was not yet available then; time-bounded evidence, not proof of current absence.",
+      "id": "src-32d0aec34918b25e"
     }
   ],
   "poll_trend_snapshots": [
