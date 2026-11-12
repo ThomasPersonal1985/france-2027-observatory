@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-12",
-    "data_version": 16,
+    "data_version": 17,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -602,10 +602,10 @@
       "id": "edouard-philippe",
       "name": "Édouard Philippe",
       "party": "Horizons",
-      "campaign_status": "Declared candidate; announced 3 September 2024; participated in the 27 August MEDEF debate.",
+      "campaign_status": "Declared candidate; announced 3 September 2024; on 12 November 2026 continued to reject a right/centre primary proposed by Bruno Retailleau; participated in the 27 August MEDEF debate.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre-right",
-      "profile": "Former prime minister and Horizons leader. Rejects a proposed right-centre primary for now; see Le Monde coverage of 3 November 2026.",
+      "profile": "Édouard Philippe, former prime minister and founder of Horizons, declared his intention to run in a Le Point interview on 3 September 2024. His official campaign now publishes an evolving, topic-by-topic programme, including detailed pension and public-finance pages updated 12 November 2026. He continues to reject a right/centre primary while Bruno Retailleau presses for one. Candidacy does not establish official ballot qualification.",
       "sources": [
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
@@ -648,10 +648,58 @@
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
           "type": "Debate summary",
           "source_id": "src-65ffd352a761fbb2"
+        },
+        {
+          "title": "Édouard Philippe : « Je serai candidat à la prochaine élection présidentielle »",
+          "url": "https://www.lepoint.fr/politique/exclusif-edouard-philippe-je-serai-candidat-a-la-prochaine-election-presidentielle-03-09-2024-2569359_20.php",
+          "type": "Recorded interview / direct candidate statement",
+          "source_id": "src-2df86e75e6df6097"
+        },
+        {
+          "title": "Le programme — Avec Édouard 2027",
+          "url": "https://www.edouardphilippe.fr/programme",
+          "type": "Official campaign programme index",
+          "source_id": "src-e2ab02662e39130f"
+        },
+        {
+          "title": "Retraites — Le programme — Avec Édouard 2027",
+          "url": "https://www.edouardphilippe.fr/programme/retraites",
+          "type": "Official campaign programme text",
+          "source_id": "src-5f7c4e0b68eaa204"
+        },
+        {
+          "title": "Finances publiques — Le programme — Avec Édouard 2027",
+          "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+          "type": "Official campaign programme text",
+          "source_id": "src-7c243360e9652249"
+        },
+        {
+          "title": "Chômage : Édouard Philippe veut abaisser la durée d’indemnisation à douze mois maximum pour les moins de 50 ans",
+          "url": "https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum",
+          "type": "Independent reporting of AFP interview",
+          "source_id": "src-ceeaf4e7c278cb76"
+        },
+        {
+          "title": "Présidentielle 2027 : Édouard Philippe dévoile son projet de retraite à 65 ans et 45 annuités",
+          "url": "https://www.lemonde.fr/politique/article/2026/09/29/presidentielle-2027-edouard-philippe-devoile-son-projet-de-retraite-a-65-ans-et-45-annuites_6785692_823448.html",
+          "type": "Independent reporting of candidate proposal and campaign team estimate",
+          "source_id": "src-fdd74cfb90272959"
+        },
+        {
+          "title": "Présidentielle 2027 : Bruno Retailleau propose un calendrier pour la primaire et accentue la pression sur Édouard Philippe",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/12/presidentielle-2027-bruno-retailleau-propose-un-calendrier-pour-la-primaire-et-accentue-la-pression-sur-edouard-philippe_6809051_823448.html",
+          "type": "Independent reporting on party coordination",
+          "source_id": "src-ae2888bc0b3110ef"
+        },
+        {
+          "title": "Déficit de militants, traumatisme des années Juppé… Pourquoi Édouard Philippe ne veut pas d’une primaire",
+          "url": "https://www.europe1.fr/politique/deficit-de-militants-traumatisme-des-annees-juppe-pourquoi-edouard-philippe-ne-veut-pas-dune-primaire-1225835",
+          "type": "Independent reporting of campaign position",
+          "source_id": "src-b44cd4fefefee660"
         }
       ],
-      "policy_summary": "Centre-right, liberal-conservative themes include fiscal discipline, economic competitiveness, public-sector reform and pension-system changes. In September 2026 he argued for moving the legal retirement age to 65 within less than ten years, with a funded pillar. Fiscal consolidation and debt reduction Work incentives, competitiveness and labour-market reform Pension-system sustainability, including a higher retirement age",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Treat earlier government policy and public statements as distinct from a new campaign platform.",
+      "policy_summary": "The official campaign programme currently publishes proposals on pensions, public finances, unemployment, employment, taxation and other themes. The pensions page proposes a gradual move to 65 years and 45 contribution years in less than ten years for those able to do so, with earlier departures for one third and existing health exceptions; it also proposes collective capitalization and an initial €500 state contribution to individual retirement savings. The public-finance page proposes a constitutional fiscal rule by referendum, reducing the deficit to about 2% of GDP by the end of the term, and no new taxes for five years. These are campaign proposals. A €30bn annual pension-reform savings figure is the campaign team’s estimate reported by Le Monde, not an independently verified forecast.",
+      "programme_status": "Official campaign site publishes an evolving, topic-by-topic 2027 programme, marked updated 12 November 2026. It includes detailed pensions and public-finance pages; the campaign says further proposals will be added throughout the campaign. Do not describe it as a single finalized comprehensive manifesto.",
       "dossier": {
         "bio": "Former prime minister (2017–2020), former mayor of Le Havre and founder of Horizons. Philippe announced his presidential candidacy on 3 September 2024, making him an early declared contender. His political positioning is centre-right and pro-European, with an emphasis on governing competence, economic reform and institutional stability.",
         "record": "As prime minister he oversaw the early Macron presidency, including labour-market reforms, the Yellow Vest crisis, the start of the COVID-19 pandemic and the initial pension-reform attempt. Those government decisions form part of his record but should not be presented as new 2027 pledges unless he renews them.",
@@ -665,54 +713,206 @@
         "positions": [
           {
             "area": "Pensions",
-            "detail": "On 29 September 2026 he argued for raising the legal retirement age to 65 in less than ten years, a 45-year contribution period and a funded pillar. The research workbook records a proposed €500 initial retirement-savings contribution and an estimated €30bn annual yield; these are attributed claims requiring independent scrutiny.",
-            "date": "29 September 2026",
-            "evidence": "Public statement"
+            "detail": "The official campaign programme, updated 12 November 2026, proposes gradually reaching a legal retirement age of 65 and 45 contribution years in less than ten years for those able to do so; one third could retire earlier, health-related exit ages remain, and collective capitalization plus an individual retirement plan with an initial €500 state contribution are proposed. The campaign team’s projected €30bn annual savings is separately reported by Le Monde and is not independently validated.",
+            "date": "2026-11-12",
+            "evidence": "Official campaign programme; candidate team estimate separately attributed to Le Monde."
           },
           {
             "area": "Unemployment insurance",
-            "detail": "At the time of the MEDEF debate he proposed limiting the maximum unemployment-benefit period to 12 months for people under 50, continuing a direction associated with reforms during his premiership.",
+            "detail": "In an AFP interview on 27 August 2026, Philippe proposed a maximum 12-month benefit duration for people under 50. This is a campaign proposal, not current law.",
             "date": "27 August 2026",
-            "evidence": "Debate / campaign statement"
+            "evidence": "AFP interview, reported by LCP; also reflected on the official campaign public-finance page checked 12 November."
           },
           {
-            "area": "Public finances",
-            "detail": "At the MEDEF debate he rejected debt cancellation and emphasised restoring balanced public accounts.",
-            "date": "27 August 2026",
-            "evidence": "Debate reporting"
+            "area": "Public finances and debt",
+            "detail": "At the 27 August MEDEF debate, Philippe criticized Mélenchon’s debt-cancellation proposal, saying it could harm France’s credit standing. His current campaign programme targets a deficit of about 2% of GDP by the end of the term, not a balanced budget; it also proposes a constitutional fiscal rule by referendum and no new taxes for five years. These are proposals, not independent assessments.",
+            "date": "27 August 2026; campaign programme checked 12 November 2026",
+            "evidence": "LCP MEDEF debate report; official campaign public-finance programme."
           }
         ],
         "feasibility": "Key tests: distributional effects of later retirement; whether projected savings are realistic; how a funded pension pillar would be capitalised; and whether spending cuts can be delivered without reducing service quality.",
-        "open": "A complete 2027 manifesto and costings; how he would assemble a parliamentary majority; details of funded pensions and transition protections.",
-        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026. Earlier prime-ministerial policies are not a current manifesto."
+        "open": "How the 65/45-year pension transition would operate and its distributional effects; independent assessment of the €30bn annual savings estimate; scope and implementation of the constitutional fiscal rule; coalition/primary outcome and the candidate’s decision if the primary proceeds; remaining programme themes and detailed costings.",
+        "programme": "An evolving topic-by-topic 2027 programme is published on the official campaign site, with the pensions and public-finance pages marked updated 12 November 2026. The campaign says proposals will continue to be added. Treat individual policies as campaign commitments; attribute projected savings to the candidate team and require independent scrutiny."
       },
-      "dossier_updated": "2026-11-08",
-      "programme_link": "https://www.edouardphilippe.fr/",
-      "programme_link_label": "Official campaign website / initial priorities",
-      "programme_link_note": "The campaign site presents initial priorities and says a broader programme will be presented; not labelled a complete programme.",
+      "dossier_updated": "2026-11-12",
+      "programme_link": "https://www.edouardphilippe.fr/programme",
+      "programme_link_label": "Official evolving, topic-by-topic 2027 programme",
+      "programme_link_note": "Programme index marked updated 12 November 2026; current issues are published on separate theme pages and new proposals will continue to be added.",
       "official_site_audit": {
-        "status": "Primary source checked",
-        "checked_date": "2026-11-08",
-        "url": "https://www.edouardphilippe.fr/",
-        "note": "Official 2027 campaign website checked. It publishes initial priorities and campaign activity; this should not be described as a complete detailed programme."
+        "status": "Official thematic programme pages checked",
+        "checked_date": "2026-11-12",
+        "url": "https://www.edouardphilippe.fr/programme",
+        "note": "Programme index and detailed pensions/public-finance pages checked. Campaign describes the programme as being written throughout the campaign; not a single finalized document."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "Ancien Premier ministre et dirigeant d’Horizons. Il rejette pour l’instant la proposition d’une primaire de la droite et du centre ; voir l’article du Monde du 3 novembre 2026.",
-      "policy_summary_fr": "Les thèmes libéraux-conservateurs du centre droit comprennent la discipline budgétaire, la compétitivité économique, la réforme du secteur public et l’évolution du système de retraite. En septembre 2026, il a défendu un relèvement de l’âge légal à 65 ans en moins de dix ans.",
+      "profile_fr": "Édouard Philippe, ancien Premier ministre et fondateur d’Horizons, a annoncé sa candidature dans un entretien au Point le 3 septembre 2024. Son site de campagne publie désormais un programme évolutif, thème par thème, avec des pages détaillées sur les retraites et les finances publiques mises à jour le 12 novembre 2026. Il continue de rejeter une primaire de la droite et du centre, tandis que Bruno Retailleau insiste pour en organiser une. Une déclaration de candidature ne vaut pas qualification officielle sur le bulletin.",
+      "policy_summary_fr": "Le programme de campagne publié par thèmes propose notamment de porter progressivement à 65 ans l’âge de départ et à 45 annuités la durée de cotisation en moins de dix ans pour les personnes qui le peuvent, avec des départs anticipés pour un tiers des Français et le maintien des exceptions liées à la santé. Il propose également la capitalisation collective et un premier versement de 500 euros par l’État sur un plan d’épargne-retraite dès le premier emploi. Pour les finances publiques, il prévoit une règle d’or constitutionnelle soumise à référendum, un déficit ramené à environ 2 % du PIB à la fin du mandat et l’absence de nouvel impôt pendant cinq ans. Ce sont des propositions de campagne. Les 30 milliards d’euros d’économies annuelles annoncés par l’équipe restent une estimation non vérifiée indépendamment.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "philippe-declared-candidate-2024",
+            "text": "On 3 September 2024, Édouard Philippe said in an interview with Le Point that he would be a candidate in the next presidential election.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-2df86e75e6df6097",
+                "locator": "headline and opening standfirst",
+                "supports": "Philippe states that he will be a candidate in the next presidential election.",
+                "publication_date": "2024-09-03",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This is a declaration of intention/candidacy; it does not establish official ballot qualification."
+          },
+          {
+            "id": "philippe-current-programme-is-topic-by-topic",
+            "text": "On 12 November 2026, Philippe’s official campaign programme index showed published policy pages across several themes and stated that the programme would continue to be written throughout the campaign, theme by theme.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-e2ab02662e39130f",
+                "locator": "“Mise à jour le 12 novembre 2026” and concluding programme note",
+                "supports": "Index shows multiple published theme pages and says new proposals will continue to be added throughout the campaign.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Describe this as a published, evolving thematic programme; do not call it a single finalized, comprehensive manifesto."
+          },
+          {
+            "id": "philippe-pension-programme-65-45",
+            "text": "The official programme proposes gradually reaching a legal retirement age of 65 and 45 contribution years in less than ten years for people able to do so; it says one third could retire earlier and health-related exit ages would remain unchanged.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-5f7c4e0b68eaa204",
+                "locator": "“Nos propositions phares” and questions on early retirement",
+                "supports": "The official campaign page states the 65/45 targets, transition timeframe, earlier departures for one third and health-related exceptions.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Campaign commitment. Its distributional effects and feasibility are not verified by the campaign statement."
+          },
+          {
+            "id": "philippe-pension-capitalization-500",
+            "text": "The official programme proposes collective funded pension saving for employees and an individual retirement-savings plan for each French person, with an initial €500 state contribution from the first job.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-5f7c4e0b68eaa204",
+                "locator": "questions “Édouard Philippe veut-il la retraite par capitalisation ?” and “C’est quoi les 500 €…”",
+                "supports": "The campaign text describes collective capitalization alongside pay-as-you-go pensions and the €500 state contribution.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Proposal as described by campaign; do not present projected returns or outcomes as established facts."
+          },
+          {
+            "id": "philippe-pension-30bn-team-estimate",
+            "text": "Le Monde reported that Philippe’s campaign team estimated the pension reform would produce €30bn in annual savings, including €10bn for the pension system and €20bn for public finances.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-fdd74cfb90272959",
+                "locator": "paragraph on estimated annual savings",
+                "supports": "The report attributes the €30bn estimate to the candidate’s team.",
+                "publication_date": "2026-09-29",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This verifies attribution of the estimate, not the estimate’s method or accuracy; it is not independently validated."
+          },
+          {
+            "id": "philippe-public-finance-programme-target",
+            "text": "The official programme proposes a constitutional fiscal rule to be adopted by referendum, a deficit target of about 2% of GDP by the end of the term and no new taxes for five years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7c243360e9652249",
+                "locator": "“Nos propositions phares” and question on the proposed golden rule",
+                "supports": "The official campaign text states the fiscal rule, target and tax commitment.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Campaign targets and commitments; not independent forecasts or feasibility assessments."
+          },
+          {
+            "id": "philippe-unemployment-duration-proposal",
+            "text": "In an AFP interview on 27 August 2026, Philippe proposed a maximum of 12 months of unemployment-benefit payments for people under 50.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ceeaf4e7c278cb76",
+                "locator": "opening paragraph and direct quotation",
+                "supports": "LCP reports Philippe’s direct AFP statement and specifies the under-50 age group.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This is a proposal, not current law. The programme page checked 12 November also includes a 12-month limit."
+          },
+          {
+            "id": "philippe-current-primary-dispute",
+            "text": "As of 12 November 2026, Philippe continued to reject a right/centre primary while Bruno Retailleau had written to Philippe, Gabriel Attal and David Lisnard proposing a primary to select a single candidate.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ae2888bc0b3110ef",
+                "locator": "report on Retailleau’s letter sent 10 November",
+                "supports": "Le Monde reports Retailleau’s letter and its recipients.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-b44cd4fefefee660",
+                "locator": "opening paragraphs",
+                "supports": "Europe 1 reports Philippe’s continued refusal as of 12 November.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This is an active coordination dispute; distinguish Philippe’s stated preference from the unresolved outcome among right/centre candidates."
+          },
+          {
+            "id": "philippe-medef-debt-response",
+            "text": "At the 27 August 2026 MEDEF debate, Philippe criticized Mélenchon’s debt-cancellation proposal, saying it could damage France’s credit standing.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "paragraph on Édouard Philippe reacting to Mélenchon’s debt proposal",
+                "supports": "LCP reports Philippe’s direct response at the debate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This records a campaign statement, not an independent assessment of either candidate’s debt proposal."
+          }
+        ],
+        "editorial_notes": "Selected claims reviewed against the candidate’s 2024 interview, current campaign programme, direct campaign statements, independent reporting and recent primary dispute coverage. Biography, full issue coverage, financial projections and the complete set of public claims have not been comprehensively reviewed. No human publication approval was granted.",
         "legacy_public": true
       }
     },
@@ -3647,33 +3847,82 @@
       "statement_date": "29 Sep 2026",
       "evidence_type": "Current 2026 statement",
       "source": {
-        "title": "Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public)",
-        "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available",
-        "source_id": "src-d4c7bb75f18c5353"
+        "title": "Retraites — Le programme — Avec Édouard 2027",
+        "url": "https://www.edouardphilippe.fr/programme/retraites",
+        "type": "Official campaign programme text",
+        "source_id": "src-5f7c4e0b68eaa204"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Campaign proposals verified as stated; €30bn estimate is attributed to the campaign team and not independently validated",
+      "checked_date": "2026-11-12",
+      "editorial_note": "The official campaign programme page verifies 65 years, 45 contribution years, transition and exceptions, plus capitalization and €500 initial contribution. Le Monde attributes the €30bn annual savings estimate to the candidate team; no independent costing was found.",
       "verification": {
-        "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "Official campaign text supports the stated proposals; the savings estimate is only verified as an attributed campaign-team estimate."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "philippe-pension-programme-65-45",
+            "text": "The official programme proposes gradually reaching a legal retirement age of 65 and 45 contribution years in less than ten years for people able to do so; it says one third could retire earlier and health-related exit ages would remain unchanged.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-5f7c4e0b68eaa204",
+                "locator": "“Nos propositions phares” and questions on early retirement",
+                "supports": "The official campaign page states the 65/45 targets, transition timeframe, earlier departures for one third and health-related exceptions.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Campaign commitment. Its distributional effects and feasibility are not verified by the campaign statement."
+          },
+          {
+            "id": "philippe-pension-capitalization-500",
+            "text": "The official programme proposes collective funded pension saving for employees and an individual retirement-savings plan for each French person, with an initial €500 state contribution from the first job.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-5f7c4e0b68eaa204",
+                "locator": "questions “Édouard Philippe veut-il la retraite par capitalisation ?” and “C’est quoi les 500 €…”",
+                "supports": "The campaign text describes collective capitalization alongside pay-as-you-go pensions and the €500 state contribution.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Proposal as described by campaign; do not present projected returns or outcomes as established facts."
+          },
+          {
+            "id": "philippe-pension-30bn-team-estimate",
+            "text": "Le Monde reported that Philippe’s campaign team estimated the pension reform would produce €30bn in annual savings, including €10bn for the pension system and €20bn for public finances.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-fdd74cfb90272959",
+                "locator": "paragraph on estimated annual savings",
+                "supports": "The report attributes the €30bn estimate to the candidate’s team.",
+                "publication_date": "2026-09-29",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This verifies attribution of the estimate, not the estimate’s method or accuracy; it is not independently validated."
+          }
+        ],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending. Campaign proposals supported; cost estimate remains an attributed, unvalidated campaign-team projection. No publication approval.",
         "legacy_public": true
       }
     },
@@ -4104,37 +4353,70 @@
     {
       "candidate_name": "Édouard Philippe",
       "topic": "Economy & taxation",
-      "position": "At the MEDEF debate, rejected debt cancellation and argued for restoring balanced public accounts.",
+      "position": "At the 27 August 2026 MEDEF debate, Philippe criticized Mélenchon’s debt-cancellation proposal as risking France’s credit standing. His current campaign programme targets a deficit of about 2% of GDP by the end of the term; this is not a balanced-budget commitment.",
       "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
       "statement_date": "27 August 2026",
       "source": {
-        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
-        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting",
-        "source_id": "src-65ffd352a761fbb2"
+        "title": "LCP: first MEDEF debate, 27 August 2026",
+        "url": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+        "type": "Independent debate reporting",
+        "source_id": "src-4f4f8e7b9e66a76a"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Debate statement and current programme target verified as stated; forecasts not independently validated",
+      "checked_date": "2026-11-12",
+      "editorial_note": "The previous phrase “restoring balanced public accounts” overstated the current official campaign target, which is about 2% of GDP deficit by the end of the term. This correction is documented in the dated source log.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "LCP independently reports the MEDEF debate statement; official campaign page supplies the current fiscal target."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "philippe-public-finance-programme-target",
+            "text": "The official programme proposes a constitutional fiscal rule to be adopted by referendum, a deficit target of about 2% of GDP by the end of the term and no new taxes for five years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7c243360e9652249",
+                "locator": "“Nos propositions phares” and question on the proposed golden rule",
+                "supports": "The official campaign text states the fiscal rule, target and tax commitment.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Campaign targets and commitments; not independent forecasts or feasibility assessments."
+          },
+          {
+            "id": "philippe-medef-debt-response",
+            "text": "At the 27 August 2026 MEDEF debate, Philippe criticized Mélenchon’s debt-cancellation proposal, saying it could damage France’s credit standing.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-4f4f8e7b9e66a76a",
+                "locator": "paragraph on Édouard Philippe reacting to Mélenchon’s debt proposal",
+                "supports": "LCP reports Philippe’s direct response at the debate.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This records a campaign statement, not an independent assessment of either candidate’s debt proposal."
+          }
+        ],
+        "editorial_notes": "Existing public record retained during migration; claim-level review is pending. Current campaign target is about 2% deficit, not balance; forecasts are not independently assessed. No publication approval.",
         "legacy_public": true
       }
     },
@@ -4553,6 +4835,60 @@
           }
         ],
         "editorial_notes": "Primary text checked. New policy record remains under review and is not approved for publication.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Édouard Philippe",
+      "topic": "Public finances",
+      "position": "The evolving campaign programme proposes a constitutional fiscal rule adopted by referendum, deficit at about 2% of GDP by the end of the term, and no new taxes for five years.",
+      "statement_date": "12 Nov 2026",
+      "evidence_type": "Official campaign programme page",
+      "source": {
+        "title": "Finances publiques — Le programme — Avec Édouard 2027",
+        "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+        "type": "Official campaign programme text",
+        "source_id": "src-7c243360e9652249"
+      },
+      "verification_status": "Primary programme text checked; under editorial review",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Campaign commitments, not independent forecasts or feasibility assessments.",
+      "verification": {
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "The campaign text supports that these commitments are stated; no feasibility assessment is included."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "philippe-public-finance-programme-target",
+            "text": "The official programme proposes a constitutional fiscal rule to be adopted by referendum, a deficit target of about 2% of GDP by the end of the term and no new taxes for five years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7c243360e9652249",
+                "locator": "“Nos propositions phares” and question on the proposed golden rule",
+                "supports": "The official campaign text states the fiscal rule, target and tax commitment.",
+                "publication_date": "2026-11-12",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Campaign targets and commitments; not independent forecasts or feasibility assessments."
+          }
+        ],
+        "editorial_notes": "Newly captured programme item; hidden from publication pending human editorial approval.",
         "legacy_public": false
       }
     }
@@ -8244,6 +8580,10 @@
     {
       "date": "2026-11-12",
       "summary": "Editorial review: added claim-level evidence for Marine Le Pen’s declared candidacy, appellate judgment and current cassation procedure, time-bounded programme-site check, and MEDEF debate statements on pensions and €125bn savings. Flagged the legacy €9bn pension cost as unverified; no publication approval granted."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Editorial review: added claim evidence for Édouard Philippe’s declaration, evolving topic-by-topic programme, pension and fiscal proposals, attributed pension-savings estimate, unemployment proposal and current primary dispute. Corrected the former “balanced public accounts” phrasing to match the campaign’s about-2%-of-GDP deficit target, documented in the source log. No publication approval granted."
     }
   ],
   "poll_trends": [
@@ -11001,6 +11341,110 @@
       "verification_status": "secondary_only",
       "editorial_notes": "Records the RN communications office’s 6 September response that the final 2027 programme was not yet available then; time-bounded evidence, not proof of current absence.",
       "id": "src-32d0aec34918b25e"
+    },
+    {
+      "id": "src-2df86e75e6df6097",
+      "title": "Édouard Philippe : « Je serai candidat à la prochaine élection présidentielle »",
+      "url": "https://www.lepoint.fr/politique/exclusif-edouard-philippe-je-serai-candidat-a-la-prochaine-election-presidentielle-03-09-2024-2569359_20.php",
+      "type": "Recorded interview / direct candidate statement",
+      "publisher": "Le Point",
+      "author": "Mathilde Siraud; Valérie Toranian",
+      "language": "French",
+      "publication_date": "2024-09-03",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Interview in which Philippe announces that he will be a candidate in the next presidential election."
+    },
+    {
+      "id": "src-e2ab02662e39130f",
+      "title": "Le programme — Avec Édouard 2027",
+      "url": "https://www.edouardphilippe.fr/programme",
+      "type": "Official campaign programme index",
+      "publisher": "Avec Édouard 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Index marked updated 12 November 2026; campaign states the programme is being developed throughout the campaign, theme by theme."
+    },
+    {
+      "id": "src-5f7c4e0b68eaa204",
+      "title": "Retraites — Le programme — Avec Édouard 2027",
+      "url": "https://www.edouardphilippe.fr/programme/retraites",
+      "type": "Official campaign programme text",
+      "publisher": "Avec Édouard 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Pension theme page marked updated 12 November 2026; outlines 65 years/45 contribution years, earlier exits for some, capitalization, and €500 opening contribution."
+    },
+    {
+      "id": "src-7c243360e9652249",
+      "title": "Finances publiques — Le programme — Avec Édouard 2027",
+      "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "type": "Official campaign programme text",
+      "publisher": "Avec Édouard 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Public-finance theme page marked updated 12 November 2026; includes constitutional golden rule by referendum, deficit target about 2% GDP and no new taxes for five years."
+    },
+    {
+      "id": "src-ceeaf4e7c278cb76",
+      "title": "Chômage : Édouard Philippe veut abaisser la durée d’indemnisation à douze mois maximum pour les moins de 50 ans",
+      "url": "https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum",
+      "type": "Independent reporting of AFP interview",
+      "publisher": "LCP – Assemblée nationale",
+      "author": "Anne-Charlotte Dusseaulx",
+      "language": "French",
+      "publication_date": "2026-08-27",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports Philippe’s direct AFP interview statement on unemployment benefit duration and other proposals."
+    },
+    {
+      "id": "src-fdd74cfb90272959",
+      "title": "Présidentielle 2027 : Édouard Philippe dévoile son projet de retraite à 65 ans et 45 annuités",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/29/presidentielle-2027-edouard-philippe-devoile-son-projet-de-retraite-a-65-ans-et-45-annuites_6785692_823448.html",
+      "type": "Independent reporting of candidate proposal and campaign team estimate",
+      "publisher": "Le Monde",
+      "author": "Marie Pouzadoux",
+      "language": "French",
+      "publication_date": "2026-09-29",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports proposal and attributes the €30bn annual savings estimate to the candidate’s team; no independent validation of the estimate."
+    },
+    {
+      "id": "src-ae2888bc0b3110ef",
+      "title": "Présidentielle 2027 : Bruno Retailleau propose un calendrier pour la primaire et accentue la pression sur Édouard Philippe",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/12/presidentielle-2027-bruno-retailleau-propose-un-calendrier-pour-la-primaire-et-accentue-la-pression-sur-edouard-philippe_6809051_823448.html",
+      "type": "Independent reporting on party coordination",
+      "publisher": "Le Monde",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports Retailleau’s 10 November letter proposing a right/centre primary to Philippe, Attal and Lisnard."
+    },
+    {
+      "id": "src-b44cd4fefefee660",
+      "title": "Déficit de militants, traumatisme des années Juppé… Pourquoi Édouard Philippe ne veut pas d’une primaire",
+      "url": "https://www.europe1.fr/politique/deficit-de-militants-traumatisme-des-annees-juppe-pourquoi-edouard-philippe-ne-veut-pas-dune-primaire-1225835",
+      "type": "Independent reporting of campaign position",
+      "publisher": "Europe 1",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-12",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports Philippe’s continued refusal of a right/centre primary and his alternative approach."
     }
   ],
   "poll_trend_snapshots": [
