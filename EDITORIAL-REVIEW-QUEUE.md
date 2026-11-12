@@ -8,14 +8,14 @@ Dataset last updated: 2026-11-12. This report is generated from the canonical `d
 
 | Content type | Records | Workflow status | No claim-level evidence | No linked source reference |
 | --- | ---: | --- | ---: | ---: |
-| Candidate profiles | 40 | `under_review`: 40 | 38 | 0 |
-| Policy positions | 24 | `under_review`: 24 | 19 | 0 |
+| Candidate profiles | 40 | `under_review`: 40 | 37 | 0 |
+| Policy positions | 24 | `under_review`: 24 | 17 | 0 |
 | News records | 35 | `under_review`: 35 | 34 | 0 |
 | Individual polls | 20 | `under_review`: 20 | 19 | 0 |
 | Polling snapshots | 1 | `under_review`: 1 | 1 | 0 |
 | Election events | 12 | `under_review`: 12 | 12 | 8 |
 | Debates | 1 | `under_review`: 1 | 1 | 0 |
-| **All listed records** | **133** | **under_review: 133** | **124** | **8** |
+| **All listed records** | **133** | **under_review: 133** | **121** | **8** |
 
 ## Candidate profiles
 
@@ -23,7 +23,7 @@ Every candidate profile currently has no editorial claims. Review each profile c
 
 | Candidate | Existing candidacy label | Official-site audit label | Source count | Source IDs | Editorial status |
 | --- | --- | --- | ---: | --- | --- |
-| Marine Le Pen | Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate. | Not yet systematically verified | 8 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-9e00a669bb7a8816, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-ebca2b7af2e5afd5` | `under_review` |
+| Marine Le Pen | Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate. | Official campaign site checked; no complete 2027 programme linked on inspected landing page | 13 | `src-059c883257fdc130, src-247e69abeafa52c8, src-32d0aec34918b25e, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-6c9a996046c49776, src-7f76fc13327f4e6b, src-99bb567092491635, src-9e00a669bb7a8816, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-e0913b8baea284dc, src-ebca2b7af2e5afd5` | `under_review` |
 | Jean-Luc Mélenchon | Declared candidate; on 3 May 2026, LFI’s intergroup proposed his candidacy for its popular investiture; LFI described the presidential campaign as launched on 5 May. Presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. These campaign milestones do not establish official ballot qualification. | Primary programme sources checked; partial claim review | 18 | `src-059c883257fdc130, src-075fbe4f90cb172d, src-247e69abeafa52c8, src-4e3f1cd78bae2818, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-7f956e4bad7b6d38, src-89e2f27deb8b34e5, src-935423b9c51aef66, src-96aa93a95c8b24bf, src-a5085a7de2ef427e, src-a96bc601a0f1de0e, src-ad28534ee9ba841b, src-b62b0e29b4b83ee1, src-bac69a757e85ea3f, src-cdf547303b05c308, src-e1e5201dfe247eaa, src-e5d94025bff7f169` | `under_review` |
 | Édouard Philippe | Declared candidate; announced 3 September 2024; participated in the 27 August MEDEF debate. | Primary source checked | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-f3bd91fe72867125` | `under_review` |
 | Raphaël Glucksmann | Declared candidate; won the social-democratic primary in October 2026; participated in the 27 August MEDEF debate. | Not yet systematically verified | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-c74cbbac7db6caeb` | `under_review` |
@@ -70,7 +70,7 @@ All existing policy-position records currently have no editorial claims. The leg
 
 | Candidate | Policy area | Existing verification code | Recorded source type | Source title | Source ID |
 | --- | --- | --- | --- | --- | --- |
-| Marine Le Pen | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
+| Marine Le Pen | Employment & pensions | `secondary_only` | Independent reporting of debate statement | Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef | `src-4f4f8e7b9e66a76a` |
 | Jean-Luc Mélenchon | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
 | Édouard Philippe | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
 | Raphaël Glucksmann | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (LCP / Public Sénat via Vote Public) | `src-d4c7bb75f18c5353` |
@@ -82,7 +82,7 @@ All existing policy-position records currently have no editorial claims. The leg
 | Nicolas Dupont-Aignan | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
 | Fabien Roussel | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (PCF/campaign review via Vote Public) | `src-d4c7bb75f18c5353` |
 | Nathalie Arthaud | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (LO campaign material via Vote Public) | `src-d4c7bb75f18c5353` |
-| Marine Le Pen | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
+| Marine Le Pen | Economy & taxation | `secondary_only` | Independent reporting of debate statement | Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef | `src-4f4f8e7b9e66a76a` |
 | Jean-Luc Mélenchon | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
 | Édouard Philippe | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
 | Raphaël Glucksmann | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
@@ -108,15 +108,15 @@ Election events: 12; debates: 1. Review their factual dates, descriptions, and s
 
 ## Source-registry completeness
 
-The records reference 75 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
+The records reference 80 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
 
 | Registry field | Referenced entries populated | Referenced entries |
 | --- | ---: | ---: |
-| `publisher` | 19 | 75 |
-| `author` | 1 | 75 |
-| `publication_date` | 10 | 75 |
-| `checked_date` | 19 | 75 |
-| `verification_status` | 19 | 75 |
+| `publisher` | 24 | 80 |
+| `author` | 1 | 80 |
+| `publication_date` | 13 | 80 |
+| `checked_date` | 24 | 80 |
+| `verification_status` | 24 | 80 |
 
 ### Referenced source records
 
@@ -137,6 +137,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-26afbca62cabb443 | Réunion publique avec Mathilde Panot, Louis Boyard, Anaïs Belouassa Cherifi et Charlotte Leduc — Metz | https://melenchon2027.fr/evenement/campagne/reunion-publique-avec-mathilde-panot-louis-boyard-anais-belouassa-cherifi-et-charlotte-leduc/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-2a36261845a696a2 | Présidentielle 2027 : la primaire de la droite et du centre a du plomb dans l’aile avant même d’avoir décollé | https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-a-du-plomb-dans-l-aile-avant-meme-d-avoir-decolle_6805552_823448.html |  |  |  |  |  |
 | src-317c0e07c89b7e13 | Présidentielle 2027 : les sondages ont-ils toujours vu juste à six mois des élections ? | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-sondages-ont-ils-toujours-vu-juste-a-six-mois-des-elections-07-11-2026-WZ7PUIGJPRCNHAJWBGWFRLZPJA.php |  |  |  |  |  |
+| src-32d0aec34918b25e | Ce que nous avons demandé aux candidats en 2027 | https://quiproposequoi2027.fr/transparence.html | Qui propose quoi 2027 |  |  | 2026-11-12 | secondary_only |
 | src-352718e812c10422 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/francois-ruffin/ |  |  |  |  |  |
 | src-379dc807906867a1 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/xavier-bertrand/ |  |  |  |  |  |
 | src-3f58b64c769c7000 | MEDEF | https://www.medef.com/ |  |  |  |  |  |
@@ -148,12 +149,14 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-54719782c7da2e34 | Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle? | https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935 | LCP – Assemblée nationale | Maxence Kagni | 2026-11-10 | 2026-11-12 | secondary_only |
 | src-5ddb09c966498a67 | En meeting au Bourget, Mélenchon mobilise sa base tout en cherchant à élargir son électorat | https://www.lemonde.fr/politique/article/2026/11/08/presidentielle-2027-en-meeting-au-bourget-jean-luc-melenchon-s-attelle-a-mobiliser-sa-base-tout-en-elargissant-son-electorat_6808387_823448.html |  |  |  |  |  |
 | src-65ffd352a761fbb2 | Selectra: proposals on debt at the MEDEF debate, 28 August 2026 | https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne |  |  |  |  |  |
+| src-6c9a996046c49776 | Suivi de la procédure devant la chambre criminelle de la Cour de cassation — communiqué n°3 | https://www.courdecassation.fr/toutes-les-actualites/2026/10/16/communique-affaire-dite-des-assistants-parlementaires-du-front | Cour de cassation |  | 2026-10-16 | 2026-11-12 | primary_verified |
 | src-6d19e24fe42df29f | Marine Tondelier veut pouvoir interdire X en cas d’ingérences étrangères | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-veut-pouvoir-interdire-x-en-cas-dingerences-etrangeres-06-08-2026-H7CEM6RWLVBTTN4QT3ULN64F2M.php |  |  |  |  |  |
 | src-73384a3f2a76d462 | RTL, 3 November 2026 | https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301 |  |  |  |  |  |
 | src-75a8eef3e6eec640 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/fabien-roussel/ |  |  |  |  |  |
 | src-7646108e3a661d57 | Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe | https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html |  |  |  |  |  |
 | src-782f3a0ba6a493c9 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/eric-zemmour/ |  |  |  |  |  |
 | src-79ade616248c6100 | Attal says discussions on a right-centre primary are accelerating | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php |  |  |  |  |  |
+| src-7f76fc13327f4e6b | « Ce soir, je suis candidate à l’élection présidentielle », annonce Marine Le Pen au 20H de TF1 | https://www.tf1info.fr/politique/videos/video-ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-au-20h-de-tf1-28383-2451908.html | TF1 Info |  | 2026-07-07 | 2026-11-12 | secondary_only |
 | src-7f956e4bad7b6d38 | Communiqué de la France insoumise du 5 mai 2026 | https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/ | La France insoumise |  | 2026-05-05 | 2026-11-12 | primary_verified |
 | src-822ab5bdf57ed3fb | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/bruno-retailleau/ |  |  |  |  |  |
 | src-8315aa94fb69ea50 | Réunion publique pour la planification écologique — Saint-Quirc | https://melenchon2027.fr/evenement/campagne/reunion-publique-pour-la-planification-ecologique-vite-les-eco-regions-avec-gabriel-amard-et-claire-lejeune/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
@@ -164,6 +167,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-90ef11d05d43524a | Eric Zemmour confirme sa candidature à l’élection présidentielle | https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html | Le Monde |  | 2026-11-10 | 2026-11-12 | secondary_only |
 | src-935423b9c51aef66 | Chapitre 2 : Partager les richesses | https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-96aa93a95c8b24bf | Comment a été conçu le programme | https://melenchon2027.fr/comment-a-ete-concu-le-programme/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
+| src-99bb567092491635 | Site officiel de campagne — Marine Le Pen 2027 | https://www.marinelepen.com/ | Rassemblement National / Marine Le Pen campaign |  |  | 2026-11-12 | secondary_only |
 | src-9d1cea18becd9ec8 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/david-lisnard/ |  |  |  |  |  |
 | src-9e00a669bb7a8816 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/marine-le-pen/ |  |  |  |  |  |
 | src-a5085a7de2ef427e | L’Avenir en commun 2027: Une France indépendante au service de la paix | https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
@@ -188,6 +192,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-d0b4e9b333a674ec | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/marine-tondelier/ |  |  |  |  |  |
 | src-d4c7bb75f18c5353 | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle |  |  |  |  |  |
 | src-d5031ebc3397c2f3 | Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner | https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html | Le Monde |  | 2026-11-12 | 2026-11-12 | secondary_only |
+| src-e0913b8baea284dc | Marine Le Pen : verdict de la cour d’appel et peine | https://www.lemonde.fr/societe/article/2026/07/07/le-monde-publie-les-principaux-extraits-de-la-decision-en-appel-condamnant-marine-le-pen-la-gravite-objective-des-faits-est-averee_6721545_3224.html | Le Monde |  | 2026-07-07 | 2026-11-12 | primary_verified |
 | src-e1e5201dfe247eaa | Chapitre 1 : À chacun selon ses besoins | https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-e5d94025bff7f169 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/jean-luc-melenchon/ |  |  |  |  |  |
 | src-e737c552f7bbff4b | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/ |  |  |  |  |  |
