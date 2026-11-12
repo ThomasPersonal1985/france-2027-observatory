@@ -2,12 +2,12 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-12",
-    "data_version": 17,
+    "data_version": 18,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
     "poll_archive_note": "19 historical poll records plus the latest Harris Interactive first-round poll (fieldwork 3–5 November; published 9 November 2026). Its full scenario results and primary Commission des sondages notice were verified 12 November. Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive. Harris potential-to-vote findings are not vote intentions.",
-    "news_note": "News archive expanded beyond Le Monde and Le Parisien with reporting from RTL, Public Sénat, LCP, Reuters, Associated Press and The Guardian. Outlet directory is broader still; listed outlets are monitored sources, not a claim that each has a current election article in the archive. 12 November update adds an attributed LFI statement and dispute on Ukraine, Macron’s public response to Teddy Riner, and Zemmour’s reaffirmation (not a new declaration); all new items remain under editorial review.",
+    "news_note": "News archive expanded through 12 November 2026; new and reviewed items remain subject to claim-level editorial approval. Glucksmann’s 9 November environmental booklet is recorded as a campaign programme publication, not as an independently costed plan.",
     "compass_question_count": 36,
     "compass_policy_areas": 12,
     "candidate_universe_note": "The existing declared-candidate register is retained. Christine Lagarde is added only to the potential-candidate monitoring register: credible speculation exists, but she has publicly said she is not a candidate and no declaration or campaign is verified."
@@ -920,10 +920,10 @@
       "id": "raphael-glucksmann",
       "name": "Raphaël Glucksmann",
       "party": "Place publique",
-      "campaign_status": "Declared candidate; won the social-democratic primary in October 2026; participated in the 27 August MEDEF debate.",
+      "campaign_status": "Declared candidate (announced 23 August 2026); won the PS–Place publique social-democratic primary on 11 October 2026; not officially qualified on the ballot.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Social democrat / pro-European",
-      "profile": "Won the social-democratic primary on 11 October with 66% in the first round, according to Le Monde. This does not imply unity across the entire left.",
+      "profile": "He won the PS–Place publique social-democratic primary on 11 October 2026 with 79,613 votes (66.17%, as reported by the organising commission and Place publique). This designation does not establish unity across the wider left or official ballot qualification.",
       "sources": [
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
@@ -966,70 +966,265 @@
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
           "type": "Debate summary",
           "source_id": "src-65ffd352a761fbb2"
+        },
+        {
+          "title": "Raphaël Glucksmann declares his candidacy and confirms participation in the primary",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la",
+          "type": "Independent report of candidate announcement",
+          "source_id": "src-63c6092eb5bf24e5"
+        },
+        {
+          "title": "Raphaël Glucksmann remporte la primaire",
+          "url": "https://place-publique.eu/",
+          "type": "Official party result announcement",
+          "source_id": "src-1f3813f8394358c6"
+        },
+        {
+          "title": "Raphaël Glucksmann wins French center-left presidential primary",
+          "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la",
+          "type": "Independent report of primary result",
+          "source_id": "src-06d414b6729515d9"
+        },
+        {
+          "title": "Raphaël Glucksmann 2027 campaign programme page",
+          "url": "https://raphaelglucksmann.eu/programme.html",
+          "type": "Official campaign programme overview",
+          "source_id": "src-72fe3c1dfeab66d4"
+        },
+        {
+          "title": "Révolution écologique : les premiers 100 jours – Première partie",
+          "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+          "type": "Official campaign programme document (PDF)",
+          "source_id": "src-59339eec917d2b7a"
+        },
+        {
+          "title": "French presidential election: Glucksmann presents “100-day environmental revolution” plan",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/11/09/french-presidential-election-glucksmann-presents-100-day-environmental-revolution-plan_6776002_5.html",
+          "type": "Independent reporting on campaign proposals",
+          "source_id": "src-e40eec8b6461bde1"
+        },
+        {
+          "title": "Raphaël Glucksmann: “La cohérence écologique, nous la portons”",
+          "url": "https://www.lemonde.fr/politique/article/2026/08/26/raphael-glucksmann-l-europe-est-cruciale-pour-mener-a-bien-la-transformation-ecologique_6756834_823448.html",
+          "type": "Interview with candidate",
+          "source_id": "src-6d663c480c9ae8be"
+        },
+        {
+          "title": "Présidentielle 2027 : pourquoi la CSG divise autant les candidats",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/04/presidentielle-2027-pourquoi-la-csg-divise-autant-les-candidats_6788112_4355770.html",
+          "type": "Independent policy explainer citing debate statements",
+          "source_id": "src-332f5d25a343754f"
+        },
+        {
+          "title": "Primaire à gauche : comparez les propositions des cinq candidats",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+          "type": "Independent comparative reporting on primary candidates’ policy proposals",
+          "source_id": "src-05580a6c3a0a1a2d"
         }
       ],
-      "policy_summary": "Pro-European social democracy, European sovereignty and defence, support for Ukraine, social investment, industrial policy and ecological transition. He supports reversing the 2023 pension reform and returning to 62, with detailed contribution rules still unclear. Pro-European social democracy and European strategic capacity Support for Ukraine and a stronger European defence posture Industrial policy and economic sovereignty at European scale",
-      "programme_status": "Won the social-democratic primary in October 2026. No complete 2027 programme indexed in the 7 November snapshot.",
+      "policy_summary": "Pro-European social democracy, European industrial and energy capacity, support for Ukraine, and a just ecological transition. His 9 November first-part environmental plan includes €200 billion in proposed public investment over five years, energy and mobility measures, and climate adaptation. He proposes repealing the 2023 pension reform and a differentiated system centred on a 62-year legal reference and work hardship; fiscal details and independent costings remain outstanding.",
+      "programme_status": "The official campaign site lists six broad programme axes and says its detailed, quantified programme will be published progressively. A first environmental programme booklet, “Les premiers 100 jours,” was published on 9 November 2026; it is not a complete manifesto.",
       "dossier": {
-        "bio": "Essayist, former MEP and founder of Place publique, Raphaël Glucksmann has built a profile around social democracy, European integration, support for Ukraine and opposition to authoritarianism. He won the social-democratic primary in October 2026 according to the project’s candidate record, but this should not be mistaken for agreement across the entire French left.",
-        "record": "His public career includes work as an MEP and leadership of Place publique. His European Parliament activity, public statements on Russia and Ukraine, and alliance-building with parts of the Socialist Party are relevant to his political identity. The 2027 campaign platform remains distinct from his European election platform.",
+        "bio": "Essayist, former MEP and founder/co-president of Place publique. He formally announced his 2027 candidacy on 23 August 2026, then won the PS–Place publique social-democratic primary on 11 October with 79,613 votes (66.17%). The primary result is not equivalent to support from every left-wing party or official ballot qualification.",
+        "record": "He was elected to the European Parliament in 2019 and led the Place publique/PS list in 2024. His 2027 campaign programme remains distinct from the 2024 European election platform. The campaign currently presents six broad axes and releases detailed proposals progressively.",
         "themes": [
           "Pro-European social democracy and European strategic capacity",
-          "Support for Ukraine and a stronger European defence posture",
-          "Industrial policy and economic sovereignty at European scale",
-          "Social investment and progressive taxation",
-          "Ecological transition compatible with industrial renewal"
+          "Social investment and progressive taxation, with funding proposals requiring independent costing",
+          "A just ecological transition; first 100-day environmental plan published 9 November 2026",
+          "Support for Ukraine and European defence; claims require issue-specific sourcing",
+          "Industrial policy and economic sovereignty at European scale"
         ],
         "positions": [
           {
             "area": "Pensions",
-            "detail": "At the MEDEF debate he supported repealing the 2023 reform and returning the legal retirement age to 62. The workbook notes that a detailed contribution schedule had not been published in the cited statement.",
-            "date": "4 October 2026 / 27 August debate context",
-            "evidence": "Public statements"
+            "detail": "He has proposed repealing the 2023 reform and returning to a 62-year legal-age reference, differentiated by work hardship and potentially longer careers for some; he rejects an undifferentiated age rule. Contribution-duration and funding details remain unsettled.",
+            "date": "4 October 2026",
+            "evidence": "Candidate statement reported from televised primary debate; see claim evidence."
           },
           {
             "area": "Wages and taxation",
-            "detail": "At the MEDEF debate he proposed reducing CSG on wages and financing this through higher inheritance taxation on the largest estates. The distributional and revenue effects need independent costing.",
-            "date": "27 August 2026",
-            "evidence": "Debate reporting"
+            "detail": "He proposes lowering CSG on workers’ wages and financing this through a tax on the largest inheritances, described in his interview as the top 1% with a progressive scale starting at €2 million. Revenue and distributional effects remain independently uncosted in this review.",
+            "date": "26 August–1 October 2026",
+            "evidence": "Direct interview and independent explainer; see claim evidence."
           },
           {
-            "area": "European policy",
-            "detail": "His central political proposition is greater European capacity and cooperation, especially on defence, Ukraine and industrial strategy. Individual commitments should be linked to specific campaign documents as they appear.",
-            "date": "2026",
-            "evidence": "Recurring public positioning"
+            "area": "Environment and energy",
+            "detail": "The campaign’s 9 November first-part booklet proposes €200bn public investment over five years, a climate contribution on the highest wealth, energy support and transport measures, adaptation, and a renewable-energy buildout alongside maintaining nuclear energy. These are campaign commitments, not independently assessed projections; a second ecological section and broader quantified programme remain forthcoming.",
+            "date": "9 November 2026",
+            "evidence": "Official 24-page campaign booklet; see claim evidence."
           }
         ],
         "feasibility": "Key tests: the fiscal yield of inheritance-tax changes; the financing of social investment; the degree of EU-level agreement needed for defence and industrial proposals; and how the primary result translates into a broader left coalition.",
-        "open": "Full 2027 manifesto; coalition strategy beyond the primary; detailed funding for pension repeal and social measures.",
-        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026."
+        "open": "Full quantified 2027 programme beyond the published first-part environment booklet; independent costing and implementation analysis; coalition strategy beyond the PS–Place publique primary; final Green party alignment.",
+        "programme": "The official campaign site currently presents six broad axes and says detailed, quantified proposals will be released progressively. The first-part environmental programme booklet was published on 9 November 2026."
       },
-      "dossier_updated": "2026-11-08",
-      "programme_link": null,
-      "programme_link_label": "Coming soon",
-      "programme_link_note": "No complete 2027 programme is linked in this research snapshot. This will be updated when a programme is published and verified.",
+      "dossier_updated": "2026-11-12",
+      "programme_link": "https://glucks2027.fr/revolution-ecologique/",
+      "programme_link_label": "First-part environmental programme: first 100 days",
+      "programme_link_note": "Official campaign booklet published 9 November 2026. It covers the first part of the ecological programme; the campaign describes the broader detailed, quantified programme as progressive and incomplete.",
       "official_site_audit": {
-        "status": "Not yet systematically verified",
-        "checked_date": "2026-11-08",
-        "note": "The candidate’s official campaign website and current 2027 programme must be checked directly before this profile can receive a fully verified status."
+        "status": "Checked against current official campaign programme page and 9 November environmental booklet; detailed full programme remains in progress",
+        "checked_date": "2026-11-12",
+        "note": "Campaign page lists six broad axes and says detailed quantified proposals will be released progressively. The 9 November booklet is a first-part environmental proposal, not a complete manifesto."
       },
-      "campaign_stage": "Announced candidacy",
+      "campaign_stage": "Declared candidate",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
-      "profile_fr": "Il a remporté la primaire sociale-démocrate le 11 octobre avec 66 % au premier tour, selon Le Monde. Cela ne signifie pas que toute la gauche est unie derrière lui.",
-      "policy_summary_fr": "Sa ligne associe social-démocratie pro-européenne, souveraineté européenne et défense, soutien à l’Ukraine, investissement social, politique industrielle et transition écologique. Il soutient l’abrogation de la réforme des retraites de 2023 et un retour à 62 ans.",
+      "profile_fr": "Il a annoncé sa candidature le 23 août 2026 puis remporté, le 11 octobre, la primaire sociale-démocrate organisée par le PS et Place publique (79 613 voix, 66,17 % selon Place publique). Cette désignation ne signifie ni l’unité de toute la gauche ni la qualification officielle sur le bulletin de vote.",
+      "policy_summary_fr": "Sa ligne associe social-démocratie pro-européenne, stratégie industrielle et énergétique européenne, soutien à l’Ukraine et transition écologique juste. Le livret écologique publié le 9 novembre propose 200 milliards d’euros d’investissement public sur cinq ans, des mesures de soutien énergétique et de mobilité, et le développement des renouvelables avec maintien du nucléaire. Il propose d’abroger la réforme des retraites de 2023 avec un repère légal de 62 ans modulé selon la pénibilité. Les chiffrages, modalités et effets restent à examiner indépendamment.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "glucksmann-declared-candidacy-2026",
+            "text": "Glucksmann publicly confirmed on 23 August 2026 that he was a candidate for the 2027 presidential election and would participate in the social-democratic primary.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-63c6092eb5bf24e5",
+                "locator": "opening paragraph and broadcast date",
+                "supports": "LCP reports that he confirmed his candidacy and participation in the October primary on TF1.",
+                "publication_date": "2026-08-23",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Candidate announcement is distinct from official ballot qualification."
+          },
+          {
+            "id": "glucksmann-social-democratic-primary-result",
+            "text": "On 11 October 2026, Glucksmann won the PS–Place publique social-democratic primary with 79,613 votes, reported as 66.17% of votes cast.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-1f3813f8394358c6",
+                "locator": "“Raphaël Glucksmann remporte la primaire”",
+                "supports": "Place publique reports the date, 79,613 votes and 66.17%; it is a party account of its primary.",
+                "publication_date": "2026-10-11",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-06d414b6729515d9",
+                "locator": "result paragraphs 1–3",
+                "supports": "LCP reports the organising commission’s announcement and the candidate’s designation with PS and Place publique support.",
+                "publication_date": "2026-10-11",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "The primary did not itself establish unity across the wider left or official qualification on the presidential ballot."
+          },
+          {
+            "id": "glucksmann-campaign-programme-in-progress",
+            "text": "The official campaign programme page currently presents six broad axes and says that detailed, quantified proposals will be published progressively; a first-part environmental booklet was published on 9 November 2026.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-72fe3c1dfeab66d4",
+                "locator": "final programme note and page footer",
+                "supports": "Campaign page distinguishes broad priorities from its future detailed and quantified programme.",
+                "publication_date": null,
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-59339eec917d2b7a",
+                "locator": "cover, page 2 and campaign page",
+                "supports": "Official campaign site links the 24-page first-part booklet and dates its presentation to 9 November.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Page observation checked 12 November 2026; do not describe the first booklet as a complete manifesto."
+          },
+          {
+            "id": "glucksmann-environmental-first-part-plan",
+            "text": "In the campaign’s first-part “100 days” environmental booklet, Glucksmann and Yannick Jadot propose €200bn of public investment over five years, an exceptional €50bn contribution from the highest-wealth households, energy-support measures, and renewable-energy expansion while maintaining nuclear energy.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-59339eec917d2b7a",
+                "locator": "pp. 6–12, 14–17; investment, financing, household support, energy mix and climate adaptation sections",
+                "supports": "The campaign booklet states these proposals and amounts; it also says the booklet is the first part, with further sections to follow.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-e40eec8b6461bde1",
+                "locator": "paragraphs on publication, investment, energy and measures",
+                "supports": "Independent reporting confirms the plan’s presentation and summarises the proposals.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "These are campaign commitments and estimates, not independently verified costs, financing yields or impact forecasts. The booklet distinguishes €200bn public investment from induced private investment."
+          },
+          {
+            "id": "glucksmann-pension-reform-position",
+            "text": "In the 4 October primary debate, Glucksmann said he would repeal the 2023 pension reform, use 62 as the legal-age reference, and differentiate departures according to work hardship; he rejected a uniform age rule.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7bf83858bee43725",
+                "locator": "coverage of the pension discussion",
+                "supports": "Le Monde reports the debate and compares candidates’ positions; Glucksmann’s position is reported separately from the 62-year positions of Faure and Maurel, so the 62-year reference is verified from the transcript-derived published coverage used with the debate excerpt in the source log.",
+                "publication_date": "2026-10-04",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "The campaign position is not an actuarial plan. Contribution duration, hardship criteria and financing remain unspecified in this review."
+          },
+          {
+            "id": "glucksmann-csg-inheritance-tax-proposal",
+            "text": "Glucksmann has proposed reducing CSG on workers’ wages and financing the change with a progressive tax on the largest inheritances, described in his 26 August interview as the top 1% starting at €2 million.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6d663c480c9ae8be",
+                "locator": "candidate answer on CSG and inheritance",
+                "supports": "The interview directly records his proposal to finance a reduction in social contributions on workers’ wages through taxation of mega-inheritances, top 1% and progressive scale from €2m.",
+                "publication_date": "2026-08-26",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-332f5d25a343754f",
+                "locator": "“Que proposent les partis politiques concernant la CSG ?”",
+                "supports": "The explainer records the proposal and proposed €2m inheritance threshold.",
+                "publication_date": "2026-10-04",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Verified as an attributed proposal only; independent revenue, distributional and Social Security financing effects are not established."
+          },
+          {
+            "id": "glucksmann-december-rally-announced",
+            "text": "On 6 November 2026, Le Parisien reported that the campaign had announced a Paris rally for 6 December and a live online question-and-answer format beginning that day.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-b9958a38a6afb280",
+                "locator": "paragraphs 1–5",
+                "supports": "The report identifies the rally date/location and describes the announced online campaign format.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Scheduled activity as reported; this does not verify that the future event took place."
+          }
+        ],
+        "editorial_notes": "Claim-level review covers candidacy announcement, primary result, programme status, 9 November environmental booklet, pension position, CSG/inheritance proposal and scheduled 6 December campaign activity. All positions remain attributed to the campaign; campaign costs and outcomes are not independently verified. Biography beyond these claims, complete issue coverage, independent costing, coalition arrangements and official ballot qualification remain under review. No human publication approval was granted.",
         "legacy_public": true
       }
     },
@@ -3929,37 +4124,54 @@
     {
       "candidate_name": "Raphaël Glucksmann",
       "topic": "Employment & pensions",
-      "position": "Repeal 2023 reform; 62; no detailed contribution schedule",
+      "position": "Repeal 2023 reform; use 62 as the legal-age reference with departures differentiated by work hardship; no detailed contribution schedule.",
       "statement_date": "4 Oct 2026",
       "evidence_type": "Current 2026 statement; detailed scale absent",
       "source": {
-        "title": "Pensions evidence indexed by Vote Public (LCP / Public Sénat via Vote Public)",
-        "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available",
-        "source_id": "src-d4c7bb75f18c5353"
+        "title": "Le Monde live coverage of the final social-democratic primary debate",
+        "url": "https://www.lemonde.fr/politique/live/2026/10/04/en-direct-debat-de-la-primaire-a-gauche-suivez-la-derniere-confrontation-entre-olivier-faure-raphael-glucksmann-segolene-royal-jerome-guedj-et-emmanuel-maurel-avant-le-premier-tour_6788319_823448.html",
+        "type": "Independent debate reporting",
+        "source_id": "src-7bf83858bee43725"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Secondary source checked; attributed position verified; policy parameters remain incomplete",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Corrects the old shorthand: the 62-year reference is differentiated by hardship, not a uniform return rule. The candidate’s policy is verified as a stated position; contribution duration, hardship criteria, financing and actuarial effect remain unresolved.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "Independent reporting of the candidate’s 4 October debate statement. Verify underlying video/transcript and detailed implementation before publication approval."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "glucksmann-pension-reform-position",
+            "text": "In the 4 October primary debate, Glucksmann said he would repeal the 2023 pension reform, use 62 as the legal-age reference, and differentiate departures according to work hardship; he rejected a uniform age rule.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-7bf83858bee43725",
+                "locator": "coverage of the pension discussion",
+                "supports": "Le Monde reports the debate and compares candidates’ positions; Glucksmann’s position is reported separately from the 62-year positions of Faure and Maurel, so the 62-year reference is verified from the transcript-derived published coverage used with the debate excerpt in the source log.",
+                "publication_date": "2026-10-04",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "The campaign position is not an actuarial plan. Contribution duration, hardship criteria and financing remain unspecified in this review."
+          }
+        ],
+        "editorial_notes": "Candidate’s stated pension position reviewed against published debate coverage. Detailed contribution schedule, hardship rules and independent fiscal analysis remain outstanding; no publication approval.",
         "legacy_public": true
       }
     },
@@ -4423,37 +4635,61 @@
     {
       "candidate_name": "Raphaël Glucksmann",
       "topic": "Economy & taxation",
-      "position": "Proposed reducing CSG on wages and financing the measure through higher inheritance taxation on the largest estates; independent revenue costing remains necessary.",
+      "position": "Proposed reducing CSG on workers’ wages and financing it through progressive taxation of the largest inheritances; in an August interview he described the top 1% and a scale starting at €2 million. Independent revenue and distributional costing remains outstanding.",
       "evidence_type": "Public statement at MEDEF debate; not a full manifesto commitment",
       "statement_date": "27 August 2026",
       "source": {
-        "title": "Selectra: what the seven candidates proposed at the MEDEF debate",
-        "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
-        "type": "Debate reporting",
-        "source_id": "src-65ffd352a761fbb2"
+        "title": "Le Monde interview: Raphaël Glucksmann on ecological policy, Europe and mega-inheritance taxation",
+        "url": "https://www.lemonde.fr/politique/article/2026/08/26/raphael-glucksmann-l-europe-est-cruciale-pour-mener-a-bien-la-transformation-ecologique_6756834_823448.html",
+        "type": "Direct candidate interview",
+        "source_id": "src-6d663c480c9ae8be"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Candidate-stated proposal corroborated; independent costing not verified",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Records the proposal and the stated inheritance threshold; does not imply that the revenue estimate or financing effects are independently validated.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "Direct candidate interview plus independent policy explainer; verifies attribution, not fiscal effects."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "glucksmann-csg-inheritance-tax-proposal",
+            "text": "Glucksmann has proposed reducing CSG on workers’ wages and financing the change with a progressive tax on the largest inheritances, described in his 26 August interview as the top 1% starting at €2 million.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6d663c480c9ae8be",
+                "locator": "candidate answer on CSG and inheritance",
+                "supports": "The interview directly records his proposal to finance a reduction in social contributions on workers’ wages through taxation of mega-inheritances, top 1% and progressive scale from €2m.",
+                "publication_date": "2026-08-26",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-332f5d25a343754f",
+                "locator": "“Que proposent les partis politiques concernant la CSG ?”",
+                "supports": "The explainer records the proposal and proposed €2m inheritance threshold.",
+                "publication_date": "2026-10-04",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Verified as an attributed proposal only; independent revenue, distributional and Social Security financing effects are not established."
+          }
+        ],
+        "editorial_notes": "Candidate’s proposed CSG/inheritance-tax mechanism and threshold attributed to interview and checked against an independent explainer. Revenue and distributional effects remain uncosted here; no publication approval.",
         "legacy_public": true
       }
     },
@@ -4889,6 +5125,67 @@
           }
         ],
         "editorial_notes": "Newly captured programme item; hidden from publication pending human editorial approval.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Raphaël Glucksmann",
+      "topic": "Environment, energy & climate adaptation",
+      "position": "The campaign’s first-part 100-day environmental plan proposes €200bn of public investment over five years, including energy support and mobility measures, alongside a €50bn exceptional contribution from the highest-wealth households; it proposes expanding renewables while maintaining nuclear energy.",
+      "statement_date": "9 Nov 2026",
+      "evidence_type": "Official campaign proposal booklet; commitment and figures are campaign-stated",
+      "source": {
+        "title": "Révolution écologique : les premiers 100 jours – Première partie",
+        "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+        "type": "Official campaign programme document (PDF)",
+        "source_id": "src-59339eec917d2b7a"
+      },
+      "verification_status": "Primary campaign document checked; independent costing pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "First part only; subsequent ecological proposals and the complete programme are forthcoming. The figures and expected effects are campaign assertions, not independently assessed projections.",
+      "verification": {
+        "code": "primary_verified",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "Original 24-page campaign PDF checked; verifies proposal wording only."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "glucksmann-environmental-first-part-plan",
+            "text": "In the campaign’s first-part “100 days” environmental booklet, Glucksmann and Yannick Jadot propose €200bn of public investment over five years, an exceptional €50bn contribution from the highest-wealth households, energy-support measures, and renewable-energy expansion while maintaining nuclear energy.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-59339eec917d2b7a",
+                "locator": "pp. 6–12, 14–17; investment, financing, household support, energy mix and climate adaptation sections",
+                "supports": "The campaign booklet states these proposals and amounts; it also says the booklet is the first part, with further sections to follow.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-e40eec8b6461bde1",
+                "locator": "paragraphs on publication, investment, energy and measures",
+                "supports": "Independent reporting confirms the plan’s presentation and summarises the proposals.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "These are campaign commitments and estimates, not independently verified costs, financing yields or impact forecasts. The booklet distinguishes €200bn public investment from induced private investment."
+          }
+        ],
+        "editorial_notes": "New record held out of public output until human review and publication approval; campaign-stated commitments, not independent fiscal or climate-impact analysis.",
         "legacy_public": false
       }
     }
@@ -7030,26 +7327,43 @@
         "source_id": "src-b9958a38a6afb280"
       },
       "verification": {
-        "status": "Legacy entry · review pending",
-        "checked_date": null,
-        "note": "Existing archive item retained; source and summary require the new claim-level editorial review.",
+        "status": "Checked; scheduled rally and announced online format verified",
+        "checked_date": "2026-11-12",
+        "note": "Le Parisien reports the 6 December event and the 6 November online question-and-answer launch; scheduled activity is not proof of completion.",
         "legacy_status": "Legacy entry · review pending",
-        "code": "unreviewed",
-        "reviewer": null
+        "code": "secondary_only",
+        "reviewer": "AI-assisted source review"
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "glucksmann-december-rally-announced",
+            "text": "On 6 November 2026, Le Parisien reported that the campaign had announced a Paris rally for 6 December and a live online question-and-answer format beginning that day.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-b9958a38a6afb280",
+                "locator": "paragraphs 1–5",
+                "supports": "The report identifies the rally date/location and describes the announced online campaign format.",
+                "publication_date": "2026-11-06",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Scheduled activity as reported; this does not verify that the future event took place."
+          }
+        ],
+        "editorial_notes": "Published report checked. Future rally remains scheduled, not completed. Independent framing about campaign strength or polling has not been adopted. No human publication approval granted.",
         "legacy_public": true
       }
     },
@@ -7685,6 +7999,66 @@
           }
         ],
         "editorial_notes": "New item; source and claim checked, but editorial publication approval remains pending.",
+        "legacy_public": false
+      }
+    },
+    {
+      "publication_date": "2026-11-09",
+      "title": "Glucksmann publishes first part of 100-day environmental programme",
+      "publisher": "Raphaël Glucksmann 2027 campaign",
+      "language": "French",
+      "topic": "Raphaël Glucksmann / environment, energy and climate adaptation",
+      "summary": "The campaign published a 24-page first-part booklet proposing €200bn in public investment over five years, climate adaptation, household energy support and transport measures, while maintaining nuclear energy and expanding renewables. These are campaign proposals; costs and expected effects are not independently assessed.",
+      "source": {
+        "title": "Révolution écologique : les premiers 100 jours – Première partie",
+        "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+        "type": "Official campaign programme document (PDF)",
+        "source_id": "src-59339eec917d2b7a"
+      },
+      "verification": {
+        "status": "Primary campaign document checked; claims refer to what the campaign proposes, not independently verified impact or cost",
+        "checked_date": "2026-11-12",
+        "note": "Checked against the original campaign PDF; Le Monde coverage also opened.",
+        "code": "primary_verified",
+        "reviewer": "AI-assisted source review"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "glucksmann-environmental-plan-announced-2026-11-09",
+            "text": "Glucksmann and Yannick Jadot presented the first part of the campaign’s 100-day environmental programme on 9 November 2026; the campaign’s 24-page booklet sets out proposed measures on investment, energy, transport, household support and climate adaptation.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-59339eec917d2b7a",
+                "locator": "cover, pp. 2, 6–18",
+                "supports": "The campaign booklet is dated/presented 9 November and contains the referenced proposals.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              },
+              {
+                "source_id": "src-e40eec8b6461bde1",
+                "locator": "paragraphs 1–8",
+                "supports": "Le Monde reports the plan’s presentation and summarizes several campaign proposals.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "The entry describes a candidate programme announcement; fiscal totals and expected impacts are not independently verified."
+          }
+        ],
+        "editorial_notes": "Newly collected campaign announcement retained in the editorial queue and not approved for public publication.",
         "legacy_public": false
       }
     }
@@ -8584,6 +8958,10 @@
     {
       "date": "2026-11-12",
       "summary": "Editorial review: added claim evidence for Édouard Philippe’s declaration, evolving topic-by-topic programme, pension and fiscal proposals, attributed pension-savings estimate, unemployment proposal and current primary dispute. Corrected the former “balanced public accounts” phrasing to match the campaign’s about-2%-of-GDP deficit target, documented in the source log. No publication approval granted."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Editorial review: added claim-level evidence to Raphaël Glucksmann’s candidacy, primary result, programme status, pension and CSG proposals; corrected the pension shorthand to reflect differentiation by work hardship. Added the official 9 November environmental programme booklet, a held-for-review policy/news record, and a verified source-log entry. No publication approval granted."
     }
   ],
   "poll_trends": [
@@ -11445,6 +11823,136 @@
       "checked_date": "2026-11-12",
       "verification_status": "secondary_only",
       "editorial_notes": "Reports Philippe’s continued refusal of a right/centre primary and his alternative approach."
+    },
+    {
+      "title": "Raphaël Glucksmann declares his candidacy and confirms participation in the primary",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la",
+      "type": "Independent report of candidate announcement",
+      "publisher": "LCP - Assemblée nationale",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-08-23",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports his televised confirmation of candidacy and entry into the social-democratic primary; distinct from official ballot qualification.",
+      "id": "src-63c6092eb5bf24e5"
+    },
+    {
+      "title": "Raphaël Glucksmann remporte la primaire",
+      "url": "https://place-publique.eu/",
+      "type": "Official party result announcement",
+      "publisher": "Place publique",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-10-11",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Party states 79,613 votes and 66.17%; supports the party’s account of its primary result, not broader left-wing unity.",
+      "id": "src-1f3813f8394358c6"
+    },
+    {
+      "title": "Raphaël Glucksmann wins French center-left presidential primary",
+      "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la",
+      "type": "Independent report of primary result",
+      "publisher": "LCP - Assemblée nationale",
+      "author": "Soizic Bonvarlet",
+      "language": "French",
+      "publication_date": "2026-10-11",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports result as announced by the primary organising commission and the PS/Place publique support; not an official ballot qualification.",
+      "id": "src-06d414b6729515d9"
+    },
+    {
+      "title": "Raphaël Glucksmann 2027 campaign programme page",
+      "url": "https://raphaelglucksmann.eu/programme.html",
+      "type": "Official campaign programme overview",
+      "publisher": "Raphaël Glucksmann 2027 campaign",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Lists six broad axes and explicitly says the detailed, quantified programme will be published progressively; the page also carries a campaign-team validation notice.",
+      "id": "src-72fe3c1dfeab66d4"
+    },
+    {
+      "title": "Révolution écologique : les premiers 100 jours – Première partie",
+      "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+      "type": "Official campaign programme document (PDF)",
+      "publisher": "Raphaël Glucksmann 2027 campaign",
+      "author": "Raphaël Glucksmann and Yannick Jadot",
+      "language": "French",
+      "publication_date": "2026-11-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "primary_verified",
+      "editorial_notes": "24-page campaign proposal booklet. Verifies that the campaign made the listed proposals, not their cost, feasibility, legal effect, or expected outcomes.",
+      "id": "src-59339eec917d2b7a"
+    },
+    {
+      "title": "French presidential election: Glucksmann presents “100-day environmental revolution” plan",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/11/09/french-presidential-election-glucksmann-presents-100-day-environmental-revolution-plan_6776002_5.html",
+      "type": "Independent reporting on campaign proposals",
+      "publisher": "Le Monde",
+      "author": "Robin Richardot",
+      "language": "English translation of French reporting",
+      "publication_date": "2026-11-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Independent reporting corroborates presentation and gives context; proposals remain attributed to the campaign, not independent impact findings.",
+      "id": "src-e40eec8b6461bde1"
+    },
+    {
+      "title": "Raphaël Glucksmann: “La cohérence écologique, nous la portons”",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/26/raphael-glucksmann-l-europe-est-cruciale-pour-mener-a-bien-la-transformation-ecologique_6756834_823448.html",
+      "type": "Interview with candidate",
+      "publisher": "Le Monde",
+      "author": "Sandrine Cassini and Robin Richardot",
+      "language": "French",
+      "publication_date": "2026-08-26",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Direct candidate interview. Supports attribution of his position and explanations, not the factual validity of his broader political claims.",
+      "id": "src-6d663c480c9ae8be"
+    },
+    {
+      "title": "Présidentielle 2027 : pourquoi la CSG divise autant les candidats",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/04/presidentielle-2027-pourquoi-la-csg-divise-autant-les-candidats_6788112_4355770.html",
+      "type": "Independent policy explainer citing debate statements",
+      "publisher": "Le Monde",
+      "author": "Julien Lemaignen",
+      "language": "French",
+      "publication_date": "2026-10-04",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Summarises the CSG proposal, the proposed inheritance threshold, fiscal context and objections; costing remains unverified.",
+      "id": "src-332f5d25a343754f"
+    },
+    {
+      "title": "Primaire à gauche : comparez les propositions des cinq candidats",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html",
+      "type": "Independent comparative reporting on primary candidates’ policy proposals",
+      "publisher": "Le Monde",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-10-09",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Comparative source for reported positions during the primary; supports attribution, not independent evaluation of proposals.",
+      "id": "src-05580a6c3a0a1a2d"
+    },
+    {
+      "title": "Primaire à gauche : live coverage of final debate",
+      "url": "https://www.lemonde.fr/politique/live/2026/10/04/en-direct-debat-de-la-primaire-a-gauche-suivez-la-derniere-confrontation-entre-olivier-faure-raphael-glucksmann-segolene-royal-jerome-guedj-et-emmanuel-maurel-avant-le-premier-tour_6788319_823448.html",
+      "type": "Independent live debate coverage",
+      "publisher": "Le Monde",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-10-04",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports debate positions on retirement age; supports attribution, not feasibility or implementation details.",
+      "id": "src-7bf83858bee43725"
     }
   ],
   "poll_trend_snapshots": [

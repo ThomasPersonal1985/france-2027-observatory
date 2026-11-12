@@ -8,14 +8,14 @@ Dataset last updated: 2026-11-12. This report is generated from the canonical `d
 
 | Content type | Records | Workflow status | No claim-level evidence | No linked source reference |
 | --- | ---: | --- | ---: | ---: |
-| Candidate profiles | 40 | `under_review`: 40 | 36 | 0 |
-| Policy positions | 25 | `under_review`: 25 | 15 | 0 |
-| News records | 35 | `under_review`: 35 | 34 | 0 |
+| Candidate profiles | 40 | `under_review`: 40 | 35 | 0 |
+| Policy positions | 26 | `under_review`: 26 | 13 | 0 |
+| News records | 36 | `under_review`: 36 | 33 | 0 |
 | Individual polls | 20 | `under_review`: 20 | 19 | 0 |
 | Polling snapshots | 1 | `under_review`: 1 | 1 | 0 |
 | Election events | 12 | `under_review`: 12 | 12 | 8 |
 | Debates | 1 | `under_review`: 1 | 1 | 0 |
-| **All listed records** | **134** | **under_review: 134** | **118** | **8** |
+| **All listed records** | **136** | **under_review: 136** | **114** | **8** |
 
 ## Candidate profiles
 
@@ -26,7 +26,7 @@ Every candidate profile currently has no editorial claims. Review each profile c
 | Marine Le Pen | Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate. | Official campaign site checked; no complete 2027 programme linked on inspected landing page | 13 | `src-059c883257fdc130, src-247e69abeafa52c8, src-32d0aec34918b25e, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-6c9a996046c49776, src-7f76fc13327f4e6b, src-99bb567092491635, src-9e00a669bb7a8816, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-e0913b8baea284dc, src-ebca2b7af2e5afd5` | `under_review` |
 | Jean-Luc Mélenchon | Declared candidate; on 3 May 2026, LFI’s intergroup proposed his candidacy for its popular investiture; LFI described the presidential campaign as launched on 5 May. Presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. These campaign milestones do not establish official ballot qualification. | Primary programme sources checked; partial claim review | 18 | `src-059c883257fdc130, src-075fbe4f90cb172d, src-247e69abeafa52c8, src-4e3f1cd78bae2818, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-7f956e4bad7b6d38, src-89e2f27deb8b34e5, src-935423b9c51aef66, src-96aa93a95c8b24bf, src-a5085a7de2ef427e, src-a96bc601a0f1de0e, src-ad28534ee9ba841b, src-b62b0e29b4b83ee1, src-bac69a757e85ea3f, src-cdf547303b05c308, src-e1e5201dfe247eaa, src-e5d94025bff7f169` | `under_review` |
 | Édouard Philippe | Declared candidate; announced 3 September 2024; on 12 November 2026 continued to reject a right/centre primary proposed by Bruno Retailleau; participated in the 27 August MEDEF debate. | Official thematic programme pages checked | 15 | `src-059c883257fdc130, src-247e69abeafa52c8, src-2df86e75e6df6097, src-4f4f8e7b9e66a76a, src-5f7c4e0b68eaa204, src-65ffd352a761fbb2, src-7c243360e9652249, src-a96bc601a0f1de0e, src-ae2888bc0b3110ef, src-b44cd4fefefee660, src-bac69a757e85ea3f, src-ceeaf4e7c278cb76, src-e2ab02662e39130f, src-f3bd91fe72867125, src-fdd74cfb90272959` | `under_review` |
-| Raphaël Glucksmann | Declared candidate; won the social-democratic primary in October 2026; participated in the 27 August MEDEF debate. | Not yet systematically verified | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-c74cbbac7db6caeb` | `under_review` |
+| Raphaël Glucksmann | Declared candidate (announced 23 August 2026); won the PS–Place publique social-democratic primary on 11 October 2026; not officially qualified on the ballot. | Checked against current official campaign programme page and 9 November environmental booklet; detailed full programme remains in progress | 18 | `src-05580a6c3a0a1a2d, src-059c883257fdc130, src-06d414b6729515d9, src-1f3813f8394358c6, src-247e69abeafa52c8, src-332f5d25a343754f, src-4f4f8e7b9e66a76a, src-59339eec917d2b7a, src-63c6092eb5bf24e5, src-65ffd352a761fbb2, src-6d663c480c9ae8be, src-72fe3c1dfeab66d4, src-7bf83858bee43725, src-a96bc601a0f1de0e, src-b9958a38a6afb280, src-bac69a757e85ea3f, src-c74cbbac7db6caeb, src-e40eec8b6461bde1` | `under_review` |
 | Gabriel Attal | Declared candidate; Renaissance leader; participated in the 27 August MEDEF debate; called for a broad primary of the democrats in late October. | Primary source checked; historical programme only | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a8c3f25b2ca93fe2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f` | `under_review` |
 | Bruno Retailleau | Declared candidate; Les Républicains leader; participated in the 27 August MEDEF debate. | Not yet systematically verified | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-822ab5bdf57ed3fb, src-a96bc601a0f1de0e, src-bac69a757e85ea3f` | `under_review` |
 | Marine Tondelier | Declared candidate; Les Écologistes leader; participated in the 27 August MEDEF debate. | Not yet systematically verified | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-d0b4e9b333a674ec` | `under_review` |
@@ -73,7 +73,7 @@ All existing policy-position records currently have no editorial claims. The leg
 | Marine Le Pen | Employment & pensions | `secondary_only` | Independent reporting of debate statement | Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef | `src-4f4f8e7b9e66a76a` |
 | Jean-Luc Mélenchon | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
 | Édouard Philippe | Employment & pensions | `primary_verified` | Official campaign programme text | Retraites — Le programme — Avec Édouard 2027 | `src-5f7c4e0b68eaa204` |
-| Raphaël Glucksmann | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (LCP / Public Sénat via Vote Public) | `src-d4c7bb75f18c5353` |
+| Raphaël Glucksmann | Employment & pensions | `secondary_only` | Independent debate reporting | Le Monde live coverage of the final social-democratic primary debate | `src-7bf83858bee43725` |
 | David Lisnard | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Candidate site via Vote Public) | `src-d4c7bb75f18c5353` |
 | Bruno Retailleau | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | `src-d4c7bb75f18c5353` |
 | Gabriel Attal | Employment & pensions | `secondary_only` | Debate reporting; consult the candidate's primary statement where available | Pensions evidence indexed by Vote Public (Europe 1 / Public Sénat via Vote Public) | `src-d4c7bb75f18c5353` |
@@ -85,7 +85,7 @@ All existing policy-position records currently have no editorial claims. The leg
 | Marine Le Pen | Economy & taxation | `secondary_only` | Independent reporting of debate statement | Présidentielle 2027 : ce qu’il faut retenir du premier débat entre les candidats devant le Medef | `src-4f4f8e7b9e66a76a` |
 | Jean-Luc Mélenchon | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
 | Édouard Philippe | Economy & taxation | `secondary_only` | Independent debate reporting | LCP: first MEDEF debate, 27 August 2026 | `src-4f4f8e7b9e66a76a` |
-| Raphaël Glucksmann | Economy & taxation | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
+| Raphaël Glucksmann | Economy & taxation | `secondary_only` | Direct candidate interview | Le Monde interview: Raphaël Glucksmann on ecological policy, Europe and mega-inheritance taxation | `src-6d663c480c9ae8be` |
 | Gabriel Attal | Employment & pensions | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
 | Bruno Retailleau | Employment & pensions | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
 | Marine Tondelier | Employment & pensions | `secondary_only` | Debate reporting | Selectra: what the seven candidates proposed at the MEDEF debate | `src-65ffd352a761fbb2` |
@@ -95,10 +95,11 @@ All existing policy-position records currently have no editorial claims. The leg
 | Jean-Luc Mélenchon | Employment & pensions | `primary_verified` | Official campaign programme text | Chapitre 1 : À chacun selon ses besoins | `src-e1e5201dfe247eaa` |
 | Jean-Luc Mélenchon | Wages & cost of living | `primary_verified` | Official campaign programme text | Chapitre 2 : Partager les richesses | `src-935423b9c51aef66` |
 | Édouard Philippe | Public finances | `primary_verified` | Official campaign programme text | Finances publiques — Le programme — Avec Édouard 2027 | `src-7c243360e9652249` |
+| Raphaël Glucksmann | Environment, energy & climate adaptation | `primary_verified` | Official campaign programme document (PDF) | Révolution écologique : les premiers 100 jours – Première partie | `src-59339eec917d2b7a` |
 
 ## News and polling
 
-- News: 35 records; 34 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (3), unreviewed (31).
+- News: 36 records; 33 have no editorial claims. Existing verification codes: primary_verified (2), secondary_only (4), unreviewed (30).
 - Individual polls: 20 records; 19 have no editorial claims. Existing verification codes: primary_verified (1), secondary_only (19).
 - Polling trend snapshots: 1; no snapshot is treated as verified by this queue.
 - For polling, locate the original pollster notice and preserve fieldwork dates, sponsor, sample, method, question wording, and tested scenario as separate observations.
@@ -109,15 +110,15 @@ Election events: 12; debates: 1. Review their factual dates, descriptions, and s
 
 ## Source-registry completeness
 
-The records reference 88 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
+The records reference 98 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
 
 | Registry field | Referenced entries populated | Referenced entries |
 | --- | ---: | ---: |
-| `publisher` | 32 | 88 |
-| `author` | 4 | 88 |
-| `publication_date` | 21 | 88 |
-| `checked_date` | 32 | 88 |
-| `verification_status` | 32 | 88 |
+| `publisher` | 42 | 98 |
+| `author` | 9 | 98 |
+| `publication_date` | 30 | 98 |
+| `checked_date` | 42 | 98 |
+| `verification_status` | 42 | 98 |
 
 ### Referenced source records
 
@@ -127,11 +128,14 @@ Open each URL and complete the metadata only when the source itself supports it;
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | src-00a2a51cda3f6aae | Les candidats n’ont plus que quatre mois pour trouver les 500 parrainages nécessaires | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-candidats-nont-plus-que-quatre-mois-pour-trouver-les-500-parrainages-necessaires-avant-le-premier-tour-06-11-2026-Z2U635YNRRFQZMABPMN5YUEGQU.php |  |  |  |  |  |
 | src-03847b639169e1fa | Au cœur de l’été, Retailleau prépare son odyssée présidentielle depuis l’île d’Yeu | https://www.leparisien.fr/elections/presidentielle/ca-permet-de-prendre-de-la-distance-au-coeur-de-lete-retailleau-prepare-son-odyssee-presidentielle-depuis-lile-dyeu-07-08-2026-AJCEQFVGQJHZLMWFRKAE3IZNC4.php |  |  |  |  |  |
+| src-05580a6c3a0a1a2d | Primaire à gauche : comparez les propositions des cinq candidats | https://www.lemonde.fr/les-decodeurs/article/2026/10/09/primaire-a-gauche-comparez-les-propositions-des-cinq-candidats_6790548_4355770.html | Le Monde |  | 2026-10-09 | 2026-11-12 | secondary_only |
 | src-059c883257fdc130 | Observatoire 2027: written programme comparison | https://www.observatoire2027.fr/programmes/ |  |  |  |  |  |
+| src-06d414b6729515d9 | Raphaël Glucksmann wins French center-left presidential primary | https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la | LCP - Assemblée nationale | Soizic Bonvarlet | 2026-10-11 | 2026-11-12 | secondary_only |
 | src-075fbe4f90cb172d | Sortie de L’Avenir en commun, le programme de la Nouvelle France | https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/ | La France insoumise |  | 2026-11-02 | 2026-11-12 | primary_verified |
 | src-118cac209440d5c4 | Le Monde, 8 November 2026 | https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html |  |  |  |  |  |
 | src-1541e3ce5ededaef | Vote Public: France 2027 poll archive (cross-check original notice) | https://vote-public.org/presidentielle-2027/ |  |  |  |  |  |
 | src-179b5d4830a7654c | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/nathalie-arthaud/ |  |  |  |  |  |
+| src-1f3813f8394358c6 | Raphaël Glucksmann remporte la primaire | https://place-publique.eu/ | Place publique |  | 2026-10-11 | 2026-11-12 | primary_verified |
 | src-2246c57ba79efcd4 | Toute l’Europe: declared candidates and official qualification process | https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/ |  |  |  |  |  |
 | src-241559660f2f5c34 | « Ici est la force ! » : depuis Le Bourget, Jean-Luc Mélenchon prêt à décoller pour le second tour | https://www.leparisien.fr/elections/presidentielle/ici-est-la-force-depuis-le-bourget-jean-luc-melenchon-pret-a-decoller-pour-le-second-tour-de-la-presidentielle-07-11-2026-5AP5ZDQ7V5CATKZPLLC7VKHT6I.php |  |  |  |  |  |
 | src-247e69abeafa52c8 | Le Monde: candidate guide (12 October 2026) | https://www.lemonde.fr/les-decodeurs/article/2026/10/12/presidentielle-2027-qui-sont-les-principaux-candidats-declares-ou-probables_6680905_4355771.html |  |  |  |  |  |
@@ -140,6 +144,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-2df86e75e6df6097 | Édouard Philippe : « Je serai candidat à la prochaine élection présidentielle » | https://www.lepoint.fr/politique/exclusif-edouard-philippe-je-serai-candidat-a-la-prochaine-election-presidentielle-03-09-2024-2569359_20.php | Le Point | Mathilde Siraud; Valérie Toranian | 2024-09-03 | 2026-11-12 | primary_verified |
 | src-317c0e07c89b7e13 | Présidentielle 2027 : les sondages ont-ils toujours vu juste à six mois des élections ? | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-les-sondages-ont-ils-toujours-vu-juste-a-six-mois-des-elections-07-11-2026-WZ7PUIGJPRCNHAJWBGWFRLZPJA.php |  |  |  |  |  |
 | src-32d0aec34918b25e | Ce que nous avons demandé aux candidats en 2027 | https://quiproposequoi2027.fr/transparence.html | Qui propose quoi 2027 |  |  | 2026-11-12 | secondary_only |
+| src-332f5d25a343754f | Présidentielle 2027 : pourquoi la CSG divise autant les candidats | https://www.lemonde.fr/les-decodeurs/article/2026/10/04/presidentielle-2027-pourquoi-la-csg-divise-autant-les-candidats_6788112_4355770.html | Le Monde | Julien Lemaignen | 2026-10-04 | 2026-11-12 | secondary_only |
 | src-352718e812c10422 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/francois-ruffin/ |  |  |  |  |  |
 | src-379dc807906867a1 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/xavier-bertrand/ |  |  |  |  |  |
 | src-3f58b64c769c7000 | MEDEF | https://www.medef.com/ |  |  |  |  |  |
@@ -149,16 +154,21 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-4f4f8e7b9e66a76a | LCP: first MEDEF debate, 27 August 2026 | https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670 |  |  |  |  |  |
 | src-5436a62ced49f877 | The Guardian, 12 October 2026 | https://www.theguardian.com/world/2026/oct/12/french-centre-left-must-wage-existential-battle-to-prevent-far-right-winning-presidency |  |  |  |  |  |
 | src-54719782c7da2e34 | Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle? | https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935 | LCP – Assemblée nationale | Maxence Kagni | 2026-11-10 | 2026-11-12 | secondary_only |
+| src-59339eec917d2b7a | Révolution écologique : les premiers 100 jours – Première partie | https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf | Raphaël Glucksmann 2027 campaign | Raphaël Glucksmann and Yannick Jadot | 2026-11-09 | 2026-11-12 | primary_verified |
 | src-5ddb09c966498a67 | En meeting au Bourget, Mélenchon mobilise sa base tout en cherchant à élargir son électorat | https://www.lemonde.fr/politique/article/2026/11/08/presidentielle-2027-en-meeting-au-bourget-jean-luc-melenchon-s-attelle-a-mobiliser-sa-base-tout-en-elargissant-son-electorat_6808387_823448.html |  |  |  |  |  |
 | src-5f7c4e0b68eaa204 | Retraites — Le programme — Avec Édouard 2027 | https://www.edouardphilippe.fr/programme/retraites | Avec Édouard 2027 campaign |  | 2026-11-12 | 2026-11-12 | primary_verified |
+| src-63c6092eb5bf24e5 | Raphaël Glucksmann declares his candidacy and confirms participation in the primary | https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la | LCP - Assemblée nationale |  | 2026-08-23 | 2026-11-12 | secondary_only |
 | src-65ffd352a761fbb2 | Selectra: proposals on debt at the MEDEF debate, 28 August 2026 | https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne |  |  |  |  |  |
 | src-6c9a996046c49776 | Suivi de la procédure devant la chambre criminelle de la Cour de cassation — communiqué n°3 | https://www.courdecassation.fr/toutes-les-actualites/2026/10/16/communique-affaire-dite-des-assistants-parlementaires-du-front | Cour de cassation |  | 2026-10-16 | 2026-11-12 | primary_verified |
 | src-6d19e24fe42df29f | Marine Tondelier veut pouvoir interdire X en cas d’ingérences étrangères | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-veut-pouvoir-interdire-x-en-cas-dingerences-etrangeres-06-08-2026-H7CEM6RWLVBTTN4QT3ULN64F2M.php |  |  |  |  |  |
+| src-6d663c480c9ae8be | Raphaël Glucksmann: “La cohérence écologique, nous la portons” | https://www.lemonde.fr/politique/article/2026/08/26/raphael-glucksmann-l-europe-est-cruciale-pour-mener-a-bien-la-transformation-ecologique_6756834_823448.html | Le Monde | Sandrine Cassini and Robin Richardot | 2026-08-26 | 2026-11-12 | secondary_only |
+| src-72fe3c1dfeab66d4 | Raphaël Glucksmann 2027 campaign programme page | https://raphaelglucksmann.eu/programme.html | Raphaël Glucksmann 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-73384a3f2a76d462 | RTL, 3 November 2026 | https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301 |  |  |  |  |  |
 | src-75a8eef3e6eec640 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/fabien-roussel/ |  |  |  |  |  |
 | src-7646108e3a661d57 | Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe | https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html |  |  |  |  |  |
 | src-782f3a0ba6a493c9 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/eric-zemmour/ |  |  |  |  |  |
 | src-79ade616248c6100 | Attal says discussions on a right-centre primary are accelerating | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php |  |  |  |  |  |
+| src-7bf83858bee43725 | Primaire à gauche : live coverage of final debate | https://www.lemonde.fr/politique/live/2026/10/04/en-direct-debat-de-la-primaire-a-gauche-suivez-la-derniere-confrontation-entre-olivier-faure-raphael-glucksmann-segolene-royal-jerome-guedj-et-emmanuel-maurel-avant-le-premier-tour_6788319_823448.html | Le Monde |  | 2026-10-04 | 2026-11-12 | secondary_only |
 | src-7c243360e9652249 | Finances publiques — Le programme — Avec Édouard 2027 | https://www.edouardphilippe.fr/programme/comptes-publics | Avec Édouard 2027 campaign |  | 2026-11-12 | 2026-11-12 | primary_verified |
 | src-7f76fc13327f4e6b | « Ce soir, je suis candidate à l’élection présidentielle », annonce Marine Le Pen au 20H de TF1 | https://www.tf1info.fr/politique/videos/video-ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-au-20h-de-tf1-28383-2451908.html | TF1 Info |  | 2026-07-07 | 2026-11-12 | secondary_only |
 | src-7f956e4bad7b6d38 | Communiqué de la France insoumise du 5 mai 2026 | https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/ | La France insoumise |  | 2026-05-05 | 2026-11-12 | primary_verified |
@@ -202,6 +212,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-e0913b8baea284dc | Marine Le Pen : verdict de la cour d’appel et peine | https://www.lemonde.fr/societe/article/2026/07/07/le-monde-publie-les-principaux-extraits-de-la-decision-en-appel-condamnant-marine-le-pen-la-gravite-objective-des-faits-est-averee_6721545_3224.html | Le Monde |  | 2026-07-07 | 2026-11-12 | primary_verified |
 | src-e1e5201dfe247eaa | Chapitre 1 : À chacun selon ses besoins | https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-e2ab02662e39130f | Le programme — Avec Édouard 2027 | https://www.edouardphilippe.fr/programme | Avec Édouard 2027 campaign |  | 2026-11-12 | 2026-11-12 | primary_verified |
+| src-e40eec8b6461bde1 | French presidential election: Glucksmann presents “100-day environmental revolution” plan | https://www.lemonde.fr/en/politics/article/2026/11/09/french-presidential-election-glucksmann-presents-100-day-environmental-revolution-plan_6776002_5.html | Le Monde | Robin Richardot | 2026-11-09 | 2026-11-12 | secondary_only |
 | src-e5d94025bff7f169 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/jean-luc-melenchon/ |  |  |  |  |  |
 | src-e737c552f7bbff4b | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/ |  |  |  |  |  |
 | src-e936e0288fd66978 | Meeting de Mélenchon : une création artistique collective illustrera le programme présidentiel de LFI | https://www.leparisien.fr/elections/presidentielle/meeting-de-melenchon-au-bourget-une-creation-artistique-collective-illustrera-le-programme-presidentiel-de-lfi-06-11-2026-JBQI7V3K5VH4LLASGP2ZVT6BKY.php |  |  |  |  |  |
