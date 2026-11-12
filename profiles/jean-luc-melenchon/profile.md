@@ -2,13 +2,13 @@
 
 **Party / movement:** La France insoumise
 **Political family:** Left-wing
-**Campaign status (12 November 2026):** Declared candidate; announced 3 May 2026. LFI released the 2027 edition of *L’Avenir en commun* on 6 November and presented it at Le Bourget on 7 November.
+**Campaign status (12 November 2026):** LFI’s intergroup proposed Mélenchon for its popular investiture on 3 May; LFI described the presidential campaign as launched on 5 May. The 2027 edition of *L’Avenir en commun* was released on 6 November and presented at Le Bourget on 7 November.
 **Ballot status:** Declared; not officially qualified.
-**Programme status:** Published 2027 programme. LFI says it contains 1,069 measures. LFI calls it the fifth edition in its release, while the campaign site calls it the sixth; the project flags this discrepancy and uses “2027 edition” without choosing an ordinal.
+**Programme status:** Published 2027 programme. LFI says it contains 1,069 measures. LFI’s release and campaign history page call it the fifth edition, while another campaign programme page calls it the sixth. This discrepancy is flagged; the dossier uses “2027 edition” without choosing an ordinal.
 
 ## Political biography and career
 
-Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). He announced another candidacy on 3 May 2026.
+Founder and leading figure of La France insoumise (LFI), Jean-Luc Mélenchon has served as a senator, minister and MP and has run for president three times (2012, 2017 and 2022). On 3 May 2026, LFI’s intergroup decided to propose his candidacy for a popular investiture; on 5 May, LFI described the presidential campaign as launched. These party milestones do not establish official qualification for the ballot.
 
 ## Current programme and stated positions
 
@@ -16,7 +16,7 @@ The 2027 programme is the current party platform. Historical LFI programmes and 
 
 ### Social and economic policy
 
-The programme proposes retirement at 60 after 40 contribution years and a €1,700 net minimum wage, among other measures. These are campaign commitments, not independently costed outcomes.
+The programme proposes repealing the 2023 pension reform and retirement at 60 at full rate after 40 contribution years. It also proposes a €1,700 monthly net minimum wage, wage indexation to inflation, and blocking or regulating prices for essential goods. These are campaign commitments, not independently costed outcomes.
 
 ### Palestine, Israel and regional policy
 
@@ -41,6 +41,11 @@ Independent costing and implementation; legal conditions for any vote affecting 
 
 ## Sources
 
+- [LFI intergroup statement, 3 May 2026](https://lafranceinsoumise.fr/2026/05/03/declaration-de-lintergroupe-de-la-france-insoumise-du-3-mai-2026/) — party statement proposing Mélenchon for popular investiture; not ballot qualification.
+- [LFI campaign-launch statement, 5 May 2026](https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/) — party statement describing the presidential campaign launch.
+- [Campaign programme history](https://melenchon2027.fr/comment-a-ete-concu-le-programme/) — calls the 6 November text the fifth version.
+- [Official campaign programme: pensions chapter](https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1) — proposal to repeal the 2023 reform and restore retirement at 60 at full rate after 40 contribution years.
+- [Official campaign programme: wages and essential prices chapter](https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2) — proposals for €1,700 monthly net SMIC, wage indexation and price regulation.
 - [LFI announcement of the 2027 programme release](https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/) — party statement, 2 November; says release 6 November and presentation 7 November, calls it fifth edition.
 - [Official campaign programme page](https://melenchon2027.fr/programme/decouvrir/) — states 1,069 measures and labels the book the sixth edition.
 - [Official campaign programme: foreign policy chapter](https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2) — full text of stated positions.

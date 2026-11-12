@@ -8,14 +8,14 @@ Dataset last updated: 2026-11-12. This report is generated from the canonical `d
 
 | Content type | Records | Workflow status | No claim-level evidence | No linked source reference |
 | --- | ---: | --- | ---: | ---: |
-| Candidate profiles | 40 | `under_review`: 40 | 39 | 0 |
-| Policy positions | 22 | `under_review`: 22 | 19 | 0 |
+| Candidate profiles | 40 | `under_review`: 40 | 38 | 0 |
+| Policy positions | 24 | `under_review`: 24 | 19 | 0 |
 | News records | 35 | `under_review`: 35 | 34 | 0 |
 | Individual polls | 20 | `under_review`: 20 | 19 | 0 |
 | Polling snapshots | 1 | `under_review`: 1 | 1 | 0 |
 | Election events | 12 | `under_review`: 12 | 12 | 8 |
 | Debates | 1 | `under_review`: 1 | 1 | 0 |
-| **All listed records** | **131** | **under_review: 131** | **125** | **8** |
+| **All listed records** | **133** | **under_review: 133** | **124** | **8** |
 
 ## Candidate profiles
 
@@ -24,7 +24,7 @@ Every candidate profile currently has no editorial claims. Review each profile c
 | Candidate | Existing candidacy label | Official-site audit label | Source count | Source IDs | Editorial status |
 | --- | --- | --- | ---: | --- | --- |
 | Marine Le Pen | Declared candidate; announced 7 July 2026; participated in the 27 August MEDEF debate. | Not yet systematically verified | 8 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-9e00a669bb7a8816, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-ebca2b7af2e5afd5` | `under_review` |
-| Jean-Luc Mélenchon | Declared candidate; announced 3 May 2026; presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. LFI lists further public meetings for 12 November. | Primary source checked | 12 | `src-059c883257fdc130, src-075fbe4f90cb172d, src-247e69abeafa52c8, src-4e3f1cd78bae2818, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-89e2f27deb8b34e5, src-a5085a7de2ef427e, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-cdf547303b05c308, src-e5d94025bff7f169` | `under_review` |
+| Jean-Luc Mélenchon | Declared candidate; on 3 May 2026, LFI’s intergroup proposed his candidacy for its popular investiture; LFI described the presidential campaign as launched on 5 May. Presented the 2027 edition of L’Avenir en commun at Le Bourget on 7 November. These campaign milestones do not establish official ballot qualification. | Primary programme sources checked; partial claim review | 18 | `src-059c883257fdc130, src-075fbe4f90cb172d, src-247e69abeafa52c8, src-4e3f1cd78bae2818, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-7f956e4bad7b6d38, src-89e2f27deb8b34e5, src-935423b9c51aef66, src-96aa93a95c8b24bf, src-a5085a7de2ef427e, src-a96bc601a0f1de0e, src-ad28534ee9ba841b, src-b62b0e29b4b83ee1, src-bac69a757e85ea3f, src-cdf547303b05c308, src-e1e5201dfe247eaa, src-e5d94025bff7f169` | `under_review` |
 | Édouard Philippe | Declared candidate; announced 3 September 2024; participated in the 27 August MEDEF debate. | Primary source checked | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-f3bd91fe72867125` | `under_review` |
 | Raphaël Glucksmann | Declared candidate; won the social-democratic primary in October 2026; participated in the 27 August MEDEF debate. | Not yet systematically verified | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f, src-c74cbbac7db6caeb` | `under_review` |
 | Gabriel Attal | Declared candidate; Renaissance leader; participated in the 27 August MEDEF debate; called for a broad primary of the democrats in late October. | Primary source checked; historical programme only | 7 | `src-059c883257fdc130, src-247e69abeafa52c8, src-4f4f8e7b9e66a76a, src-65ffd352a761fbb2, src-a8c3f25b2ca93fe2, src-a96bc601a0f1de0e, src-bac69a757e85ea3f` | `under_review` |
@@ -92,6 +92,8 @@ All existing policy-position records currently have no editorial claims. The leg
 | Teddy Riner | Employment & pensions | `secondary_only` | Independent report summarising candidate statements | Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle? | `src-54719782c7da2e34` |
 | Teddy Riner | Wages & working time | `secondary_only` | Independent report summarising candidate statements | Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle? | `src-54719782c7da2e34` |
 | Teddy Riner | Public finances | `secondary_only` | Independent report summarising candidate statements | Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle? | `src-54719782c7da2e34` |
+| Jean-Luc Mélenchon | Employment & pensions | `primary_verified` | Official campaign programme text | Chapitre 1 : À chacun selon ses besoins | `src-e1e5201dfe247eaa` |
+| Jean-Luc Mélenchon | Wages & cost of living | `primary_verified` | Official campaign programme text | Chapitre 2 : Partager les richesses | `src-935423b9c51aef66` |
 
 ## News and polling
 
@@ -106,15 +108,15 @@ Election events: 12; debates: 1. Review their factual dates, descriptions, and s
 
 ## Source-registry completeness
 
-The records reference 69 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
+The records reference 75 distinct source IDs; 0 are missing from `source_registry`. A record without a reference may still contain an unlinked source URL, but it cannot participate in the approved claim-level source trail until linked.
 
 | Registry field | Referenced entries populated | Referenced entries |
 | --- | ---: | ---: |
-| `publisher` | 13 | 69 |
-| `author` | 1 | 69 |
-| `publication_date` | 8 | 69 |
-| `checked_date` | 13 | 69 |
-| `verification_status` | 13 | 69 |
+| `publisher` | 19 | 75 |
+| `author` | 1 | 75 |
+| `publication_date` | 10 | 75 |
+| `checked_date` | 19 | 75 |
+| `verification_status` | 19 | 75 |
 
 ### Referenced source records
 
@@ -152,6 +154,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-7646108e3a661d57 | Gérald Darmanin rejette la primaire voulue par Gabriel Attal et appelle à se rassembler derrière Edouard Philippe | https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-gerald-darmanin-rejette-la-primaire-voulue-par-gabriel-attal-et-appelle-a-se-rassembler-derriere-edouard-philippe_6805549_823448.html |  |  |  |  |  |
 | src-782f3a0ba6a493c9 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/eric-zemmour/ |  |  |  |  |  |
 | src-79ade616248c6100 | Attal says discussions on a right-centre primary are accelerating | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-primaire-de-la-droite-et-du-centre-aura-t-elle-lieu-les-choses-saccelerent-dans-les-discussions-affirme-attal-06-11-2026-FYLKB47ZR5GM7D27P4UWKAIZPY.php |  |  |  |  |  |
+| src-7f956e4bad7b6d38 | Communiqué de la France insoumise du 5 mai 2026 | https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/ | La France insoumise |  | 2026-05-05 | 2026-11-12 | primary_verified |
 | src-822ab5bdf57ed3fb | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/bruno-retailleau/ |  |  |  |  |  |
 | src-8315aa94fb69ea50 | Réunion publique pour la planification écologique — Saint-Quirc | https://melenchon2027.fr/evenement/campagne/reunion-publique-pour-la-planification-ecologique-vite-les-eco-regions-avec-gabriel-amard-et-claire-lejeune/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-89e2f27deb8b34e5 | Reuters: Mélenchon programme launch, 7 November 2026 | https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/ |  |  |  |  |  |
@@ -159,6 +162,8 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-8c51d60e17c35bcf | LCP, 6 November 2026 | https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841 |  |  |  |  |  |
 | src-9002d5153f8dba68 | Associated Press: Teddy Riner announces a run for French president, 9 November 2026 | https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396 |  |  |  |  |  |
 | src-90ef11d05d43524a | Eric Zemmour confirme sa candidature à l’élection présidentielle | https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html | Le Monde |  | 2026-11-10 | 2026-11-12 | secondary_only |
+| src-935423b9c51aef66 | Chapitre 2 : Partager les richesses | https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
+| src-96aa93a95c8b24bf | Comment a été conçu le programme | https://melenchon2027.fr/comment-a-ete-concu-le-programme/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-9d1cea18becd9ec8 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/david-lisnard/ |  |  |  |  |  |
 | src-9e00a669bb7a8816 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/marine-le-pen/ |  |  |  |  |  |
 | src-a5085a7de2ef427e | L’Avenir en commun 2027: Une France indépendante au service de la paix | https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
@@ -166,7 +171,9 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-a8c3f25b2ca93fe2 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/gabriel-attal/ |  |  |  |  |  |
 | src-a96bc601a0f1de0e | Le Monde: candidates' economic divide, 28 August 2026 | https://www.lemonde.fr/en/politics/article/2026/08/28/french-presidential-candidates-gather-for-first-debate-as-left-right-divide-emerges-on-economic-issues_6756935_5.html |  |  |  |  |  |
 | src-a9b3ff23a6b4adb6 | Christine Lagarde tells Euronews: “I’m not a candidate” | https://www.euronews.com/2026/07/09/im-not-a-candidate-lagarde-tells-euronews-as-french-election-speculation-grows | Euronews |  | 2026-07-09 | 2026-11-12 | secondary_only |
+| src-ad28534ee9ba841b | Déclaration de l’intergroupe de la France insoumise du 3 mai 2026 | https://lafranceinsoumise.fr/2026/05/03/declaration-de-lintergroupe-de-la-france-insoumise-du-3-mai-2026/ | La France insoumise |  | 2026-05-03 | 2026-11-12 | primary_verified |
 | src-ad8eacbf22d3af27 | « Au boulot ! » : François Ruffin dévoile 40 propositions dans un livre, qui n’est « pas un programme » | https://www.leparisien.fr/elections/presidentielle/au-boulot-candidat-a-la-presidentielle-2027-francois-ruffin-devoile-40-propositions-dans-un-livre-qui-nest-pas-un-programme-06-11-2026-4NR3EYU2VBAIXHCUVP4K4NYVIQ.php |  |  |  |  |  |
+| src-b62b0e29b4b83ee1 | Découvrir le programme | https://melenchon2027.fr/programme/decouvrir/ | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-b6eb83961e5f2671 | Édouard Philippe, Gabriel Attal et Bruno Retailleau : un impossible ménage à trois ? | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-gabriel-attal-et-bruno-retailleau-un-impossible-menage-a-trois-07-08-2026-K46XN56IBFDDTMOYNJYPUB2MBQ.php |  |  |  |  |  |
 | src-b9958a38a6afb280 | Raphaël Glucksmann schedules his first major campaign rally for 6 December | https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-emission-sur-les-reseaux-ce-vendredi-et-grand-meeting-a-paris-le-6-decembre-raphael-glucksmann-lance-sa-campagne-06-11-2026-VJAS3ET2JJBA5C7JDA47N6FOIY.php |  |  |  |  |  |
 | src-bac69a757e85ea3f | Observatoire 2027: candidate tracker (updated 7 November 2026) | https://www.observatoire2027.fr/candidats/ |  |  |  |  |  |
@@ -181,6 +188,7 @@ Open each URL and complete the metadata only when the source itself supports it;
 | src-d0b4e9b333a674ec | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/marine-tondelier/ |  |  |  |  |  |
 | src-d4c7bb75f18c5353 | Pensions evidence indexed by Vote Public (Public Sénat / Europe 1 via Vote Public) | https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle |  |  |  |  |  |
 | src-d5031ebc3397c2f3 | Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner | https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html | Le Monde |  | 2026-11-12 | 2026-11-12 | secondary_only |
+| src-e1e5201dfe247eaa | Chapitre 1 : À chacun selon ses besoins | https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1 | Mélenchon 2027 campaign |  |  | 2026-11-12 | primary_verified |
 | src-e5d94025bff7f169 | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/jean-luc-melenchon/ |  |  |  |  |  |
 | src-e737c552f7bbff4b | Observatoire 2027: individual candidate analysis | https://www.observatoire2027.fr/candidat/nicolas-dupont-aignan/ |  |  |  |  |  |
 | src-e936e0288fd66978 | Meeting de Mélenchon : une création artistique collective illustrera le programme présidentiel de LFI | https://www.leparisien.fr/elections/presidentielle/meeting-de-melenchon-au-bourget-une-creation-artistique-collective-illustrera-le-programme-presidentiel-de-lfi-06-11-2026-JBQI7V3K5VH4LLASGP2ZVT6BKY.php |  |  |  |  |  |
