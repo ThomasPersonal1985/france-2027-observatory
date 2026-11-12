@@ -2,7 +2,7 @@
   "meta": {
     "title": "France 2027 Election Observatory",
     "last_updated": "2026-11-12",
-    "data_version": 13,
+    "data_version": 14,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
@@ -1740,7 +1740,7 @@
       "campaign_status": "Declared candidate; announced 9 November 2026 in an interview and public campaign video.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Not yet assessed",
-      "profile": "Teddy Riner announced a 2027 presidential candidacy on 9 November and described his positioning as neither left nor right. On 12 November Le Monde reported Macron’s favourable public remarks. Riner associates denied that the Élysée orchestrated the candidacy. No formal endorsement, party alliance, or detailed programme is verified.",
+      "profile": "Teddy Riner announced a 2027 presidential candidacy on 9 November and described his positioning as neither left nor right. LCP’s 10 November summary of his Le Parisien interview reports early positions on pensions, wages, public spending, working time, security and anti-racism. The report says his fuller programme is to come. On 12 November Le Monde reported Macron’s favourable public remarks; Riner associates denied Élysée orchestration. No complete detailed programme, formal endorsement or party alliance is verified.",
       "profile_fr": "Teddy Riner a annoncé sa candidature à la présidentielle de 2027 le 9 novembre 2026. Il se présente comme ni de droite ni de gauche et dit vouloir rassembler. Cette annonce ne vaut pas qualification officielle pour le bulletin.",
       "sources": [
         {
@@ -1760,46 +1760,145 @@
           "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
           "type": "Independent news report",
           "source_id": "src-d5031ebc3397c2f3"
+        },
+        {
+          "title": "LCP: Riner’s early positions on pensions, wages and security, 10 November 2026",
+          "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+          "type": "Independent report summarising candidate statements",
+          "source_id": "src-54719782c7da2e34"
         }
       ],
-      "policy_summary": "The announcement presents a unifying, non-partisan positioning. No detailed policy programme has been verified.",
-      "programme_status": "No detailed 2027 programme verified at the time of announcement.",
+      "policy_summary": "Early policy directions reported by LCP from Riner’s 9 November interview include reforming pensions while retaining pay-as-you-go solidarity and not ruling out a funded component; reducing the gap between gross and net wages and easing charges; allowing people who choose to work more hours to increase income; and reducing spending while reallocating it. These are attributed candidate statements, not independent analysis or a complete programme.",
+      "programme_status": "Initial policy directions were reported by LCP on 10 November from the 9 November Le Parisien interview. The fuller programme was described as forthcoming; no complete detailed 2027 programme is verified.",
       "dossier": {
         "bio": "Olympic judo champion Teddy Riner announced his candidacy on 9 November 2026 in an interview with Le Parisien and a public campaign video. The Associated Press independently reported the announcement.",
-        "record": "An independent report published 12 November quotes Macron publicly welcoming Riner’s candidacy. It also reports that Riner associates denied Élysée orchestration. Treat the comment as favourable public rhetoric, not a formal endorsement or proof of campaign coordination. No detailed policy platform or campaign financing has been verified.",
+        "record": "An independent report published 12 November quotes Macron publicly welcoming Riner’s candidacy. It also reports that Riner associates denied Élysée orchestration. Treat the comment as favourable public rhetoric, not a formal endorsement or proof of campaign coordination. LCP’s 10 November report records several initial policy directions from Riner’s 9 November interview; the fuller programme remains forthcoming. Campaign financing and detailed implementation have not been verified.",
         "themes": [
-          "National unity and bringing people together (as described in the announcement; detailed proposals pending verification)."
+          "Pensions: reform while retaining pay-as-you-go solidarity; a funded component was not ruled out (candidate statement as reported by LCP).",
+          "Wages and work: reduce the gap between gross and net pay; allow those who want to work more to increase income (candidate statements as reported by LCP).",
+          "Public spending: spend less and reallocate more effectively (candidate statement as reported by LCP).",
+          "Security, authority, anti-racism and equal opportunity (candidate statements as reported by LCP)."
         ],
-        "positions": [],
+        "positions": [
+          {
+            "area": "Pensions",
+            "detail": "Riner said reform was necessary while retaining the pay-as-you-go solidarity system; he did not rule out adding a funded component. This is a reported candidate position, not an independent evaluation.",
+            "date": "9 November 2026",
+            "evidence": "Candidate statement reported by LCP; fuller programme forthcoming."
+          },
+          {
+            "area": "Wages and working time",
+            "detail": "LCP reports that Riner proposed reducing the gap between gross and net wages and enabling people who choose to work more to increase their income.",
+            "date": "9 November 2026",
+            "evidence": "Candidate statement reported by LCP."
+          },
+          {
+            "area": "Public spending",
+            "detail": "LCP reports Riner saying public spending should be reduced and resources reallocated more effectively.",
+            "date": "9 November 2026",
+            "evidence": "Candidate statement reported by LCP."
+          },
+          {
+            "area": "Security and anti-racism",
+            "detail": "LCP reports Riner’s statements about state authority, security, anti-racism and equal opportunity. Exact policy measures remain unspecified.",
+            "date": "9 November 2026",
+            "evidence": "Candidate statements reported by LCP."
+          }
+        ],
         "feasibility": "The first practical test is whether the campaign can obtain the statutory elected-official sponsorships. Policy and implementation questions require a published programme.",
-        "open": "Campaign team and affiliation; detailed programme; financing; sponsorship progress; dated policy positions; whether any formal political endorsement or alliance is announced.",
-        "programme": "No detailed 2027 programme verified as of 9 November 2026."
+        "open": "Detailed programme and costings; campaign team and affiliation; financing; sponsorship progress; whether any formal political endorsement or alliance is announced.",
+        "programme": "LCP reported initial policy directions on 10 November but said a fuller programme was to be released later. No complete detailed 2027 programme verified."
       },
       "dossier_updated": "2026-11-12",
       "programme_link": null,
       "programme_link_label": "Not yet published / verified",
-      "programme_link_note": "No detailed official programme was available in the cited announcement coverage.",
+      "programme_link_note": "No complete official programme was available in the sources checked. LCP reports initial policy directions from the announcement interview; the fuller programme is forthcoming.",
       "official_site_audit": {
         "status": "Announcement independently reported; later Macron remarks reported",
         "checked_date": "2026-11-12",
         "url": "https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html",
-        "note": "Public praise is not recorded as endorsement. Riner associates deny reported Élysée orchestration. No official programme verified."
+        "note": "Public praise is not recorded as endorsement. Riner associates deny reported Élysée orchestration. LCP reports initial candidate policy statements; no complete official programme verified."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "No official ballot qualification recorded. The Conseil constitutionnel publishes the definitive candidate list after validating statutory sponsorships, including 500 eligible presentations.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "riner-early-pension-position",
+            "text": "LCP reports Riner said he wanted to reform pensions while retaining a pay-as-you-go solidarity system and did not rule out a funded component.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "“Une réforme des retraites avec une éventuelle part de capitalisation”, paragraphs 1–2",
+                "supports": "The report attributes these pension statements to Riner in the Le Parisien interview.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attribute as a candidate statement reported by LCP; do not present as an independently assessed policy or a complete programme."
+          },
+          {
+            "id": "riner-early-wage-position",
+            "text": "LCP reports Riner proposed reducing the gap between gross and net wages and enabling people who choose to work more to increase their income.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "“Sur la question des salaires”, paragraph 1; “Travailler plus pour gagner plus”, paragraph 2",
+                "supports": "The report attributes both proposals to Riner’s interview with Le Parisien.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed policy statement; implementation details and effects are not established."
+          },
+          {
+            "id": "riner-early-public-spending-position",
+            "text": "LCP reports Riner said that public spending should be reduced and resources reallocated more effectively.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "Opening section, paragraph 3",
+                "supports": "The report quotes Riner on reducing spending and reinjecting resources more effectively.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed statement, not a costed fiscal plan."
+          },
+          {
+            "id": "riner-no-complete-programme-yet",
+            "text": "LCP reported on 10 November that Riner had outlined several initial policy directions and that his fuller programme was forthcoming.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "Opening section, paragraph 2",
+                "supports": "LCP says he gave several initial programme ideas and that he would unveil his programme later.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "This corrects the earlier over-broad statement that no policy positions had been identified; it does not imply a complete programme."
+          }
+        ],
+        "editorial_notes": "The candidacy and the cited public remarks were checked against reporting. LCP’s 10 November report supports the attributed initial policy statements; the complete programme, financing and other profile claims remain under review. No publication approval has been granted.",
         "legacy_public": true
       }
     },
@@ -3835,6 +3934,168 @@
         "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
         "legacy_public": true
       }
+    },
+    {
+      "candidate_name": "Teddy Riner",
+      "topic": "Employment & pensions",
+      "position": "Reform pensions while retaining pay-as-you-go solidarity; did not rule out a funded component.",
+      "statement_date": "9 Nov 2026",
+      "evidence_type": "Candidate statement reported by LCP",
+      "source": {
+        "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+        "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+        "type": "Independent report summarising candidate statements",
+        "source_id": "src-54719782c7da2e34"
+      },
+      "verification_status": "Secondary source checked; candidate statement attributed; editorial approval pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Initial direction only. Do not present as a complete, costed 2027 programme.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "LCP attributes these pension positions to Riner."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "riner-4daf127075ce",
+            "text": "Reform pensions while retaining pay-as-you-go solidarity; did not rule out a funded component.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "“Une réforme des retraites avec une éventuelle part de capitalisation”, paragraphs 1–2",
+                "supports": "LCP attributes these pension positions to Riner.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed candidate statement reported by LCP, not an independently verified outcome or complete proposal."
+          }
+        ],
+        "editorial_notes": "Claim is source-checked. Record remains under review; publication approval is pending.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Teddy Riner",
+      "topic": "Wages & working time",
+      "position": "Reduce the gross-to-net wage gap; allow people who choose to work more to increase their income.",
+      "statement_date": "9 Nov 2026",
+      "evidence_type": "Candidate statement reported by LCP",
+      "source": {
+        "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+        "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+        "type": "Independent report summarising candidate statements",
+        "source_id": "src-54719782c7da2e34"
+      },
+      "verification_status": "Secondary source checked; candidate statement attributed; editorial approval pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Initial direction only. Do not present as a complete, costed 2027 programme.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "LCP attributes these proposals to Riner’s interview."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "riner-a944707ab799",
+            "text": "Reduce the gross-to-net wage gap; allow people who choose to work more to increase their income.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "“Sur la question des salaires”, paragraph 1; “Travailler plus pour gagner plus”, paragraph 2",
+                "supports": "LCP attributes these proposals to Riner’s interview.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed candidate statement reported by LCP, not an independently verified outcome or complete proposal."
+          }
+        ],
+        "editorial_notes": "Claim is source-checked. Record remains under review; publication approval is pending.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Teddy Riner",
+      "topic": "Public finances",
+      "position": "Reduce spending and reallocate resources more effectively.",
+      "statement_date": "9 Nov 2026",
+      "evidence_type": "Candidate statement reported by LCP",
+      "source": {
+        "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+        "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+        "type": "Independent report summarising candidate statements",
+        "source_id": "src-54719782c7da2e34"
+      },
+      "verification_status": "Secondary source checked; candidate statement attributed; editorial approval pending",
+      "checked_date": "2026-11-12",
+      "editorial_note": "Initial direction only. Do not present as a complete, costed 2027 programme.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": "2026-11-12",
+        "reviewer": "AI-assisted source review",
+        "note": "LCP quotes Riner’s stated objective; no costed plan is provided."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "riner-0aa2a9f0344b",
+            "text": "Reduce spending and reallocate resources more effectively.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "Opening section, paragraph 3",
+                "supports": "LCP quotes Riner’s stated objective; no costed plan is provided.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Attributed candidate statement reported by LCP, not an independently verified outcome or complete proposal."
+          }
+        ],
+        "editorial_notes": "Claim is source-checked. Record remains under review; publication approval is pending.",
+        "legacy_public": false
+      }
     }
   ],
   "polls": [
@@ -5220,22 +5481,55 @@
       "survey_methodology": {
         "question_wording": "Among the following candidates, for whom would you be most likely to vote if the first round of the presidential election were held next Sunday? Scenario: Édouard Philippe as sole centrist candidate.",
         "collection_mode": "Online survey; quotas and weighting described in the official technical notice.",
-        "margin_of_error": "The notice reports a range of ±1.4 to ±2.9 points for overall results, depending on score; this scenario’s expressed-vote base is 1,339.",
+        "margin_of_error": "The notice reports an overall margin-of-error range of ±1.4 to ±3.1 points, depending on score; this scenario’s expressed-vote base is 1,339.",
         "sampling_frame": "2,436 adults representative of the French population aged 18+; 2,101 registered voters; published vote-intention results use 1,339 registered voters certain to vote who expressed an intention."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "harris-2026-11-09-margin-range",
+            "text": "The official notice states that the overall results have a margin-of-error range from ±1.4 to ±3.1 percentage points, depending on the score.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ce8869d46f35a155",
+                "locator": "PDF page 2, methodology note",
+                "supports": "The notice states the overall range is plus or minus 1.4 to 3.1 points.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Corrects the prior transcription of the upper bound as 2.9. This range is for overall results; avoid implying every candidate estimate has the same uncertainty."
+          },
+          {
+            "id": "harris-2026-11-09-philippe-scenario-results",
+            "text": "The stored first-round results belong to the notice’s scenario with Édouard Philippe as the sole centrist candidate; the notice presents this as one of several distinct candidate configurations.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ce8869d46f35a155",
+                "locator": "PDF pages 11 and 43",
+                "supports": "The questionnaire labels the Philippe-only configuration and the result table gives its candidate scores.",
+                "publication_date": "2026-11-09",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Do not combine this scenario with other Harris configurations or interpret it as a prediction."
+          }
+        ],
+        "editorial_notes": "The official notice was checked for the recorded Philippe-only scenario and margin range. This correction is source-verified; the record remains under review and publication approval is pending.",
         "legacy_public": true
       },
       "scenario_configuration": [
@@ -6545,6 +6839,59 @@
         "editorial_notes": "New report about a reaffirmation. Explicitly labelled as such to avoid recasting an old declaration as new.",
         "legacy_public": false
       }
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "LCP reports Teddy Riner’s initial policy directions",
+      "publisher": "LCP – Assemblée nationale",
+      "language": "French",
+      "topic": "Teddy Riner / policy proposals",
+      "summary": "LCP summarises policy directions Riner gave in his 9 November Le Parisien interview: pension reform retaining pay-as-you-go solidarity while not ruling out a funded component; lowering the gross-to-net wage gap and charges; working more by choice; and reducing and reallocating public spending. The report says his fuller programme is forthcoming. These are attributed candidate statements, not a complete programme or an independent assessment.",
+      "source": {
+        "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+        "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+        "type": "Independent report summarising candidate statements",
+        "source_id": "src-54719782c7da2e34"
+      },
+      "verification": {
+        "status": "Source checked; statements remain attributed",
+        "checked_date": "2026-11-12",
+        "note": "LCP report reviewed directly. It attributes initial policy positions to Riner and says a fuller programme is forthcoming.",
+        "code": "secondary_only",
+        "reviewer": "AI-assisted source review"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-12",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "riner-policy-outline-news",
+            "text": "LCP reported initial policy directions from Riner’s 9 November interview and said a fuller programme was forthcoming.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-54719782c7da2e34",
+                "locator": "Opening section, paragraph 2; sections on pensions and wages",
+                "supports": "The report summarises the initial positions and says the full programme will follow.",
+                "publication_date": "2026-11-10",
+                "checked_date": "2026-11-12"
+              }
+            ],
+            "editorial_notes": "Keep positions attributed; this does not establish a complete platform."
+          }
+        ],
+        "editorial_notes": "New item; source and claim checked, but editorial publication approval remains pending.",
+        "legacy_public": false
+      }
     }
   ],
   "events": [
@@ -7328,6 +7675,14 @@
       "language": "French",
       "type": "Official campaign event listing",
       "source_id": "src-a6791c0f90931176"
+    },
+    {
+      "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+      "publisher": "LCP – Assemblée nationale",
+      "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+      "language": "French",
+      "type": "Independent report summarising candidate statements",
+      "source_id": "src-54719782c7da2e34"
     }
   ],
   "updates": [
@@ -7370,6 +7725,10 @@
     {
       "date": "2026-11-12",
       "summary": "Daily research update: corrected the 3–5 November Harris record against the 9 November Commission des sondages notice (publication date, sponsor, exact Philippe-sole-centrist scenario and all ten results; preserved secondary archive and noted correction); added verified programme sources and documented LFI’s new Ukraine dispute; added a carefully qualified Christine Lagarde potential profile under the new credible-reporting threshold; updated Teddy Riner’s profile with Macron’s favourable public comment and the counterstatement; added Zemmour’s reaffirmation without treating it as a new candidacy; recorded four campaign-calendar listings for 12 November. Vote-intention averages and scenarios were not merged or recomputed."
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Editorial review correction: fixed the Harris margin-of-error upper bound from ±2.9 to ±3.1 against the official notice; added source-checked, attributed initial Teddy Riner policy statements and a hidden-under-review news/policy record. No new content was approved for publication."
     }
   ],
   "poll_trends": [
@@ -9971,6 +10330,19 @@
       "checked_date": "2026-11-12",
       "verification_status": "primary_verified",
       "editorial_notes": "Campaign calendar lists 12 Nov 2026, 19:00, Rodez; date and location checked 12 Nov."
+    },
+    {
+      "id": "src-54719782c7da2e34",
+      "title": "Retraites, salaires, sécurité: que propose Teddy Riner pour la présidentielle?",
+      "url": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+      "type": "Independent report summarising candidate statements",
+      "publisher": "LCP – Assemblée nationale",
+      "author": "Maxence Kagni",
+      "language": "French",
+      "publication_date": "2026-11-10",
+      "checked_date": "2026-11-12",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Summarises Riner’s 9 November Le Parisien interview and campaign video; statements are attributed to Riner. Reviewed 12 Nov; policy claims are not independent assessments."
     }
   ],
   "poll_trend_snapshots": [

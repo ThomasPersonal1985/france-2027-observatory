@@ -11,19 +11,20 @@ Riner described his positioning as neither left nor right and said he wants to b
 
 The announcement does not establish official ballot qualification; 500 valid elected-official presentations are required.
 
-## Policy and programme
+## Early policy statements and programme status
 
-No detailed 2027 programme has been verified. Do not infer political positions from Riner’s sporting achievements or from the president’s comments.
+LCP’s 10 November report summarises positions Riner gave in his 9 November interview with Le Parisien and campaign video. He said pensions should be reformed while retaining the pay-as-you-go solidarity system, without ruling out a funded component. He also proposed reducing the gap between gross and net wages, allowing people who want to work more to increase their income, and reducing and reallocating public spending. LCP reports further statements on security, authority, anti-racism and equal opportunity. These are attributed candidate statements, not independent analysis, a costed platform or a complete programme. LCP says the fuller programme is forthcoming.
 
 ## Campaign relationships and outstanding questions
 
-Campaign organization, financing, formal endorsements, policy platform and sponsorship progress require further verification. Le Monde’s report mentions people associated with prior Macron teams but also records denials by people close to Riner; these reports do not establish who controls or funds the campaign.
+Campaign organization, financing, formal endorsements, detailed policy measures and sponsorship progress require further verification. Le Monde’s report mentions people associated with prior Macron teams but also records denials by people close to Riner; these reports do not establish who controls or funds the campaign.
 
 ## Sources
 
 - [Le Parisien: direct interview and candidacy announcement, 9 November 2026](https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-je-suis-candidat-pour-dire-quon-peut-relever-la-france-teddy-riner-se-lance-dans-la-competition-09-11-2026-36MFSFMWDFGATLM2YGR3MDF4QI.php).
+- [LCP: Riner’s early positions on pensions, wages and security, 10 November 2026](https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935).
 - [Associated Press: announcement and 500-signature requirement, 9 November 2026](https://apnews.com/article/teddy-riner-judo-french-presidency-ed93cee34337ced33a8d767cdf3a8396).
 - [Le Monde: Macron’s public remarks and responses from Riner associates, 12 November 2026](https://www.lemonde.fr/en/politics/article/2026/11/12/presidential-election-2027-why-macron-threw-his-support-behind-judoka-teddy-riner-s-presidential-bid_6778378_5.html).
 
 ---
-Non-partisan research note. Candidate statements, media reporting, political praise, formal endorsement and ballot qualification are distinct.
+Non-partisan research note. Candidate statements, media reporting, political praise, formal endorsement and ballot qualification are distinct. These newly reviewed policy records remain under editorial review and are not approved for publication.

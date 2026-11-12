@@ -17,7 +17,7 @@
 
 ### Teddy Riner — declared, not ballot-qualified
 
-Riner announced his candidacy on 9 November, which the current Observatory already records. Le Monde reported on 12 November that Macron said he was “very happy” Riner had decided to enter the presidential debate. The same report says people close to Riner denied Élysée orchestration. The Observatory records the public remark and the denial separately; it does not label them a formal endorsement or campaign alliance. Riner has not published a detailed programme in the sources checked. He would still need 500 valid elected-official presentations to qualify for the official ballot.
+Riner announced his candidacy on 9 November, which the current Observatory already records. Le Monde reported on 12 November that Macron said he was “very happy” Riner had decided to enter the presidential debate. The same report says people close to Riner denied Élysée orchestration. The Observatory records the public remark and the denial separately; it does not label them a formal endorsement or campaign alliance. LCP’s 10 November report summarises initial policy directions from his 9 November interview: pension reform that retains pay-as-you-go solidarity while not ruling out a funded component; reducing the gross-to-net wage gap; enabling people who choose to work more to increase their income; and reducing and reallocating public spending. LCP says a fuller programme is forthcoming. Attribute these as candidate statements, not a complete or costed platform. He would still need 500 valid elected-official presentations to qualify for the official ballot.
 
 ### Jean-Luc Mélenchon — programme release and Ukraine dispute
 
@@ -60,9 +60,9 @@ No newly verified debate, withdrawal, coalition agreement or primary result was 
 - **Scenario recorded:** Édouard Philippe as the sole centrist candidate. Harris tested several distinct candidate configurations; they must remain separate.
 - **Results (% of expressed intentions):** Marine Le Pen 36; Jean-Luc Mélenchon 19; Édouard Philippe 14; Raphaël Glucksmann 12; Bruno Retailleau 8; Éric Zemmour 4; Nathalie Arthaud 1; Fabien Roussel 2; Marine Tondelier 2; Nicolas Dupont-Aignan 2.
 - **Comparable previous Harris wave:** the same “Philippe sole centrist” configuration was included on 19–21 October. The official evolution chart shows Le Pen 35→36, Mélenchon 17→19, Glucksmann 13→12, Philippe 16→14, Retailleau 7→8 and Zemmour 5→4. Small differences are within reported uncertainty; do not treat these as a forecast or a decisive trend.
-- **Uncertainty:** Harris gives an overall margin-of-error range of ±1.4 to ±2.9 points depending on score; its notice cautions that intentions describe a balance of opinion at a point in time and are not predictive. The individual candidate base is smaller than the full sample.
+- **Uncertainty:** Harris gives an overall margin-of-error range of ±1.4 to ±3.1 points depending on score; its notice cautions that intentions describe a balance of opinion at a point in time and are not predictive. The individual candidate base is smaller than the full sample.
 
-The project previously dated this poll 5 November, used a secondary archive as its only source, left its scenario unchecked and omitted Arthaud, Roussel and Dupont-Aignan. The same record is corrected rather than duplicated; the prior archive reference is retained and the correction is documented in the data update history.
+The project previously dated this poll 5 November, used a secondary archive as its only source, left its scenario unchecked and omitted Arthaud, Roussel and Dupont-Aignan. The same record is corrected rather than duplicated; the prior archive reference is retained and the correction is documented in the data update history. A second transcription error in this briefing and the data record, the upper margin bound written as ±2.9, was corrected to the notice’s ±3.1 on 12 November.
 
 ### Separate measure — potential to vote, not vote intention
 
@@ -86,7 +86,7 @@ The programme’s foreign-policy propositions create a clear documented differen
 
 ## What to monitor next
 
-1. Whether Riner publishes a policy programme, campaign team, financing information or formal endorsements; keep Macron’s comment distinct from an endorsement.
+1. Whether Riner publishes the fuller programme described by LCP, with specific measures and costings; continue to distinguish reported initial statements from a complete platform, and keep Macron’s comment distinct from an endorsement.
 2. The next original pollster notices, with scenario, dates and sample details checked before adding results; separate potential-to-vote and popularity studies from vote intention.
 3. Full, primary-source policy comparison across candidate programmes, including any subsequent clarification by LFI or its opponents on Ukraine and the status of the Palestine proposals.
 4. Whether Lagarde makes any direct statement changing her current “not a candidate” position; do not promote her to declared status based on speculation alone.
