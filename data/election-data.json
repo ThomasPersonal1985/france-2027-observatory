@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "France 2027 Election Observatory",
-    "last_updated": "2026-11-12",
-    "data_version": 18,
+    "last_updated": "2026-11-13",
+    "data_version": 19,
     "editorial_note": "Reported candidacy, stated intention, campaign activity and official ballot qualification are distinct statuses. The candidate directory includes a broad reported-declaration register, plus selected potential contenders; secondary tracker classifications are attributed and not treated as official.",
     "design_direction": "French editorial election observatory: navy, French blue, white and restrained crimson; page-specific visual systems.",
     "candidate_dossiers": "16 detailed research dossiers retained; additional declared and potential entries use concise, explicitly provisional profiles until primary-source and policy research is completed.",
     "poll_archive_note": "19 historical poll records plus the latest Harris Interactive first-round poll (fieldwork 3–5 November; published 9 November 2026). Its full scenario results and primary Commission des sondages notice were verified 12 November. Rolling averages remain a separate Vote Public snapshot and are not recomputed from this mixed archive. Harris potential-to-vote findings are not vote intentions.",
-    "news_note": "News archive expanded through 12 November 2026; new and reviewed items remain subject to claim-level editorial approval. Glucksmann’s 9 November environmental booklet is recorded as a campaign programme publication, not as an independently costed plan.",
+    "news_note": "News archive reviewed through 13 November 2026; new campaign items remain under editorial review unless separately approved. Attal’s official site lists 96 initial measures; full programme remains in progress.",
     "compass_question_count": 36,
     "compass_policy_areas": 12,
     "candidate_universe_note": "The existing declared-candidate register is retained. Christine Lagarde is added only to the potential-candidate monitoring register: credible speculation exists, but she has publicly said she is not a candidate and no declaration or campaign is verified."
@@ -1232,10 +1232,10 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "party": "Renaissance",
-      "campaign_status": "Declared candidate; Renaissance leader; participated in the 27 August MEDEF debate; called for a broad primary of the democrats in late October.",
+      "campaign_status": "Declared candidate (announced 22 May 2026); Renaissance leader. His campaign continues to advocate a right/centre primary; agreement by other contenders is not established.",
       "ballot_status": "Not yet on the official ballot list",
       "orientation": "Centre",
-      "profile": "Former prime minister. Advocates a primary to select a broader centre/right candidate; distinguish this from agreement by other contenders.",
+      "profile": "Former prime minister and leader of Renaissance. He announced his 2027 candidacy on 22 May 2026. His campaign site now lists 96 initial measures while stating that the programme will be released as the campaign develops; the list is not labelled a completed manifesto.",
       "sources": [
         {
           "title": "Le Monde: candidate guide (12 October 2026)",
@@ -1278,12 +1278,54 @@
           "url": "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne",
           "type": "Debate summary",
           "source_id": "src-65ffd352a761fbb2"
+        },
+        {
+          "title": "Le Monde: Attal announces his candidacy, 22 May 2026",
+          "url": "https://www.lemonde.fr/politique/article/2026/05/22/presidentielle-2027-gabriel-attal-officialise-sa-candidature-en-aveyron-en-esperant-s-eloigner-de-l-heritage-d-emmanuel-macron_6692277_823448.html",
+          "type": "Independent reporting of candidacy declaration",
+          "source_id": "src-c44b1f0d88f249b8"
+        },
+        {
+          "title": "Gabriel Attal Président — site officiel de campagne",
+          "url": "https://attalpresident.fr/",
+          "type": "Official campaign website",
+          "source_id": "src-f15b90e2d424f7ab"
+        },
+        {
+          "title": "Mes chantiers capitaux — les premières mesures annoncées",
+          "url": "https://attalpresident.fr/programme",
+          "type": "Official campaign programme-in-progress page",
+          "source_id": "src-ec0522d3287f717d"
+        },
+        {
+          "title": "Gabriel Attal aux Rencontres de l’avenir à Saint-Raphaël",
+          "url": "https://attalpresident.fr/actualites/gabriel-attal-rencontres-avenir-saint-raphael-france-premiere-puissance-europe-dix-ans",
+          "type": "Official campaign activity and policy summary",
+          "source_id": "src-6187874586396da7"
+        },
+        {
+          "title": "Présidentielle: que proposent les candidats à l’Élysée sur les retraites?",
+          "url": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751",
+          "type": "Independent policy reporting / candidate position summary",
+          "source_id": "src-bb463503f2a964a8"
+        },
+        {
+          "title": "Présidentielle 2027: comment Gabriel Attal veut soutenir les familles monoparentales s’il est élu",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-comment-gabriel-attal-veut-soutenir-les-familles-monoparentales-s-il",
+          "type": "Independent reporting of candidate proposals",
+          "source_id": "src-15de7c2795bb52d1"
+        },
+        {
+          "title": "Plan IA : 200 milliards d’euros pour la France",
+          "url": "https://attalpresident.fr/programme/mesures/plan-france-2040",
+          "type": "Official campaign policy proposal",
+          "source_id": "src-d53a1675707b7843"
         }
       ],
-      "policy_summary": "Centrist / liberal-reformist themes include work, education, economic competitiveness, public order and state reform. In September 2026 he argued for a duration-based pension system with points and a funded component, without specifying a new legal retirement age. Economic competitiveness, work and employment Education and school standards Public order and state authority",
-      "programme_status": "No complete 2027 programme indexed in the 7 November snapshot. Distinguish his record as prime minister from campaign commitments.",
+      "policy_summary": "The official campaign lists 96 initial measures across education, work, economy, finance, justice, families, immigration, ecology, energy, technology, democracy, foreign policy, health, defence, simplification and agriculture. Current attributed proposals reviewed here include replacing pension-age steering with contribution duration and a capitalization pillar; single-parent family supports; and a €200bn, ten-year AI investment plan. The candidate’s proposals are not independent assessments.",
+      "programme_status": "Programme in progress. As checked 13 November 2026, the official campaign site listed 96 initial announced measures and said further measures would be announced and the programme published when ready. Do not call this a complete manifesto.",
       "dossier": {
-        "bio": "Former prime minister, former education minister and leader of Renaissance. Gabriel Attal represents the liberal-centrist political family associated with Emmanuel Macron’s governing coalition. In the 2026 campaign period he has advocated a broad primary of democratic and pro-European forces, a proposal that is not equivalent to securing the endorsement of other potential contenders.",
+        "bio": "Former prime minister, former education minister and leader of Renaissance. He announced his candidacy for the 2027 presidential election on 22 May 2026. The campaign’s policy positions are attributed proposals and must be kept separate from his record in government.",
         "record": "His record includes serving as government spokesperson, budget minister, education minister and prime minister. The short premiership in 2024 and the government’s education, labour and fiscal choices are part of his governing record. Distinguish those decisions from proposals he is making for 2027.",
         "themes": [
           "Economic competitiveness, work and employment",
@@ -1295,54 +1337,223 @@
         "positions": [
           {
             "area": "Pensions",
-            "detail": "At the 30 September 2026 discussion he advocated moving away from a single legal-age steering model toward a duration-based system with points and a funded component. The cited research says no new legal retirement age or full technical details were specified.",
-            "date": "30 September 2026",
-            "evidence": "Public statement"
+            "detail": "Attal has advocated a universal system governed by contribution duration, with a capitalization component. In an August BFMTV interview summarized by LCP, he proposed removing the legal retirement age. A Public Sénat summary of the 27 August MEDEF debate instead describes him as supporting a shift in the legal age. The project’s previous “points system” detail is not supported by the sources checked here. The contradiction remains unresolved pending review of the full debate recording.",
+            "date": "August–November 2026",
+            "evidence": "Campaign proposal; inconsistent secondary descriptions of legal-age treatment"
           },
           {
             "area": "Business costs",
-            "detail": "At the MEDEF debate he proposed cancelling increases in labour costs introduced since 2024. The precise measures and fiscal consequences require a detailed proposal.",
+            "detail": "At the 27 August MEDEF debate, he reportedly proposed reversing increases in labour costs introduced since 2024. The direct replay and precise scope, affected contributions and fiscal effects have not been checked.",
             "date": "27 August 2026",
-            "evidence": "Debate reporting"
+            "evidence": "Secondary debate reporting; pending primary replay review"
+          },
+          {
+            "area": "Families monoparentales",
+            "detail": "At an August event, he proposed making received child-support payments non-taxable, creating respite childcare for single parents and a single-parent family card. LCP reports an approximately €1bn cost figure attributed to Attal; the estimate is not independently validated.",
+            "date": "28 August 2026",
+            "evidence": "Candidate proposals reported by LCP"
+          },
+          {
+            "area": "Artificial intelligence and investment",
+            "detail": "The campaign’s published proposal lists a €200bn, ten-year France 2040 AI plan with public and private financing, alongside an AI productivity tax credit and training for 20 million workers over three years. These are campaign commitments; financing and expected results have not been independently assessed.",
+            "date": "As checked 13 November 2026",
+            "evidence": "Official campaign proposal and 8 November campaign account"
           },
           {
             "area": "Political strategy",
-            "detail": "He called for a broad primary of democratic forces in late October 2026. This is a coalition proposal, not evidence that the other parties have agreed to participate.",
-            "date": "Late October 2026",
-            "evidence": "Campaign statement in project baseline"
+            "detail": "The campaign continues to advocate a primary to bring together the right and centre. This remains Attal’s proposal; it is not evidence that rival parties have agreed to participate.",
+            "date": "8 November 2026",
+            "evidence": "Official campaign account of his 8 November remarks"
           }
         ],
-        "feasibility": "Key tests: how a broad primary would be organised and who could participate; the fiscal effect of lower labour costs; and whether pension points and funded components can be reconciled with the existing pay-as-you-go system.",
-        "open": "Full manifesto; the scope and rules of the proposed primary; pension-system details; his positioning relative to other centre-right contenders.",
-        "programme": "No complete 2027 programme was indexed by Observatoire 2027 on 7 November 2026. His record in government should be analysed separately."
+        "feasibility": "Key tests: the scope and financing of labour-cost changes; the detailed design, transition and financing of pension duration and capitalization; the tax, service-delivery and budget effects of single-parent support; and the sources, timing and expected returns for the proposed AI investment plan.",
+        "open": "Full programme and complete measure-level costings; exact rules and participating candidates for a proposed right/centre primary; conflicting reporting on legal retirement age; full details and financing of the AI investment plan; the primary MEDEF replay for the labour-cost proposal; official ballot qualification.",
+        "programme": "The campaign site now lists 96 initial measures; it says announcements will continue and the programme will be available when released. Treat the page as a developing proposal catalogue, not a complete manifesto."
       },
-      "dossier_updated": "2026-11-08",
-      "programme_link": null,
-      "programme_link_label": "2027 programme coming soon",
-      "programme_link_note": "An official 2024 legislative programme page exists, but it is not a 2027 presidential programme.",
+      "dossier_updated": "2026-11-13",
+      "programme_link": "https://attalpresident.fr/programme",
+      "programme_link_label": "Official campaign site: 96 initial measures; programme in progress",
+      "programme_link_note": "The page expressly describes these as first announced measures and says the programme will be published when ready. It is not a completed manifesto.",
       "official_site_audit": {
-        "status": "Primary source checked; historical programme only",
-        "checked_date": "2026-11-08",
-        "url": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme",
-        "note": "The located programme page refers to the 2024 legislative election and must not be presented as a 2027 presidential programme."
+        "status": "Official 2027 campaign site checked; 96 initial measures listed; completed manifesto not yet indicated",
+        "checked_date": "2026-11-13",
+        "url": "https://attalpresident.fr/programme",
+        "note": "The page states “96 measures”, describes them as initial announcements, invites continuing contributions and says the programme will follow. Individual claims remain campaign proposals; no costing, feasibility or outcome is independently verified here."
       },
       "campaign_stage": "Announced candidacy",
       "ballot_status_note": "The Constitutional Council will establish the official candidate list after checking the statutory requirements, including at least 500 valid presentations from eligible elected officials.",
       "profile_fr": "Ancien Premier ministre. Il plaide pour une primaire afin de désigner un candidat plus large du centre et de la droite ; cela ne signifie pas que les autres prétendants sont d’accord.",
-      "policy_summary_fr": "Les thèmes centristes et réformistes libéraux comprennent le travail, l’éducation, la compétitivité économique, l’ordre public et la réforme de l’État. En septembre 2026, il a défendu un système de retraite fondé sur la durée de cotisation et des points, avec une composante par capitalisation.",
+      "policy_summary_fr": "Le site officiel de campagne recense 96 premières mesures et précise que le programme complet sera publié ultérieurement. Les propositions vérifiées ici portent notamment sur une réforme des retraites pilotée par la durée de cotisation avec une part de capitalisation, des mesures pour les familles monoparentales et un plan d’investissement pour l’IA. Ces propositions sont attribuées à la campagne et ne constituent pas des évaluations indépendantes.",
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "attal-declared-candidate-2027",
+            "text": "Gabriel Attal announced his candidacy for the 2027 French presidential election on 22 May 2026.",
+            "classification": "confirmed_fact",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-c44b1f0d88f249b8",
+                "locator": "article headline and opening paragraphs",
+                "supports": "Reports his candidacy announcement in Mur-de-Barrez on 22 May 2026.",
+                "publication_date": "2026-05-22",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Declared candidacy is distinct from official ballot qualification."
+          },
+          {
+            "id": "attal-campaign-programme-96-initial-measures",
+            "text": "As checked on 13 November 2026, the official campaign site listed 96 initial announced measures and said further measures and the programme itself would follow.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-ec0522d3287f717d",
+                "locator": "page heading “les premières mesures annoncées”; lines 10–14 and 147–151",
+                "supports": "The campaign labels 96 measures as initial announcements and says the programme will be published when ready.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Do not describe the catalogue as a completed or independently costed manifesto."
+          },
+          {
+            "id": "attal-saint-raphael-appearance-2026-11-08",
+            "text": "The campaign reports that Attal participated in the Rencontres de l’avenir in Saint-Raphaël on 8 November 2026 and discussed education, youth, authority, purchasing power, public finances and AI.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "opening paragraph of campaign account",
+                "supports": "Campaign reports the date, event and listed discussion themes.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Campaign-source account; independent event corroboration was not checked."
+          },
+          {
+            "id": "attal-pensions-duration-capitalisation",
+            "text": "The campaign has proposed a universal pension system governed by contribution duration rather than a legal retirement age, with a capitalization pillar.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "campaign account, “Réformer le modèle social”; lines 18–20",
+                "supports": "The campaign attributes this three-part proposal to Attal at Saint-Raphaël on 8 November 2026.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports the August proposal to remove the legal retirement age, prioritize contribution duration and introduce capitalization.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Verified as an attributed proposal, not an evaluated reform. The campaign and LCP agree on replacing age-based steering."
+          },
+          {
+            "id": "attal-pensions-age-reporting-conflict",
+            "text": "Sources conflict on how Attal described the legal retirement age: LCP reports removing it, while Public Sénat’s summary of the 27 August MEDEF debate says he and two other candidates wanted to move it later.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-d4c7bb75f18c5353",
+                "locator": "pensions section, paragraph on the MEDEF proposals",
+                "supports": "Public Sénat describes an age shift alongside capitalization.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports that he advocated eliminating the legal age.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "pension proposal summary",
+                "supports": "Campaign’s 8 November account says duration replaces age-based steering.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Do not present a categorical age proposal until the full original debate/video and context are checked. The earlier “points system” wording is not supported by sources reviewed in this pass."
+          },
+          {
+            "id": "attal-ai-plan-200bn-campaign-proposal",
+            "text": "The campaign proposes a €200bn, ten-year AI investment plan, described as evenly split between public and private finance, and training 20 million workers within three years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-d53a1675707b7843",
+                "locator": "official measure page",
+                "supports": "Campaign page states the proposed €200bn amount and equal public/private financing.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "campaign account, AI section",
+                "supports": "Campaign page attributes a proposal to train 20 million employees in three years to Attal.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "These are campaign claims. The source review does not validate the funding split, feasibility or expected economic effects."
+          },
+          {
+            "id": "attal-single-parent-family-proposals",
+            "text": "Attal proposed excluding received child-support payments from the recipient’s taxable income, creating respite childcare rights and a single-parent family card.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-15de7c2795bb52d1",
+                "locator": "paragraphs on tax treatment, respite and family card",
+                "supports": "LCP reports the proposals and attributes them to Attal’s 28 August announcement.",
+                "publication_date": "2026-08-28",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "LCP reports an approximately €1bn cost estimate attributed to Attal; no independent costing is recorded."
+          },
+          {
+            "id": "attal-primary-proposal-current",
+            "text": "Attal’s campaign reiterated on 8 November that he wanted to bring the right and centre together through a presidential primary.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "first paragraph",
+                "supports": "Campaign statement says he reaffirmed his call for a primary bringing the right and centre together.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Other contenders’ positions differ; do not imply agreement or a settled primary format."
+          }
+        ],
+        "editorial_notes": "Profile claims and selected policy proposals received claim-level source review. Candidate status, campaign programme stage, pensions, AI investment, single-parent measures and primary advocacy have supporting records. The pension-age discrepancy and the labour-cost proposal’s exact scope remain open. No human publication approval granted. Existing public record retained during migration.",
         "legacy_public": true
       }
     },
@@ -4252,37 +4463,91 @@
     {
       "candidate_name": "Gabriel Attal",
       "topic": "Employment & pensions",
-      "position": "Duration-based steering, points system, funded component; no legal age specified",
-      "statement_date": "30 Sep 2026",
+      "position": "Universal system steered by contribution duration, with a capitalization component; LCP reports replacing the legal age, while Public Sénat’s MEDEF summary says shifting it later. Previous points-system detail is not supported by sources checked.",
+      "statement_date": "August 2026 statement; campaign reiterated on 8 Nov",
       "evidence_type": "Current 2026 statement; details incomplete",
       "source": {
-        "title": "Pensions evidence indexed by Vote Public (Europe 1 / Public Sénat via Vote Public)",
-        "url": "https://www.publicsenat.fr/actualites/politique/dette-retraites-fiscalite-que-retenir-du-premier-debat-des-candidats-a-lelection-presidentielle",
-        "type": "Debate reporting; consult the candidate's primary statement where available",
-        "source_id": "src-d4c7bb75f18c5353"
+        "title": "Official campaign report: Attal at Saint-Raphaël, 8 November 2026",
+        "url": "https://attalpresident.fr/actualites/gabriel-attal-rencontres-avenir-saint-raphael-france-premiere-puissance-europe-dix-ans",
+        "type": "Official campaign activity and policy summary",
+        "source_id": "src-6187874586396da7"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Partially verified as an attributed campaign proposal; legal-age framing is disputed across sources and points detail remains unsupported.",
+      "checked_date": "2026-11-13",
+      "editorial_note": "The campaign’s 8 November article and LCP support duration-based steering and capitalization; LCP says remove the legal age. Public Sénat’s 27 August MEDEF summary says shift the legal age later. Check the full debate replay before resolving. Do not present the unsupported points-system claim as verified.",
       "verification": {
-        "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "code": "disputed",
+        "checked_date": "2026-11-13",
+        "reviewer": "AI-assisted source review",
+        "note": "Duration and capitalization are attributed to Attal, but sources conflict on whether his position removes or shifts the legal age. Points detail was not found in the sources checked."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
-          "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "attal-pensions-duration-capitalisation",
+            "text": "The campaign has proposed a universal pension system governed by contribution duration rather than a legal retirement age, with a capitalization pillar.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "campaign account, “Réformer le modèle social”; lines 18–20",
+                "supports": "The campaign attributes this three-part proposal to Attal at Saint-Raphaël on 8 November 2026.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports the August proposal to remove the legal retirement age, prioritize contribution duration and introduce capitalization.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Verified as an attributed proposal, not an evaluated reform. The campaign and LCP agree on replacing age-based steering."
+          },
+          {
+            "id": "attal-pensions-age-reporting-conflict",
+            "text": "Sources conflict on how Attal described the legal retirement age: LCP reports removing it, while Public Sénat’s summary of the 27 August MEDEF debate says he and two other candidates wanted to move it later.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-d4c7bb75f18c5353",
+                "locator": "pensions section, paragraph on the MEDEF proposals",
+                "supports": "Public Sénat describes an age shift alongside capitalization.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports that he advocated eliminating the legal age.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "pension proposal summary",
+                "supports": "Campaign’s 8 November account says duration replaces age-based steering.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Do not present a categorical age proposal until the full original debate/video and context are checked. The earlier “points system” wording is not supported by sources reviewed in this pass."
+          }
+        ],
+        "editorial_notes": "Corrects the legacy age/points description transparently; retain the unresolved legal-age contradiction for human/source review. No publication approval.",
         "legacy_public": true
       }
     },
@@ -4705,28 +4970,45 @@
         "type": "Debate reporting",
         "source_id": "src-65ffd352a761fbb2"
       },
-      "verification_status": "Secondary source cited; primary-source review pending",
-      "checked_date": null,
-      "editorial_note": "Do not treat this entry as fully verified until the underlying primary statement or programme has been checked.",
+      "verification_status": "Secondary reporting records the proposal; exact scope and primary replay remain unverified.",
+      "checked_date": "2026-11-13",
+      "editorial_note": "The candidate reportedly proposed reversing labour-cost increases since 2024. This source review did not inspect the primary debate replay or determine the affected measures, scope or fiscal impact.",
       "verification": {
         "code": "secondary_only",
-        "checked_date": null,
-        "reviewer": null,
-        "note": "Secondary citation is recorded; the underlying primary statement has not been verified for this claim."
+        "checked_date": "2026-11-13",
+        "reviewer": "AI-assisted source review",
+        "note": "Secondary source only; direct primary replay and precise policy scope still require review."
       },
       "editorial": {
         "status": "under_review",
         "verification": {
           "status": "unverified",
-          "last_verified_date": null,
-          "reviewer": null
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
         },
         "publication": {
           "approved_by": null,
           "approved_date": null
         },
-        "claims": [],
-        "editorial_notes": "Existing public record retained during migration; claim-level review is pending.",
+        "claims": [
+          {
+            "id": "attal-labour-cost-rollback-reported",
+            "text": "Secondary debate reporting attributes to Attal a proposal to reverse labour-cost increases introduced since 2024.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-65ffd352a761fbb2",
+                "locator": "Attal section / debate summary",
+                "supports": "Reports the attributed proposal; does not specify its exact scope or costing.",
+                "publication_date": "2026-08-28",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Seek the primary MEDEF replay/transcript; do not infer which contributions or measures would change."
+          }
+        ],
+        "editorial_notes": "The current record remains secondary-source-only; do not treat the wording as a fully specified programme commitment. No publication approval.",
         "legacy_public": true
       }
     },
@@ -5186,6 +5468,114 @@
           }
         ],
         "editorial_notes": "New record held out of public output until human review and publication approval; campaign-stated commitments, not independent fiscal or climate-impact analysis.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Gabriel Attal",
+      "topic": "Technology & employment",
+      "position": "Campaign proposes a €200bn ten-year France 2040 AI investment plan, half public and half private, and training 20 million employees over three years.",
+      "statement_date": "As checked 13 Nov 2026",
+      "evidence_type": "Official campaign measure page and 8 November campaign proposal summary",
+      "source": {
+        "title": "Plan IA : 200 milliards d’euros pour la France",
+        "url": "https://attalpresident.fr/programme/mesures/plan-france-2040",
+        "type": "Official campaign policy proposal",
+        "source_id": "src-d53a1675707b7843"
+      },
+      "verification_status": "Verified as candidate/campaign statement only; independent cost and effects not assessed",
+      "checked_date": "2026-11-13",
+      "editorial_note": "Newly structured claim remains under review and is not approved for publication. Campaign proposals are not independent analysis.",
+      "verification": {
+        "code": "primary_verified",
+        "checked_date": "2026-11-13",
+        "reviewer": "AI-assisted source review",
+        "note": "Source supports that the campaign made the proposal, not its merits, cost or expected results."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "attal-ai-plan-200bn-campaign-proposal",
+            "text": "The campaign proposes a €200bn, ten-year AI investment plan and training for 20 million employees within three years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-d53a1675707b7843",
+                "locator": "measure page; campaign description and finance split",
+                "supports": "Supports the attributed amount and proposed financing split; campaign’s 8 November article gives the worker-training target.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Attribution verified; no independent feasibility, legal, distributional or cost assessment recorded."
+          }
+        ],
+        "editorial_notes": "New record. Retained in review queue and excluded from approved factual publication until human review.",
+        "legacy_public": false
+      }
+    },
+    {
+      "candidate_name": "Gabriel Attal",
+      "topic": "Families monoparentales",
+      "position": "Proposals: exclude received child-support payments from the recipient’s taxable income, provide respite childcare and create a single-parent family card.",
+      "statement_date": "2026-08-28",
+      "evidence_type": "Candidate proposals reported by LCP",
+      "source": {
+        "title": "Présidentielle 2027: comment Gabriel Attal veut soutenir les familles monoparentales s’il est élu",
+        "url": "https://lcp.fr/actualites/presidentielle-2027-comment-gabriel-attal-veut-soutenir-les-familles-monoparentales-s-il",
+        "type": "Independent reporting of candidate proposals",
+        "source_id": "src-15de7c2795bb52d1"
+      },
+      "verification_status": "Verified as candidate/campaign statement only; independent cost and effects not assessed",
+      "checked_date": "2026-11-13",
+      "editorial_note": "Newly structured claim remains under review and is not approved for publication. Campaign proposals are not independent analysis.",
+      "verification": {
+        "code": "secondary_only",
+        "checked_date": "2026-11-13",
+        "reviewer": "AI-assisted source review",
+        "note": "Source supports that the campaign made the proposal, not its merits, cost or expected results."
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "attal-single-parent-family-proposals",
+            "text": "Attal announced tax, childcare and family-card measures for single-parent households.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-15de7c2795bb52d1",
+                "locator": "tax treatment, respite and “carte famille monoparentale” sections",
+                "supports": "Reports Attal’s attributed measures; its approximate €1bn figure is his cost estimate, not independent validation.",
+                "publication_date": "2026-08-28",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Attribution verified; no independent feasibility, legal, distributional or cost assessment recorded."
+          }
+        ],
+        "editorial_notes": "New record. Retained in review queue and excluded from approved factual publication until human review.",
         "legacy_public": false
       }
     }
@@ -8061,6 +8451,152 @@
         "editorial_notes": "Newly collected campaign announcement retained in the editorial queue and not approved for public publication.",
         "legacy_public": false
       }
+    },
+    {
+      "publication_date": "2026-11-08",
+      "title": "Gabriel Attal aux Rencontres de l’avenir à Saint-Raphaël : priorités et primaire",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "language": "French",
+      "topic": "Campaign activity / policy proposals",
+      "summary": "The campaign reports that Attal took part in the Rencontres de l’avenir in Saint-Raphaël on 8 November, reiterated a right/centre primary, and discussed education, youth, authority, purchasing power, public finances and AI. The page attributes a duration-based, capitalization pension proposal, a mandatory one-month civic service from 2027, and a €200bn AI plan with workforce training to the candidate. These are campaign statements, not independently assessed outcomes.",
+      "source": {
+        "title": "Gabriel Attal aux Rencontres de l’avenir à Saint-Raphaël",
+        "url": "https://attalpresident.fr/actualites/gabriel-attal-rencontres-avenir-saint-raphael-france-premiere-puissance-europe-dix-ans",
+        "type": "Official campaign activity and policy summary",
+        "source_id": "src-6187874586396da7"
+      },
+      "verification": {
+        "status": "Primary campaign account; claims attributable, independent event corroboration not checked",
+        "checked_date": "2026-11-13",
+        "note": "Campaign’s own report, not independent coverage.",
+        "legacy_status": "New under-review record",
+        "code": "primary_verified",
+        "reviewer": "AI-assisted source review"
+      },
+      "editorial": {
+        "status": "under_review",
+        "verification": {
+          "status": "partially_verified",
+          "last_verified_date": "2026-11-13",
+          "reviewer": "AI-assisted source review"
+        },
+        "publication": {
+          "approved_by": null,
+          "approved_date": null
+        },
+        "claims": [
+          {
+            "id": "attal-saint-raphael-appearance-2026-11-08",
+            "text": "The campaign reports that Attal participated in the Rencontres de l’avenir in Saint-Raphaël on 8 November 2026 and discussed education, youth, authority, purchasing power, public finances and AI.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "opening paragraph of campaign account",
+                "supports": "Campaign reports the date, event and listed discussion themes.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Campaign-source account; independent event corroboration was not checked."
+          },
+          {
+            "id": "attal-pensions-age-reporting-conflict",
+            "text": "Sources conflict on how Attal described the legal retirement age: LCP reports removing it, while Public Sénat’s summary of the 27 August MEDEF debate says he and two other candidates wanted to move it later.",
+            "classification": "unverified_or_disputed",
+            "verification_status": "disputed",
+            "evidence": [
+              {
+                "source_id": "src-d4c7bb75f18c5353",
+                "locator": "pensions section, paragraph on the MEDEF proposals",
+                "supports": "Public Sénat describes an age shift alongside capitalization.",
+                "publication_date": "2026-08-27",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports that he advocated eliminating the legal age.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "pension proposal summary",
+                "supports": "Campaign’s 8 November account says duration replaces age-based steering.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Do not present a categorical age proposal until the full original debate/video and context are checked. The earlier “points system” wording is not supported by sources reviewed in this pass."
+          },
+          {
+            "id": "attal-pensions-duration-capitalisation",
+            "text": "The campaign has proposed a universal pension system governed by contribution duration rather than a legal retirement age, with a capitalization pillar.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "campaign account, “Réformer le modèle social”; lines 18–20",
+                "supports": "The campaign attributes this three-part proposal to Attal at Saint-Raphaël on 8 November 2026.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-bb463503f2a964a8",
+                "locator": "paragraph on Gabriel Attal",
+                "supports": "LCP reports the August proposal to remove the legal retirement age, prioritize contribution duration and introduce capitalization.",
+                "publication_date": "2026-09-16",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Verified as an attributed proposal, not an evaluated reform. The campaign and LCP agree on replacing age-based steering."
+          },
+          {
+            "id": "attal-ai-plan-200bn-campaign-proposal",
+            "text": "The campaign proposes a €200bn, ten-year AI investment plan, described as evenly split between public and private finance, and training 20 million workers within three years.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-d53a1675707b7843",
+                "locator": "official measure page",
+                "supports": "Campaign page states the proposed €200bn amount and equal public/private financing.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              },
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "campaign account, AI section",
+                "supports": "Campaign page attributes a proposal to train 20 million employees in three years to Attal.",
+                "publication_date": null,
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "These are campaign claims. The source review does not validate the funding split, feasibility or expected economic effects."
+          },
+          {
+            "id": "attal-primary-proposal-current",
+            "text": "Attal’s campaign reiterated on 8 November that he wanted to bring the right and centre together through a presidential primary.",
+            "classification": "candidate_statement",
+            "verification_status": "verified",
+            "evidence": [
+              {
+                "source_id": "src-6187874586396da7",
+                "locator": "first paragraph",
+                "supports": "Campaign statement says he reaffirmed his call for a primary bringing the right and centre together.",
+                "publication_date": "2026-11-08",
+                "checked_date": "2026-11-13"
+              }
+            ],
+            "editorial_notes": "Other contenders’ positions differ; do not imply agreement or a settled primary format."
+          }
+        ],
+        "editorial_notes": "New campaign update. Attendance and all policy statements are reported by the campaign. No independent impact assessment or human publication approval.",
+        "legacy_public": false
+      }
     }
   ],
   "events": [
@@ -8900,6 +9436,69 @@
       "language": "French",
       "type": "Official campaign programme text",
       "source_id": "src-935423b9c51aef66"
+    },
+    {
+      "title": "Gabriel Attal Président — site officiel de campagne",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "url": "https://attalpresident.fr/",
+      "language": "French",
+      "type": "Official campaign website",
+      "id": "src-f15b90e2d424f7ab",
+      "source_id": "src-f15b90e2d424f7ab"
+    },
+    {
+      "title": "Mes chantiers capitaux — les premières mesures annoncées",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "url": "https://attalpresident.fr/programme",
+      "language": "French",
+      "type": "Official campaign programme-in-progress page",
+      "id": "src-ec0522d3287f717d",
+      "source_id": "src-ec0522d3287f717d"
+    },
+    {
+      "title": "Gabriel Attal aux Rencontres de l’avenir à Saint-Raphaël",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rencontres-avenir-saint-raphael-france-premiere-puissance-europe-dix-ans",
+      "language": "French",
+      "type": "Official campaign activity and policy summary",
+      "id": "src-6187874586396da7",
+      "source_id": "src-6187874586396da7"
+    },
+    {
+      "title": "Présidentielle: que proposent les candidats à l’Élysée sur les retraites?",
+      "publisher": "LCP – Assemblée nationale",
+      "url": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751",
+      "language": "French",
+      "type": "Independent policy reporting / candidate position summary",
+      "id": "src-bb463503f2a964a8",
+      "source_id": "src-bb463503f2a964a8"
+    },
+    {
+      "title": "Présidentielle 2027: comment Gabriel Attal veut soutenir les familles monoparentales s’il est élu",
+      "publisher": "LCP – Assemblée nationale",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-comment-gabriel-attal-veut-soutenir-les-familles-monoparentales-s-il",
+      "language": "French",
+      "type": "Independent reporting of candidate proposals",
+      "id": "src-15de7c2795bb52d1",
+      "source_id": "src-15de7c2795bb52d1"
+    },
+    {
+      "title": "Présidentielle 2027 : Gabriel Attal officialise sa candidature en Aveyron",
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/22/presidentielle-2027-gabriel-attal-officialise-sa-candidature-en-aveyron-en-esperant-s-eloigner-de-l-heritage-d-emmanuel-macron_6692277_823448.html",
+      "language": "French",
+      "type": "Independent reporting of candidacy declaration",
+      "id": "src-c44b1f0d88f249b8",
+      "source_id": "src-c44b1f0d88f249b8"
+    },
+    {
+      "title": "Plan IA : 200 milliards d’euros pour la France",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "url": "https://attalpresident.fr/programme/mesures/plan-france-2040",
+      "language": "French",
+      "type": "Official campaign policy proposal",
+      "id": "src-d53a1675707b7843",
+      "source_id": "src-d53a1675707b7843"
     }
   ],
   "updates": [
@@ -11953,6 +12552,97 @@
       "verification_status": "secondary_only",
       "editorial_notes": "Reports debate positions on retirement age; supports attribution, not feasibility or implementation details.",
       "id": "src-7bf83858bee43725"
+    },
+    {
+      "title": "Gabriel Attal Président — site officiel de campagne",
+      "url": "https://attalpresident.fr/",
+      "type": "Official campaign website",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-13",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Official campaign site identifies Attal as a candidate and describes a programme being developed through announced measures and public contributions; it is not evidence that each proposal is costed or feasible.",
+      "id": "src-f15b90e2d424f7ab"
+    },
+    {
+      "title": "Mes chantiers capitaux — les premières mesures annoncées",
+      "url": "https://attalpresident.fr/programme",
+      "type": "Official campaign programme-in-progress page",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-13",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Page lists 96 initial measures and says further announcements will follow and the programme will be available when released; do not describe this as a completed manifesto.",
+      "id": "src-ec0522d3287f717d"
+    },
+    {
+      "title": "Gabriel Attal aux Rencontres de l’avenir à Saint-Raphaël",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rencontres-avenir-saint-raphael-france-premiere-puissance-europe-dix-ans",
+      "type": "Official campaign activity and policy summary",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-11-08",
+      "checked_date": "2026-11-13",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign account of Attal’s 8 November appearance and attributed proposals; attendance and statements are reported by the campaign itself, with no independent event source checked here.",
+      "id": "src-6187874586396da7"
+    },
+    {
+      "title": "Présidentielle: que proposent les candidats à l’Élysée sur les retraites?",
+      "url": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751",
+      "type": "Independent policy reporting / candidate position summary",
+      "publisher": "LCP – Assemblée nationale",
+      "author": "Raphaël Marchal",
+      "language": "French",
+      "publication_date": "2026-09-16",
+      "checked_date": "2026-11-13",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Updated 23 September. Reports Attal’s August BFMTV proposal to remove the legal retirement age, steer by contribution duration and add capitalization; another Public Sénat summary of the 27 August debate describes an age shift, so this conflict requires the original replay.",
+      "id": "src-bb463503f2a964a8"
+    },
+    {
+      "title": "Présidentielle 2027: comment Gabriel Attal veut soutenir les familles monoparentales s’il est élu",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-comment-gabriel-attal-veut-soutenir-les-familles-monoparentales-s-il",
+      "type": "Independent reporting of candidate proposals",
+      "publisher": "LCP – Assemblée nationale",
+      "author": "Anne-Charlotte Dusseaulx",
+      "language": "French",
+      "publication_date": "2026-08-28",
+      "checked_date": "2026-11-13",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Attributes to Attal proposals to exclude received child support from taxable income, create respite childcare rights and a single-parent family card. The approximately €1bn cost is his estimate, not independently validated.",
+      "id": "src-15de7c2795bb52d1"
+    },
+    {
+      "title": "Présidentielle 2027 : Gabriel Attal officialise sa candidature en Aveyron",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/22/presidentielle-2027-gabriel-attal-officialise-sa-candidature-en-aveyron-en-esperant-s-eloigner-de-l-heritage-d-emmanuel-macron_6692277_823448.html",
+      "type": "Independent reporting of candidacy declaration",
+      "publisher": "Le Monde",
+      "author": null,
+      "language": "French",
+      "publication_date": "2026-05-22",
+      "checked_date": "2026-11-13",
+      "verification_status": "secondary_only",
+      "editorial_notes": "Reports Attal’s candidacy announcement on 22 May 2026; declared candidacy is distinct from official ballot qualification.",
+      "id": "src-c44b1f0d88f249b8"
+    },
+    {
+      "title": "Plan IA : 200 milliards d’euros pour la France",
+      "url": "https://attalpresident.fr/programme/mesures/plan-france-2040",
+      "type": "Official campaign policy proposal",
+      "publisher": "Gabriel Attal campaign / Renaissance",
+      "author": null,
+      "language": "French",
+      "publication_date": null,
+      "checked_date": "2026-11-13",
+      "verification_status": "primary_verified",
+      "editorial_notes": "Campaign proposal states €200bn over ten years, half public and half private, alongside an AI productivity tax credit and electricity price stability. These are campaign claims; financing, feasibility and outcomes are not independently validated.",
+      "id": "src-d53a1675707b7843"
     }
   ],
   "poll_trend_snapshots": [
